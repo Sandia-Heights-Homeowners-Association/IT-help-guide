@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHHA IT Help Guide</title>
+  <meta name="description" content="SHHA Microsoft 365 help guide for staff, volunteers, and committee members." />
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --primary: #2563eb;
+      --primary-soft: #dbeafe;
+      --border: #e5e7eb;
+      --shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 500px at 20% -20%, #e7f0ff 0%, var(--bg) 50%), var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 46px 20px 72px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #1d4ed8;
+      background: var(--primary-soft);
+      border-radius: 999px;
+      padding: 6px 10px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.6rem, 4vw, 2.25rem);
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      max-width: 72ch;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 10px;
+    }
+
+    .section-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 22px;
+      margin-top: 16px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .choice,
+    .topic-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      background: #fff;
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+
+    .choice:hover,
+    .choice:focus-visible,
+    .topic-link:hover,
+    .topic-link:focus-visible {
+      transform: translateY(-2px);
+      border-color: #bfdbfe;
+      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.14);
+      outline: none;
+    }
+
+    .choice strong,
+    .topic-link strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 1rem;
+      color: #0f172a;
+    }
+
+    .muted {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <span class="badge">SHHA Docs</span>
+      <h1>SHHA Microsoft 365 Help Guide</h1>
+      <p class="subtitle">Choose your role to get the right setup and instructions quickly. Use the links below for quick reference, specialty topics, and frequently asked questions.</p>
+    </section>
+
+    <section class="section-card" aria-label="Role selector">
+      <h2>I am:</h2>
+      <div class="grid">
+        <a class="choice" href="staff.html">
+          <strong>Staff</strong>
+          <span>Core account setup, shared resources, and day-to-day email/group workflows.</span>
+        </a>
+
+        <a class="choice" href="volunteer-internal.html">
+          <strong>Volunteer with @sandiahomeowners.org email address</strong>
+          <span>Internal volunteer setup for SHHA role-based access and communication.</span>
+        </a>
+
+        <a class="choice" href="volunteer-external.html">
+          <strong>Volunteer without sandiahomeowners.org email address</strong>
+          <span>External volunteer setup and collaboration expectations.</span>
+        </a>
+      </div>
+      <p class="muted">Executive committee members should start with Staff, then review shared inbox guidance in the role page.</p>
+    </section>
+
+    <section class="section-card" aria-label="Reference links">
+      <h2>Reference and Help</h2>
+      <div class="grid">
+        <a class="topic-link" href="quick-reference.html">
+          <strong>Quick Reference</strong>
+          <span>Important URLs and a list of mailing lists.</span>
+        </a>
+
+        <a class="topic-link" href="specialty-topics.html">
+          <strong>Specialty Topics</strong>
+          <span>Advanced and infrequent processes, including GRIT editing procedure.</span>
+        </a>
+
+        <a class="topic-link" href="faq.html">
+          <strong>FAQ</strong>
+          <span>Answers to common questions like backups for files and email.</span>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
