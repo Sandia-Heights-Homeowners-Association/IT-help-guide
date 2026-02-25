@@ -26,6 +26,41 @@
       line-height: 1.55;
     }
     .container { max-width: 980px; margin: 0 auto; padding: 32px 20px 64px; }
+    .layout {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: 14px;
+      align-items: start;
+    }
+    .toc {
+      position: sticky;
+      top: 20px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+    .toc h2 {
+      margin: 0 0 8px;
+      font-size: 0.98rem;
+    }
+    .toc ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .toc li { margin: 4px 0; }
+    .toc a {
+      color: #1d4ed8;
+      text-decoration: none;
+      font-size: 0.93rem;
+    }
+    .toc a:hover,
+    .toc a:focus-visible {
+      text-decoration: underline;
+      outline: none;
+    }
     .topbar { margin-bottom: 14px; }
     .topbar a {
       display: inline-block;
@@ -85,6 +120,10 @@
       vertical-align: top;
     }
     th { background: #f8fafc; }
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      .toc { position: static; }
+    }
   </style>
 </head>
 <body>
@@ -97,7 +136,21 @@
       <p class="muted">Operational reference for office staff, IT admin, and future volunteers.</p>
     </section>
 
-    <section class="section">
+    <div class="layout">
+      <aside class="toc" aria-label="Table of contents">
+        <h2>On This Page</h2>
+        <ul>
+          <li><a href="#purpose">Purpose</a></li>
+          <li><a href="#quick-overview">Quick Overview</a></li>
+          <li><a href="#core-components">Core Components</a></li>
+          <li><a href="#responsibilities-matrix">Responsibilities Matrix</a></li>
+          <li><a href="#standard-operating-procedures">Standard Operating Procedures</a></li>
+        </ul>
+      </aside>
+
+      <div>
+
+    <section class="section" id="purpose">
       <h2>Purpose</h2>
       <p>This document explains how SHHA uses Microsoft 365 for:</p>
       <ul>
@@ -109,7 +162,7 @@
       </ul>
     </section>
 
-    <section class="section">
+    <section class="section" id="quick-overview">
       <h2>Quick Overview</h2>
       <ol>
         <li><strong>Committee mailing lists = Microsoft Groups</strong>
@@ -129,7 +182,7 @@
       </ol>
     </section>
 
-    <section class="section">
+    <section class="section" id="core-components">
       <h2>Core Components</h2>
       <h3>1) Microsoft Groups (Mailing Lists)</h3>
       <p>Microsoft Groups are used as SHHA committee mailing lists. Sending to the group distributes to all members.</p>
@@ -146,7 +199,7 @@
       <p>A Power Automate flow sends an email notification whenever group membership changes.</p>
     </section>
 
-    <section class="section">
+    <section class="section" id="responsibilities-matrix">
       <h2>Responsibilities Matrix</h2>
       <table>
         <thead>
@@ -162,7 +215,7 @@
       </table>
     </section>
 
-    <section class="section">
+    <section class="section" id="standard-operating-procedures">
       <h2>Standard Operating Procedures</h2>
       <h3>SOP 1: Add a person to a committee mailing list</h3>
       <ol>
@@ -193,6 +246,8 @@
         <li>Ensure membership-change notifications are active.</li>
       </ol>
     </section>
+      </div>
+    </div>
   </main>
 </body>
 </html>

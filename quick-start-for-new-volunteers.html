@@ -25,6 +25,41 @@
       line-height: 1.55;
     }
     .container { max-width: 900px; margin: 0 auto; padding: 32px 20px 64px; }
+    .layout {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: 14px;
+      align-items: start;
+    }
+    .toc {
+      position: sticky;
+      top: 20px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 16px;
+    }
+    .toc h2 {
+      margin: 0 0 8px;
+      font-size: 0.98rem;
+    }
+    .toc ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .toc li { margin: 4px 0; }
+    .toc a {
+      color: #1d4ed8;
+      text-decoration: none;
+      font-size: 0.93rem;
+    }
+    .toc a:hover,
+    .toc a:focus-visible {
+      text-decoration: underline;
+      outline: none;
+    }
     .topbar { margin-bottom: 14px; }
     .topbar a {
       display: inline-block;
@@ -72,6 +107,10 @@
     }
     .muted { color: var(--muted); }
     .highlight { border-left: 4px solid #93c5fd; padding-left: 12px; }
+    @media (max-width: 900px) {
+      .layout { grid-template-columns: 1fr; }
+      .toc { position: static; }
+    }
   </style>
 </head>
 <body>
@@ -84,7 +123,21 @@
       <p class="muted">A simple onboarding guide for day-one email access.</p>
     </section>
 
-    <section class="section">
+    <div class="layout">
+      <aside class="toc" aria-label="Table of contents">
+        <h2>On This Page</h2>
+        <ul>
+          <li><a href="#start-here">Start Here</a></li>
+          <li><a href="#category-1">Category 1: No SHHA Address</a></li>
+          <li><a href="#category-2">Category 2: Role-Based Address</a></li>
+          <li><a href="#who-maintains-this">Who Maintains This</a></li>
+          <li><a href="#fast-checklist">Fast Checklist</a></li>
+        </ul>
+      </aside>
+
+      <div>
+
+    <section class="section" id="start-here">
       <h2>Start Here: Which Type of Volunteer Are You?</h2>
       <ol>
         <li><strong>Volunteer without an SHHA email address</strong></li>
@@ -93,7 +146,7 @@
       <p class="highlight">Most volunteers are in Category 1.</p>
     </section>
 
-    <section class="section">
+    <section class="section" id="category-1">
       <h2>Category 1: Volunteers Who Do Not Get Their Own SHHA Email Address</h2>
       <h3>Who this is</h3>
       <ul>
@@ -111,7 +164,7 @@
       <p>If you are missing messages, contact office staff so membership can be checked and updated.</p>
     </section>
 
-    <section class="section">
+    <section class="section" id="category-2">
       <h2>Category 2: Volunteers Who Do Get a Role-Based SHHA Address</h2>
       <h3>Who this is</h3>
       <p>Volunteers serving in specific leadership roles, such as committee chairs or executive roles.</p>
@@ -135,7 +188,7 @@
       <p>If you cannot open the role mailbox, ask staff or IT admin to verify permissions.</p>
     </section>
 
-    <section class="section">
+    <section class="section" id="who-maintains-this">
       <h2>Who Maintains This</h2>
       <ul>
         <li>Group membership updates: Anna (staff)</li>
@@ -144,7 +197,7 @@
       <p>There is an automated Power Automate notification whenever group membership changes.</p>
     </section>
 
-    <section class="section">
+    <section class="section" id="fast-checklist">
       <h2>Fast Checklist for New Volunteers</h2>
       <ul>
         <li>Confirm which category applies to you.</li>
@@ -153,6 +206,8 @@
         <li>Report any missing access to office staff.</li>
       </ul>
     </section>
+      </div>
+    </div>
   </main>
 </body>
 </html>
