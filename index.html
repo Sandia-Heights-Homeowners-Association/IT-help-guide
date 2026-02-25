@@ -7,14 +7,14 @@
   <meta name="description" content="SHHA Microsoft 365 help guide for staff, volunteers, and committee members." />
   <style>
     :root {
-      --bg: #f4f7fb;
+      --bg: #f8f2ea;
       --card: #ffffff;
-      --text: #1f2937;
-      --muted: #4b5563;
-      --primary: #2563eb;
-      --primary-soft: #dbeafe;
-      --border: #e5e7eb;
-      --shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+      --text: #3d2c1e;
+      --muted: #6b4c35;
+      --primary: #b45309;
+      --primary-soft: #ffedd5;
+      --border: #e8d8c7;
+      --shadow: 0 10px 24px rgba(120, 53, 15, 0.12);
       --radius: 14px;
     }
 
@@ -23,7 +23,7 @@
     body {
       margin: 0;
       font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: radial-gradient(1200px 500px at 20% -20%, #e7f0ff 0%, var(--bg) 50%), var(--bg);
+      background: radial-gradient(1200px 500px at 20% -20%, #fde8d2 0%, var(--bg) 52%), var(--bg);
       color: var(--text);
       line-height: 1.55;
     }
@@ -49,7 +49,7 @@
       font-weight: 700;
       letter-spacing: 0.03em;
       text-transform: uppercase;
-      color: #1d4ed8;
+      color: #92400e;
       background: var(--primary-soft);
       border-radius: 999px;
       padding: 6px 10px;
@@ -82,6 +82,11 @@
       margin-top: 16px;
     }
 
+    .section-card.bottom {
+      margin-top: 24px;
+      background: #fffaf5;
+    }
+
     .grid {
       display: grid;
       gap: 14px;
@@ -105,8 +110,8 @@
     .topic-link:hover,
     .topic-link:focus-visible {
       transform: translateY(-2px);
-      border-color: #bfdbfe;
-      box-shadow: 0 14px 30px rgba(37, 99, 235, 0.14);
+      border-color: #f4b183;
+      box-shadow: 0 14px 30px rgba(180, 83, 9, 0.2);
       outline: none;
     }
 
@@ -115,7 +120,13 @@
       display: block;
       margin-bottom: 6px;
       font-size: 1rem;
-      color: #0f172a;
+      color: #4a2e1b;
+    }
+
+    .subtext {
+      color: var(--muted);
+      margin: 0;
+      font-size: 0.95rem;
     }
 
     .muted {
@@ -130,7 +141,7 @@
     <section class="hero">
       <span class="badge">SHHA Docs</span>
       <h1>SHHA Microsoft 365 Help Guide</h1>
-      <p class="subtitle">Choose your role to get the right setup and instructions quickly. Use the links below for quick reference, specialty topics, and frequently asked questions.</p>
+      <p class="subtitle">Choose your role to get the right setup and instructions quickly.</p>
     </section>
 
     <section class="section-card" aria-label="Role selector">
@@ -138,38 +149,43 @@
       <div class="grid">
         <a class="choice" href="staff.html">
           <strong>Staff</strong>
-          <span>Core account setup, shared resources, and day-to-day email/group workflows.</span>
         </a>
 
         <a class="choice" href="volunteer-internal.html">
-          <strong>Volunteer with @sandiahomeowners.org email address</strong>
-          <span>Internal volunteer setup for SHHA role-based access and communication.</span>
+          <strong>Volunteer (Internal)</strong>
         </a>
 
         <a class="choice" href="volunteer-external.html">
-          <strong>Volunteer without sandiahomeowners.org email address</strong>
-          <span>External volunteer setup and collaboration expectations.</span>
+          <strong>Volunteer (External)</strong>
         </a>
       </div>
-      <p class="muted">Executive committee members should start with Staff, then review shared inbox guidance in the role page.</p>
+      <p class="muted">Internal = with @sandiahomeowners.org email address. External = without @sandiahomeowners.org email address. Executive committee members should start with Staff.</p>
     </section>
 
     <section class="section-card" aria-label="Reference links">
       <h2>Reference and Help</h2>
+      <p class="subtext">Quick links used most often.</p>
       <div class="grid">
         <a class="topic-link" href="quick-reference.html">
           <strong>Quick Reference</strong>
-          <span>Important URLs and a list of mailing lists.</span>
-        </a>
-
-        <a class="topic-link" href="specialty-topics.html">
-          <strong>Specialty Topics</strong>
-          <span>Advanced and infrequent processes, including GRIT editing procedure.</span>
         </a>
 
         <a class="topic-link" href="faq.html">
           <strong>FAQ</strong>
-          <span>Answers to common questions like backups for files and email.</span>
+        </a>
+
+        <a class="topic-link" href="overview.html">
+          <strong>Overview</strong>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-card bottom" aria-label="Special topics">
+      <h2>Specialty Topics</h2>
+      <p class="subtext">Infrequent procedures like GRIT editing and exception workflows.</p>
+      <div class="grid">
+        <a class="topic-link" href="specialty-topics.html">
+          <strong>Go to Specialty Topics</strong>
         </a>
       </div>
     </section>
