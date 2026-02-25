@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHHA Microsoft 365 Setup Guide</title>
+  <meta name="description" content="How SHHA uses Microsoft 365 for groups, shared role inboxes, volunteers, and notifications." />
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --primary: #2563eb;
+      --primary-soft: #dbeafe;
+      --border: #e5e7eb;
+      --shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 500px at 20% -20%, #e7f0ff 0%, var(--bg) 50%), var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .container { max-width: 980px; margin: 0 auto; padding: 32px 20px 64px; }
+    .topbar { margin-bottom: 14px; }
+    .topbar a {
+      display: inline-block;
+      text-decoration: none;
+      color: #1d4ed8;
+      background: var(--primary-soft);
+      border: 1px solid #bfdbfe;
+      border-radius: 999px;
+      padding: 6px 12px;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+    .hero, .section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 24px;
+      margin-bottom: 14px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #1d4ed8;
+      background: var(--primary-soft);
+      border-radius: 999px;
+      padding: 6px 10px;
+      margin-bottom: 10px;
+    }
+    h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 3vw, 2rem); line-height: 1.2; }
+    h2 { margin: 0 0 8px; font-size: 1.2rem; }
+    h3 { margin: 14px 0 6px; font-size: 1.03rem; }
+    p { margin: 0 0 10px; color: var(--text); }
+    ul, ol { margin: 8px 0 8px 20px; }
+    li { margin: 4px 0; }
+    code {
+      background: #eef2ff;
+      color: #312e81;
+      border-radius: 6px;
+      padding: 1px 6px;
+      font-size: 0.9em;
+    }
+    .muted { color: var(--muted); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 8px;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 9px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #f8fafc; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <div class="topbar"><a href="index.html">← Back to Home</a></div>
+
+    <section class="hero">
+      <span class="badge">SHHA Docs</span>
+      <h1>SHHA Microsoft 365: Email Groups, Role Inboxes, and Responsibilities</h1>
+      <p class="muted">Operational reference for office staff, IT admin, and future volunteers.</p>
+    </section>
+
+    <section class="section">
+      <h2>Purpose</h2>
+      <p>This document explains how SHHA uses Microsoft 365 for:</p>
+      <ul>
+        <li>committee mailing lists (Microsoft Groups)</li>
+        <li>shared role inboxes (chair and executive role addresses)</li>
+        <li>external volunteers who do not have paid Microsoft 365 licenses</li>
+        <li>staff responsibilities for maintaining group membership</li>
+        <li>automated membership-change notifications from Power Automate</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Quick Overview</h2>
+      <ol>
+        <li><strong>Committee mailing lists = Microsoft Groups</strong>
+          <ul>
+            <li>Examples: <code>shha-all@sandiahomeowners.org</code>, <code>csc@sandiahomeowners.org</code>, <code>acc@sandiahomeowners.org</code></li>
+            <li>One group exists for each committee.</li>
+            <li>External volunteers can receive messages without paid M365 user licenses.</li>
+          </ul>
+        </li>
+        <li><strong>Role-based public addresses = Shared mailboxes</strong>
+          <ul>
+            <li>Examples: <code>cscchair@sandiahomeowners.org</code>, <code>accchair@sandiahomeowners.org</code></li>
+            <li>Executive role inboxes include <code>president@</code>, <code>vicepresident@</code>, <code>secretary@</code>, <code>treasurer@</code>, <code>accchair@</code>, <code>cscchair@</code>.</li>
+            <li>These are role accounts, not personal accounts.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Core Components</h2>
+      <h3>1) Microsoft Groups (Mailing Lists)</h3>
+      <p>Microsoft Groups are used as SHHA committee mailing lists. Sending to the group distributes to all members.</p>
+      <h3>2) Shared Mailboxes (Role Inboxes)</h3>
+      <p>Role addresses are shared mailboxes tied to positions, not people. Authorized users open the shared mailbox from their own licensed account.</p>
+      <p>Example: <code>phil.krehbiel@sandiahomeowners.org</code> can open <code>accchair@sandiahomeowners.org</code>.</p>
+      <h3>3) Archive Mailbox (<code>itadmin@</code>)</h3>
+      <ul>
+        <li><code>itadmin@</code> is a member of all groups.</li>
+        <li>Purpose: permanent archive and continuity.</li>
+        <li>It is not actively monitored for normal operations.</li>
+      </ul>
+      <h3>4) Power Automate Membership Notifications</h3>
+      <p>A Power Automate flow sends an email notification whenever group membership changes.</p>
+    </section>
+
+    <section class="section">
+      <h2>Responsibilities Matrix</h2>
+      <table>
+        <thead>
+          <tr><th>Responsibility</th><th>Primary</th><th>Backup</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Maintain committee group membership</td><td>Anna (staff)</td><td>IT admin</td><td>Add/remove members, verify accuracy</td></tr>
+          <tr><td>Manage shared mailbox permissions for role transitions</td><td>Anna + IT admin</td><td>IT admin</td><td>Remove predecessor, add successor</td></tr>
+          <tr><td>Ensure <code>itadmin@</code> remains in all groups</td><td>IT admin</td><td>Anna</td><td>Required for archive continuity</td></tr>
+          <tr><td>Monitor membership-change notifications</td><td>Anna</td><td>IT admin</td><td>Power Automate emails are operational signal</td></tr>
+          <tr><td>Troubleshoot delivery/access issues</td><td>IT admin</td><td>Anna</td><td>Includes mailbox permissions and group settings</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <h2>Standard Operating Procedures</h2>
+      <h3>SOP 1: Add a person to a committee mailing list</h3>
+      <ol>
+        <li>Confirm committee and target group address.</li>
+        <li>Verify whether person is internal staff or external volunteer.</li>
+        <li>Add to the correct Microsoft Group membership.</li>
+        <li>Confirm <code>itadmin@</code> remains a member.</li>
+        <li>Verify Power Automate sends membership-change notification.</li>
+      </ol>
+      <h3>SOP 2: Remove a person from a committee mailing list</h3>
+      <ol>
+        <li>Confirm removal request and effective date.</li>
+        <li>Remove member from the Microsoft Group.</li>
+        <li>Verify Power Automate notification is received.</li>
+      </ol>
+      <h3>SOP 3: Leadership transition for role inbox</h3>
+      <ol>
+        <li>Identify affected role mailbox.</li>
+        <li>Remove outgoing person’s mailbox permissions.</li>
+        <li>Grant incoming person’s mailbox permissions.</li>
+        <li>Validate incoming person can open mailbox from their own account.</li>
+      </ol>
+      <h3>SOP 4: New committee creation</h3>
+      <ol>
+        <li>Create new Microsoft Group for the committee.</li>
+        <li>Add initial committee members.</li>
+        <li>Add <code>itadmin@</code> as member for archiving.</li>
+        <li>Ensure membership-change notifications are active.</li>
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
