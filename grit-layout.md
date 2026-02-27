@@ -1,3 +1,8 @@
+---
+layout: default
+title: GRIT Layout Monthly Guide
+---
+
 # GRIT Layout Monthly Guide
 
 Use this page each month when preparing the GRIT issue layout.
@@ -53,3 +58,21 @@ Download all emailed images into the `Images` folder.
 
 ### Image fitting behavior
 - The image masters are created with an Object Style that fits the image you place into the largest dimension.
+
+## GRIT Layout FAQ
+
+### Do I need to use exact folder names?
+Yes. Keep the month folder with `Ads` and `Images` subfolders so links and placement are predictable.
+
+### Why does Cmd+Shift+Click matter?
+It unlocks master-page frames so you can edit a specific issue page without changing the master itself.
+
+### What if page count is not a multiple of 4?
+Insert pages until the total is divisible by 4. Print layout and booklet flow depend on this.
+
+## Related Pages
+
+- [Specialty Topics](specialty-topics.html)
+- [Quick Reference](quick-reference.html)
+
+[Back to Home](index.html)
