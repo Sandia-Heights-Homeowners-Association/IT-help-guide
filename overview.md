@@ -103,7 +103,9 @@ The archive inbox is not monitored and does not reply.
 
 - Need quick commands and links? See [Quick Reference](quick-reference.html)
 - Need answers to common problems? See [FAQ](faq.html)
+- Need help with email, SharePoint, file sharing, or role transitions? See [FAQ](faq.html)
+- Want to submit an article for The GRIT or request an email blast? See [FAQ — Communicating with Residents](faq.html#how-do-i-submit-an-article-for-the-grit-newsletter)
 - Need role-specific instructions? Use [Staff](staff.html), [Volunteer (with SHHA email)](volunteer-internal.html), or [Volunteer (without SHHA email)](volunteer-external.html)
-- Need GRIT process details? See [GRIT Layout Monthly Guide](grit-layout.html)
+- Need GRIT layout/design process details? See [GRIT Layout Monthly Guide](grit-layout.html)
 
 [Back to Home](index.html)
