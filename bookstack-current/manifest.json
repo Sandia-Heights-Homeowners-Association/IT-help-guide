@@ -3,7 +3,7 @@
   "book_id": 1,
   "book_name": "SHHA IT Help Guide",
   "book_updated_at": "2026-04-01T04:20:24.000000Z",
-  "exported_at": "2026-06-09T22:22:12+00:00",
+  "exported_at": "2026-06-09T22:27:33+00:00",
   "pages": [
     {
       "id": 17,
@@ -131,23 +131,23 @@
       "slug": "grit-contributor-guide",
       "chapter": "Specialty Topics",
       "priority": 10,
-      "updated_at": "2026-06-09T22:21:27.000000Z",
+      "updated_at": "2026-06-09T22:26:45.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-contributor-guide",
       "markdown": "bookstack-current/pages-md/11-grit-contributor-guide.md",
       "html": "bookstack-current/pages-html/11-grit-contributor-guide.html",
-      "revision_count": 2
+      "revision_count": 3
     },
     {
       "id": 27,
-      "name": "GRIT Production Timeline",
-      "slug": "grit-production-timeline",
+      "name": "GRIT Internal Production Reference",
+      "slug": "grit-internal-production-reference",
       "chapter": "Specialty Topics",
       "priority": 11,
-      "updated_at": "2026-06-09T22:21:28.000000Z",
-      "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-production-timeline",
-      "markdown": "bookstack-current/pages-md/12-grit-production-timeline.md",
-      "html": "bookstack-current/pages-html/12-grit-production-timeline.html",
-      "revision_count": 2
+      "updated_at": "2026-06-09T22:26:46.000000Z",
+      "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-internal-production-reference",
+      "markdown": "bookstack-current/pages-md/12-grit-internal-production-reference.md",
+      "html": "bookstack-current/pages-html/12-grit-internal-production-reference.html",
+      "revision_count": 3
     },
     {
       "id": 13,
@@ -155,11 +155,11 @@
       "slug": "grit-layout-monthly-guide",
       "chapter": "Specialty Topics",
       "priority": 12,
-      "updated_at": "2026-06-09T22:21:30.000000Z",
+      "updated_at": "2026-06-09T22:26:47.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-layout-monthly-guide",
       "markdown": "bookstack-current/pages-md/13-grit-layout-monthly-guide.md",
       "html": "bookstack-current/pages-html/13-grit-layout-monthly-guide.html",
-      "revision_count": 2
+      "revision_count": 3
     },
     {
       "id": 15,

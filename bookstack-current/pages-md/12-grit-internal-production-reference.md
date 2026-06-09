@@ -1,8 +1,14 @@
-# GRIT Production Timeline
+# GRIT Internal Production Reference
 
-*The GRIT is the monthly community newsletter of the Sandia Heights Homeowners Association. This timeline keeps the printed newsletter, digital PDF, staff handoff, and volunteer work moving together.*
+*Internal reference for the Communications &amp; Publications Committee, GRIT editor, layout volunteers, and office staff. This page tracks the working rhythm and handoffs behind each issue.*
 
-## Overview
+## Purpose
+
+The Communications &amp; Publications Committee produces the GRIT, the monthly community newsletter of the Sandia Heights Homeowners Association.
+
+This page is an internal operating reference. It is not the public contributor guide and it is not a replacement for official publication policy.
+
+## Audience And Format
 
 - **Primary medium:** printed newsletter, approximately 1,800 copies distributed monthly.
 - **Secondary medium:** digital PDF distributed by email and posted online.
@@ -70,6 +76,22 @@ Office staff:
 - Coordinate printed newsletter distribution
 - Send email distribution
 - Post the digital version online
+
+## Working Roles
+
+- **Communications &amp; Publications Committee:** owns the GRIT as a committee function and supports editorial direction.
+- **Editor:** reviews submissions, edits copy, selects content, resolves fit/placement, and prepares the final issue.
+- **Layout volunteers:** assemble the issue in InDesign and prepare proof PDFs.
+- **Office staff:** handle printer handoff, printed distribution coordination, email distribution, and posting support.
+
+## Internal Checkpoints
+
+- Are events still timely by the time the printed GRIT reaches residents?
+- Are dates, locations, names, contact details, and URLs checked?
+- Are photos likely to work in black-and-white print?
+- Are ads and classifieds in the correct issue folder?
+- Is the final Google Drive PDF link clearly identified as the authoritative version?
+- Has the printer confirmed receipt and delivery timing?
 
 ## Goal
 

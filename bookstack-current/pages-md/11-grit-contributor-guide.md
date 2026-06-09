@@ -1,12 +1,25 @@
 # GRIT Contributor Guide
 
-*The Communications &amp; Publications Committee produces the GRIT, the community newsletter of Sandia Heights. This guide is for anyone writing, photographing, or suggesting content for an issue.*
+*Send this page to neighbors, committee chairs, Board members, and volunteers who want to contribute to the GRIT.*
+
+**Note:** This is practical writing and photo guidance, not the official publication policy. Official rules, approvals, and final editorial decisions live with the Communications &amp; Publications Committee and the current GRIT editor.
 
 ## Welcome
 
-The GRIT is not a newspaper, a social media feed, or an HOA enforcement bulletin. It is a place for neighbors to share information, ideas, stories, photographs, events, accomplishments, local history, and community knowledge.
+The GRIT is the community newsletter of Sandia Heights. It is not a newspaper, a social media feed, or an HOA enforcement bulletin.
+
+It is a place for neighbors to share information, ideas, stories, photographs, events, accomplishments, local history, and community knowledge.
 
 The best articles help residents feel more connected to the place they live and the people who live here.
+
+## Quick Submission Tips
+
+- Write for a neighbor holding the printed GRIT in their hands.
+- Make the local connection obvious: why does this matter in Sandia Heights?
+- Send original image files separately instead of embedding them in a Word document.
+- Include captions and names for people in photos when possible.
+- Use a clear title and include dates, locations, and contact information when relevant.
+- Expect light editing for clarity, length, style, and available space.
 
 ## Know Your Audience
 
@@ -14,7 +27,7 @@ The GRIT is primarily a print publication. Approximately 1,800 printed copies ar
 
 A digital version is also emailed and posted online, but only a few hundred readers typically access the issue electronically.
 
-**Write for someone holding a printed copy in their hands.**
+**Write for someone holding a printed copy in their hands.** If a link or QR code is useful, include it, but do not make the article depend on readers clicking around online.
 
 ## What Makes Good GRIT Content?
 

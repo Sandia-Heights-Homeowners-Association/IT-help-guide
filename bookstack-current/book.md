@@ -1,6 +1,6 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-06-09T22:22:12+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-06-09T22:27:33+00:00.
 
 ## Quick Links & Directory
 
@@ -1106,13 +1106,26 @@ Most SHHA data lives in cloud services (Microsoft 365, QuickBooks Online, Gusto)
 
 # GRIT Contributor Guide
 
-*The Communications &amp; Publications Committee produces the GRIT, the community newsletter of Sandia Heights. This guide is for anyone writing, photographing, or suggesting content for an issue.*
+*Send this page to neighbors, committee chairs, Board members, and volunteers who want to contribute to the GRIT.*
+
+**Note:** This is practical writing and photo guidance, not the official publication policy. Official rules, approvals, and final editorial decisions live with the Communications &amp; Publications Committee and the current GRIT editor.
 
 ## Welcome
 
-The GRIT is not a newspaper, a social media feed, or an HOA enforcement bulletin. It is a place for neighbors to share information, ideas, stories, photographs, events, accomplishments, local history, and community knowledge.
+The GRIT is the community newsletter of Sandia Heights. It is not a newspaper, a social media feed, or an HOA enforcement bulletin.
+
+It is a place for neighbors to share information, ideas, stories, photographs, events, accomplishments, local history, and community knowledge.
 
 The best articles help residents feel more connected to the place they live and the people who live here.
+
+## Quick Submission Tips
+
+- Write for a neighbor holding the printed GRIT in their hands.
+- Make the local connection obvious: why does this matter in Sandia Heights?
+- Send original image files separately instead of embedding them in a Word document.
+- Include captions and names for people in photos when possible.
+- Use a clear title and include dates, locations, and contact information when relevant.
+- Expect light editing for clarity, length, style, and available space.
 
 ## Know Your Audience
 
@@ -1120,7 +1133,7 @@ The GRIT is primarily a print publication. Approximately 1,800 printed copies ar
 
 A digital version is also emailed and posted online, but only a few hundred readers typically access the issue electronically.
 
-**Write for someone holding a printed copy in their hands.**
+**Write for someone holding a printed copy in their hands.** If a link or QR code is useful, include it, but do not make the article depend on readers clicking around online.
 
 ## What Makes Good GRIT Content?
 
@@ -1210,11 +1223,17 @@ The best GRIT articles answer one question: **What would make a neighbor stop fl
 
 If the article is local, timely, useful, interesting, or amusing, you are probably on the right track.
 
-# GRIT Production Timeline
+# GRIT Internal Production Reference
 
-*The GRIT is the monthly community newsletter of the Sandia Heights Homeowners Association. This timeline keeps the printed newsletter, digital PDF, staff handoff, and volunteer work moving together.*
+*Internal reference for the Communications &amp; Publications Committee, GRIT editor, layout volunteers, and office staff. This page tracks the working rhythm and handoffs behind each issue.*
 
-## Overview
+## Purpose
+
+The Communications &amp; Publications Committee produces the GRIT, the monthly community newsletter of the Sandia Heights Homeowners Association.
+
+This page is an internal operating reference. It is not the public contributor guide and it is not a replacement for official publication policy.
+
+## Audience And Format
 
 - **Primary medium:** printed newsletter, approximately 1,800 copies distributed monthly.
 - **Secondary medium:** digital PDF distributed by email and posted online.
@@ -1282,6 +1301,22 @@ Office staff:
 - Coordinate printed newsletter distribution
 - Send email distribution
 - Post the digital version online
+
+## Working Roles
+
+- **Communications &amp; Publications Committee:** owns the GRIT as a committee function and supports editorial direction.
+- **Editor:** reviews submissions, edits copy, selects content, resolves fit/placement, and prepares the final issue.
+- **Layout volunteers:** assemble the issue in InDesign and prepare proof PDFs.
+- **Office staff:** handle printer handoff, printed distribution coordination, email distribution, and posting support.
+
+## Internal Checkpoints
+
+- Are events still timely by the time the printed GRIT reaches residents?
+- Are dates, locations, names, contact details, and URLs checked?
+- Are photos likely to work in black-and-white print?
+- Are ads and classifieds in the correct issue folder?
+- Is the final Google Drive PDF link clearly identified as the authoritative version?
+- Has the printer confirmed receipt and delivery timing?
 
 ## Goal
 
@@ -1384,7 +1419,7 @@ Insert pages until the total is divisible by 4. Print layout and booklet flow de
 ### Related Pages
 
 - [GRIT Contributor Guide](/books/shha-it-help-guide/page/grit-contributor-guide)
-- [GRIT Production Timeline](/books/shha-it-help-guide/page/grit-production-timeline)
+- [GRIT Internal Production Reference](/books/shha-it-help-guide/page/grit-internal-production-reference)
 - [Quick Reference](/books/shha-it-help-guide/page/quick-reference)
 
 ## Technical Reference

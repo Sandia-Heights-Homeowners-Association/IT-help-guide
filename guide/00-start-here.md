@@ -13,7 +13,7 @@ Microsoft 365, SharePoint, mailing lists, and role mailboxes.
 | Office staff | [Staff and Admin SOPs](03-staff-admin-sops.md) | [Email, Files, and Directory](02-email-files-directory.md) |
 | Future IT helper | [Staff and Admin SOPs](03-staff-admin-sops.md) | [Operations Open Items](04-operations-open-items.md) |
 | Board president or operations reviewer | [Operations Open Items](04-operations-open-items.md) | Raw export in `../bookstack-current/pages-md/` |
-| GRIT contributor or editor | Raw export: `../bookstack-current/pages-md/11-grit-contributor-guide.md` | `12-grit-production-timeline.md` and `13-grit-layout-monthly-guide.md` |
+| GRIT contributor or editor | Raw export: `../bookstack-current/pages-md/11-grit-contributor-guide.md` | `12-grit-internal-production-reference.md` and `13-grit-layout-monthly-guide.md` |
 
 ## The Core Model
 

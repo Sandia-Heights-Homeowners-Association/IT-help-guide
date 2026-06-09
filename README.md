@@ -161,6 +161,6 @@ Recommended BookStack flow:
 5. Staff and Admin SOPs
 6. Operations Open Items
 7. GRIT Contributor Guide
-8. GRIT Production Timeline
+8. GRIT Internal Production Reference
 9. GRIT Layout Monthly Guide
 10. FAQ as an appendix, not the primary navigation path
