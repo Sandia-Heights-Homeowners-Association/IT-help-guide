@@ -1,6 +1,6 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-06-09T17:24:19+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-06-09T22:22:12+00:00.
 
 ## Quick Links & Directory
 
@@ -1104,6 +1104,195 @@ Most SHHA data lives in cloud services (Microsoft 365, QuickBooks Online, Gusto)
 
 ## Specialty Topics
 
+# GRIT Contributor Guide
+
+*The Communications &amp; Publications Committee produces the GRIT, the community newsletter of Sandia Heights. This guide is for anyone writing, photographing, or suggesting content for an issue.*
+
+## Welcome
+
+The GRIT is not a newspaper, a social media feed, or an HOA enforcement bulletin. It is a place for neighbors to share information, ideas, stories, photographs, events, accomplishments, local history, and community knowledge.
+
+The best articles help residents feel more connected to the place they live and the people who live here.
+
+## Know Your Audience
+
+The GRIT is primarily a print publication. Approximately 1,800 printed copies are distributed each month.
+
+A digital version is also emailed and posted online, but only a few hundred readers typically access the issue electronically.
+
+**Write for someone holding a printed copy in their hands.**
+
+## What Makes Good GRIT Content?
+
+Ask yourself: **Why should a Sandia Heights resident care?**
+
+Good topics often include:
+
+- Local wildlife
+- Gardening in Sandia Heights
+- Hiking and trails
+- Neighborhood history
+- Volunteer efforts
+- Community events
+- Local organizations
+- Wildfire preparedness
+- Astronomy and dark skies
+- Interesting neighbors
+- Practical homeowner knowledge
+- Kids' activities
+- Seasonal topics
+
+The strongest articles are relevant to both place, meaning Sandia Heights, and time, meaning what is happening now.
+
+## Avoid HOA Nag-Grams
+
+Readers generally do not enjoy being scolded. Instead of "Residents should stop doing X," try "Here is why X matters."
+
+Teach. Explain. Entertain. Tell stories. Share useful information.
+
+A reader who learns something interesting is more likely to change behavior than a reader who feels criticized.
+
+## Bring Your Personality
+
+The GRIT does not need to sound like a government report. Humor, storytelling, local anecdotes, and personal experiences are welcome.
+
+Articles can be informative while still being warm, neighborly, and enjoyable to read.
+
+## Photographs Matter
+
+The printed GRIT is black and white. An image that looks beautiful in color may become muddy and difficult to understand when printed.
+
+### Good Photos
+
+Useful photos usually have:
+
+- Strong contrast
+- A clear subject
+- Simple composition
+- A large foreground object
+- Distinct separation between subject and background
+
+### Photos That Are Hard To Print
+
+Photos often print poorly when they have:
+
+- Distant subjects
+- Heavy shadows
+- Low contrast
+- Busy backgrounds
+- Lots of similar colors that become the same shade of gray
+
+## Image Guidelines
+
+Whenever possible:
+
+- Submit original image files.
+- Do not embed images inside Word documents.
+- Provide captions.
+- Identify people in photographs.
+- Submit multiple image options.
+
+The editor may crop, resize, or adjust images for publication.
+
+## Length
+
+Shorter is usually better.
+
+- **Announcement:** 50-150 words
+- **Short article:** 200-500 words
+- **Feature article:** 500-1,000 words
+
+If an article is longer, the editor may shorten it for space.
+
+## Final Thought
+
+The best GRIT articles answer one question: **What would make a neighbor stop flipping pages and read this?**
+
+If the article is local, timely, useful, interesting, or amusing, you are probably on the right track.
+
+# GRIT Production Timeline
+
+*The GRIT is the monthly community newsletter of the Sandia Heights Homeowners Association. This timeline keeps the printed newsletter, digital PDF, staff handoff, and volunteer work moving together.*
+
+## Overview
+
+- **Primary medium:** printed newsletter, approximately 1,800 copies distributed monthly.
+- **Secondary medium:** digital PDF distributed by email and posted online.
+- **Digital reach:** email distribution reaches approximately 3,000 subscribers, with typical open/click rates of 200-300 readers per issue.
+
+Because most readers receive the printed edition, publication schedules and content selection should prioritize the print audience.
+
+## Monthly Schedule
+
+### 1st-15th: Content Collection
+
+Committee chairs, Board members, residents, and staff submit articles, announcements, photographs, classifieds, and other content.
+
+Submissions should be entered through [sandiaheightsgrit.app](https://sandiaheightsgrit.app).
+
+### 20th: Submission Deadline
+
+Content should be submitted by the 20th of the month preceding publication. Late submissions may be held for a future issue.
+
+### 20th-25th: Editorial Review
+
+The Editor:
+
+- Reviews submissions
+- Performs copy editing
+- Requests revisions if needed
+- Selects photographs and artwork
+- Determines article placement
+- Resolves layout constraints
+
+The Editor may shorten or edit submissions for clarity, space, style, and consistency.
+
+### 25th-29th: Layout And Proofing
+
+The Editor and layout volunteers:
+
+- Assemble the issue in Adobe InDesign
+- Verify links, captions, dates, and contact information
+- Prepare advertisements and classifieds
+- Generate proof PDFs
+
+Committee members review proofs and provide comments.
+
+### End Of Month: Final Approval
+
+The Editor prepares the final print-ready PDF.
+
+The final PDF is uploaded to the Editor's Google Drive. The final Google Drive link becomes the authoritative version for printing and distribution.
+
+### Printer Handoff
+
+Office staff:
+
+- Send the printer the final Google Drive link
+- Confirm receipt
+- Confirm expected print completion date
+- Confirm expected delivery date
+
+Avoid emailing large PDF attachments whenever possible. Use the final Google Drive link.
+
+### Distribution
+
+Office staff:
+
+- Coordinate printed newsletter distribution
+- Send email distribution
+- Post the digital version online
+
+## Goal
+
+The purpose of the schedule is to ensure that:
+
+- Events are announced before they occur
+- Information remains timely and useful
+- Print readers receive current content
+- Workload is distributed among volunteers and staff
+- Publication is not dependent on any one individual
+
 # GRIT Layout Monthly Guide
 
 *Use this page each month when preparing the GRIT issue layout.*
@@ -1194,8 +1383,9 @@ Insert pages until the total is divisible by 4. Print layout and booklet flow de
 
 ### Related Pages
 
-- [Specialty Topics](specialty-topics.html)
-- [Quick Reference](quick-reference.html)
+- [GRIT Contributor Guide](/books/shha-it-help-guide/page/grit-contributor-guide)
+- [GRIT Production Timeline](/books/shha-it-help-guide/page/grit-production-timeline)
+- [Quick Reference](/books/shha-it-help-guide/page/quick-reference)
 
 ## Technical Reference
 

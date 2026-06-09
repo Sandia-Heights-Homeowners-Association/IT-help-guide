@@ -52,17 +52,65 @@ BookStack pages may include images added manually through the WYSIWYG editor.
 The current exporter preserves the page HTML and image references, but it does
 not download image binaries.
 
-Preferred default:
+Decision:
 
 - Keep images in BookStack.
 - Do not commit large image files to git.
 - Use `TODO.txt` to mark where a screenshot or image would help.
-- If disaster recovery needs to include images later, add a separate media
-  export/cache folder that is not committed to git, or store large media in a
-  release/archive outside the normal repo history.
+- Do not maintain a separate image-binary backup unless that decision changes.
 
 This keeps the git repo useful as a text/content backup without turning it into
-a heavy media archive.
+a heavy media archive. In a BookStack disaster, this repo restores the text,
+structure, links, and image references, but not large uploaded image binaries.
+
+## GitHub Backup Workflow
+
+Use this when the goal is to pull the latest BookStack content into local
+Markdown/HTML and push the backup to GitHub.
+
+1. Start from the branch you want to update.
+
+   ```sh
+   git switch main
+   git pull --ff-only origin main
+   ```
+
+2. Pull the live BookStack wiki into local files.
+
+   ```sh
+   python3 export-bookstack.py
+   ```
+
+3. If the scannable local guide should change, update files under `guide/`.
+   Do not hand-edit `bookstack-current/`; it is rewritten by the exporter.
+
+4. Review what changed.
+
+   ```sh
+   git status
+   git diff --stat
+   ```
+
+5. Commit the local backup.
+
+   ```sh
+   git add .
+   git commit -m "Export BookStack updates"
+   ```
+
+6. Push to GitHub.
+
+   ```sh
+   git push origin HEAD
+   ```
+
+For larger revisions, create a branch first:
+
+```sh
+git switch -c codex/<short-description>
+```
+
+Then export, edit BookStack, export again, commit, and push that branch.
 
 ## Refresh From BookStack
 
@@ -112,5 +160,7 @@ Recommended BookStack flow:
 4. New Board Member Guide
 5. Staff and Admin SOPs
 6. Operations Open Items
-7. GRIT Layout Monthly Guide
-8. FAQ as an appendix, not the primary navigation path
+7. GRIT Contributor Guide
+8. GRIT Production Timeline
+9. GRIT Layout Monthly Guide
+10. FAQ as an appendix, not the primary navigation path

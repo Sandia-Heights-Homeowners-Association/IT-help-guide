@@ -39,3 +39,10 @@ These are candidate locations where a screenshot could help later.
    Screenshot idea: A simple visual of the SharePoint site list, if the table
    starts feeling too text-heavy for new users.
 
+10. GRIT Contributor Guide - Good Photos
+    Image idea: Add examples of high-contrast GRIT photos that print clearly in
+    black and white, such as wildlife, volunteer events, or gardening images.
+
+11. GRIT Contributor Guide - Photos That Are Hard To Print
+    Image idea: Add redacted or generic examples of low-contrast / distant /
+    busy photos that become muddy in black-and-white printing.

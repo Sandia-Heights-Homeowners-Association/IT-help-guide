@@ -88,5 +88,6 @@ Insert pages until the total is divisible by 4. Print layout and booklet flow de
 
 ### Related Pages
 
-- [Specialty Topics](specialty-topics.html)
-- [Quick Reference](quick-reference.html)
+- [GRIT Contributor Guide](/books/shha-it-help-guide/page/grit-contributor-guide)
+- [GRIT Production Timeline](/books/shha-it-help-guide/page/grit-production-timeline)
+- [Quick Reference](/books/shha-it-help-guide/page/quick-reference)
