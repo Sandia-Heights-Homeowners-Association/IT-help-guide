@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>M365 Email Groups, Role Inboxes &amp; Responsibilities</title>
+</head>
+<body>
+<p id="bkmrk-operational-referenc"><em>Operational reference for office staff, IT admin, and future volunteers — mailing lists, shared mailboxes, licensing, SOPs, and governance.</em></p>
+<hr id="bkmrk-">
+<a id="bkmrk--1"></a>
+  <h2 id="bkmrk-quick-overview">Quick Overview</h2>
+  <p id="bkmrk-shha-uses-two-differ">SHHA uses two different patterns for email collaboration:</p>
+  <table id="bkmrk-patterntechnologyexa">
+    <thead><tr><th>Pattern</th><th>Technology</th><th>Examples</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><strong>Committee mailing lists</strong></td>
+        <td>Microsoft Groups</td>
+        <td><code>shha-all@</code>, <code>csc@</code>, <code>acc@</code></td>
+      </tr>
+      <tr>
+        <td><strong>Role-based addresses</strong></td>
+        <td>Shared mailboxes</td>
+        <td><code>president@</code>, <code>cscchair@</code>, <code>accchair@</code></td>
+      </tr>
+    </tbody>
+  </table>
+
+<hr id="bkmrk--2">
+<a id="bkmrk--3"></a>
+  <h2 id="bkmrk-design-principles">Design Principles</h2>
+  <ul id="bkmrk-role-continuity-over">
+    <li><strong>Role continuity over individual ownership</strong> — email addresses stay constant when people rotate in/out.</li>
+    <li><strong>Least cost for volunteers</strong> — external volunteers do not require paid M365 licenses.</li>
+    <li><strong>Operational traceability</strong> — group membership changes trigger Power Automate notifications.</li>
+    <li><strong>Institutional archive</strong> — <code>itadmin@</code> is included in all groups as a permanent archive recipient.</li>
+  </ul>
+
+<hr id="bkmrk--4">
+<a id="bkmrk--5"></a>
+  <h2 id="bkmrk-microsoft-groups-%28ma">Microsoft Groups (Mailing Lists)</h2>
+  <p id="bkmrk-each-committee-has-a">Each committee has a Microsoft Group that acts as its mailing list.</p>
+  <table id="bkmrk-groupaddress-all-mem">
+    <thead><tr><th>Group</th><th>Address</th></tr></thead>
+    <tbody>
+      <tr><td>All members</td><td><code>shha-all@sandiahomeowners.org</code></td></tr>
+      <tr><td>CSC</td><td><code>csc@sandiahomeowners.org</code></td></tr>
+      <tr><td>ACC</td><td><code>acc@sandiahomeowners.org</code></td></tr>
+      <tr><td>Others</td><td>One group per committee</td></tr>
+    </tbody>
+  </table>
+  <p id="bkmrk-behavior%3A-sending-to"><strong>Behavior:</strong> Sending to the group distributes to all members. Membership is maintained by staff (primary owner: Anna). External participants can be included.</p>
+
+<hr id="bkmrk--6">
+<a id="bkmrk--7"></a>
+  <h2 id="bkmrk-shared-mailboxes-%28ro">Shared Mailboxes (Role Inboxes)</h2>
+  <p id="bkmrk-chair-and-executive-">Chair and executive role addresses are shared mailboxes tied to positions, not people.</p>
+  <table id="bkmrk-roleaddress-csc-chai">
+    <thead><tr><th>Role</th><th>Address</th></tr></thead>
+    <tbody>
+      <tr><td>CSC Chair</td><td><code>cscchair@sandiahomeowners.org</code></td></tr>
+      <tr><td>ACC Chair</td><td><code>accchair@sandiahomeowners.org</code></td></tr>
+      <tr><td>President</td><td><code>president@sandiahomeowners.org</code></td></tr>
+      <tr><td>Vice President</td><td><code>vicepresident@sandiahomeowners.org</code></td></tr>
+      <tr><td>Secretary</td><td><code>secretary@sandiahomeowners.org</code></td></tr>
+      <tr><td>Treasurer</td><td><code>treasurer@sandiahomeowners.org</code></td></tr>
+    </tbody>
+  </table>
+  <h3 id="bkmrk-access-model">Access model</h3>
+  <ul id="bkmrk-people-do-not-log-in">
+    <li>People do <strong>not</strong> log in directly as the role mailbox.</li>
+    <li>Authorized users open the shared mailbox from their own licensed account.</li>
+    <li>Example: <code>phil.krehbiel@sandiahomeowners.org</code> can open <code>accchair@sandiahomeowners.org</code>.</li>
+  </ul>
+  <h3 id="bkmrk-when-leadership-chan">When leadership changes</h3>
+  <ol id="bkmrk-remove-predecessor-a">
+    <li>Remove predecessor access.</li>
+    <li>Grant successor access.</li>
+    <li>Keep the role mailbox address unchanged.</li>
+  </ol>
+
+<hr id="bkmrk--8">
+<a id="bkmrk--9"></a>
+  <h2 id="bkmrk-archive-mailbox-%28ita">Archive Mailbox (<code>itadmin@</code>)</h2>
+  <ul id="bkmrk-itadmin%40-is-a-member">
+    <li><code>itadmin@</code> is a member of <strong>all</strong> groups.</li>
+    <li>Purpose: permanent archive and continuity.</li>
+    <li><code>itadmin@</code> is <strong>not actively monitored</strong> for normal operations.</li>
+  </ul>
+
+<hr id="bkmrk--10">
+<a id="bkmrk--11"></a>
+  <h2 id="bkmrk-power-automate-membe">Power Automate Membership Notifications</h2>
+  <p id="bkmrk-a-power-automate-flo">A Power Automate flow sends email notifications whenever group membership changes.</p>
+  <ul id="bkmrk-provides-audit-visib">
+    <li>Provides audit visibility.</li>
+    <li>Alerts staff to unexpected changes.</li>
+    <li>Supports handoffs and troubleshooting.</li>
+  </ul>
+
+<hr id="bkmrk--12">
+<a id="bkmrk--13"></a>
+  <h2 id="bkmrk-licensing-and-extern">Licensing and External Volunteers</h2>
+  <table id="bkmrk-user-typelicense-nee">
+    <thead><tr><th>User type</th><th>License needed?</th><th>Capabilities</th></tr></thead>
+    <tbody>
+      <tr><td>External volunteers</td><td><strong>No</strong></td><td>Group email delivery, SharePoint guest access</td></tr>
+      <tr><td>Licensed staff / admin</td><td>Yes (paid M365)</td><td>Group administration, shared mailbox access, full portal</td></tr>
+    </tbody>
+  </table>
+
+<hr id="bkmrk--14">
+<a id="bkmrk--15"></a>
+  <h2 id="bkmrk-responsibilities-mat">Responsibilities Matrix</h2>
+  <table id="bkmrk-responsibilityprimar">
+    <thead><tr><th>Responsibility</th><th>Primary</th><th>Backup</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Maintain committee group membership</td><td>Anna (staff)</td><td>IT admin</td><td>Add/remove members, verify accuracy</td></tr>
+      <tr><td>Manage shared mailbox permissions</td><td>Anna + IT admin</td><td>IT admin</td><td>Remove predecessor, add successor</td></tr>
+      <tr><td>Ensure <code>itadmin@</code> in all groups</td><td>IT admin</td><td>Anna</td><td>Required for archive continuity</td></tr>
+      <tr><td>Monitor membership-change notifications</td><td>Anna</td><td>IT admin</td><td>Power Automate emails = operational signal</td></tr>
+      <tr><td>Troubleshoot delivery/access issues</td><td>IT admin</td><td>Anna</td><td>Includes mailbox permissions and group settings</td></tr>
+    </tbody>
+  </table>
+
+<hr id="bkmrk--16">
+<a id="bkmrk--17"></a>
+  <h2 id="bkmrk-sop%3A-add-a-person-to">SOP: Add a Person to a Committee Mailing List</h2>
+  <ol id="bkmrk-confirm-committee-an">
+    <li>Confirm committee and target group address.</li>
+    <li>Verify whether person is internal staff or external volunteer.</li>
+    <li>Add to the correct Microsoft Group membership.</li>
+    <li>Confirm <code>itadmin@</code> remains a member.</li>
+    <li>Verify Power Automate sends membership-change notification.</li>
+    <li>Ask requester to test delivery (or send a test message).</li>
+  </ol>
+
+<hr id="bkmrk--18">
+<a id="bkmrk--19"></a>
+  <h2 id="bkmrk-sop%3A-remove-a-person">SOP: Remove a Person from a Committee Mailing List</h2>
+  <ol id="bkmrk-confirm-removal-requ">
+    <li>Confirm removal request and effective date.</li>
+    <li>Remove member from the Microsoft Group.</li>
+    <li>Verify Power Automate notification is received.</li>
+    <li>If person held a role, check related shared mailbox permissions.</li>
+  </ol>
+
+<hr id="bkmrk--20">
+<a id="bkmrk--21"></a>
+  <h2 id="bkmrk-sop%3A-leadership-tran">SOP: Leadership Transition for Role Inbox</h2>
+  <ol id="bkmrk-identify-affected-ro">
+    <li>Identify affected role mailbox (e.g., <code>accchair@</code>).</li>
+    <li>Remove outgoing person's mailbox permissions.</li>
+    <li>Grant incoming person's mailbox permissions.</li>
+    <li>Validate that incoming person can open the shared mailbox from their own account.</li>
+    <li>Keep address and historical content in place for continuity.</li>
+  </ol>
+
+<hr id="bkmrk--22">
+<a id="bkmrk--23"></a>
+  <h2 id="bkmrk-sop%3A-new-committee-c">SOP: New Committee Creation</h2>
+  <ol id="bkmrk-create-new-microsoft">
+    <li>Create new Microsoft Group for the committee.</li>
+    <li>Add initial committee members.</li>
+    <li>Add <code>itadmin@</code> as member for archiving.</li>
+    <li>Ensure membership-change notifications are active.</li>
+    <li>Record the group in the committee/group inventory.</li>
+  </ol>
+
+<hr id="bkmrk--24">
+<a id="bkmrk--25"></a>
+  <h2 id="bkmrk-governance-rules">Governance Rules</h2>
+  <ul id="bkmrk-every-committee-must">
+    <li>Every committee must have exactly one official mailing-list group.</li>
+    <li>Every committee group must include <code>itadmin@</code>.</li>
+    <li>Shared mailbox addresses represent roles and must not be treated as personal identities.</li>
+    <li>Access to shared role inboxes must be updated promptly on leadership change.</li>
+    <li>Membership changes should be performed by staff owner (Anna) or IT admin only.</li>
+  </ul>
+
+<hr id="bkmrk--26">
+<a id="bkmrk--27"></a>
+  <h2 id="bkmrk-recommended-recordke">Recommended Recordkeeping</h2>
+  <p id="bkmrk-maintain-a-simple-in">Maintain a simple inventory table (in the wiki or internal operations file) with:</p>
+  <ul id="bkmrk-committee-name-group">
+    <li>Committee name</li>
+    <li>Group email address</li>
+    <li>Current chair role mailbox (if applicable)</li>
+    <li>Current permission holders</li>
+    <li>Last membership review date</li>
+    <li>Last updated by</li>
+  </ul>
+  <div id="bkmrk-this-makes-volunteer">This makes volunteer/staff handoff much easier.</div>
+
+<hr id="bkmrk--28">
+<a id="bkmrk--29"></a>
+  <h2 id="bkmrk-common-issues-and-ch">Common Issues and Checks</h2>
+
+  <h3 id="bkmrk-person-does-not-rece">Person does not receive committee emails</h3>
+  <ul id="bkmrk-member-exists-in-cor">
+    <li>Member exists in correct Microsoft Group</li>
+    <li>Email address is correct</li>
+    <li>Sender used the correct group address</li>
+    <li>Recent change triggered notification (confirms update happened)</li>
+  </ul>
+
+  <h3 id="bkmrk-new-chair-cannot-ope">New chair cannot open role mailbox</h3>
+  <ul id="bkmrk-shared-mailbox-permi">
+    <li>Shared mailbox permission was granted to the person's licensed account</li>
+    <li>User is opening mailbox from their own account context</li>
+    <li>Predecessor access was removed (to avoid confusion)</li>
+  </ul>
+
+  <h3 id="bkmrk-missing-archive-hist">Missing archive history</h3>
+  <ul id="bkmrk-itadmin%40-is-still-a-">
+    <li><code>itadmin@</code> is still a member of the affected group</li>
+    <li>Group delivery settings have not been altered</li>
+  </ul>
+
+<hr id="bkmrk--30">
+<a id="bkmrk--31"></a>
+  <h2 id="bkmrk-handoff-checklist-%28s">Handoff Checklist (Staff / Volunteer Transition)</h2>
+  <ul id="bkmrk-review-all-committee">
+    <li>Review all committee group memberships for accuracy.</li>
+    <li>Verify all active chairs/executive roles have correct shared mailbox access.</li>
+    <li>Remove stale permissions from former role holders.</li>
+    <li>Confirm <code>itadmin@</code> is in every group.</li>
+    <li>Confirm membership-change notification flow is working.</li>
+    <li>Update inventory table and date-stamp the review.</li>
+  </ul>
+
+<hr id="bkmrk--32">
+<a id="bkmrk--33"></a>
+  <h2 id="bkmrk-key-contacts-and-own">Key Contacts and Ownership</h2>
+  <table id="bkmrk-rolecontact-group-me">
+    <thead><tr><th>Role</th><th>Contact</th></tr></thead>
+    <tbody>
+      <tr><td>Group membership owner</td><td>Anna (staff)</td></tr>
+      <tr><td>Technical owner / escalation</td><td>IT admin</td></tr>
+      <tr><td>Archive mailbox</td><td><code>itadmin@</code> (not actively monitored)</td></tr>
+    </tbody>
+  </table>
+  <div id="bkmrk-if-ownership-changes"><strong>If ownership changes, update this section immediately.</strong></div>
+<hr id="bkmrk--34">
+<h2 id="bkmrk-related-resources">Related Resources</h2>
+<ul id="bkmrk-m365-email-building-">
+<li><a href="/books/shha-it-help-guide/page/m365-email-building-blocks">M365 Email Building Blocks</a> — understand the four email patterns (personal mailbox, shared mailbox, mailing list, alias) and when to use each</li>
+<li><a href="/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups">SOP: New Users, Mailboxes &amp; Groups</a> — step-by-step admin procedures for creating users, shared mailboxes, groups, and aliases</li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,76 @@
+# Volunteer Access
+
+Use this page for new volunteers and role holders who need to understand what
+they should expect from Microsoft 365.
+
+## External Volunteers
+
+Most volunteers do not get an `@sandiahomeowners.org` mailbox. They use their
+personal email address and receive committee messages through Microsoft Groups.
+
+First-time setup:
+
+1. Find the Microsoft organization invitation email.
+2. Click **Accept invitation**.
+3. Sign in with the same personal email address that received the invitation.
+4. Open the committee SharePoint link from the directory.
+5. Confirm you receive messages from the committee mailing list.
+
+The invitation may mention Teams. For normal SHHA volunteer work, use email and
+SharePoint links instead of Teams.
+
+## Expected Invitation Emails
+
+You may see two Microsoft emails:
+
+- Organization invitation: the important one. It usually says SHHA invited you
+  to collaborate. Accept this invitation.
+- Group or team notification: default Microsoft wording. It may mention Teams.
+  You can ignore the Teams wording unless staff specifically asks you to use it.
+
+If Microsoft lands you on a confusing page after acceptance, use the direct
+links in [Email, Files, and Directory](02-email-files-directory.md).
+
+## Role Inboxes For Officers And Chairs
+
+Some roles have shared inboxes:
+
+- `president@sandiahomeowners.org`
+- `vicepresident@sandiahomeowners.org`
+- `secretary@sandiahomeowners.org`
+- `treasurer@sandiahomeowners.org`
+- `ACCChair@sandiahomeowners.org`
+- `CPCChair@sandiahomeowners.org`
+- `CSMCChair@sandiahomeowners.org`
+- `CSCChair@sandiahomeowners.org`
+- `ESCChair@sandiahomeowners.org`
+
+These addresses belong to the role, not the person. You do not sign in directly
+as the role address. Access is granted to your own licensed account, and you
+open the shared mailbox from Outlook.
+
+Best practice: reply from the role inbox, or copy it, when handling official
+role business so future role holders can see the history.
+
+## File Sharing Pattern
+
+For committee documents:
+
+1. Upload the file to the committee SharePoint site.
+2. Copy a SharePoint link.
+3. Send the link to the committee mailing-list address.
+
+Avoid sending attachments for documents that should remain in committee records.
+
+## When To Ask For Help
+
+Contact `ITHelp@sandiahomeowners.org` if:
+
+- You accepted the invitation but still cannot open SharePoint.
+- You are not receiving committee group email.
+- A shared role inbox does not appear in Outlook.
+- You get an access-denied message.
+
+Include the email address you are using, the SharePoint link or mailbox involved,
+and a screenshot of the error if possible.
+

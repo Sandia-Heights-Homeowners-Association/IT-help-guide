@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOP: New Users, Mailboxes &amp; Groups</title>
+</head>
+<body>
+<p id="bkmrk-this-sop-is-written-">This SOP is written for SHHA staff who are comfortable with basic Microsoft admin work and need a reliable step-by-step process for setting up new groups, shared mailboxes, and related addresses.</p>
+<p id="bkmrk-start-here-every-tim"><strong>Start here every time:</strong> <a href="https://admin.microsoft.com">admin.microsoft.com</a></p>
+
+<hr id="bkmrk-">
+<h2 id="bkmrk-quick-start%3A-what-ar">Quick Start: What Are You Trying to Set Up?</h2>
+<table id="bkmrk-if-you-need...go-to-">
+<thead><tr><th>If you need...</th><th>Go to this section</th></tr></thead>
+<tbody>
+<tr><td>A new task-force or committee mailing address that sends to all members</td><td><a href="#bkmrk-sop-a%3A-create-a-micr">SOP A: Create a Microsoft 365 Group (Mailing List)</a></td></tr>
+<tr><td>A role inbox for a chair or lead (keeps history when people rotate)</td><td><a href="#bkmrk-sop-b%3A-create-a-shar">SOP B: Create a Shared Mailbox</a></td></tr>
+<tr><td>A friendly one-off address like wildfire@sandiahomeowners.org</td><td><a href="#bkmrk-sop-c%3A-add-an-alias-">SOP C: Add an Alias</a></td></tr>
+<tr><td>An internal staff account with first.last@sandiahomeowners.org login</td><td><a href="#bkmrk-sop-d%3A-add-a-new-lic">SOP D: Add a Licensed User</a></td></tr>
+<tr><td>An external volunteer using Gmail/Yahoo/etc.</td><td><a href="#bkmrk-sop-e%3A-add-an-extern">SOP E: Add an External Guest</a></td></tr>
+</tbody>
+</table>
+
+<hr id="bkmrk--1">
+<h2 id="bkmrk-task-force-fast-path">Task Force Fast Path (Most Common New Setup)</h2>
+<p id="bkmrk-for-a-new-short-term">For a new short-term task force, the normal pattern is:</p>
+<ol id="bkmrk-create-a-microsoft-3">
+<li>Create a <strong>Microsoft 365 Group</strong> for the task-force mailing list.</li>
+<li>Add members (including external guests) and always include <code>itadmin@sandiahomeowners.org</code>.</li>
+<li>Create a <strong>Shared Mailbox</strong> for the task-force lead/chair if they need role continuity.</li>
+<li>Add an optional <strong>Alias</strong> (for example, <code>wildfire@sandiahomeowners.org</code>) if a friendlier address is useful.</li>
+<li>Test email delivery and update the Quick Links directory.</li>
+</ol>
+<p id="bkmrk-if-you-only-need-one">If you only need one address that emails the whole task force, do <strong>SOP A</strong> only.</p>
+
+<hr id="bkmrk--2">
+<h2 id="bkmrk-sop-a%3A-create-a-micr">SOP A: Create a Microsoft 365 Group (Mailing List)</h2>
+<p id="bkmrk-use-this-for%3A-any-co"><strong>Use this for:</strong> any committee/task-force address that should email all members.</p>
+<p id="bkmrk-menu-path%3A-admin.mic"><strong>Menu path:</strong> <a href="https://admin.microsoft.com">admin.microsoft.com</a> → <strong>Teams &amp; groups</strong> → <strong>Active teams &amp; groups</strong> → <strong>Add a group</strong></p>
+
+<h3 id="bkmrk-step-by-step">Step-by-step</h3>
+<ol id="bkmrk-open-admin.microsoft">
+<li>Open <a href="https://admin.microsoft.com">admin.microsoft.com</a> and sign in.</li>
+<li>In the left menu, click <strong>Teams &amp; groups</strong>.</li>
+<li>Click <strong>Active teams &amp; groups</strong>.</li>
+<li>Click <strong>Add a group</strong>.</li>
+<li>Select <strong>Microsoft 365</strong> as the group type, then click <strong>Next</strong>.</li>
+<li>Enter:
+<ul>
+<li><strong>Name</strong>: Full task-force name (example: Wildfire Preparedness Task Force)</li>
+<li><strong>Description</strong>: Short purpose statement</li>
+</ul>
+Click <strong>Next</strong>.</li>
+<li>Add at least one <strong>Owner</strong> (usually office staff), then click <strong>Next</strong>.</li>
+<li>Set:
+<ul>
+<li><strong>Group email address</strong> (example: <code>wildfiretf</code> → <code>wildfiretf@sandiahomeowners.org</code>)</li>
+<li><strong>Privacy</strong>: usually <strong>Private</strong></li>
+<li>Leave "Create a team for this group" <strong>off</strong> unless Teams is explicitly needed</li>
+</ul>
+Click <strong>Next</strong> then <strong>Create group</strong>.</li>
+<li>Open the new group, then go to <strong>Settings</strong>.</li>
+<li><strong>Enable external email:</strong> turn on <strong>Let people outside the organization email this group</strong>.</li>
+<li><strong>Enable inbox delivery:</strong> turn on <strong>Send copies of team emails and events to team members' inboxes</strong>.</li>
+<li>Go to <strong>Members</strong> → <strong>Add members</strong>.</li>
+<li>Add all task-force members (internal and external as available).</li>
+<li><strong>Required:</strong> Add <code>itadmin@sandiahomeowners.org</code> as a member for archive continuity.</li>
+<li>Send a test email to the new group address and confirm delivery.</li>
+</ol>
+
+<h3 id="bkmrk-done-checklist">Done checklist</h3>
+<ul id="bkmrk-group-exists-owners-">
+<li>Group exists</li>
+<li>Owners added</li>
+<li>All members added</li>
+<li>External email enabled</li>
+<li>Inbox delivery enabled</li>
+<li><code>itadmin@</code> added</li>
+<li>Test email delivered</li>
+</ul>
+
+<hr id="bkmrk--3">
+<h2 id="bkmrk-sop-b%3A-create-a-shar">SOP B: Create a Shared Mailbox (Chair/Lead Inbox)</h2>
+<p id="bkmrk-use-this-for%3A-role-i"><strong>Use this for:</strong> role inboxes that must persist when people rotate (chair, lead, coordinator).</p>
+<p id="bkmrk-menu-path%3A-admin.mic-1"><strong>Menu path:</strong> <a href="https://admin.microsoft.com">admin.microsoft.com</a> → <strong>Teams &amp; groups</strong> → <strong>Shared mailboxes</strong> → <strong>Add a shared mailbox</strong></p>
+
+<h3 id="bkmrk-step-by-step-1">Step-by-step</h3>
+<ol id="bkmrk-in-admin-center%2C-go-">
+<li>In admin center, go to <strong>Teams &amp; groups</strong> → <strong>Shared mailboxes</strong>.</li>
+<li>Click <strong>Add a shared mailbox</strong>.</li>
+<li>Enter:
+<ul>
+<li><strong>Name</strong> (example: Wildfire Task Force Lead)</li>
+<li><strong>Email</strong> (example: <code>wildfirelead</code> → <code>wildfirelead@sandiahomeowners.org</code>)</li>
+</ul>
+</li>
+<li>Click <strong>Save changes</strong>.</li>
+<li>Open the mailbox details and click <strong>Members</strong> → <strong>Edit</strong> → <strong>Add members</strong>.</li>
+<li>Add licensed users who should access the mailbox (usually current lead/chair and optional backup).</li>
+<li>Set <strong>Send As</strong> (or delegation) permissions for the same users.</li>
+<li>Ask one user to verify in <a href="https://outlook.com">outlook.com</a> that:
+<ul>
+<li>The mailbox appears (or can be manually added)</li>
+<li>They can receive mail</li>
+<li>They can send with the shared mailbox in the From field</li>
+</ul>
+</li>
+</ol>
+
+<h3 id="bkmrk-important-notes">Important notes</h3>
+<ul id="bkmrk-shared-mailboxes-are">
+<li>Shared mailboxes are role-based, not person-based.</li>
+<li>Do not create separate personal accounts for each chair unless they truly need their own licensed login.</li>
+</ul>
+
+<hr id="bkmrk--4">
+<h2 id="bkmrk-sop-c%3A-add-an-alias-">SOP C: Add an Alias (One-Off Friendly Address)</h2>
+<p id="bkmrk-use-this-for%3A-addres"><strong>Use this for:</strong> addresses like <code>wildfire@sandiahomeowners.org</code> that should route to an existing group or mailbox.</p>
+<p id="bkmrk-menu-path%3A-admin.mic-2"><strong>Menu path:</strong> <a href="https://admin.microsoft.com">admin.microsoft.com</a> → select target group/mailbox → <strong>Email aliases</strong> / <strong>Email address</strong> settings</p>
+
+<h3 id="bkmrk-step-by-step-2">Step-by-step</h3>
+<ol id="bkmrk-decide-destination-f">
+<li>Decide destination first: should alias route to the <strong>group</strong> or the <strong>shared mailbox</strong>?</li>
+<li>For group destination:
+<ul>
+<li>Go to <strong>Teams &amp; groups</strong> → <strong>Active teams &amp; groups</strong>.</li>
+<li>Select the group.</li>
+<li>Open email settings and add alias address.</li>
+</ul>
+</li>
+<li>For shared mailbox destination:
+<ul>
+<li>Go to <strong>Teams &amp; groups</strong> → <strong>Shared mailboxes</strong>.</li>
+<li>Select mailbox.</li>
+<li>Open email settings and add alias address.</li>
+</ul>
+</li>
+<li>Save changes.</li>
+<li>Send test email to alias and verify it arrives in the expected destination.</li>
+</ol>
+
+<hr id="bkmrk--5">
+<h2 id="bkmrk-sop-d%3A-add-a-new-lic">SOP D: Add a New Licensed User (Internal Staff)</h2>
+<p id="bkmrk-use-this-for%3A-staff%2F"><strong>Use this for:</strong> staff/admin accounts that need a personal Microsoft login (<code>first.last@sandiahomeowners.org</code>).</p>
+<p id="bkmrk-menu-path%3A-admin.mic-3"><strong>Menu path:</strong> <a href="https://admin.microsoft.com">admin.microsoft.com</a> → <strong>Users</strong> → <strong>Active users</strong> → <strong>Add a user</strong></p>
+
+<h3 id="bkmrk-step-by-step-3">Step-by-step</h3>
+<ol id="bkmrk-go-to-users-%E2%86%92-active">
+<li>Go to <strong>Users</strong> → <strong>Active users</strong> → <strong>Add a user</strong>.</li>
+<li>Enter name and username (<code>first.last</code> format).</li>
+<li>Generate temporary password and require password change at first sign-in.</li>
+<li>Assign correct M365 license.</li>
+<li>Finish adding user.</li>
+<li>Add user to appropriate groups/shared mailbox access as needed.</li>
+</ol>
+
+<hr id="bkmrk--6">
+<h2 id="bkmrk-sop-e%3A-add-an-extern">SOP E: Add an External Guest (Volunteer)</h2>
+<p id="bkmrk-use-this-for%3A-most-v"><strong>Use this for:</strong> most volunteers; avoids paid license cost.</p>
+<p id="bkmrk-menu-path%3A-admin.mic-4"><strong>Menu path:</strong> <a href="https://admin.microsoft.com">admin.microsoft.com</a> → <strong>Users</strong> → <strong>Guest users</strong> (or Entra invite flow)</p>
+
+<h3 id="bkmrk-step-by-step-4">Step-by-step</h3>
+<ol id="bkmrk-invite-external-user">
+<li>Invite external user with personal email address.</li>
+<li>Ask them to accept Microsoft invitation email.</li>
+<li>After acceptance, add them to needed Microsoft Groups.</li>
+<li>Verify they receive test group email.</li>
+</ol>
+
+<hr id="bkmrk--7">
+<h2 id="bkmrk-final-validation-%28do">Final Validation (Do This Before You Close the Ticket)</h2>
+<ul id="bkmrk-group-email-tested-s">
+<li>Group email tested</li>
+<li>Shared mailbox tested (if created)</li>
+<li>Alias tested (if created)</li>
+<li><code>itadmin@</code> included in group</li>
+<li>Quick Links directory updated with new addresses</li>
+<li>Requester notified that setup is complete</li>
+</ul>
+
+<hr id="bkmrk--8">
+<h2 id="bkmrk-where-to-go-next">Where To Go Next</h2>
+<ul id="bkmrk-m365-email-building-">
+<li><a href="/books/shha-it-help-guide/page/m365-email-building-blocks">M365 Email Building Blocks</a> for choosing the right pattern first</li>
+<li><a href="/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities">M365 Email Groups, Role Inboxes &amp; Responsibilities</a> for governance and handoff rules</li>
+<li><a href="/books/shha-it-help-guide/page/quick-links-directory">Quick Links &amp; Directory</a> to keep the address list current</li>
+</ul>
+</body>
+</html>
