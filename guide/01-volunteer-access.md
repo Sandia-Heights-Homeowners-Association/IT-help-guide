@@ -52,6 +52,27 @@ open the shared mailbox from Outlook.
 Best practice: reply from the role inbox, or copy it, when handling official
 role business so future role holders can see the history.
 
+## Why The President Has Two Email Addresses
+
+Short version: `robin.otten@sandiahomeowners.org` is Robin's personal SHHA
+account. `president@sandiahomeowners.org` is the President mailbox. One belongs
+to the person; one belongs to the office.
+
+| Address | What it is | Use it for |
+| --- | --- | --- |
+| `robin.otten@sandiahomeowners.org` | Robin's own SHHA sign-in and personal work account | Signing in to Microsoft, opening Outlook/SharePoint, and messages meant specifically for Robin as a person |
+| `president@sandiahomeowners.org` | The shared President inbox | Official President business that future Presidents may need to see later |
+
+Yes, two inboxes is annoying. Think of it as a key and a filing cabinet:
+Robin's account is the key that lets her into Microsoft; the President inbox is
+the filing cabinet that stays with the office when the next President takes
+over.
+
+Simple rule: if it is official President business, use
+`president@sandiahomeowners.org`. If it is about Robin personally, use
+`robin.otten@sandiahomeowners.org`. If you are not sure, the President inbox is
+usually the safer mailbox for SHHA business.
+
 ## File Sharing Pattern
 
 For committee documents:
@@ -73,4 +94,3 @@ Contact `ITHelp@sandiahomeowners.org` if:
 
 Include the email address you are using, the SharePoint link or mailbox involved,
 and a screenshot of the error if possible.
-

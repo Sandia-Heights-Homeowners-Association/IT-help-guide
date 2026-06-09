@@ -1,6 +1,6 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-06-09T16:46:30+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-06-09T17:24:19+00:00.
 
 ## Quick Links & Directory
 
@@ -119,7 +119,8 @@ Different people need different things from this guide. Find your role below and
 
 <table id="bkmrk-who-you-arestart-wit"><thead><tr><th>Who You Are</th><th>Start With</th><th>Then See</th></tr></thead><tbody><tr><td>**New external volunteer**  
 *(just got a committee invitation)*</td><td>[Quick Start for New Volunteers](/books/shha-it-help-guide/page/quick-start-for-new-volunteers)</td><td>[Volunteer without SHHA Email](/books/shha-it-help-guide/page/volunteer-without-shha-email) guide, [FAQ](/books/shha-it-help-guide/page/faq)</td></tr><tr><td>**New officer or committee chair**  
-*(President, Treasurer, Chair, etc.)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) (mailing lists, SharePoint URLs)</td><td>[Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email) guide, FAQ sections on [role mailboxes](/books/shha-it-help-guide/page/faq#i-have-a-role-mailbox-eg-president-treasurer-should-i-reply-from-my-personal-inbox) and [email transitions](/books/shha-it-help-guide/page/faq#how-does-the-email-transition-work-when-someone-enters-or-leaves-a-role-who-handles-it)</td></tr><tr><td>**New Board president**  
+*(President, Treasurer, Chair, etc.)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) (mailing lists, SharePoint URLs)</td><td>[Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email) guide, FAQ sections on [role mailboxes](/books/shha-it-help-guide/page/faq#i-have-a-role-mailbox-eg-president-treasurer-should-i-reply-from-my-personal-inbox) and [email transitions](/books/shha-it-help-guide/page/faq#how-does-the-email-transition-work-when-someone-enters-or-leaves-a-role-who-handles-it)</td></tr><tr><td>**New Board member**  
+*(need meeting materials and agenda rhythm)*</td><td>[New Board Member Guide](/books/shha-it-help-guide/page/new-board-member-guide)</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory), [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td></tr><tr><td>**New Board president**  
 *(need the big picture)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td><td>[Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [HR &amp; Personnel Management](/books/shha-it-help-guide/page/hr-personnel-management), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr><tr><td>**GRIT newsletter editor**</td><td>[GRIT Layout Monthly Guide](/books/shha-it-help-guide/page/grit-layout-monthly-guide)</td><td>FAQ section on [GRIT submissions](/books/shha-it-help-guide/page/faq#how-do-i-submit-an-article-for-the-grit-newsletter)</td></tr><tr><td>**Office staff**  
 *(manage day-to-day IT operations)*</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff)</td><td>[M365 Email Groups &amp; Roles Reference](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities), [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td></tr><tr><td>**Future IT help person**  
 *(inheriting the IT admin role)*</td><td>[M365 Email Groups &amp; Roles Reference](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities)</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff), [Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr></tbody></table>
@@ -457,7 +458,26 @@ See [FAQ — Reply from role mailbox](faq.html#reply-from-role) for full instruc
 
 ---
 
-<a id="bkmrk--5"></a>## File Sharing Rule
+## Why The President Has Two Email Addresses
+
+Short version: `robin.otten@sandiahomeowners.org` is Robin's personal SHHA account. `president@sandiahomeowners.org` is the President mailbox. One belongs to the person; one belongs to the office.
+
+<table id="bkmrk-addresswhat-it-isuse"> <thead> <tr><th>Address</th><th>What it is</th><th>Use it for</th></tr> </thead> <tbody> <tr> <td>`robin.otten@sandiahomeowners.org`</td> <td>Robin's own SHHA sign-in and personal work account</td> <td>Signing in to Microsoft, opening Outlook/SharePoint, and messages meant specifically for Robin as a person</td> </tr> <tr> <td>`president@sandiahomeowners.org`</td> <td>The shared President inbox</td> <td>Official President business that future Presidents may need to see later</td> </tr> </tbody></table>
+
+Yes, two inboxes is annoying. Think of it as a key and a filing cabinet: Robin's account is the key that lets her into Microsoft; the President inbox is the filing cabinet that stays with the office when the next President takes over.
+
+This is why SHHA keeps both addresses:
+
+- **Continuity:** President email history stays with the President role.
+- **Less confusion later:** The public address does not change every time the role changes.
+- **Record keeping:** Important President conversations are not stranded in one person's personal mailbox.
+- **Cleaner handoff:** IT can give the next President access to the same role inbox.
+
+**Simple rule:** if it is official President business, use `president@sandiahomeowners.org`. If it is about Robin personally, use `robin.otten@sandiahomeowners.org`. If you are not sure, the President inbox is usually the safer mailbox for SHHA business.
+
+---
+
+<a id="bkmrk--6"></a>## File Sharing Rule
 
 For committee documents:
 
@@ -469,7 +489,7 @@ Avoid one-off attachments for files that should remain in committee records.
 
 ---
 
-<a id="bkmrk--7"></a>## If You Are Not Seeing Something
+<a id="bkmrk--8"></a>## If You Are Not Seeing Something
 
 - Confirm you are signed in with your SHHA account.
 - Confirm your committee membership is current.
@@ -549,6 +569,72 @@ Contact <ITHelp@sandiahomeowners.org> if you cannot access files or receive comm
 - [Overview](/books/shha-it-help-guide/page/overview)
 - [FAQ](/books/shha-it-help-guide/page/faq)
 - [Quick Reference](/books/shha-it-help-guide/page/quick-reference)
+
+# New Board Member Guide
+
+*Welcome to the Board. The good news: there is no secret handshake. The mildly annoying news: Microsoft may still ask you to sign in like there is one.*
+
+## Short Version
+
+1. Use the [Board SharePoint site](https://shha.sharepoint.com/sites/BOARD/) for meeting packets, pre-reads, and Board working files.
+2. Read the meeting pre-reads before Board meetings.
+3. You can upload files to the Board SharePoint when you need to share material with the Board.
+4. When Trish asks for agenda items, email her anything you want added about a week before the meeting.
+5. If you cannot open something, contact **ITHelp@sandiahomeowners.org** and include the link that failed.
+
+## Board SharePoint: Where The Board Files Live
+
+The Board SharePoint site is the Board's file cabinet. It is where meeting pre-reads, packets, drafts, and reference files should live.
+
+**Direct link:** [https://shha.sharepoint.com/sites/BOARD/](https://shha.sharepoint.com/sites/BOARD/)
+
+If Microsoft drops you into a confusing page, do not take it personally. Use the direct link above. It is the front door.
+
+## Meeting Pre-Reads
+
+Before a Board meeting, check the Board SharePoint for the meeting materials. These are the pre-reads: the things everyone is expected to look at before the meeting so the meeting can be a meeting, not a dramatic public reading of PDFs.
+
+If a document seems missing, ask Trish or office staff. If the link opens for others but not for you, contact ITHelp.
+
+## Uploading Files For The Board
+
+Board members can upload files to the Board SharePoint.
+
+1. Open the [Board SharePoint site](https://shha.sharepoint.com/sites/BOARD/).
+2. Open the document library or the folder Trish or the Board is using for that meeting/topic.
+3. Click **Upload**, then choose your file.
+4. After uploading, send the Board or Trish a SharePoint link instead of attaching a separate copy.
+
+When in doubt, use a clear file name with the topic and date. Future-you and future-neighbors will appreciate it.
+
+## Agenda Items
+
+Trish will usually prompt Board members for agenda items before a meeting. When she does, send her any agenda item you want considered about a week in advance.
+
+A helpful agenda request includes:
+
+- A short title.
+- Whether the item is for information, discussion, or a decision.
+- Any file or background material as a SharePoint link.
+- Any timing concern, such as "needs a vote this month."
+
+## Board Email Basics
+
+- Use **board@sandiahomeowners.org** when the whole Board should receive a message.
+- Use your own account for ordinary email and Microsoft sign-in.
+- If you also hold an officer role, use that role inbox for official role business so the history stays with the office.
+
+## Quick Help
+
+- **Access denied?** Make sure you accepted the Microsoft invitation, then contact ITHelp if it still fails.
+- **Cannot find pre-reads?** Ask Trish or office staff where that meeting's packet is stored.
+- **Unsure where to upload?** Ask before creating a new folder. Tidier folders make calmer neighbors.
+
+## Related Pages
+
+- [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)
+- [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email)
+- [FAQ](/books/shha-it-help-guide/page/faq)
 
 ## Frequently Asked Questions
 
@@ -644,7 +730,20 @@ Role mailboxes stay with the position, not the person. When leadership changes, 
  
 <div id="bkmrk-microsoft-help%3A-open">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)</div>---
 
-<a id="bkmrk--13"></a>## I cannot see my shared role inbox in Outlook. What should I do?
+## Why does the President need both president@sandiahomeowners.org and robin.otten@sandiahomeowners.org?
+
+Because one address is for the person and one is for the office. It is a little like having a house key and a clubhouse mailbox. They are related, but they do different jobs.
+
+- `robin.otten@sandiahomeowners.org` is Robin's own SHHA account. She uses it to sign in to Microsoft and handle messages meant for her personally.
+- `president@sandiahomeowners.org` is the shared President inbox. It is for official President business and keeps the history with the role.
+
+The shared President inbox is what lets the next President inherit the useful history instead of starting with an empty mailbox and a hopeful shrug. For official President business, use `president@sandiahomeowners.org`.
+
+See [Why The President Has Two Email Addresses](/books/shha-it-help-guide/page/volunteer-with-shha-email#why-president-has-two-addresses) for the fuller explanation.
+
+---
+
+<a id="bkmrk--14"></a>## I cannot see my shared role inbox in Outlook. What should I do?
 
 If the shared mailbox does not appear automatically, try adding it manually:
 
@@ -667,7 +766,7 @@ If the shared mailbox does not appear automatically, try adding it manually:
 
 <div id="bkmrk-microsoft-help%3A-open-1">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd) — see "What if it didn't work?"</div>---
 
-<a id="bkmrk--15"></a>## Where should Board materials be submitted?
+<a id="bkmrk--16"></a>## Where should Board materials be submitted?
 
 **Upload directly to the Board's SharePoint site** using the direct link from your Board materials or ITHelp.
 
@@ -680,7 +779,7 @@ Only deviate from this if office staff specifically requests materials a differe
 
 ---
 
-<a id="bkmrk--17"></a>## Why am I not getting Board reminder emails?
+<a id="bkmrk--18"></a>## Why am I not getting Board reminder emails?
 
 Board meeting reminders are sent from a **shared Google Calendar** workflow, not Microsoft 365. Common reasons:
 
@@ -692,7 +791,7 @@ If none of the above resolves it, contact office staff or **ITHelp@sandiahomeown
 
 ---
 
-<a id="bkmrk--19"></a>## Where do I log in?
+<a id="bkmrk--20"></a>## Where do I log in?
 
 There is **no single Microsoft website for everything.** Which site you use depends on what you need:
 
@@ -700,7 +799,7 @@ There is **no single Microsoft website for everything.** Which site you use depe
 
 <div id="bkmrk-tip%3A-most-volunteers">**Tip:** Most volunteers just click a SharePoint link someone emailed them. You do not need to remember a general login page.</div><div id="bkmrk-microsoft-help%3A-sign">**Microsoft help:** [Sign in to Microsoft 365](https://support.microsoft.com/en-us/office/sign-in-to-microsoft-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)</div>---
 
-<a id="bkmrk--21"></a>## Do I have an official SHHA email address? How do I use it?
+<a id="bkmrk--22"></a>## Do I have an official SHHA email address? How do I use it?
 
 **It depends on your role:**
 
@@ -712,7 +811,7 @@ Not sure which category you fall into? Ask your committee chair or email **ITHel
 
 ---
 
-<a id="bkmrk--23"></a>## Can I forward my SHHA role mailbox email to my personal email?
+<a id="bkmrk--24"></a>## Can I forward my SHHA role mailbox email to my personal email?
 
 **This is not recommended, and you cannot set it up yourself.**
 
@@ -731,7 +830,7 @@ If you have an exceptional need for forwarding, contact **ITHelp@sandiahomeowner
 
 <div id="bkmrk-microsoft-help%3A-add-">**Microsoft help:** [Add a shared mailbox to Outlook mobile](https://support.microsoft.com/en-us/office/add-a-shared-mailbox-to-outlook-mobile-f866242c-81b2-472e-8776-6c49c5473c9f)</div>---
 
-<a id="bkmrk--25"></a>## Can I access my SHHA email from my personal email app (Apple Mail, Gmail app, etc.)?
+<a id="bkmrk--26"></a>## Can I access my SHHA email from my personal email app (Apple Mail, Gmail app, etc.)?
 
 **For the shared role mailbox — generally no.** Shared mailboxes cannot be added to third-party email clients like Apple Mail or Gmail. They must be accessed through Microsoft Outlook.
 
@@ -745,7 +844,7 @@ If you have an exceptional need for forwarding, contact **ITHelp@sandiahomeowner
 
 <div id="bkmrk-microsoft-help%3A-open-2">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)</div>---
 
-<a id="bkmrk--27"></a>## How do I see emails going between committee or Board members? Can I see older emails from before I joined?
+<a id="bkmrk--28"></a>## How do I see emails going between committee or Board members? Can I see older emails from before I joined?
 
 ### Committee mailing list emails
 
@@ -765,7 +864,7 @@ If you hold a role (e.g., committee chair, President), the shared role mailbox *
 
 ---
 
-<a id="bkmrk--29"></a>## How do I send an email to a specific group (Board, committee, or task force)?
+<a id="bkmrk--30"></a>## How do I send an email to a specific group (Board, committee, or task force)?
 
 **For the complete directory of all mailing lists, chair inboxes, and SharePoint URLs, see the [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) page.**
 
@@ -782,7 +881,7 @@ Each committee and the Board has a **mailing list address**. Sending to it deliv
  
 <div id="bkmrk-tips%3A-you-do-not-nee">**Tips:** You do not need to know individual email addresses — the group address handles distribution. If sharing a document, paste a SharePoint link rather than attaching a file.</div>---
 
-<a id="bkmrk--31"></a>## How does the email transition work when someone enters or leaves a role? Who handles it?
+<a id="bkmrk--32"></a>## How does the email transition work when someone enters or leaves a role? Who handles it?
 
 **This is NOT automatic.** A human (office staff) must update group memberships and mailbox permissions.
 
@@ -813,7 +912,7 @@ There is **no automatic overlap**. If you want your successor to start seeing em
 
 ---
 
-<a id="bkmrk--33"></a>## How do I find phone numbers for Board, committee, and staff members?
+<a id="bkmrk--34"></a>## How do I find phone numbers for Board, committee, and staff members?
 
 **There is no centralized online directory with phone numbers** in the Microsoft 365 system. Most members do not list personal numbers publicly. Here are your options:
 
@@ -824,7 +923,7 @@ There is **no automatic overlap**. If you want your successor to start seeing em
  
 <div id="bkmrk-for-emergencies%3A-ema">**For emergencies:** Email **ITHelp@sandiahomeowners.org** and **office@sandiahomeowners.org** simultaneously, mark the subject as **URGENT**, and explain the situation. Staff can relay messages.</div><div id="bkmrk-suggestion-for-chair">**Suggestion for chairs:** Maintain a simple phone/email contact sheet for your group and share it privately at the start of each term.</div>---
 
-<a id="bkmrk--35"></a>## How do I find committee web pages on the SHHA website?
+<a id="bkmrk--36"></a>## How do I find committee web pages on the SHHA website?
 
 1. Go to **[sandiahomeowners.org](https://sandiahomeowners.org)**.
 2. Look for a **Committees** menu in the top navigation bar or sidebar.
@@ -832,7 +931,7 @@ There is **no automatic overlap**. If you want your successor to start seeing em
  
 <div id="bkmrk-note%3A-public-committ">**Note:** Public committee web pages are informational (schedules, descriptions). Working documents are on SharePoint, not the public website.</div>---
 
-<a id="bkmrk--37"></a>## Where do I find minutes from committee or Board meetings?
+<a id="bkmrk--38"></a>## Where do I find minutes from committee or Board meetings?
 
 Meeting minutes are typically stored in the committee's **SharePoint document library**.
 
@@ -845,7 +944,7 @@ Meeting minutes are typically stored in the committee's **SharePoint document li
 
 ---
 
-<a id="bkmrk--39"></a>## How do I submit an article for The GRIT newsletter?
+<a id="bkmrk--40"></a>## How do I submit an article for The GRIT newsletter?
 
 The GRIT is SHHA's community newsletter. Articles go to the GRIT editor (Communication &amp; Publication Committee) on a monthly cycle.
 
@@ -873,7 +972,7 @@ Not sure who the current GRIT editor is? Email **office@sandiahomeowners.org**.
 
 ---
 
-<a id="bkmrk--41"></a>## How do I send an email blast to all SHHA residents?
+<a id="bkmrk--42"></a>## How do I send an email blast to all SHHA residents?
 
 **You cannot send an email blast yourself.** Blasts to the full membership are sent by **office staff** using a bulk email system.
 
@@ -893,7 +992,7 @@ Not sure who the current GRIT editor is? Email **office@sandiahomeowners.org**.
  
 <div id="bkmrk-important%3A-do-not-se">**Important:** Do not send mass emails by putting all resident addresses in To or CC. This exposes everyone's email, triggers spam filters, and is not the proper process.</div>---
 
-<a id="bkmrk--43"></a>## When should I contact IT Help?
+<a id="bkmrk--44"></a>## When should I contact IT Help?
 
 ### Contact **ITHelp@sandiahomeowners.org** if:
 

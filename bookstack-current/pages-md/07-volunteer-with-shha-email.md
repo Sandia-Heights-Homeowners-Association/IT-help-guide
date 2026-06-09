@@ -24,7 +24,26 @@ See [FAQ — Reply from role mailbox](faq.html#reply-from-role) for full instruc
 
 ---
 
-<a id="bkmrk--5"></a>## File Sharing Rule
+## Why The President Has Two Email Addresses
+
+Short version: `robin.otten@sandiahomeowners.org` is Robin's personal SHHA account. `president@sandiahomeowners.org` is the President mailbox. One belongs to the person; one belongs to the office.
+
+<table id="bkmrk-addresswhat-it-isuse"> <thead> <tr><th>Address</th><th>What it is</th><th>Use it for</th></tr> </thead> <tbody> <tr> <td>`robin.otten@sandiahomeowners.org`</td> <td>Robin's own SHHA sign-in and personal work account</td> <td>Signing in to Microsoft, opening Outlook/SharePoint, and messages meant specifically for Robin as a person</td> </tr> <tr> <td>`president@sandiahomeowners.org`</td> <td>The shared President inbox</td> <td>Official President business that future Presidents may need to see later</td> </tr> </tbody></table>
+
+Yes, two inboxes is annoying. Think of it as a key and a filing cabinet: Robin's account is the key that lets her into Microsoft; the President inbox is the filing cabinet that stays with the office when the next President takes over.
+
+This is why SHHA keeps both addresses:
+
+- **Continuity:** President email history stays with the President role.
+- **Less confusion later:** The public address does not change every time the role changes.
+- **Record keeping:** Important President conversations are not stranded in one person's personal mailbox.
+- **Cleaner handoff:** IT can give the next President access to the same role inbox.
+
+**Simple rule:** if it is official President business, use `president@sandiahomeowners.org`. If it is about Robin personally, use `robin.otten@sandiahomeowners.org`. If you are not sure, the President inbox is usually the safer mailbox for SHHA business.
+
+---
+
+<a id="bkmrk--6"></a>## File Sharing Rule
 
 For committee documents:
 
@@ -36,7 +55,7 @@ Avoid one-off attachments for files that should remain in committee records.
 
 ---
 
-<a id="bkmrk--7"></a>## If You Are Not Seeing Something
+<a id="bkmrk--8"></a>## If You Are Not Seeing Something
 
 - Confirm you are signed in with your SHHA account.
 - Confirm your committee membership is current.

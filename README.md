@@ -102,13 +102,15 @@ The simplified guide intentionally reduces repeated material:
 - [Email, Files, and Directory](guide/02-email-files-directory.md)
 - [Staff and Admin SOPs](guide/03-staff-admin-sops.md)
 - [Operations Open Items](guide/04-operations-open-items.md)
+- [New Board Member Guide](guide/05-new-board-member.md)
 
 Recommended BookStack flow:
 
 1. Start Here
 2. Email, Files, and Directory
 3. Volunteer Access
-4. Staff and Admin SOPs
-5. Operations Open Items
-6. GRIT Layout Monthly Guide
-7. FAQ as an appendix, not the primary navigation path
+4. New Board Member Guide
+5. Staff and Admin SOPs
+6. Operations Open Items
+7. GRIT Layout Monthly Guide
+8. FAQ as an appendix, not the primary navigation path

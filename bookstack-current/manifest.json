@@ -3,7 +3,7 @@
   "book_id": 1,
   "book_name": "SHHA IT Help Guide",
   "book_updated_at": "2026-04-01T04:20:24.000000Z",
-  "exported_at": "2026-06-09T16:46:30+00:00",
+  "exported_at": "2026-06-09T17:24:19+00:00",
   "pages": [
     {
       "id": 17,
@@ -35,11 +35,11 @@
       "slug": "overview",
       "chapter": "Getting Started",
       "priority": 2,
-      "updated_at": "2026-04-01T05:06:48.000000Z",
+      "updated_at": "2026-06-09T17:20:07.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/overview",
       "markdown": "bookstack-current/pages-md/03-overview.md",
       "html": "bookstack-current/pages-html/03-overview.html",
-      "revision_count": 2
+      "revision_count": 3
     },
     {
       "id": 4,
@@ -83,11 +83,11 @@
       "slug": "volunteer-with-shha-email",
       "chapter": "Role Guides",
       "priority": 7,
-      "updated_at": "2026-04-01T04:20:37.000000Z",
+      "updated_at": "2026-06-09T17:20:04.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/volunteer-with-shha-email",
       "markdown": "bookstack-current/pages-md/07-volunteer-with-shha-email.md",
       "html": "bookstack-current/pages-html/07-volunteer-with-shha-email.html",
-      "revision_count": 1
+      "revision_count": 2
     },
     {
       "id": 9,
@@ -102,16 +102,28 @@
       "revision_count": 3
     },
     {
+      "id": 25,
+      "name": "New Board Member Guide",
+      "slug": "new-board-member-guide",
+      "chapter": "Role Guides",
+      "priority": 9,
+      "updated_at": "2026-06-09T17:20:02.000000Z",
+      "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/new-board-member-guide",
+      "markdown": "bookstack-current/pages-md/09-new-board-member-guide.md",
+      "html": "bookstack-current/pages-html/09-new-board-member-guide.html",
+      "revision_count": 1
+    },
+    {
       "id": 11,
       "name": "FAQ",
       "slug": "faq",
       "chapter": "Frequently Asked Questions",
       "priority": 10,
-      "updated_at": "2026-04-01T05:06:50.000000Z",
+      "updated_at": "2026-06-09T17:23:41.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/faq",
-      "markdown": "bookstack-current/pages-md/09-faq.md",
-      "html": "bookstack-current/pages-html/09-faq.html",
-      "revision_count": 3
+      "markdown": "bookstack-current/pages-md/10-faq.md",
+      "html": "bookstack-current/pages-html/10-faq.html",
+      "revision_count": 5
     },
     {
       "id": 13,
@@ -121,8 +133,8 @@
       "priority": 12,
       "updated_at": "2026-04-01T04:20:46.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-layout-monthly-guide",
-      "markdown": "bookstack-current/pages-md/10-grit-layout-monthly-guide.md",
-      "html": "bookstack-current/pages-html/10-grit-layout-monthly-guide.html",
+      "markdown": "bookstack-current/pages-md/11-grit-layout-monthly-guide.md",
+      "html": "bookstack-current/pages-html/11-grit-layout-monthly-guide.html",
       "revision_count": 1
     },
     {
@@ -133,8 +145,8 @@
       "priority": 14,
       "updated_at": "2026-04-22T14:42:48.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities",
-      "markdown": "bookstack-current/pages-md/11-m365-email-groups-role-inboxes-responsibilities.md",
-      "html": "bookstack-current/pages-html/11-m365-email-groups-role-inboxes-responsibilities.html",
+      "markdown": "bookstack-current/pages-md/12-m365-email-groups-role-inboxes-responsibilities.md",
+      "html": "bookstack-current/pages-html/12-m365-email-groups-role-inboxes-responsibilities.html",
       "revision_count": 2
     },
     {
@@ -145,8 +157,8 @@
       "priority": 15,
       "updated_at": "2026-04-22T14:42:46.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/m365-email-building-blocks",
-      "markdown": "bookstack-current/pages-md/12-m365-email-building-blocks.md",
-      "html": "bookstack-current/pages-html/12-m365-email-building-blocks.html",
+      "markdown": "bookstack-current/pages-md/13-m365-email-building-blocks.md",
+      "html": "bookstack-current/pages-html/13-m365-email-building-blocks.html",
       "revision_count": 1
     },
     {
@@ -157,8 +169,8 @@
       "priority": 16,
       "updated_at": "2026-04-29T14:49:32.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups",
-      "markdown": "bookstack-current/pages-md/13-sop-new-users-mailboxes-groups.md",
-      "html": "bookstack-current/pages-html/13-sop-new-users-mailboxes-groups.html",
+      "markdown": "bookstack-current/pages-md/14-sop-new-users-mailboxes-groups.md",
+      "html": "bookstack-current/pages-html/14-sop-new-users-mailboxes-groups.html",
       "revision_count": 3
     },
     {
@@ -169,8 +181,8 @@
       "priority": 1,
       "updated_at": "2026-04-01T05:06:44.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/systems-inventory",
-      "markdown": "bookstack-current/pages-md/14-systems-inventory.md",
-      "html": "bookstack-current/pages-html/14-systems-inventory.html",
+      "markdown": "bookstack-current/pages-md/15-systems-inventory.md",
+      "html": "bookstack-current/pages-html/15-systems-inventory.html",
       "revision_count": 1
     },
     {
@@ -181,8 +193,8 @@
       "priority": 2,
       "updated_at": "2026-04-01T05:06:44.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/controls-security",
-      "markdown": "bookstack-current/pages-md/15-controls-security.md",
-      "html": "bookstack-current/pages-html/15-controls-security.html",
+      "markdown": "bookstack-current/pages-md/16-controls-security.md",
+      "html": "bookstack-current/pages-html/16-controls-security.html",
       "revision_count": 1
     },
     {
@@ -193,8 +205,8 @@
       "priority": 3,
       "updated_at": "2026-04-01T05:06:45.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/hr-personnel-management",
-      "markdown": "bookstack-current/pages-md/16-hr-personnel-management.md",
-      "html": "bookstack-current/pages-html/16-hr-personnel-management.html",
+      "markdown": "bookstack-current/pages-md/17-hr-personnel-management.md",
+      "html": "bookstack-current/pages-html/17-hr-personnel-management.html",
       "revision_count": 1
     }
   ],

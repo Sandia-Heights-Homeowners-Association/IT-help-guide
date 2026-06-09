@@ -1,0 +1,41 @@
+Running Screenshot / Image Ideas
+================================
+
+Do not add placeholders to the wiki text unless an image is ready to insert.
+These are candidate locations where a screenshot could help later.
+
+1. New Board Member Guide - Board SharePoint
+   Screenshot idea: Board SharePoint landing page or document library showing
+   where meeting packets / pre-reads live.
+
+2. New Board Member Guide - Uploading Files For The Board
+   Screenshot idea: SharePoint document library toolbar with the Upload button.
+
+3. New Board Member Guide - Agenda Items
+   Screenshot idea: An example agenda-item email to Trish, with private details
+   removed, showing a title, decision/discussion note, and SharePoint link.
+
+4. Volunteer with SHHA Email - Why The President Has Two Email Addresses
+   Screenshot idea: Outlook showing a personal mailbox and a shared President
+   mailbox side by side, with any real messages blurred or cropped out.
+
+5. FAQ / Volunteer with SHHA Email - Shared Role Inbox Basics
+   Screenshot idea: Outlook on the web "Shared with me" area or "Add shared
+   folder or mailbox" menu.
+
+6. FAQ - Reply From Role Mailbox
+   Screenshot idea: Outlook compose window showing the From field set to a
+   shared role mailbox.
+
+7. Volunteer without SHHA Email - First-Time Setup
+   Screenshot idea: Microsoft organization invitation email with the Accept
+   invitation button, using a test or redacted email.
+
+8. Volunteer without SHHA Email - Access Denied Troubleshooting
+   Screenshot idea: A generic SharePoint access-denied screen, redacted, paired
+   with the note to contact ITHelp with the failed link.
+
+9. Quick Links & Directory - SharePoint Sites
+   Screenshot idea: A simple visual of the SharePoint site list, if the table
+   starts feeling too text-heavy for new users.
+

@@ -9,10 +9,11 @@ Microsoft 365, SharePoint, mailing lists, and role mailboxes.
 | --- | --- | --- |
 | New external volunteer using Gmail, Yahoo, iCloud, or another personal email | [Volunteer Access](01-volunteer-access.md) | [Email, Files, and Directory](02-email-files-directory.md) |
 | Officer or committee chair with a role inbox | [Email, Files, and Directory](02-email-files-directory.md) | [Volunteer Access](01-volunteer-access.md#role-inboxes-for-officers-and-chairs) |
+| New Board member | [New Board Member Guide](05-new-board-member.md) | [Email, Files, and Directory](02-email-files-directory.md) |
 | Office staff | [Staff and Admin SOPs](03-staff-admin-sops.md) | [Email, Files, and Directory](02-email-files-directory.md) |
 | Future IT helper | [Staff and Admin SOPs](03-staff-admin-sops.md) | [Operations Open Items](04-operations-open-items.md) |
 | Board president or operations reviewer | [Operations Open Items](04-operations-open-items.md) | Raw export in `../bookstack-current/pages-md/` |
-| GRIT editor | Raw export: `../bookstack-current/pages-md/10-grit-layout-monthly-guide.md` | FAQ section on GRIT submissions |
+| GRIT editor | Raw export: `../bookstack-current/pages-md/11-grit-layout-monthly-guide.md` | FAQ section on GRIT submissions |
 
 ## The Core Model
 
@@ -43,4 +44,5 @@ guide collapses overlapping pages into a smaller flow:
 - M365 concepts and SOPs are separated: concepts explain what to choose, SOPs
   explain how to perform the admin task.
 - Operations, HR, controls, and legacy-account gaps are collected as open items.
-
+- New Board members get a short page focused on meeting pre-reads, Board
+  SharePoint, uploads, and agenda items.
