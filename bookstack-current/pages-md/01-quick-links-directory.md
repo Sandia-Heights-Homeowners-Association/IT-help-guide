@@ -33,3 +33,5 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 ## Task Group Email Help
 
 Need to explain how to use a temporary task-group address? Share this page: [Task Group Email Guide](/books/shha-it-help-guide/page/task-group-email-guide).
+
+**Need to understand where committee files belong?** See [SharePoint Folder Organization](/books/shha-it-help-guide/page/sharepoint-folder-organization).

@@ -7,6 +7,8 @@ and closed without scattering TODOs across the guide.
 ## High Priority
 
 - Identify the primary and backup Microsoft 365 Global Administrators.
+- Decide whether Anna's de facto Microsoft administrator role should be formally
+  documented, backed up, or delegated for continuity.
 - Document who approves granting or revoking admin access.
 - Confirm whether MFA is enforced for Microsoft 365 admin accounts.
 - Confirm whether MFA is enforced for all licensed users.
@@ -77,4 +79,3 @@ Document whether SHHA has:
 Keep operational gaps in this page until they are answered. Once confirmed,
 move stable answers into the relevant staff/admin page or BookStack page, then
 remove the duplicate TODO.
-

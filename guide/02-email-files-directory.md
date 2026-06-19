@@ -67,6 +67,35 @@ Role inboxes keep history when people rotate in or out of a position.
 If SharePoint says access is denied, first confirm the Microsoft invitation was
 accepted.
 
+## Committee Folder Organization
+
+Every committee has both an Office folder and a SharePoint folder/site. Those
+folders provide a consistent structure so staff, volunteers, committee members,
+and Board members know where to find information.
+
+To make that system work, committee-related materials need to stay in those
+locations. Office-only working documents, separate issues, staff-only drafts, or
+other material that is not part of the committee record should have its own
+workspace outside the committee folders.
+
+Anna's Microsoft account is currently the practical starting point for these
+shared folders because she is the de facto Microsoft administrator for
+day-to-day SHHA work. She creates or owns the shared folder and shares it with
+the users who need to stay in sync, such as Trish and Admin.
+
+After Anna shares a folder:
+
+1. Go to [onedrive.com](https://onedrive.com) and sign in with the correct
+   Microsoft account.
+2. Click **Shared** in the left sidebar.
+3. Open **Shared with you**.
+4. Find the folder Anna shared.
+5. Select the folder and choose **Add shortcut to My files**.
+6. Work in that shared folder from **My files** or through the OneDrive sync app.
+
+Use **Add shortcut to My files** rather than downloading and re-uploading the
+folder. The shortcut keeps everyone working from the same shared location.
+
 ## Other Addresses
 
 | Address | Use |
@@ -98,4 +127,3 @@ For a temporary task force, the usual setup is:
 3. Optional friendly alias, such as `wildfire@sandiahomeowners.org`.
 4. `itadmin@sandiahomeowners.org` included in the group for archive continuity.
 5. Test email delivery before announcing the address.
-

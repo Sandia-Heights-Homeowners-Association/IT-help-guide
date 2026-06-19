@@ -1,6 +1,6 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-06-09T22:27:33+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-06-19T21:36:06+00:00.
 
 ## Quick Links & Directory
 
@@ -39,6 +39,8 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 ## Task Group Email Help
 
 Need to explain how to use a temporary task-group address? Share this page: [Task Group Email Guide](/books/shha-it-help-guide/page/task-group-email-guide).
+
+**Need to understand where committee files belong?** See [SharePoint Folder Organization](/books/shha-it-help-guide/page/sharepoint-folder-organization).
 
 # Committee and Group Email Guide
 
@@ -108,6 +110,117 @@ If Microsoft emails mention Teams, that is default wording and can be ignored fo
 - [Quick Reference](/books/shha-it-help-guide/page/quick-reference)
 - [Volunteer without SHHA Email](/books/shha-it-help-guide/page/volunteer-without-shha-email)
 - [FAQ](/books/shha-it-help-guide/page/faq)
+
+# SharePoint Folder Organization
+
+This page explains where committee materials belong and how staff/admin users keep the same shared folders visible in OneDrive.
+
+## Short Version
+
+Every committee has two official places for committee-related materials:
+
+- An **Office folder** for staff-facing committee work.
+- A **SharePoint folder/site** for committee, volunteer, Board, and shared working materials.
+
+Those folders provide a consistent structure so staff, volunteers, committee members, and Board members know where to find information. To make that system work, committee-related materials need to stay in those locations.
+
+If there are office-only working documents, separate issues, drafts that do not belong in the committee record, or staff-only administration files, those should have their own workspace outside the committee folders.
+
+## Why This Matters
+
+The goal is boring in the best possible way: people should know where things are.
+
+When committee files live in predictable places:
+
+- Staff can find the current working file without asking three people.
+- Volunteers and committee members can use the same SharePoint links over time.
+- Board members can review materials without hunting through personal folders.
+- Role transitions are less painful because files are not trapped in one person's OneDrive.
+- The committee record stays coherent.
+
+## What Belongs In Committee Folders
+
+Use the committee Office folder or SharePoint folder for:
+
+- Meeting materials
+- Minutes and agendas
+- Committee reports
+- Working drafts that the committee needs
+- Reference documents
+- Photos or supporting materials for committee work
+- Files that future committee members should be able to find
+
+Do not keep committee materials only in a personal OneDrive folder, email attachment, desktop folder, or private side folder.
+
+## What Should Live Somewhere Else
+
+Use a separate workspace outside the committee folders for:
+
+- Office-only working notes
+- Staff-only administration files
+- Personnel or confidential documents
+- One-off issues that are not part of the committee record
+- Drafts that are not ready to share with the committee
+- Separate projects that should not clutter the committee folder
+
+If in doubt, ask: "Will a future committee chair, staff member, or Board member reasonably expect to find this in the committee record?" If yes, use the committee folder. If no, use a separate workspace.
+
+## How The Shared Folders Are Created
+
+Anna's Microsoft account is currently the practical starting point for these shared folders because she is the de facto Microsoft administrator for day-to-day SHHA work.
+
+The normal pattern is:
+
+1. Anna creates or owns the shared folder.
+2. Anna shares it with the users who need to stay in sync, such as Trish and Admin.
+3. Each recipient accepts or opens the shared folder.
+4. Each recipient adds the shared folder to their own OneDrive workspace so it stays easy to find.
+
+This avoids everyone keeping separate copies of the same folder.
+
+## How A Recipient Adds The Folder In OneDrive
+
+After Anna shares the folder:
+
+1. Go to [onedrive.com](https://onedrive.com) and sign in with the correct Microsoft account.
+2. In the left sidebar, click **Shared**.
+3. Open **Shared with you**.
+4. Find the folder Anna shared.
+5. Select the folder.
+6. Choose **Add shortcut to My files**.
+7. The folder should now appear in **My files** in OneDrive.
+8. If the OneDrive desktop sync app is running, the shortcut should also appear locally through OneDrive.
+
+Microsoft sometimes changes the exact wording, but the important action is **Add shortcut to My files**. That creates a shortcut to the shared folder. It does not make a separate copy.
+
+## Important OneDrive Notes
+
+- Do not download the folder and re-upload it somewhere else.
+- Do not make a separate copy unless there is a specific reason.
+- Do not rename or move the top-level shared folder shortcut casually; it can confuse everyone trying to use the same structure.
+- Work inside the shared folder so everyone sees the same current files.
+- If the folder does not appear under **Shared**, ask Anna to confirm it was shared with the correct account.
+- If the shortcut does not sync locally, open OneDrive on the web first and confirm the folder appears under **My files**.
+
+## Office Folder Versus SharePoint Folder
+
+Use the **Office folder** for staff-centered committee support work that needs to stay coordinated among office/admin users.
+
+Use the **SharePoint folder/site** for committee-facing materials and documents that volunteers, committee members, Board members, or future role holders need to access.
+
+Both matter. The main rule is not "everything goes everywhere." The rule is "committee-related materials belong in the official committee structure, and unrelated/private work belongs somewhere else."
+
+## If Something Looks Wrong
+
+Contact `ITHelp@sandiahomeowners.org` if:
+
+- You cannot see a shared folder Anna said she shared.
+- You accidentally made a duplicate copy and are not sure which one is current.
+- A committee folder seems to be missing expected files.
+- A folder appears under the wrong account.
+- OneDrive sync is showing errors.
+
+Include the folder name, the account you are signed in with, and a screenshot if possible.
 
 ## Getting Started
 
@@ -1225,7 +1338,7 @@ If the article is local, timely, useful, interesting, or amusing, you are probab
 
 # GRIT Internal Production Reference
 
-*Internal reference for the Communications &amp; Publications Committee, GRIT editor, layout volunteers, and office staff. This page tracks the working rhythm and handoffs behind each issue.*
+Internal reference for the Communications &amp; Publications Committee, GRIT editor, layout volunteers, and office staff. This page tracks the working rhythm and handoffs behind each issue.
 
 ## Purpose
 
@@ -1277,37 +1390,61 @@ The Editor and layout volunteers:
 
 Committee members review proofs and provide comments.
 
-### End Of Month: Final Approval
+### Final Board / Secretary Review And Printer Access
 
-The Editor prepares the final print-ready PDF.
+When the final issue is ready for Board review, the GRIT editor will copy the printer on the message that sends the final issue to the Board for review.
 
-The final PDF is uploaded to the Editor's Google Drive. The final Google Drive link becomes the authoritative version for printing and distribution.
+This gives the printer direct access to the final PDF in Google Drive and avoids passing large PDF files around as email attachments. It also lets the printer prepare the proof in parallel while content review is finishing.
+
+The Google Drive link should be treated as the authoritative file for the issue. Avoid sending large PDF attachments unless there is a specific reason.
+
+### Proof Approval
+
+Anna continues to review and approve the printer proof, but only after the Secretary has approved the issue content.
+
+Normal path:
+
+1. Editor sends the final issue to the Board / Secretary for review and copies the printer.
+2. Printer uses the Google Drive PDF to prepare the proof in parallel.
+3. Secretary approves the content.
+4. Anna reviews the printer proof.
+5. Anna approves the proof if it matches the approved content.
+
+If the Secretary requests changes, which should be infrequent:
+
+1. Anna does not approve the proof.
+2. The editor makes the requested content change.
+3. A revised final PDF is uploaded to Google Drive.
+4. The printer prepares a revised proof.
+5. Anna reviews and approves only after the corrected content is approved.
 
 ### Printer Handoff
 
-Office staff:
+The printer should have access to the final Google Drive PDF link as early as practical once the issue goes to Board / Secretary review.
 
-- Send the printer the final Google Drive link
-- Confirm receipt
-- Confirm expected print completion date
-- Confirm expected delivery date
+Office staff and the editor should confirm:
 
-Avoid emailing large PDF attachments whenever possible. Use the final Google Drive link.
+- The printer can access the Google Drive file.
+- The printer knows which PDF is the final/current version.
+- The proof is based on the Secretary-approved content.
+- The expected print completion and delivery timing are clear.
 
 ### Distribution
 
 Office staff:
 
-- Coordinate printed newsletter distribution
-- Send email distribution
-- Post the digital version online
+- Coordinate printed newsletter distribution.
+- Send email distribution.
+- Post the digital version online.
 
 ## Working Roles
 
 - **Communications &amp; Publications Committee:** owns the GRIT as a committee function and supports editorial direction.
-- **Editor:** reviews submissions, edits copy, selects content, resolves fit/placement, and prepares the final issue.
-- **Layout volunteers:** assemble the issue in InDesign and prepare proof PDFs.
-- **Office staff:** handle printer handoff, printed distribution coordination, email distribution, and posting support.
+- **Editor:** reviews submissions, edits copy, selects content, resolves fit/placement, sends the final issue for review, and gives the printer direct Google Drive access.
+- **Secretary:** approves the content before the proof is approved.
+- **Printer:** uses the Google Drive PDF to prepare the proof in parallel with final content review.
+- **Anna / office staff:** reviews and approves the printer proof after Secretary approval, coordinates print/distribution handoff, and holds approval if content changes are requested.
+- **Layout volunteers:** assemble the issue in InDesign and prepare proof PDFs as needed.
 
 ## Internal Checkpoints
 
@@ -1316,17 +1453,21 @@ Office staff:
 - Are photos likely to work in black-and-white print?
 - Are ads and classifieds in the correct issue folder?
 - Is the final Google Drive PDF link clearly identified as the authoritative version?
-- Has the printer confirmed receipt and delivery timing?
+- Has the printer been copied or otherwise given direct access to the Google Drive PDF?
+- Has the Secretary approved the content?
+- Is Anna approving the proof only after content approval?
+- If changes are requested, has proof approval been held until the revised content is ready?
 
 ## Goal
 
 The purpose of the schedule is to ensure that:
 
-- Events are announced before they occur
-- Information remains timely and useful
-- Print readers receive current content
-- Workload is distributed among volunteers and staff
-- Publication is not dependent on any one individual
+- Events are announced before they occur.
+- Information remains timely and useful.
+- Print readers receive current content.
+- Workload is distributed among volunteers and staff.
+- Publication is not dependent on any one individual.
+- The printer can work from the current Google Drive file instead of oversized email attachments.
 
 # GRIT Layout Monthly Guide
 

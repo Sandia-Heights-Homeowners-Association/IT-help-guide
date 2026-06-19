@@ -13,6 +13,8 @@ Bare code and working artifacts worth keeping:
 - `export-bookstack.py` - read-only BookStack exporter.
 - `bookstack-current/` - current raw export from BookStack.
 - `guide/` - reviewed, simplified Markdown guide built from the current export.
+- `pending-bookstack-updates/` - when present, publish-ready Markdown prepared
+  when a remote BookStack update cannot be completed in the current session.
 - `TODO.txt` - running list of screenshot/image ideas and editorial follow-ups.
 - `README.md` - repo notes and refresh instructions.
 
@@ -45,6 +47,11 @@ Use this flow:
 Do not treat `bookstack-current/` as hand-edited source. It is an export target.
 If a local correction needs to become real, apply it to BookStack, then export
 again.
+
+If network access is unavailable, draft the intended wiki text under
+`pending-bookstack-updates/`. On the next network-enabled session, publish those
+updates to BookStack first, then run `python3 export-bookstack.py` so
+`bookstack-current/` reflects the live wiki again.
 
 ## Images And Attachments
 
