@@ -1,5 +1,7 @@
 # Quick Links & Directory
 
+# Quick Links & Directory
+
 **Bookmark this page.** It has every link you need for day-to-day SHHA work.
 
 ## Login Links

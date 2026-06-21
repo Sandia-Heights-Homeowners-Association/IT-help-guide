@@ -28,6 +28,7 @@ and closed without scattering TODOs across the guide.
 | SHHA website | Platform, hosting, content owner, backup owner, consultant, admin URL |
 | GRIT newsletter | Production software, distribution method, editor/layout owner, Gmail purpose |
 | Square | Primary user, backup user, transaction types |
+| DigitalOcean productivity app droplet | Backup access, snapshot/backups, deployment owner, secret rotation process |
 | Domain registrar | DNS owner, renewal owner, backup access |
 
 ## Legacy Accounts

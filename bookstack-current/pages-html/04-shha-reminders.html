@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SHHA Reminders</title>
+</head>
+<body>
+<p id="bkmrk-shha-reminders-is-th">SHHA Reminders is the Sandia Heights Homeowners Association tool for sending automated reminder emails for meetings and events.</p>
+<p id="bkmrk-the-app-does-not-rep">The app does <strong>not</strong> replace Outlook, Teams, or Google Calendar. Office staff should keep creating and editing meetings in the existing calendar system. SHHA Reminders reads events from the Microsoft 365 calendar for <code>admin@sandiahomeowners.org</code>, then uses its own reminder rules, recipient groups, and email templates to send the right nudge at the right time.</p>
+<p id="bkmrk-production-url%3A-http">Production URL: <a href="https://reminders.sandiahomeowners.org">https://reminders.sandiahomeowners.org</a></p>
+<h2 id="bkmrk-who-can-log-in">Who Can Log In</h2>
+<p id="bkmrk-any-valid-microsoft-">Any valid Microsoft account ending in <code>@sandiahomeowners.org</code> can log in.</p>
+<p id="bkmrk-the-app-uses-microso">The app uses Microsoft sign-in. There is no shared app password, which is good because shared app passwords tend to become office folklore with a login prompt attached.</p>
+<h2 id="bkmrk-what-calendar-events">What Calendar Events Appear</h2>
+<p id="bkmrk-shha-reminders-reads">SHHA Reminders reads events from the calendar for <code>admin@sandiahomeowners.org</code>.</p>
+<p id="bkmrk-to-make-a-meeting-ap">To make a meeting appear in SHHA Reminders:</p>
+<ol id="bkmrk-create-or-edit-the-m">
+<li>Create or edit the meeting in Outlook or Teams.</li>
+<li>Invite <code>admin@sandiahomeowners.org</code> to the event.</li>
+<li>Open SHHA Reminders.</li>
+<li>Click <strong>Sync Calendar</strong>.</li>
+</ol>
+<p id="bkmrk-if-the-meeting-is-no">If the meeting is not on the <code>admin@sandiahomeowners.org</code> calendar, it will not appear in SHHA Reminders.</p>
+<h2 id="bkmrk-what-the-app-does">What The App Does</h2>
+<p id="bkmrk-shha-reminders-lets-">SHHA Reminders lets staff:</p>
+<ul id="bkmrk-view-upcoming-synced">
+<li>View upcoming synced calendar events.</li>
+<li>Attach reminder rules to individual events.</li>
+<li>Attach reminder rules to recurring meeting series.</li>
+<li>Manage recipient groups.</li>
+<li>Manage email templates.</li>
+<li>Send test emails for templates.</li>
+<li>View upcoming scheduled reminders.</li>
+<li>View logs as sending automation is expanded.</li>
+</ul>
+<h2 id="bkmrk-basic-workflow">Basic Workflow</h2>
+<ol id="bkmrk-confirm-the-meeting-">
+<li>Confirm the meeting exists in Outlook or Teams.</li>
+<li>Confirm <code>admin@sandiahomeowners.org</code> is invited.</li>
+<li>Open <a href="https://reminders.sandiahomeowners.org">SHHA Reminders</a>.</li>
+<li>Click <strong>Sync Calendar</strong>.</li>
+<li>Open <strong>Set Up Reminders</strong>.</li>
+<li>Select the event.</li>
+<li>Choose whether the rule applies to <strong>All Future</strong> occurrences or <strong>This Event</strong> only.</li>
+<li>Choose when to send the reminder, such as 7 days before or 1 day before.</li>
+<li>Choose the recipient group and email template.</li>
+<li>Click <strong>Add Reminder Rule</strong>.</li>
+<li>Use <strong>Send Test</strong> before relying on a new or edited template.</li>
+</ol>
+<p id="bkmrk-recurring-events%2C-su">Recurring events, such as regular Board meetings, can have rules that apply to all future occurrences. Ad-hoc meetings can have one-time reminder rules.</p>
+<h2 id="bkmrk-recipient-groups">Recipient Groups</h2>
+<p id="bkmrk-use-recipient-group-">Use <strong>Recipient Group</strong> to manage lists of email recipients, such as Board, committee members, office staff, or CPC members.</p>
+<p id="bkmrk-reminder-rules-send-">Reminder rules send to recipient groups, not to one-off typed addresses. This keeps the reminder rule tidy when people rotate on or off a committee.</p>
+<h2 id="bkmrk-templates">Templates</h2>
+<p id="bkmrk-use-templates-to-man">Use <strong>Templates</strong> to manage the text of reminder emails.</p>
+<p id="bkmrk-templates-support-va">Templates support variables, including:</p>
+<pre id="bkmrk-%7B%7Bevent.subject%7D%7D-%7B%7B"><code class="language-text">{{event.subject}}
+{{event.date}}
+{{event.time}}
+{{event.location}}
+{{event.joinUrl}}
+</code></pre>
+<p id="bkmrk-those-variables-are-">Those variables are replaced with details from the selected calendar event when the email is sent.</p>
+<p id="bkmrk-example%3A">Example:</p>
+<pre id="bkmrk-hello%2C-this-is-a-rem"><code class="language-text">Hello,
+
+This is a reminder that {{event.subject}} is scheduled for {{event.date}} at {{event.time}}.
+
+{{event.location}}
+{{event.joinUrl}}
+
+Thank you,
+SHHA
+</code></pre>
+<h2 id="bkmrk-teams-meeting-links">Teams Meeting Links</h2>
+<p id="bkmrk-teams-links-are-avai">Teams links are available through <code>{{event.joinUrl}}</code>.</p>
+<p id="bkmrk-the-link-comes-from-">The link comes from the Microsoft calendar event. If a Teams link is missing from a reminder, check the original Outlook or Teams event first.</p>
+<h2 id="bkmrk-cpc-and-irregular-me">CPC And Irregular Meetings</h2>
+<p id="bkmrk-for-irregular-meetin">For irregular meetings such as CPC meetings, the recommended workflow is:</p>
+<ol id="bkmrk-manually-create-the-">
+<li>Manually create the event in Outlook or Teams.</li>
+<li>Invite <code>admin@sandiahomeowners.org</code>.</li>
+<li>Sync SHHA Reminders.</li>
+<li>Use a reminder rule for the matching event or meeting title.</li>
+</ol>
+<p id="bkmrk-the-microsoft-calend">The Microsoft calendar remains the source of truth.</p>
+<h2 id="bkmrk-important-operating-">Important Operating Rules</h2>
+<ul id="bkmrk-do-not-create-events">
+<li>Do not create events directly in SHHA Reminders.</li>
+<li>Change meeting dates, cancellations, titles, and Teams links in Outlook or Teams.</li>
+<li>After changing calendar events, click <strong>Sync Calendar</strong> in SHHA Reminders.</li>
+<li>Use <strong>Send Test</strong> before relying on a new or edited template.</li>
+<li>Keep recipient groups up to date.</li>
+</ul>
+<h2 id="bkmrk-troubleshooting">Troubleshooting</h2>
+<h3 id="bkmrk-event-does-not-appea">Event Does Not Appear</h3>
+<p id="bkmrk-check%3A">Check:</p>
+<ul id="bkmrk-was-admin%40sandiahome">
+<li>Was <code>admin@sandiahomeowners.org</code> invited?</li>
+<li>Has the app been synced?</li>
+<li>Is the event within the configured sync window?</li>
+<li>Is the event on the Microsoft calendar, not only Google Calendar?</li>
+</ul>
+<h3 id="bkmrk-reminder-email-looks">Reminder Email Looks Wrong</h3>
+<p id="bkmrk-check%3A-1">Check:</p>
+<ul id="bkmrk-the-selected-templat">
+<li>The selected template.</li>
+<li>The calendar event title, date, location, and Teams link.</li>
+<li>The recipient group.</li>
+<li>Send a test email.</li>
+</ul>
+<h3 id="bkmrk-user-cannot-log-in">User Cannot Log In</h3>
+<p id="bkmrk-check%3A-2">Check:</p>
+<ul id="bkmrk-the-user-has-a-micro">
+<li>The user has a Microsoft account ending in <code>@sandiahomeowners.org</code>.</li>
+<li>The site is being accessed through HTTPS: <a href="https://reminders.sandiahomeowners.org">https://reminders.sandiahomeowners.org</a>.</li>
+</ul>
+<h3 id="bkmrk-emails-are-not-sendi">Emails Are Not Sending</h3>
+<p id="bkmrk-ask-it-to-check-micr">Ask IT to check Microsoft Graph mail permissions, the <code>admin@sandiahomeowners.org</code> sending mailbox, and whether the Microsoft Entra client secret has expired.</p>
+<h2 id="bkmrk-ownership">Ownership</h2>
+<p id="bkmrk-office-staff-own%3A">Office staff own:</p>
+<ul id="bkmrk-calendar-event-creat">
+<li>Calendar event creation and edits.</li>
+<li>Reminder rules.</li>
+<li>Recipient groups.</li>
+<li>Email templates.</li>
+<li>Test sends.</li>
+</ul>
+<p id="bkmrk-it-owns%3A">IT owns:</p>
+<ul id="bkmrk-hosting.-microsoft-e">
+<li>Hosting.</li>
+<li>Microsoft Entra app registration.</li>
+<li>Graph permissions.</li>
+<li>Docker deployment.</li>
+<li>Backups.</li>
+<li>Secrets and environment configuration.</li>
+<li>Caddy/reverse proxy configuration.</li>
+</ul>
+
+</body>
+</html>

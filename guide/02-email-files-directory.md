@@ -12,6 +12,17 @@ file-sharing rules.
 | Microsoft admin center | [admin.microsoft.com](https://admin.microsoft.com) | IT admins and trained staff |
 | Microsoft account settings | [account.microsoft.com](https://account.microsoft.com) | Anyone managing a Microsoft login |
 
+## SHHA Apps
+
+| App | Link | Use |
+| --- | --- | --- |
+| SHHA Reminders | [reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org) | Automated meeting and event reminder emails |
+
+SHHA Reminders reads events from the `admin@sandiahomeowners.org` Microsoft 365
+calendar. Office staff still create and edit meetings in Outlook or Teams, then
+sync the reminders app and attach reminder rules, recipient groups, and email
+templates.
+
 ## Mailing Lists
 
 Use these addresses to reach everyone currently in the group.
