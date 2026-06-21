@@ -29,6 +29,7 @@ and closed without scattering TODOs across the guide.
 | GRIT newsletter | Production software, distribution method, editor/layout owner, Gmail purpose |
 | Square | Primary user, backup user, transaction types |
 | DigitalOcean productivity app droplet | Backup access, snapshot/backups, deployment owner, secret rotation process |
+| SHHA GitHub organization | Access requests go to Heidi: <https://github.com/Sandia-Heights-Homeowners-Association> |
 | Domain registrar | DNS owner, renewal owner, backup access |
 
 ## Legacy Accounts

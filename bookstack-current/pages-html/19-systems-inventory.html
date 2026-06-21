@@ -7,6 +7,7 @@
 </head>
 <body>
 <h1 id="bkmrk-systems-inventory">Systems Inventory</h1>
+<h1 id="bkmrk-systems-inventory-1">Systems Inventory</h1>
 <p id="bkmrk-this-page-lists-the-">This page lists the technology systems SHHA uses. For each system, we document what it does, who administers it, and how it is accessed.</p>
 <p id="bkmrk-items-marked-todo-ne"><em>Items marked <strong>TODO</strong> need information filled in by someone with direct knowledge of that system.</em></p>
 <h2 id="bkmrk-1.-microsoft-365">1. Microsoft 365</h2>
@@ -34,6 +35,9 @@
 <p id="bkmrk-shha-has-a-digitaloc">SHHA has a DigitalOcean droplet for hosting ad-hoc productivity apps: small internal tools that help office staff or volunteers with specific workflows but are not the public website and are not Microsoft 365 itself.</p>
 <p id="bkmrk-shha-reminders-is-on">SHHA Reminders is one of these apps. It runs in Docker on the droplet, uses Caddy for HTTPS reverse proxying, and is available at <a href="https://reminders.sandiahomeowners.org">https://reminders.sandiahomeowners.org</a>. The app listens internally on port <code>3030</code>, with Caddy proxying public HTTPS traffic to <code>127.0.0.1:3030</code>.</p>
 <table id="bkmrk-%2A%2Ahosting%2A%2Adigitaloc"><tbody><tr><td>**Hosting**</td><td>DigitalOcean droplet</td></tr><tr><td>**Current app**</td><td>SHHA Reminders</td></tr><tr><td>**Production URL**</td><td>[https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)</td></tr><tr><td>**App directory**</td><td>`/opt/shha/SHHA-emailer`</td></tr><tr><td>**Internal port**</td><td>`3030`</td></tr><tr><td>**Reverse proxy**</td><td>Caddy</td></tr><tr><td>**Operational files to back up**</td><td>`.env`, `data/state.json`, and `/etc/caddy/Caddyfile`</td></tr><tr><td>**Secrets note**</td><td>Do not commit the production `.env` file to git.</td></tr></tbody></table>
+<h2 id="bkmrk-shha-github">SHHA GitHub</h2>
+<p id="bkmrk-shha%27s-github-organi">SHHA's GitHub organization is <a href="https://github.com/Sandia-Heights-Homeowners-Association">https://github.com/Sandia-Heights-Homeowners-Association</a>.</p>
+<p id="bkmrk-this-is-where-shha-s">This is where SHHA stores source code and local documentation backups for technical projects. For access, contact Heidi.</p>
 <h2 id="bkmrk-9.-other-systems">9. Other Systems</h2>
 <p id="bkmrk-todo%3A-are-there-addi"><strong>TODO:</strong> Are there additional systems not listed above? Examples might include:</p>
 <ul id="bkmrk-bulk-email-%2F-email-b">

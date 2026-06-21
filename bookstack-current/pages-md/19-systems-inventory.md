@@ -2,6 +2,8 @@
 
 # Systems Inventory
 
+# Systems Inventory
+
 This page lists the technology systems SHHA uses. For each system, we document what it does, who administers it, and how it is accessed.
 
 *Items marked **TODO** need information filled in by someone with direct knowledge of that system.*
@@ -56,6 +58,13 @@ SHHA has a DigitalOcean droplet for hosting ad-hoc productivity apps: small inte
 SHHA Reminders is one of these apps. It runs in Docker on the droplet, uses Caddy for HTTPS reverse proxying, and is available at [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org). The app listens internally on port `3030`, with Caddy proxying public HTTPS traffic to `127.0.0.1:3030`.
 
 <table><tbody><tr><td>**Hosting**</td><td>DigitalOcean droplet</td></tr><tr><td>**Current app**</td><td>SHHA Reminders</td></tr><tr><td>**Production URL**</td><td>[https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)</td></tr><tr><td>**App directory**</td><td>`/opt/shha/SHHA-emailer`</td></tr><tr><td>**Internal port**</td><td>`3030`</td></tr><tr><td>**Reverse proxy**</td><td>Caddy</td></tr><tr><td>**Operational files to back up**</td><td>`.env`, `data/state.json`, and `/etc/caddy/Caddyfile`</td></tr><tr><td>**Secrets note**</td><td>Do not commit the production `.env` file to git.</td></tr></tbody></table>
+
+
+## SHHA GitHub
+
+SHHA's GitHub organization is [https://github.com/Sandia-Heights-Homeowners-Association](https://github.com/Sandia-Heights-Homeowners-Association).
+
+This is where SHHA stores source code and local documentation backups for technical projects. For access, contact Heidi.
 
 ## 9. Other Systems
 
