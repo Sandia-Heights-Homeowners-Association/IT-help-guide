@@ -1,12 +1,14 @@
 # Quick Links & Directory
 
-# Quick Links & Directory
-
 **Bookmark this page.** It has every link you need for day-to-day SHHA work.
 
 ## Login Links
 
 <table id="bkmrk-what-you-needwhere-t"><thead><tr><th>What you need</th><th>Where to go</th><th>Who uses it</th></tr></thead><tbody><tr><td>Email (staff &amp; role mailbox holders)</td><td>[outlook.com](https://outlook.com)</td><td>Staff, officers, chairs</td></tr><tr><td>OneDrive / personal files</td><td>[onedrive.com](https://onedrive.com)</td><td>Licensed users</td></tr><tr><td>Admin console (manage users &amp; groups)</td><td>[admin.microsoft.com](https://admin.microsoft.com)</td><td>IT admins only</td></tr><tr><td>Committee files (SharePoint)</td><td>See [SharePoint Sites](#bkmrk-sharepoint-sites-%28co) below</td><td>All volunteers</td></tr></tbody></table>
+
+## SHHA Apps
+
+- [SHHA Reminders](https://reminders.sandiahomeowners.org) - automated meeting and event reminder emails. See [SHHA Reminders](/books/shha-it-help-guide/page/shha-reminders) for setup and troubleshooting.
 
 ## Mailing Lists (Committee &amp; Group Email Addresses)
 
@@ -34,6 +36,6 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 
 ## Task Group Email Help
 
-Need to explain how to use a temporary task-group address? Share this page: [Task Group Email Guide](/books/shha-it-help-guide/page/task-group-email-guide).
+Need to explain how to use a temporary task-group address? Share this page: [Committee and Group Email Guide](/books/shha-it-help-guide/page/committee-and-group-email-guide).
 
 **Need to understand where committee files belong?** See [SharePoint Folder Organization](/books/shha-it-help-guide/page/sharepoint-folder-organization).

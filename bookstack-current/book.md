@@ -1,10 +1,8 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-06-21T21:36:56+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-06-23T00:34:39+00:00.
 
 ## Quick Links & Directory
-
-# Quick Links & Directory
 
 # Quick Links & Directory
 
@@ -13,6 +11,10 @@ Exported from https://wiki.sandiahomeowners.org on 2026-06-21T21:36:56+00:00.
 ## Login Links
 
 <table id="bkmrk-what-you-needwhere-t"><thead><tr><th>What you need</th><th>Where to go</th><th>Who uses it</th></tr></thead><tbody><tr><td>Email (staff &amp; role mailbox holders)</td><td>[outlook.com](https://outlook.com)</td><td>Staff, officers, chairs</td></tr><tr><td>OneDrive / personal files</td><td>[onedrive.com](https://onedrive.com)</td><td>Licensed users</td></tr><tr><td>Admin console (manage users &amp; groups)</td><td>[admin.microsoft.com](https://admin.microsoft.com)</td><td>IT admins only</td></tr><tr><td>Committee files (SharePoint)</td><td>See [SharePoint Sites](#bkmrk-sharepoint-sites-%28co) below</td><td>All volunteers</td></tr></tbody></table>
+
+## SHHA Apps
+
+- [SHHA Reminders](https://reminders.sandiahomeowners.org) - automated meeting and event reminder emails. See [SHHA Reminders](/books/shha-it-help-guide/page/shha-reminders) for setup and troubleshooting.
 
 ## Mailing Lists (Committee &amp; Group Email Addresses)
 
@@ -40,7 +42,7 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 
 ## Task Group Email Help
 
-Need to explain how to use a temporary task-group address? Share this page: [Task Group Email Guide](/books/shha-it-help-guide/page/task-group-email-guide).
+Need to explain how to use a temporary task-group address? Share this page: [Committee and Group Email Guide](/books/shha-it-help-guide/page/committee-and-group-email-guide).
 
 **Need to understand where committee files belong?** See [SharePoint Folder Organization](/books/shha-it-help-guide/page/sharepoint-folder-organization).
 
@@ -2155,10 +2157,6 @@ If you only need one address that emails the whole task force, do **SOP A** only
 
 # Systems Inventory
 
-# Systems Inventory
-
-# Systems Inventory
-
 This page lists the technology systems SHHA uses. For each system, we document what it does, who administers it, and how it is accessed.
 
 *Items marked **TODO** need information filled in by someone with direct knowledge of that system.*
@@ -2205,15 +2203,13 @@ Used for Sandia Tram ticket sales and advertising payments.
 
 <table id="bkmrk-typecloud-based-prim-2"><tbody><tr><td>**Type**</td><td>Cloud-based</td></tr><tr><td>**Primary user**</td><td>**TODO:** Who manages Square transactions?</td></tr><tr><td>**Backup**</td><td>**TODO:** Is there a backup?</td></tr><tr><td>**Login**</td><td>[squareup.com](https://squareup.com)</td></tr><tr><td>**Notes**</td><td>**TODO:** What specific transactions go through Square? Revenue amounts?</td></tr></tbody></table>
 
-
 ## 8. DigitalOcean Productivity App Hosting
 
 SHHA has a DigitalOcean droplet for hosting ad-hoc productivity apps: small internal tools that help office staff or volunteers with specific workflows but are not the public website and are not Microsoft 365 itself.
 
 SHHA Reminders is one of these apps. It runs in Docker on the droplet, uses Caddy for HTTPS reverse proxying, and is available at [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org). The app listens internally on port `3030`, with Caddy proxying public HTTPS traffic to `127.0.0.1:3030`.
 
-<table><tbody><tr><td>**Hosting**</td><td>DigitalOcean droplet</td></tr><tr><td>**Current app**</td><td>SHHA Reminders</td></tr><tr><td>**Production URL**</td><td>[https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)</td></tr><tr><td>**App directory**</td><td>`/opt/shha/SHHA-emailer`</td></tr><tr><td>**Internal port**</td><td>`3030`</td></tr><tr><td>**Reverse proxy**</td><td>Caddy</td></tr><tr><td>**Operational files to back up**</td><td>`.env`, `data/state.json`, and `/etc/caddy/Caddyfile`</td></tr><tr><td>**Secrets note**</td><td>Do not commit the production `.env` file to git.</td></tr></tbody></table>
-
+<table id="bkmrk-hostingdigitalocean-"><tbody><tr><td>**Hosting**</td><td>DigitalOcean droplet</td></tr><tr><td>**Current app**</td><td>SHHA Reminders</td></tr><tr><td>**Production URL**</td><td>[https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)</td></tr><tr><td>**App directory**</td><td>`/opt/shha/SHHA-emailer`</td></tr><tr><td>**Internal port**</td><td>`3030`</td></tr><tr><td>**Reverse proxy**</td><td>Caddy</td></tr><tr><td>**Operational files to back up**</td><td>`.env`, `data/state.json`, and `/etc/caddy/Caddyfile`</td></tr><tr><td>**Secrets note**</td><td>Do not commit the production `.env` file to git.</td></tr></tbody></table>
 
 ## SHHA GitHub
 

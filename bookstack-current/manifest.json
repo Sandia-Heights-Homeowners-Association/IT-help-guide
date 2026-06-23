@@ -3,7 +3,7 @@
   "book_id": 1,
   "book_name": "SHHA IT Help Guide",
   "book_updated_at": "2026-04-01T04:20:24.000000Z",
-  "exported_at": "2026-06-21T21:36:56+00:00",
+  "exported_at": "2026-06-23T00:34:39+00:00",
   "pages": [
     {
       "id": 17,
@@ -11,11 +11,11 @@
       "slug": "quick-links-directory",
       "chapter": "Quick Links & Directory",
       "priority": 1,
-      "updated_at": "2026-06-21T21:24:22.000000Z",
+      "updated_at": "2026-06-23T00:34:12.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-links-directory",
       "markdown": "bookstack-current/pages-md/01-quick-links-directory.md",
       "html": "bookstack-current/pages-html/01-quick-links-directory.html",
-      "revision_count": 4
+      "revision_count": 5
     },
     {
       "id": 24,
@@ -227,11 +227,11 @@
       "slug": "systems-inventory",
       "chapter": "Operations & Administration",
       "priority": 1,
-      "updated_at": "2026-06-21T21:36:31.000000Z",
+      "updated_at": "2026-06-23T00:34:12.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/systems-inventory",
       "markdown": "bookstack-current/pages-md/19-systems-inventory.md",
       "html": "bookstack-current/pages-html/19-systems-inventory.html",
-      "revision_count": 3
+      "revision_count": 4
     },
     {
       "id": 20,

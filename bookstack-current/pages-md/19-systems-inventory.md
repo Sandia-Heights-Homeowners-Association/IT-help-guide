@@ -1,9 +1,5 @@
 # Systems Inventory
 
-# Systems Inventory
-
-# Systems Inventory
-
 This page lists the technology systems SHHA uses. For each system, we document what it does, who administers it, and how it is accessed.
 
 *Items marked **TODO** need information filled in by someone with direct knowledge of that system.*
@@ -50,15 +46,13 @@ Used for Sandia Tram ticket sales and advertising payments.
 
 <table id="bkmrk-typecloud-based-prim-2"><tbody><tr><td>**Type**</td><td>Cloud-based</td></tr><tr><td>**Primary user**</td><td>**TODO:** Who manages Square transactions?</td></tr><tr><td>**Backup**</td><td>**TODO:** Is there a backup?</td></tr><tr><td>**Login**</td><td>[squareup.com](https://squareup.com)</td></tr><tr><td>**Notes**</td><td>**TODO:** What specific transactions go through Square? Revenue amounts?</td></tr></tbody></table>
 
-
 ## 8. DigitalOcean Productivity App Hosting
 
 SHHA has a DigitalOcean droplet for hosting ad-hoc productivity apps: small internal tools that help office staff or volunteers with specific workflows but are not the public website and are not Microsoft 365 itself.
 
 SHHA Reminders is one of these apps. It runs in Docker on the droplet, uses Caddy for HTTPS reverse proxying, and is available at [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org). The app listens internally on port `3030`, with Caddy proxying public HTTPS traffic to `127.0.0.1:3030`.
 
-<table><tbody><tr><td>**Hosting**</td><td>DigitalOcean droplet</td></tr><tr><td>**Current app**</td><td>SHHA Reminders</td></tr><tr><td>**Production URL**</td><td>[https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)</td></tr><tr><td>**App directory**</td><td>`/opt/shha/SHHA-emailer`</td></tr><tr><td>**Internal port**</td><td>`3030`</td></tr><tr><td>**Reverse proxy**</td><td>Caddy</td></tr><tr><td>**Operational files to back up**</td><td>`.env`, `data/state.json`, and `/etc/caddy/Caddyfile`</td></tr><tr><td>**Secrets note**</td><td>Do not commit the production `.env` file to git.</td></tr></tbody></table>
-
+<table id="bkmrk-hostingdigitalocean-"><tbody><tr><td>**Hosting**</td><td>DigitalOcean droplet</td></tr><tr><td>**Current app**</td><td>SHHA Reminders</td></tr><tr><td>**Production URL**</td><td>[https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)</td></tr><tr><td>**App directory**</td><td>`/opt/shha/SHHA-emailer`</td></tr><tr><td>**Internal port**</td><td>`3030`</td></tr><tr><td>**Reverse proxy**</td><td>Caddy</td></tr><tr><td>**Operational files to back up**</td><td>`.env`, `data/state.json`, and `/etc/caddy/Caddyfile`</td></tr><tr><td>**Secrets note**</td><td>Do not commit the production `.env` file to git.</td></tr></tbody></table>
 
 ## SHHA GitHub
 
