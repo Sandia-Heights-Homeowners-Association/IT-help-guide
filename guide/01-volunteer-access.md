@@ -16,6 +16,10 @@ First-time setup:
 4. Open the committee SharePoint link from the directory.
 5. Confirm you receive messages from the committee mailing list.
 
+External volunteers use SharePoint in their web browser for committee
+documents. Do not add committee folders to OneDrive or move committee files
+into a personal OneDrive.
+
 The invitation may mention Teams. For normal SHHA volunteer work, use email and
 SharePoint links instead of Teams.
 
@@ -78,10 +82,12 @@ usually the safer mailbox for SHHA business.
 For committee documents:
 
 1. Upload the file to the committee SharePoint site.
-2. Copy a SharePoint link.
-3. Send the link to the committee mailing-list address.
+2. Note the folder location and file name.
+3. Email that information to the committee mailing-list address.
 
 Avoid sending attachments for documents that should remain in committee records.
+Do not use **Share** or **Copy link** to grant the group access; committee access
+comes from membership in the Microsoft 365 group.
 
 ## When To Ask For Help
 

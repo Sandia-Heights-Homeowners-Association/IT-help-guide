@@ -45,27 +45,21 @@ Only SHHA office staff and IT administrators need paid licenses.
 
 <a id="bkmrk--7"></a>## Can I share a file directly to the committee mailing list from SharePoint?
 
-**Not reliably** when the group includes external (guest) members, which most SHHA groups do. SharePoint's built-in "Share" dialog sometimes cannot resolve external-member group addresses, and recipients may get "Access Denied" errors.
+**Not reliably** when the group includes external members using personal email addresses, which most SHHA groups do.
 
-### Use this reliable method instead
+Do not use **Share** or **Copy link** to grant a Board or committee group access. Move the file into the correct group SharePoint document library instead. Access comes from membership in that group's SharePoint/Microsoft 365 group.
 
-1. **Upload your file to the committee's SharePoint document library.**
-    - Open the SharePoint site link your committee uses.
-    - Click **Upload → Files**, then select your file.
-2. **Copy a sharing link for the file.**
-    - Select the file (click the circle icon next to its name).
-    - Click the **Share** button at the top of the page.
-    - In the sharing dialog, click **Copy link**. Make sure the link setting says something like *"People in Sandia Homeowners with the link can edit"*. Click the gear icon to adjust permissions if needed.
-    - Click **Copy**.
-3. **Email the link to the committee mailing list.**
-    - Open your personal email (Gmail, Yahoo Mail, Outlook.com, etc.).
-    - Compose a new message to the committee address (e.g., `csc@sandiahomeowners.org`).
-    - Paste the SharePoint link into the email body. Add a brief description.
-    - Click **Send**.
+- Board files belong in **Board - SharePoint**, not **Board - Office**.
+- Committee files belong in that committee's **- SharePoint** folder/document library.
+- Members using personal email addresses should open files through the appropriate SharePoint site.
  
-<div id="bkmrk-microsoft-help%3A-shar">**Microsoft help:** [Share SharePoint files or folders](https://support.microsoft.com/en-us/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)</div>---
+See [SharePoint Folder Organization](/books/shha-it-help-guide/page/sharepoint-folder-organization) for the decision flow and step-by-step instructions.
+
+---
 
 <a id="bkmrk--9"></a>## Why should I send links instead of attachments?
+
+**First put the file in the correct SharePoint document library.** A link points people to the file; it does not replace group permissions or make a personal OneDrive file available to external members.
 
 - **One official version.** Everyone views and edits the same file — no outdated copies.
 - **Less confusion.** No multiple versions floating around in different inboxes.

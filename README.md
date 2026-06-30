@@ -48,6 +48,26 @@ Do not treat `bookstack-current/` as hand-edited source. It is an export target.
 If a local correction needs to become real, apply it to BookStack, then export
 again.
 
+## BookStack API Editing Safety
+
+`bookstack-current/pages-md/` is a backup/export format, not a safe round-trip
+editing format for every BookStack page.
+
+Avoid taking Markdown from `pages-md/` and sending it back to an existing
+BookStack page when the page contains tables, email addresses, code spans, or
+rich links. BookStack may save Markdown inside existing HTML table cells, and
+email addresses in angle brackets can turn into broken HTML tags.
+
+Safer rule:
+
+- Use the BookStack WYSIWYG editor for manual edits.
+- For API edits to existing formatted pages, send an `html` payload with real
+  `<a>`, `<strong>`, `<code>`, `<table>`, and `mailto:` markup.
+- Markdown is fine for drafting plain-text pages, but verify the exported HTML
+  after publishing.
+- Always run `python3 export-bookstack.py` after remote edits, then search the
+  HTML export for raw Markdown that should have rendered.
+
 If network access is unavailable, draft the intended wiki text under
 `pending-bookstack-updates/`. On the next network-enabled session, publish those
 updates to BookStack first, then run `python3 export-bookstack.py` so
@@ -163,11 +183,15 @@ Recommended BookStack flow:
 
 1. Start Here
 2. Email, Files, and Directory
-3. Volunteer Access
-4. New Board Member Guide
-5. Staff and Admin SOPs
-6. Operations Open Items
-7. GRIT Contributor Guide
-8. GRIT Internal Production Reference
-9. GRIT Layout Monthly Guide
-10. FAQ as an appendix, not the primary navigation path
+3. Committee SharePoint Guide
+4. Microsoft Forms For RSVPs And Surveys
+5. Volunteer Access
+6. Office Onboarding Email Templates
+7. New Board Member Guide
+8. Staff and Admin SOPs
+9. SOP: Create a Committee SharePoint Site
+10. Operations Open Items
+11. GRIT Contributor Guide
+12. GRIT Internal Production Reference
+13. GRIT Layout Monthly Guide
+14. FAQ as an appendix, not the primary navigation path

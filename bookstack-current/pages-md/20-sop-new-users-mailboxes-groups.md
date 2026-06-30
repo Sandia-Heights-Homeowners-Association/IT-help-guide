@@ -8,7 +8,7 @@ This SOP is written for SHHA staff who are comfortable with basic Microsoft admi
 
 ## Quick Start: What Are You Trying to Set Up?
 
-<table id="bkmrk-if-you-need...go-to-"><thead><tr><th>If you need...</th><th>Go to this section</th></tr></thead><tbody><tr><td>A new task-force or committee mailing address that sends to all members</td><td>[SOP A: Create a Microsoft 365 Group (Mailing List)](#bkmrk-sop-a%3A-create-a-micr)</td></tr><tr><td>A role inbox for a chair or lead (keeps history when people rotate)</td><td>[SOP B: Create a Shared Mailbox](#bkmrk-sop-b%3A-create-a-shar)</td></tr><tr><td>A friendly one-off address like wildfire@sandiahomeowners.org</td><td>[SOP C: Add an Alias](#bkmrk-sop-c%3A-add-an-alias-)</td></tr><tr><td>An internal staff account with first.last@sandiahomeowners.org login</td><td>[SOP D: Add a Licensed User](#bkmrk-sop-d%3A-add-a-new-lic)</td></tr><tr><td>An external volunteer using Gmail/Yahoo/etc.</td><td>[SOP E: Add an External Guest](#bkmrk-sop-e%3A-add-an-extern)</td></tr></tbody></table>
+<table id="bkmrk-if-you-need...go-to-"><thead><tr><th>If you need...</th><th>Go to this section</th></tr></thead><tbody><tr><td>A new task-force or committee mailing address that sends to all members</td><td>[SOP A: Create a Microsoft 365 Group (Mailing List)](#bkmrk-sop-a%3A-create-a-micr)</td></tr><tr><td>A SharePoint document site for a new committee or task force</td><td>[SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site)</td></tr><tr><td>A role inbox for a chair or lead (keeps history when people rotate)</td><td>[SOP B: Create a Shared Mailbox](#bkmrk-sop-b%3A-create-a-shar)</td></tr><tr><td>A friendly one-off address like wildfire@sandiahomeowners.org</td><td>[SOP C: Add an Alias](#bkmrk-sop-c%3A-add-an-alias-)</td></tr><tr><td>An internal staff account with first.last@sandiahomeowners.org login</td><td>[SOP D: Add a Licensed User](#bkmrk-sop-d%3A-add-a-new-lic)</td></tr><tr><td>An external volunteer using Gmail/Yahoo/etc.</td><td>[SOP E: Add an External Guest](#bkmrk-sop-e%3A-add-an-extern)</td></tr></tbody></table>
 
 ---
 
@@ -20,7 +20,9 @@ For a new short-term task force, the normal pattern is:
 2. Add members (including external guests) and always include `itadmin@sandiahomeowners.org`.
 3. Create a **Shared Mailbox** for the task-force lead/chair if they need role continuity.
 4. Add an optional **Alias** (for example, `wildfire@sandiahomeowners.org`) if a friendlier address is useful.
-5. Test email delivery and update the Quick Links directory.
+5. Confirm the Microsoft 365 group-connected **SharePoint site** exists; do not create a duplicate.
+6. Configure document permissions using [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site) and send members the [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide).
+7. Test email delivery and update the Quick Links directory.
 
 If you only need one address that emails the whole task force, do **SOP A** only.
 
@@ -154,6 +156,10 @@ If you only need one address that emails the whole task force, do **SOP A** only
 
 ---
 
+## Send The Onboarding Email
+
+After setup and testing are complete, choose the matching message from [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates). Replace every placeholder and test every link before sending.
+
 ## Final Validation (Do This Before You Close the Ticket)
 
 - Group email tested
@@ -169,4 +175,5 @@ If you only need one address that emails the whole task force, do **SOP A** only
 
 - [M365 Email Building Blocks](/books/shha-it-help-guide/page/m365-email-building-blocks) for choosing the right pattern first
 - [M365 Email Groups, Role Inboxes &amp; Responsibilities](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities) for governance and handoff rules
+- [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site) for document-library setup and permissions
 - [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) to keep the address list current

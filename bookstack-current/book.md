@@ -1,6 +1,6 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-06-23T00:34:39+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-06-30T00:47:50+00:00.
 
 ## Quick Links & Directory
 
@@ -39,6 +39,16 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 ## Other SHHA Email Addresses
 
 <table id="bkmrk-addresspurpose-offic"><thead><tr><th>Address</th><th>Purpose</th></tr></thead><tbody><tr><td><office@sandiahomeowners.org></td><td>General office inquiries, mailing list changes, GRIT submissions</td></tr><tr><td><ithelp@sandiahomeowners.org></td><td>IT support — access issues, SharePoint help, mailbox permissions</td></tr><tr><td><itadmin@sandiahomeowners.org></td><td>Archive-only — member of every group for recordkeeping (not monitored)</td></tr><tr><td>sandiahomeowners@gmail.com</td><td>Legacy Gmail address — **TODO:** document current purpose and who monitors this</td></tr><tr><td>shhagrit@gmail.com</td><td>GRIT newsletter Gmail — **TODO:** document current purpose, who monitors, and relationship to M365</td></tr></tbody></table>
+
+## Committee SharePoint Help
+
+Committee and task-force members can use the [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide) for document access, uploads, and troubleshooting.
+
+Office staff setting up a new committee site should use [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site).
+
+## Office Onboarding
+
+Office staff can use [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates) for new internal users, external volunteers, new committees, and newly launched SharePoint sites.
 
 ## Task Group Email Help
 
@@ -117,7 +127,7 @@ If Microsoft emails mention Teams, that is default wording and can be ignored fo
 
 # SharePoint Folder Organization
 
-This page explains where committee materials belong and how staff/admin users keep the same shared folders visible in OneDrive.
+This page explains where committee materials belong, how committee members work with SharePoint files, and how internal office users keep group-owned document libraries convenient without sending external members into OneDrive.
 
 ## Short Version
 
@@ -129,6 +139,27 @@ Every committee has two official places for committee-related materials:
 Those folders provide a consistent structure so staff, volunteers, committee members, and Board members know where to find information. To make that system work, committee-related materials need to stay in those locations.
 
 If there are office-only working documents, separate issues, drafts that do not belong in the committee record, or staff-only administration files, those should have their own workspace outside the committee folders.
+
+## Sharing A File With The Board Or A Committee
+
+**Do not use the Share button to give a Board or committee group access to a file.** Instead, move the file into the SharePoint folder that belongs to that group. Access comes from membership in the group's SharePoint/Microsoft 365 group.
+
+This matters because many Board and committee members use personal email addresses, such as Gmail. The **Share** or **Copy link** method works reliably only for users with `@sandiahomeowners.org` accounts. External members should access group files through the appropriate SharePoint site.
+
+### File-Sharing Decision Flow
+
+<table id="bkmrk-who-needs-the-file%3Fw"><thead><tr><th>Who needs the file?</th><th>Where should it go?</th><th>What should you do?</th></tr></thead><tbody><tr><td>Office staff only</td><td>**Board - Office** or the matching committee Office folder</td><td>Move the file there. This is internal office working space.</td></tr><tr><td>Board members, including members using personal email addresses</td><td>**Board - SharePoint**</td><td>Move the file there. Board members open it from the [Board SharePoint page](https://shha.sharepoint.com/sites/BOARD).</td></tr><tr><td>Committee members, including members using personal email addresses</td><td>The matching committee **- SharePoint** folder/document library</td><td>Move the file there. Members open it from their committee SharePoint site.</td></tr></tbody></table>
+
+### The Reliable Board Workflow
+
+1. Find the file in OneDrive or the Office folder.
+2. Move it into **Board - SharePoint**.
+3. Tell Board members to open the [Board SharePoint page](https://shha.sharepoint.com/sites/BOARD) and locate the file.
+4. If helpful, email the Board the folder name and file name. Do not use **Share** to create separate individual permissions.
+
+**Remember:** **Board - Office** is for office staff work. **Board - SharePoint** forms the Board SharePoint document library and is the correct place for files Board members need to access.
+
+The advantage of this slightly peculiar Microsoft arrangement is a clear separation between files intended for a specific group and files intended for general internal office use. The disadvantage is that Microsoft has once again made a folder name carry the emotional weight of a small policy manual.
 
 ## Why This Matters
 
@@ -167,44 +198,90 @@ Use a separate workspace outside the committee folders for:
 - Drafts that are not ready to share with the committee
 - Separate projects that should not clutter the committee folder
 
-If in doubt, ask: "Will a future committee chair, staff member, or Board member reasonably expect to find this in the committee record?" If yes, use the committee folder. If no, use a separate workspace.
+If in doubt, ask: “Will a future committee chair, staff member, or Board member reasonably expect to find this in the committee record?” If yes, use the committee folder. If no, use a separate workspace.
 
-## How The Shared Folders Are Created
+## Documents Shared With Board
 
-Anna's Microsoft account is currently the practical starting point for these shared folders because she is the de facto Microsoft administrator for day-to-day SHHA work.
+To help preserve institutional knowledge and make important committee information easier to find, each committee SharePoint site now contains a folder called **Documents Shared with Board**.
 
-The normal pattern is:
+These folders are linked from the [Board SharePoint site](https://shha.sharepoint.com/sites/BOARD), so Board members can access committee reference materials from a single location.
 
-1. Anna creates or owns the shared folder.
-2. Anna shares it with the users who need to stay in sync, such as Trish and Admin.
-3. Each recipient accepts or opens the shared folder.
-4. Each recipient adds the shared folder to their own OneDrive workspace so it stays easy to find.
+This area is for documents that should be available to Board members but are not necessarily appropriate for public distribution. Useful examples include:
 
-This avoids everyone keeping separate copies of the same folder.
+- Legal analyses
+- Committee procedures
+- Information related to ongoing disputes or projects
+- Committee charters
+- Resident welcome materials
+- Other enduring reference documents
 
-## How A Recipient Adds The Folder In OneDrive
+At launch, these folders may be empty. Committee chairs should add useful files as they identify them. Office staff can also assist.
 
-After Anna shares the folder:
+In general, use this space for enduring documents that Board members may need to reference months or years later. The goal is to keep important information from being buried in monthly meeting folders or old email threads.
 
-1. Go to [onedrive.com](https://onedrive.com) and sign in with the correct Microsoft account.
-2. In the left sidebar, click **Shared**.
-3. Open **Shared with you**.
-4. Find the folder Anna shared.
-5. Select the folder.
-6. Choose **Add shortcut to My files**.
-7. The folder should now appear in **My files** in OneDrive.
-8. If the OneDrive desktop sync app is running, the shortcut should also appear locally through OneDrive.
+Committee members have full read/write access to their respective committee SharePoint sites and can add documents as needed.
 
-Microsoft sometimes changes the exact wording, but the important action is **Add shortcut to My files**. That creates a shortcut to the shared folder. It does not make a separate copy.
+For the full list of direct links to committee SharePoint sites and document libraries, visit the [Quick Links &amp; Directory](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-links-directory) page and scroll to **SharePoint Sites (Committee Document Libraries)**.
 
-## Important OneDrive Notes
+If you encounter issues or have suggestions for improvement, contact Anna or Heidi.
 
-- Do not download the folder and re-upload it somewhere else.
-- Do not make a separate copy unless there is a specific reason.
-- Do not rename or move the top-level shared folder shortcut casually; it can confuse everyone trying to use the same structure.
-- Work inside the shared folder so everyone sees the same current files.
-- If the folder does not appear under **Shared**, ask Anna to confirm it was shared with the correct account.
-- If the shortcut does not sync locally, open OneDrive on the web first and confirm the folder appears under **My files**.
+## How Committee Members Add Or Remove Files
+
+Committee members can create, upload, edit, move, and delete files within their committee's SharePoint document library. That includes members using SHHA Microsoft accounts and approved external accounts, as long as they are members of the committee's SharePoint/Microsoft 365 group.
+
+To add a file:
+
+1. Open the committee SharePoint site.
+2. Open the **Documents** library.
+3. Open the correct folder.
+4. Use **Upload** for an existing file, or **New** to create a new Word, Excel, PowerPoint, folder, or other supported file.
+5. Confirm the file appears in the committee folder, not in a personal OneDrive folder.
+
+To edit, move, rename, or delete a file:
+
+1. Open the file or select it in the **Documents** library.
+2. Use the toolbar or right-click menu for actions such as **Rename**, **Move to**, **Copy to**, or **Delete**.
+3. For shared committee materials, prefer **Move to** over downloading and re-uploading. That keeps version history and links more intact.
+
+**Small caution:** because committee members have write access, deleting or moving files affects everyone. If a folder looks old but might be part of the committee record, ask before tidying it into oblivion. SharePoint has a recycle bin, but “let's not test the recycle bin today” is usually the happier workflow.
+
+## Office Staff: Adding A SharePoint Folder To OneDrive
+
+**This shortcut is for internal SHHA users only.**
+
+1. Open the committee SharePoint site.
+2. Open the **Documents** library.
+3. Select **Add shortcut to OneDrive** or **Add shortcut to My files**.
+4. Confirm the library appears under **My files** in that user's OneDrive.
+
+The shortcut points to the original group-owned SharePoint library. It does not create a copy. Each internal user must add the shortcut while signed in to their own account.
+
+**External committee members should not use OneDrive for committee documents.** Members using Gmail, Yahoo, iCloud, or another personal email address must bookmark the committee SharePoint site and work in the Documents library through their browser.
+
+## Committee SharePoint Permissions
+
+Each committee SharePoint site is connected to its SharePoint/Microsoft 365 group. Membership in that group controls access to the committee document library.
+
+- **Committee members:** Contribute access to Documents. They can create, upload, edit, move, and delete documents.
+- **Office staff:** Owner / Full Control access. They manage membership, permissions, navigation, and the SharePoint home page.
+
+Committee chairs do not need site-owner access or an `@sandiahomeowners.org` account to work with documents. Keeping page administration with office staff avoids handing a volunteer an accidental cockpit full of Microsoft switches.
+
+Changes to Microsoft 365 group membership automatically update access to the committee's SharePoint documents.
+
+## Group-Owned SharePoint Libraries
+
+Committee SharePoint Documents libraries are owned by the committee's Microsoft 365 group. They are not folders in Anna's personal OneDrive and should not be shared person-by-person.
+
+Office staff create or administer the group-connected site and manage membership. Committee members receive document access through group membership. Internal office users may add the Documents library as a OneDrive shortcut; external members use the SharePoint site directly.
+
+## Important OneDrive Notes For Office Staff
+
+- OneDrive shortcuts are only for internal office users with SHHA Microsoft accounts.
+- Each internal user adds the shortcut while signed in to their own account.
+- Do not download and re-upload the library or create a separate copy.
+- Do not rename or move the top-level shortcut casually.
+- External committee members use SharePoint only and should never be given OneDrive instructions.
 
 ## Office Folder Versus SharePoint Folder
 
@@ -212,17 +289,23 @@ Use the **Office folder** for staff-centered committee support work that needs t
 
 Use the **SharePoint folder/site** for committee-facing materials and documents that volunteers, committee members, Board members, or future role holders need to access.
 
-Both matter. The main rule is not "everything goes everywhere." The rule is "committee-related materials belong in the official committee structure, and unrelated/private work belongs somewhere else."
+Both matter. The main rule is not “everything goes everywhere.” The rule is “committee-related materials belong in the official committee structure, and unrelated/private work belongs somewhere else.”
+
+## Related Guides
+
+- [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide) for committee members
+- [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site) for office staff and IT
 
 ## If Something Looks Wrong
 
-Contact `ITHelp@sandiahomeowners.org` if:
+Contact <ITHelp@sandiahomeowners.org> if:
 
 - You cannot see a shared folder Anna said she shared.
 - You accidentally made a duplicate copy and are not sure which one is current.
 - A committee folder seems to be missing expected files.
 - A folder appears under the wrong account.
 - OneDrive sync is showing errors.
+- A committee member was added but still cannot access the SharePoint site.
 
 Include the folder name, the account you are signed in with, and a screenshot if possible.
 
@@ -393,6 +476,96 @@ IT owns:
 - Backups.
 - Secrets and environment configuration.
 - Caddy/reverse proxy configuration.
+
+# Committee SharePoint Guide
+
+**Audience:** SHHA committee and task-force members. Office staff handle site setup, membership, permissions, and changes to the SharePoint home page.
+
+## Email And Documents Are Two Different Tools
+
+<table id="bkmrk-tooluse-it-for-your-"><thead><tr><th>Tool</th><th>Use it for</th></tr></thead><tbody><tr><td>Your committee mailing list</td><td>Emailing everyone in the committee</td></tr><tr><td>Your committee SharePoint site</td><td>Storing and working on committee documents</td></tr></tbody></table>
+
+Use the direct site and mailing-list links supplied by office staff or listed in [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory).
+
+## External Members: Use SharePoint, Not OneDrive
+
+If you use Gmail, Yahoo, iCloud, or another personal email address, access committee documents only through the committee SharePoint site in your browser.
+
+- Bookmark the committee SharePoint site.
+- Sign in with the same personal email address that received the SHHA Microsoft invitation.
+- Do not try to add the committee folder to OneDrive.
+- Do not move committee files into a personal OneDrive.
+
+This is the standard SHHA workflow for external committee members. It keeps everyone working from the same group-owned document library.
+
+## What Committee Members Can Do
+
+Committee members have read/write access to the **Documents** library. You may:
+
+- Open and download documents
+- Create folders
+- Upload files
+- Create Word, Excel, or PowerPoint files
+- Edit and rename files
+- Move files within the Documents library
+- Delete files that should no longer be kept
+
+Deleting or moving a file affects everyone, so ask before reorganizing material that may be part of the committee record.
+
+## What Office Staff Handle
+
+Contact office staff for:
+
+- Adding or removing committee members
+- Changes to the SharePoint home page or navigation
+- Permissions changes
+- Help recovering or reorganizing files
+
+The committee chair does not need an `@sandiahomeowners.org` account or site-owner access to work with documents.
+
+## How To Open The Documents
+
+1. Open the committee's SharePoint link.
+2. Sign in using the same email address that received your SHHA Microsoft invitation.
+3. If Microsoft emails a one-time passcode, enter that code.
+4. Select **Documents**.
+5. Open the folder you need.
+
+## How To Add A File
+
+1. Open **Documents** and the correct folder.
+2. Select **Upload** → **Files**.
+3. Choose the file from your computer.
+4. Wait for the upload to finish and confirm the file appears.
+
+To create a file directly in SharePoint, select **New** and choose Word, Excel, PowerPoint, or Folder.
+
+## How To Edit, Move, Or Delete A File
+
+1. Select the file using the circle beside its name, or right-click it.
+2. Choose **Open**, **Rename**, **Move to**, or **Delete**.
+3. Use **Move to** when reorganizing files. Do not download and re-upload a file just to move it.
+
+## Documents Shared With Board
+
+Use **Documents Shared with Board** for enduring reference material Board members may need later, such as procedures, legal analyses, project background, charters, or other non-public reference documents.
+
+If future Board members may need it, do not let it disappear into an old email thread.
+
+## How To Share A File With The Committee
+
+Put the file in the committee SharePoint Documents library, then email the committee mailing list with the file name and folder location.
+
+Do not use the Share button to grant the committee access. Group membership already provides document access, including for approved members using personal email addresses.
+
+## If Something Does Not Work
+
+Contact office staff or <ITHelp@sandiahomeowners.org>. Include:
+
+- The email address used to sign in
+- The SharePoint site or folder being opened
+- The exact error message
+- A screenshot, if possible
 
 ## Getting Started
 
@@ -786,6 +959,156 @@ Avoid one-off attachments for files that should remain in committee records.
 - [FAQ](faq.html)
 - [Quick Reference](quick-reference.html)
 
+# Office Onboarding Email Templates
+
+**Purpose:** Copy-and-send welcome emails from SHHA Office or IT Help **to the newly onboarded employee, volunteer, or committee members**.
+
+Choose the matching scenario, replace every item in square brackets, delete lines that do not apply, and send the completed message to the new users. These are not internal setup notifications; they tell the recipients that setup is complete and explain what they should do next.
+
+## Placeholder Key
+
+<table id="bkmrk-placeholderreplace-w"><thead><tr><th>Placeholder</th><th>Replace with</th></tr></thead><tbody><tr><td>`[FIRST NAME]`</td><td>Recipient's first name</td></tr><tr><td>`[SHHA EMAIL]`</td><td>New internal `@sandiahomeowners.org` address</td></tr><tr><td>`[COMMITTEE NAME]`</td><td>Full committee or task-force name</td></tr><tr><td>`[MAILING LIST]`</td><td>Committee mailing-list address</td></tr><tr><td>`[SHAREPOINT LINK]`</td><td>Direct committee SharePoint site URL</td></tr><tr><td>`[WIKI LINK]`</td><td>The most relevant wiki page listed below the template</td></tr><tr><td>`[OFFICE CONTACT]`</td><td>Office staff contact name or email</td></tr></tbody></table>
+
+## Before Sending Any Template
+
+- Confirm the account, group membership, mailing list, and SharePoint permissions are already working.
+- Test links before sending.
+- Do not include passwords in the same email as usernames or account instructions. Send a temporary password through a separate channel.
+- For external users, never include OneDrive instructions. External committee members use SharePoint in a browser.
+- Keep the direct SharePoint link in the message. Do not make recipients hunt for it.
+
+## Template 1: New Internal Staff User
+
+**Use for:** a staff member receiving a licensed `@sandiahomeowners.org` account.
+
+**Suggested wiki link:** [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email) or [Quick Reference](/books/shha-it-help-guide/page/quick-reference).
+
+```
+Subject: Your SHHA Microsoft account
+
+Hi [FIRST NAME],
+
+Your SHHA Microsoft account is ready.
+
+Username: [SHHA EMAIL]
+Sign in: https://outlook.com
+
+Your temporary password will be provided separately. Microsoft will ask you to change it when you first sign in.
+
+After signing in, please confirm that you can open Outlook and any SharePoint sites needed for your role.
+
+Getting-started instructions are here:
+[WIKI LINK]
+
+If anything does not work, please contact ITHelp@sandiahomeowners.org and include a screenshot of the error.
+
+Thank you,
+[OFFICE CONTACT]
+```
+
+## Template 2: New External Volunteer
+
+**Use for:** a volunteer using Gmail, Yahoo, iCloud, Outlook.com, or another personal address.
+
+**Suggested wiki link:** [Volunteer without SHHA Email](/books/shha-it-help-guide/page/volunteer-without-shha-email).
+
+```
+Subject: Welcome to SHHA - Microsoft invitation and committee access
+
+Hi [FIRST NAME],
+
+Welcome, and thank you for volunteering with SHHA.
+
+Microsoft will send an organization invitation to this email address. Please open that message and select Accept invitation. Sign in using the same email address that received the invitation. Microsoft may send you a one-time passcode.
+
+After accepting the invitation, you will receive committee email through:
+[MAILING LIST]
+
+Your committee documents are available here:
+[SHAREPOINT LINK]
+
+Please bookmark the SharePoint link. External volunteers use SharePoint in a web browser and should not add committee files to OneDrive.
+
+Step-by-step instructions are here:
+[WIKI LINK]
+
+If you have trouble, please contact ITHelp@sandiahomeowners.org and include the email address you used, the link you opened, and a screenshot of the error.
+
+Thank you,
+[OFFICE CONTACT]
+```
+
+## Template 3: New Committee Or Task Force
+
+**Use for:** the initial launch email after the mailing list, membership, and SharePoint site have all been tested.
+
+**Suggested wiki link:** [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide).
+
+```
+Subject: [COMMITTEE NAME] email and SharePoint information
+
+Hello everyone,
+
+The [COMMITTEE NAME] Microsoft group is ready.
+
+Mailing list: [MAILING LIST]
+Use this address when a message should go to everyone in the committee.
+
+SharePoint documents: [SHAREPOINT LINK]
+Use the Documents library for committee files, working documents, and enduring reference materials.
+
+All committee members have read/write access to the Documents library. Office staff manage membership, permissions, and changes to the SharePoint home page.
+
+Members using personal email addresses should bookmark the SharePoint site and use it in a web browser. External members should not use OneDrive for committee documents.
+
+Instructions for uploading, editing, moving, and deleting files are here:
+[WIKI LINK]
+
+Please contact [OFFICE CONTACT] for membership or site changes, or ITHelp@sandiahomeowners.org for access problems.
+
+Thank you,
+[OFFICE CONTACT]
+```
+
+## Template 4: New SharePoint Site For An Existing Committee
+
+**Use for:** a committee whose mailing list already works but whose SharePoint document site was created later or was never introduced properly.
+
+**Suggested wiki link:** [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide).
+
+```
+Subject: New SharePoint document site for [COMMITTEE NAME]
+
+Hello everyone,
+
+The [COMMITTEE NAME] mailing list is not changing. You can continue using:
+[MAILING LIST]
+
+We have now set up the committee SharePoint site for shared documents:
+[SHAREPOINT LINK]
+
+Please use the SharePoint Documents library for committee files instead of personal OneDrive folders, email attachments, or individual Share links. All committee members have read/write access to the Documents library.
+
+Members using personal email addresses should bookmark the SharePoint site and access documents there in a web browser. External members should not use OneDrive for committee documents.
+
+Office staff will manage membership, permissions, and the SharePoint home page. Committee members can create, upload, edit, move, and delete files in Documents.
+
+Instructions are here:
+[WIKI LINK]
+
+Please contact [OFFICE CONTACT] with membership or organization questions, or ITHelp@sandiahomeowners.org if the site will not open.
+
+Thank you,
+[OFFICE CONTACT]
+```
+
+## Related Office SOPs
+
+- [SOP: New Users, Mailboxes &amp; Groups](/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups)
+- [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site)
+- [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide)
+- [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)
+
 # Volunteer without SHHA Email
 
 This page is for volunteers who participate using a personal email address. You usually do **not** need a paid Microsoft license.
@@ -970,27 +1293,21 @@ Only SHHA office staff and IT administrators need paid licenses.
 
 <a id="bkmrk--7"></a>## Can I share a file directly to the committee mailing list from SharePoint?
 
-**Not reliably** when the group includes external (guest) members, which most SHHA groups do. SharePoint's built-in "Share" dialog sometimes cannot resolve external-member group addresses, and recipients may get "Access Denied" errors.
+**Not reliably** when the group includes external members using personal email addresses, which most SHHA groups do.
 
-### Use this reliable method instead
+Do not use **Share** or **Copy link** to grant a Board or committee group access. Move the file into the correct group SharePoint document library instead. Access comes from membership in that group's SharePoint/Microsoft 365 group.
 
-1. **Upload your file to the committee's SharePoint document library.**
-    - Open the SharePoint site link your committee uses.
-    - Click **Upload → Files**, then select your file.
-2. **Copy a sharing link for the file.**
-    - Select the file (click the circle icon next to its name).
-    - Click the **Share** button at the top of the page.
-    - In the sharing dialog, click **Copy link**. Make sure the link setting says something like *"People in Sandia Homeowners with the link can edit"*. Click the gear icon to adjust permissions if needed.
-    - Click **Copy**.
-3. **Email the link to the committee mailing list.**
-    - Open your personal email (Gmail, Yahoo Mail, Outlook.com, etc.).
-    - Compose a new message to the committee address (e.g., `csc@sandiahomeowners.org`).
-    - Paste the SharePoint link into the email body. Add a brief description.
-    - Click **Send**.
+- Board files belong in **Board - SharePoint**, not **Board - Office**.
+- Committee files belong in that committee's **- SharePoint** folder/document library.
+- Members using personal email addresses should open files through the appropriate SharePoint site.
  
-<div id="bkmrk-microsoft-help%3A-shar">**Microsoft help:** [Share SharePoint files or folders](https://support.microsoft.com/en-us/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c)</div>---
+See [SharePoint Folder Organization](/books/shha-it-help-guide/page/sharepoint-folder-organization) for the decision flow and step-by-step instructions.
+
+---
 
 <a id="bkmrk--9"></a>## Why should I send links instead of attachments?
+
+**First put the file in the correct SharePoint document library.** A link points people to the file; it does not replace group permissions or make a personal OneDrive file available to external members.
 
 - **One official version.** Everyone views and edits the same file — no outdated copies.
 - **Less confusion.** No multiple versions floating around in different inboxes.
@@ -1990,7 +2307,7 @@ This SOP is written for SHHA staff who are comfortable with basic Microsoft admi
 
 ## Quick Start: What Are You Trying to Set Up?
 
-<table id="bkmrk-if-you-need...go-to-"><thead><tr><th>If you need...</th><th>Go to this section</th></tr></thead><tbody><tr><td>A new task-force or committee mailing address that sends to all members</td><td>[SOP A: Create a Microsoft 365 Group (Mailing List)](#bkmrk-sop-a%3A-create-a-micr)</td></tr><tr><td>A role inbox for a chair or lead (keeps history when people rotate)</td><td>[SOP B: Create a Shared Mailbox](#bkmrk-sop-b%3A-create-a-shar)</td></tr><tr><td>A friendly one-off address like wildfire@sandiahomeowners.org</td><td>[SOP C: Add an Alias](#bkmrk-sop-c%3A-add-an-alias-)</td></tr><tr><td>An internal staff account with first.last@sandiahomeowners.org login</td><td>[SOP D: Add a Licensed User](#bkmrk-sop-d%3A-add-a-new-lic)</td></tr><tr><td>An external volunteer using Gmail/Yahoo/etc.</td><td>[SOP E: Add an External Guest](#bkmrk-sop-e%3A-add-an-extern)</td></tr></tbody></table>
+<table id="bkmrk-if-you-need...go-to-"><thead><tr><th>If you need...</th><th>Go to this section</th></tr></thead><tbody><tr><td>A new task-force or committee mailing address that sends to all members</td><td>[SOP A: Create a Microsoft 365 Group (Mailing List)](#bkmrk-sop-a%3A-create-a-micr)</td></tr><tr><td>A SharePoint document site for a new committee or task force</td><td>[SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site)</td></tr><tr><td>A role inbox for a chair or lead (keeps history when people rotate)</td><td>[SOP B: Create a Shared Mailbox](#bkmrk-sop-b%3A-create-a-shar)</td></tr><tr><td>A friendly one-off address like wildfire@sandiahomeowners.org</td><td>[SOP C: Add an Alias](#bkmrk-sop-c%3A-add-an-alias-)</td></tr><tr><td>An internal staff account with first.last@sandiahomeowners.org login</td><td>[SOP D: Add a Licensed User](#bkmrk-sop-d%3A-add-a-new-lic)</td></tr><tr><td>An external volunteer using Gmail/Yahoo/etc.</td><td>[SOP E: Add an External Guest](#bkmrk-sop-e%3A-add-an-extern)</td></tr></tbody></table>
 
 ---
 
@@ -2002,7 +2319,9 @@ For a new short-term task force, the normal pattern is:
 2. Add members (including external guests) and always include `itadmin@sandiahomeowners.org`.
 3. Create a **Shared Mailbox** for the task-force lead/chair if they need role continuity.
 4. Add an optional **Alias** (for example, `wildfire@sandiahomeowners.org`) if a friendlier address is useful.
-5. Test email delivery and update the Quick Links directory.
+5. Confirm the Microsoft 365 group-connected **SharePoint site** exists; do not create a duplicate.
+6. Configure document permissions using [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site) and send members the [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide).
+7. Test email delivery and update the Quick Links directory.
 
 If you only need one address that emails the whole task force, do **SOP A** only.
 
@@ -2136,6 +2455,10 @@ If you only need one address that emails the whole task force, do **SOP A** only
 
 ---
 
+## Send The Onboarding Email
+
+After setup and testing are complete, choose the matching message from [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates). Replace every placeholder and test every link before sending.
+
 ## Final Validation (Do This Before You Close the Ticket)
 
 - Group email tested
@@ -2151,7 +2474,134 @@ If you only need one address that emails the whole task force, do **SOP A** only
 
 - [M365 Email Building Blocks](/books/shha-it-help-guide/page/m365-email-building-blocks) for choosing the right pattern first
 - [M365 Email Groups, Role Inboxes &amp; Responsibilities](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities) for governance and handoff rules
+- [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site) for document-library setup and permissions
 - [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) to keep the address list current
+
+# SOP: Create a Committee SharePoint Site
+
+**Audience:** SHHA office staff and IT administrators. This is not a committee-member task.
+
+**Goal:** connect an existing committee Microsoft 365 group to its group-owned SharePoint document library, keep site-page administration with office staff, and give committee members read/write access to documents.
+
+## Before You Start
+
+Write down these values before opening Microsoft 365:
+
+<table id="bkmrk-committee-namethe-fu"><tbody><tr><td>**Committee name**</td><td>The full display name</td></tr><tr><td>**Microsoft 365 group**</td><td>The existing group/mailing-list name</td></tr><tr><td>**Group email**</td><td>The committee mailing-list address</td></tr><tr><td>**Expected site address**</td><td>`https://shha.sharepoint.com/sites/[GROUP-NAME]`</td></tr><tr><td>**Office owners**</td><td>Primary and backup office/admin accounts</td></tr></tbody></table>
+
+The finished site should be **Private**. Office staff are Owners / Full Control. Committee members have **Contribute** access to documents and do not administer the home page.
+
+## Step 1: Find The Existing Group-Connected Site
+
+A Microsoft 365 group normally provisions a connected SharePoint team site. If the mailing list already exists, **do not begin by creating another site or group**.
+
+1. Try `https://shha.sharepoint.com/sites/[GROUP-NAME]`.
+2. If that does not open, go to [admin.microsoft.com](https://admin.microsoft.com) → **Show all** → **Admin centers** → **SharePoint**.
+3. Open **Sites** → **Active sites**.
+4. Search for both the committee's full name and group name.
+5. In the Microsoft 365 admin center, open **Teams &amp; groups** → **Active teams &amp; groups**, select the group, and confirm its type is **Microsoft 365**.
+
+If the group-connected site appears in Active sites, open it and continue.
+
+**If the Microsoft 365 group exists but no connected site can be found, stop and contact IT.** Do not create a similarly named standalone site. A duplicate separates mailing-list membership from document access.
+
+## Step 2: Confirm Office Staff Are Owners
+
+1. In the SharePoint admin center, open **Sites** → **Active sites**.
+2. Select the committee site.
+3. Select **Membership**.
+4. Confirm the primary and backup office/admin accounts are Owners or site admins.
+5. Add a backup office/admin owner if needed.
+6. Do not make the committee chair or ordinary committee members Owners.
+
+Owners may edit the home page, navigation, permissions, and site settings. Keep that role with office staff.
+
+## Step 3: Give Members Document Access Without Site Editing
+
+Microsoft normally gives group-connected team-site members **Edit** permission. SHHA uses **Contribute** so members can work with documents without managing lists or editing the site page.
+
+1. Open the committee SharePoint site.
+2. Select **Settings** → **Site permissions**.
+3. Select **Advanced permissions settings**.
+4. Select the SharePoint group whose name ends in **Members**. Do not select Owners or Visitors.
+5. Select **Edit User Permissions**.
+6. Clear **Edit**.
+7. Select **Contribute**.
+8. Select **OK**.
+
+Do not remove the committee Microsoft 365 group from the site. Group membership keeps the mailing list and document access synchronized.
+
+## Step 4: Keep The Site Simple
+
+A team site already includes a default **Documents** library. Do not create a second Documents library.
+
+1. Open **Documents** and confirm it works.
+2. Create a folder named **Documents Shared with Board**.
+3. If folder colors are available, apply the standard SHHA committee-folder color.
+4. Edit the left navigation and remove unused links. Keep the useful experience limited to **Home** and **Documents**.
+5. Do not delete the system **Site Pages** library; it supports the home page.
+
+## Step 5: Make The Home Page Minimal
+
+Only office staff should edit the home page.
+
+1. From the home page, select **Edit**.
+2. Use the committee's full name as the title.
+3. Add: “Use the Documents library for committee files and enduring reference materials.”
+4. Add or keep an obvious link to **Documents**.
+5. Remove unnecessary news, activity, and decorative web parts.
+6. Republish the page.
+
+## Step 6: Add The Library To Office OneDrive
+
+**This is only for internal office users with SHHA Microsoft accounts.** External users should never use OneDrive for committee documents; they use SharePoint in their browser.
+
+1. Sign in as the office user who needs the shortcut.
+2. Open the committee SharePoint site and then **Documents**.
+3. Select **Add shortcut to OneDrive** or **Add shortcut to My files**.
+4. Open that user's OneDrive and confirm the committee folder appears under **My files**.
+5. If the desktop OneDrive app is used, confirm the shortcut appears on that computer.
+6. Repeat while signed in as each internal office user who needs the shortcut.
+
+The shortcut points to the group-owned SharePoint library. It does not copy files into a personal OneDrive.
+
+## Step 7: Test With An External Member
+
+1. Ask one existing external group member to open the committee SharePoint site using the same personal email address that received the Microsoft invitation.
+2. Confirm the member can open **Documents**.
+3. Have the member upload a temporary file named **TEST - delete me**.
+4. Confirm the member can edit, rename, move, and delete the test file.
+5. Confirm the member cannot edit the home page, navigation, permissions, or membership.
+6. Confirm someone outside the group cannot open the private site.
+7. Remind the external tester to bookmark the SharePoint site and not use OneDrive.
+
+## Step 8: Publish The Member Instructions
+
+1. Send members the [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide).
+2. Add the committee mailing list and SharePoint URL to [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory).
+3. Tell external members to bookmark the SharePoint site. Do not give them OneDrive instructions.
+
+## Final Checklist
+
+- Existing group-connected site found; no duplicate created
+- Site is Private
+- Office staff are Owners / Full Control
+- Committee members use Contribute permissions
+- Documents library works
+- Documents Shared with Board folder created
+- Home page and navigation simplified
+- Office-user OneDrive shortcuts added separately
+- External member document test passed through SharePoint
+- External member cannot edit the site page
+- Directory updated
+- General member guide sent
+
+## Microsoft References
+
+- [Create a team site in SharePoint](https://support.microsoft.com/en-US/SharePoint/sites-in-sharepoint/create-a-team-site-in-sharepoint)
+- [Manage sites in the SharePoint admin center](https://learn.microsoft.com/en-us/sharepoint/manage-sites-in-new-admin-center)
+- [Permission levels in SharePoint](https://learn.microsoft.com/en-us/sharepoint/understanding-permission-levels)
+- [Add shortcuts to shared folders in OneDrive](https://support.microsoft.com/en-US/onedrive/add-shortcuts-to-shared-folders-in-onedrive)
 
 ## Operations & Administration
 

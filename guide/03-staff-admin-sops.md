@@ -72,6 +72,41 @@ Done checklist:
 - `itadmin@` added.
 - Test email delivered.
 
+## Create A Committee SharePoint Site
+
+Use the BookStack page **SOP: Create a Committee SharePoint Site** for the full
+walkthrough. The standard setup is:
+
+1. Find the SharePoint site already connected to the existing Microsoft 365
+   group. Do not create a duplicate site or group.
+2. Keep office staff as Owners / Full Control.
+3. Change the site's Members group from **Edit** to **Contribute** so committee
+   members can work with documents without editing the home page.
+4. Use the existing **Documents** library; do not create a second one.
+5. Create **Documents Shared with Board**.
+6. Keep the home page and navigation limited to the useful basics.
+7. Add OneDrive shortcuts only for internal office accounts.
+8. Test document access with a real external member using SharePoint in a
+   browser.
+9. Send members the general **Committee SharePoint Guide**.
+
+External committee members should never use OneDrive for committee documents.
+
+## Send The Welcome Email
+
+After setup and testing are complete, use the BookStack page **Office
+Onboarding Email Templates**. These are copy-and-send messages from Office or IT
+Help to the newly onboarded users:
+
+1. New internal licensed staff user.
+2. New external volunteer using a personal email address.
+3. Members of a newly formed committee or task force.
+4. Members of an existing committee receiving a SharePoint site later.
+
+Replace every bracketed placeholder, include the direct SharePoint and wiki
+links, and test the links before sending. Never send external users OneDrive
+instructions.
+
 ## Create A Shared Mailbox
 
 Use this for a role inbox that must keep history when people rotate.
@@ -113,4 +148,3 @@ mailbox.
 - `itadmin@` included in the group.
 - Directory updated with any new address.
 - Requester notified that setup is complete.
-

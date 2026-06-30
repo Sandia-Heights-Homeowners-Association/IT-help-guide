@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOP: Create a Committee SharePoint Site</title>
+</head>
+<body>
+<p id="bkmrk-audience%3A-shha-offic"><strong>Audience:</strong> SHHA office staff and IT administrators. This is not a committee-member task.</p>
+<p id="bkmrk-goal%3A-connect-an-exi"><strong>Goal:</strong> connect an existing committee Microsoft 365 group to its group-owned SharePoint document library, keep site-page administration with office staff, and give committee members read/write access to documents.</p>
+
+<h2 id="bkmrk-before-you-start">Before You Start</h2>
+<p id="bkmrk-write-down-these-val">Write down these values before opening Microsoft 365:</p>
+<table id="bkmrk-committee-namethe-fu"><tbody>
+<tr><td><strong>Committee name</strong></td><td>The full display name</td></tr>
+<tr><td><strong>Microsoft 365 group</strong></td><td>The existing group/mailing-list name</td></tr>
+<tr><td><strong>Group email</strong></td><td>The committee mailing-list address</td></tr>
+<tr><td><strong>Expected site address</strong></td><td><code>https://shha.sharepoint.com/sites/[GROUP-NAME]</code></td></tr>
+<tr><td><strong>Office owners</strong></td><td>Primary and backup office/admin accounts</td></tr>
+</tbody></table>
+<p id="bkmrk-the-finished-site-sh">The finished site should be <strong>Private</strong>. Office staff are Owners / Full Control. Committee members have <strong>Contribute</strong> access to documents and do not administer the home page.</p>
+
+<h2 id="bkmrk-step-1%3A-find-the-exi">Step 1: Find The Existing Group-Connected Site</h2>
+<p id="bkmrk-a-microsoft-365-grou">A Microsoft 365 group normally provisions a connected SharePoint team site. If the mailing list already exists, <strong>do not begin by creating another site or group</strong>.</p>
+<ol id="bkmrk-try-https%3A%2F%2Fshha.sha">
+<li>Try <code>https://shha.sharepoint.com/sites/[GROUP-NAME]</code>.</li>
+<li>If that does not open, go to <a href="https://admin.microsoft.com">admin.microsoft.com</a> → <strong>Show all</strong> → <strong>Admin centers</strong> → <strong>SharePoint</strong>.</li>
+<li>Open <strong>Sites</strong> → <strong>Active sites</strong>.</li>
+<li>Search for both the committee's full name and group name.</li>
+<li>In the Microsoft 365 admin center, open <strong>Teams &amp; groups</strong> → <strong>Active teams &amp; groups</strong>, select the group, and confirm its type is <strong>Microsoft 365</strong>.</li>
+</ol>
+<p id="bkmrk-if-the-group-connect">If the group-connected site appears in Active sites, open it and continue.</p>
+<p id="bkmrk-if-the-microsoft-365"><strong>If the Microsoft 365 group exists but no connected site can be found, stop and contact IT.</strong> Do not create a similarly named standalone site. A duplicate separates mailing-list membership from document access.</p>
+
+<h2 id="bkmrk-step-2%3A-confirm-offi">Step 2: Confirm Office Staff Are Owners</h2>
+<ol id="bkmrk-in-the-sharepoint-ad">
+<li>In the SharePoint admin center, open <strong>Sites</strong> → <strong>Active sites</strong>.</li>
+<li>Select the committee site.</li>
+<li>Select <strong>Membership</strong>.</li>
+<li>Confirm the primary and backup office/admin accounts are Owners or site admins.</li>
+<li>Add a backup office/admin owner if needed.</li>
+<li>Do not make the committee chair or ordinary committee members Owners.</li>
+</ol>
+<p id="bkmrk-owners-may-edit-the-">Owners may edit the home page, navigation, permissions, and site settings. Keep that role with office staff.</p>
+
+<h2 id="bkmrk-step-3%3A-give-members">Step 3: Give Members Document Access Without Site Editing</h2>
+<p id="bkmrk-microsoft-normally-g">Microsoft normally gives group-connected team-site members <strong>Edit</strong> permission. SHHA uses <strong>Contribute</strong> so members can work with documents without managing lists or editing the site page.</p>
+<ol id="bkmrk-open-the-committee-s">
+<li>Open the committee SharePoint site.</li>
+<li>Select <strong>Settings</strong> → <strong>Site permissions</strong>.</li>
+<li>Select <strong>Advanced permissions settings</strong>.</li>
+<li>Select the SharePoint group whose name ends in <strong>Members</strong>. Do not select Owners or Visitors.</li>
+<li>Select <strong>Edit User Permissions</strong>.</li>
+<li>Clear <strong>Edit</strong>.</li>
+<li>Select <strong>Contribute</strong>.</li>
+<li>Select <strong>OK</strong>.</li>
+</ol>
+<p id="bkmrk-do-not-remove-the-co">Do not remove the committee Microsoft 365 group from the site. Group membership keeps the mailing list and document access synchronized.</p>
+
+<h2 id="bkmrk-step-4%3A-keep-the-sit">Step 4: Keep The Site Simple</h2>
+<p id="bkmrk-a-team-site-already-">A team site already includes a default <strong>Documents</strong> library. Do not create a second Documents library.</p>
+<ol id="bkmrk-open-documents-and-c">
+<li>Open <strong>Documents</strong> and confirm it works.</li>
+<li>Create a folder named <strong>Documents Shared with Board</strong>.</li>
+<li>If folder colors are available, apply the standard SHHA committee-folder color.</li>
+<li>Edit the left navigation and remove unused links. Keep the useful experience limited to <strong>Home</strong> and <strong>Documents</strong>.</li>
+<li>Do not delete the system <strong>Site Pages</strong> library; it supports the home page.</li>
+</ol>
+
+<h2 id="bkmrk-step-5%3A-make-the-hom">Step 5: Make The Home Page Minimal</h2>
+<p id="bkmrk-only-office-staff-sh">Only office staff should edit the home page.</p>
+<ol id="bkmrk-from-the-home-page%2C-">
+<li>From the home page, select <strong>Edit</strong>.</li>
+<li>Use the committee's full name as the title.</li>
+<li>Add: “Use the Documents library for committee files and enduring reference materials.”</li>
+<li>Add or keep an obvious link to <strong>Documents</strong>.</li>
+<li>Remove unnecessary news, activity, and decorative web parts.</li>
+<li>Republish the page.</li>
+</ol>
+
+<h2 id="bkmrk-step-6%3A-add-the-libr">Step 6: Add The Library To Office OneDrive</h2>
+<p id="bkmrk-this-is-only-for-int"><strong>This is only for internal office users with SHHA Microsoft accounts.</strong> External users should never use OneDrive for committee documents; they use SharePoint in their browser.</p>
+<ol id="bkmrk-sign-in-as-the-offic">
+<li>Sign in as the office user who needs the shortcut.</li>
+<li>Open the committee SharePoint site and then <strong>Documents</strong>.</li>
+<li>Select <strong>Add shortcut to OneDrive</strong> or <strong>Add shortcut to My files</strong>.</li>
+<li>Open that user's OneDrive and confirm the committee folder appears under <strong>My files</strong>.</li>
+<li>If the desktop OneDrive app is used, confirm the shortcut appears on that computer.</li>
+<li>Repeat while signed in as each internal office user who needs the shortcut.</li>
+</ol>
+<p id="bkmrk-the-shortcut-points-">The shortcut points to the group-owned SharePoint library. It does not copy files into a personal OneDrive.</p>
+
+<h2 id="bkmrk-step-7%3A-test-with-an">Step 7: Test With An External Member</h2>
+<ol id="bkmrk-ask-one-existing-ext">
+<li>Ask one existing external group member to open the committee SharePoint site using the same personal email address that received the Microsoft invitation.</li>
+<li>Confirm the member can open <strong>Documents</strong>.</li>
+<li>Have the member upload a temporary file named <strong>TEST - delete me</strong>.</li>
+<li>Confirm the member can edit, rename, move, and delete the test file.</li>
+<li>Confirm the member cannot edit the home page, navigation, permissions, or membership.</li>
+<li>Confirm someone outside the group cannot open the private site.</li>
+<li>Remind the external tester to bookmark the SharePoint site and not use OneDrive.</li>
+</ol>
+
+<h2 id="bkmrk-step-8%3A-publish-the-">Step 8: Publish The Member Instructions</h2>
+<ol id="bkmrk-send-members-the-com">
+<li>Send members the <a href="/books/shha-it-help-guide/page/committee-sharepoint-guide">Committee SharePoint Guide</a>.</li>
+<li>Add the committee mailing list and SharePoint URL to <a href="/books/shha-it-help-guide/page/quick-links-directory">Quick Links &amp; Directory</a>.</li>
+<li>Tell external members to bookmark the SharePoint site. Do not give them OneDrive instructions.</li>
+</ol>
+
+<h2 id="bkmrk-final-checklist">Final Checklist</h2>
+<ul id="bkmrk-existing-group-conne">
+<li>Existing group-connected site found; no duplicate created</li>
+<li>Site is Private</li>
+<li>Office staff are Owners / Full Control</li>
+<li>Committee members use Contribute permissions</li>
+<li>Documents library works</li>
+<li>Documents Shared with Board folder created</li>
+<li>Home page and navigation simplified</li>
+<li>Office-user OneDrive shortcuts added separately</li>
+<li>External member document test passed through SharePoint</li>
+<li>External member cannot edit the site page</li>
+<li>Directory updated</li>
+<li>General member guide sent</li>
+</ul>
+
+<h2 id="bkmrk-microsoft-references">Microsoft References</h2>
+<ul id="bkmrk-create-a-team-site-i">
+<li><a href="https://support.microsoft.com/en-US/SharePoint/sites-in-sharepoint/create-a-team-site-in-sharepoint">Create a team site in SharePoint</a></li>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/manage-sites-in-new-admin-center">Manage sites in the SharePoint admin center</a></li>
+<li><a href="https://learn.microsoft.com/en-us/sharepoint/understanding-permission-levels">Permission levels in SharePoint</a></li>
+<li><a href="https://support.microsoft.com/en-US/onedrive/add-shortcuts-to-shared-folders-in-onedrive">Add shortcuts to shared folders in OneDrive</a></li>
+</ul>
+</body>
+</html>

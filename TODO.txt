@@ -46,3 +46,31 @@ These are candidate locations where a screenshot could help later.
 11. GRIT Contributor Guide - Photos That Are Hard To Print
     Image idea: Add redacted or generic examples of low-contrast / distant /
     busy photos that become muddy in black-and-white printing.
+
+12. SOP: Create a Committee SharePoint Site - Active Sites
+    Screenshot idea: SharePoint admin center showing where to search Active
+    sites for an existing group-connected site.
+
+13. SOP: Create a Committee SharePoint Site - Member Permissions
+    Screenshot idea: Advanced permissions showing the Members group changed
+    from Edit to Contribute.
+
+14. Committee SharePoint Guide - Documents Library
+    Screenshot idea: A generic committee Documents library with Upload, New,
+    Move to, and Documents Shared with Board visible.
+
+15. Office SharePoint Shortcut
+    Screenshot idea: Add shortcut to OneDrive in a Documents library, clearly
+    labeled as an internal-office-only step.
+
+16. Microsoft Forms For RSVPs And Surveys - Create A Form
+    Screenshot idea: Microsoft Forms home page showing the New Form button while
+    signed in with an SHHA account.
+
+17. Microsoft Forms For RSVPs And Surveys - Collect Responses
+    Screenshot idea: Collect responses panel showing where to choose the
+    response audience and copy the respondent link.
+
+18. Microsoft Forms For RSVPs And Surveys - Results
+    Screenshot idea: Responses tab with the export-to-Excel option, using test
+    data only.
