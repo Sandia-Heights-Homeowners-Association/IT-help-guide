@@ -34,7 +34,7 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 
 ## Other SHHA Email Addresses
 
-<table id="bkmrk-addresspurpose-offic"><thead><tr><th>Address</th><th>Purpose</th></tr></thead><tbody><tr><td><office@sandiahomeowners.org></td><td>General office inquiries, mailing list changes, GRIT submissions</td></tr><tr><td><ithelp@sandiahomeowners.org></td><td>IT support — access issues, SharePoint help, mailbox permissions</td></tr><tr><td><itadmin@sandiahomeowners.org></td><td>Archive-only — member of every group for recordkeeping (not monitored)</td></tr><tr><td>sandiahomeowners@gmail.com</td><td>Legacy Gmail address — **TODO:** document current purpose and who monitors this</td></tr><tr><td>shhagrit@gmail.com</td><td>GRIT newsletter Gmail — **TODO:** document current purpose, who monitors, and relationship to M365</td></tr></tbody></table>
+<table id="bkmrk-addresspurpose-offic"><thead><tr><th>Address</th><th>Purpose</th></tr></thead><tbody><tr><td><office@sandiahomeowners.org></td><td>General office inquiries, mailing list changes, GRIT submissions</td></tr><tr><td><ithelp@sandiahomeowners.org></td><td>IT support — access issues, SharePoint help, mailbox permissions</td></tr><tr><td><admin@sandiahomeowners.org></td><td>Archive-only — member of every group for recordkeeping (not monitored)</td></tr><tr><td>sandiahomeowners@gmail.com</td><td>Legacy Gmail address — **TODO:** document current purpose and who monitors this</td></tr><tr><td>shhagrit@gmail.com</td><td>GRIT newsletter Gmail — **TODO:** document current purpose, who monitors, and relationship to M365</td></tr></tbody></table>
 
 ## Committee SharePoint Help
 

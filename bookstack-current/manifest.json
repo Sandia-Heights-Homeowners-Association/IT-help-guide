@@ -3,7 +3,7 @@
   "book_id": 1,
   "book_name": "SHHA IT Help Guide",
   "book_updated_at": "2026-04-01T04:20:24.000000Z",
-  "exported_at": "2026-07-31T18:01:51+00:00",
+  "exported_at": "2026-07-31T18:04:06+00:00",
   "pages": [
     {
       "id": 17,
@@ -11,11 +11,11 @@
       "slug": "quick-links-directory",
       "chapter": "Quick Links & Directory",
       "priority": 1,
-      "updated_at": "2026-07-31T17:55:08.000000Z",
+      "updated_at": "2026-07-31T18:03:20.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-links-directory",
       "markdown": "bookstack-current/pages-md/01-quick-links-directory.md",
       "html": "bookstack-current/pages-html/01-quick-links-directory.html",
-      "revision_count": 9
+      "revision_count": 10
     },
     {
       "id": 24,
@@ -71,11 +71,11 @@
       "slug": "overview",
       "chapter": "Getting Started",
       "priority": 2,
-      "updated_at": "2026-06-09T17:20:07.000000Z",
+      "updated_at": "2026-07-31T18:03:23.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/overview",
       "markdown": "bookstack-current/pages-md/06-overview.md",
       "html": "bookstack-current/pages-html/06-overview.html",
-      "revision_count": 3
+      "revision_count": 4
     },
     {
       "id": 4,
@@ -95,11 +95,11 @@
       "slug": "quick-reference",
       "chapter": "Getting Started",
       "priority": 4,
-      "updated_at": "2026-07-31T17:55:09.000000Z",
+      "updated_at": "2026-07-31T18:03:25.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-reference",
       "markdown": "bookstack-current/pages-md/08-quick-reference.md",
       "html": "bookstack-current/pages-html/08-quick-reference.html",
-      "revision_count": 4
+      "revision_count": 5
     },
     {
       "id": 7,
@@ -167,11 +167,11 @@
       "slug": "faq",
       "chapter": "Frequently Asked Questions",
       "priority": 10,
-      "updated_at": "2026-07-31T17:58:01.000000Z",
+      "updated_at": "2026-07-31T18:03:28.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/faq",
       "markdown": "bookstack-current/pages-md/14-faq.md",
       "html": "bookstack-current/pages-html/14-faq.html",
-      "revision_count": 8
+      "revision_count": 9
     },
     {
       "id": 26,
@@ -215,11 +215,11 @@
       "slug": "m365-email-groups-role-inboxes-responsibilities",
       "chapter": "Technical Reference",
       "priority": 14,
-      "updated_at": "2026-07-31T17:56:42.000000Z",
+      "updated_at": "2026-07-31T18:03:31.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities",
       "markdown": "bookstack-current/pages-md/18-m365-email-groups-role-inboxes-responsibilities.md",
       "html": "bookstack-current/pages-html/18-m365-email-groups-role-inboxes-responsibilities.html",
-      "revision_count": 3
+      "revision_count": 4
     },
     {
       "id": 22,
@@ -227,11 +227,11 @@
       "slug": "m365-email-building-blocks",
       "chapter": "Technical Reference",
       "priority": 15,
-      "updated_at": "2026-07-31T18:00:26.000000Z",
+      "updated_at": "2026-07-31T18:03:32.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/m365-email-building-blocks",
       "markdown": "bookstack-current/pages-md/19-m365-email-building-blocks.md",
       "html": "bookstack-current/pages-html/19-m365-email-building-blocks.html",
-      "revision_count": 5
+      "revision_count": 6
     },
     {
       "id": 23,
@@ -239,11 +239,11 @@
       "slug": "sop-new-users-mailboxes-groups",
       "chapter": "Technical Reference",
       "priority": 16,
-      "updated_at": "2026-07-31T17:56:46.000000Z",
+      "updated_at": "2026-07-31T18:03:34.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups",
       "markdown": "bookstack-current/pages-md/20-sop-new-users-mailboxes-groups.md",
       "html": "bookstack-current/pages-html/20-sop-new-users-mailboxes-groups.html",
-      "revision_count": 9
+      "revision_count": 10
     },
     {
       "id": 30,

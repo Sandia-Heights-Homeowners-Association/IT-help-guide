@@ -33,7 +33,7 @@ You generally do **not** need to create personal mailboxes for volunteers. Exter
 
 ## Archive Rule
 
-Every mailing list (Microsoft Group) **must** include `itadmin@sandiahomeowners.org` as a member. This is the archive account that preserves all committee email for continuity and records. It is not monitored for support.
+Every mailing list (Microsoft Group) **must** include `admin@sandiahomeowners.org` as a member. This is the archive account that preserves all committee email for continuity and records. It is not monitored for support.
 
 ## Cost Summary
 

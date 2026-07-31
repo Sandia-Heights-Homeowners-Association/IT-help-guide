@@ -167,7 +167,7 @@ to the committee's SharePoint documents.
 | --- | --- |
 | `office@sandiahomeowners.org` | General office inquiries, mailing-list changes, GRIT submissions |
 | `ITHelp@sandiahomeowners.org` | Access issues, SharePoint help, mailbox permissions |
-| `itadmin@sandiahomeowners.org` | Archive account; member of all groups; not monitored for support |
+| `admin@sandiahomeowners.org` | Archive account; member of all groups; not monitored for support |
 | `sandiahomeowners@gmail.com` | Legacy account; current purpose still needs documentation |
 | `shhagrit@gmail.com` | Legacy GRIT account; current purpose still needs documentation |
 
@@ -233,5 +233,5 @@ For a temporary task force, the usual setup is:
 1. A Microsoft 365 Group mailing list for all members.
 2. No shared mailbox for the task-force lead or committee chair.
 3. Optional friendly alias, such as `wildfire@sandiahomeowners.org`.
-4. `itadmin@sandiahomeowners.org` included in the group for archive continuity.
+4. `admin@sandiahomeowners.org` included in the group for archive continuity.
 5. Test email delivery before announcing the address.

@@ -210,7 +210,7 @@ If you have an exceptional need for forwarding, contact **ITHelp@sandiahomeowner
 
 - Ask your **committee chair** or a current member to forward key threads.
 - Check the committee's **SharePoint document library** — important decisions should be saved as files, not just buried in email.
-- The SHHA **archive mailbox** (`itadmin@sandiahomeowners.org`) retains a copy of all group emails. Contact **ITHelp@sandiahomeowners.org** to request specific messages.
+- The SHHA **archive mailbox** (`admin@sandiahomeowners.org`) retains a copy of all group emails. Contact **ITHelp@sandiahomeowners.org** to request specific messages.
  
 ### Shared role mailbox emails
 

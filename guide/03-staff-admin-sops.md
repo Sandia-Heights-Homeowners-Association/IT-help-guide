@@ -9,7 +9,7 @@ Microsoft 365 access.
 | --- | --- | --- |
 | Maintain committee group membership | Anna / office staff | IT admin |
 | Manage shared mailbox permissions | Anna plus IT admin | IT admin |
-| Keep `itadmin@` in all groups | IT admin | Anna / office staff |
+| Keep `admin@` in all groups | IT admin | Anna / office staff |
 | Monitor membership-change notifications | Anna / office staff | IT admin |
 | Troubleshoot access and delivery issues | IT admin | Anna / office staff |
 
@@ -20,7 +20,7 @@ Update this table whenever ownership changes.
 - Review committee membership changes from chairs.
 - Confirm the six active officer roles have correct shared mailbox access.
 - Remove stale permissions from former role holders.
-- Confirm `itadmin@sandiahomeowners.org` remains in every group.
+- Confirm `admin@sandiahomeowners.org` remains in every group.
 - Confirm Power Automate membership-change notifications are working.
 - Confirm Board reminder workflow is sending as expected.
 - Escalate unresolved access issues to IT.
@@ -61,7 +61,7 @@ Use this for a committee or task-force mailing list.
    - **Let people outside the organization email this team**.
    - **Send copies of team emails and events to team members' inboxes**.
 8. Add owners and members.
-9. Add `itadmin@sandiahomeowners.org`.
+9. Add `admin@sandiahomeowners.org`.
 10. Test the group before announcing it. Send a test email and confirm delivery to the intended members.
 
 After any later change to the group, test again. For a quick check, add yourself
@@ -76,7 +76,7 @@ Done checklist:
 - External email enabled.
 - Inbox delivery enabled.
 - Members added.
-- `itadmin@` added.
+- `admin@` added.
 - Test email delivered after setup and after any later change.
 
 ## Setup Decision Flow
@@ -178,6 +178,6 @@ mailbox.
 - Group email tested.
 - Shared mailbox tested, if an officer mailbox was created or changed.
 - Alias tested, if created.
-- `itadmin@` included in the group.
+- `admin@` included in the group.
 - Directory updated with any new address.
 - Requester notified that setup is complete.

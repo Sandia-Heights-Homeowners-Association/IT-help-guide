@@ -1,6 +1,6 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-07-31T18:01:51+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-07-31T18:04:06+00:00.
 
 ## Quick Links & Directory
 
@@ -40,7 +40,7 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 
 ## Other SHHA Email Addresses
 
-<table id="bkmrk-addresspurpose-offic"><thead><tr><th>Address</th><th>Purpose</th></tr></thead><tbody><tr><td><office@sandiahomeowners.org></td><td>General office inquiries, mailing list changes, GRIT submissions</td></tr><tr><td><ithelp@sandiahomeowners.org></td><td>IT support — access issues, SharePoint help, mailbox permissions</td></tr><tr><td><itadmin@sandiahomeowners.org></td><td>Archive-only — member of every group for recordkeeping (not monitored)</td></tr><tr><td>sandiahomeowners@gmail.com</td><td>Legacy Gmail address — **TODO:** document current purpose and who monitors this</td></tr><tr><td>shhagrit@gmail.com</td><td>GRIT newsletter Gmail — **TODO:** document current purpose, who monitors, and relationship to M365</td></tr></tbody></table>
+<table id="bkmrk-addresspurpose-offic"><thead><tr><th>Address</th><th>Purpose</th></tr></thead><tbody><tr><td><office@sandiahomeowners.org></td><td>General office inquiries, mailing list changes, GRIT submissions</td></tr><tr><td><ithelp@sandiahomeowners.org></td><td>IT support — access issues, SharePoint help, mailbox permissions</td></tr><tr><td><admin@sandiahomeowners.org></td><td>Archive-only — member of every group for recordkeeping (not monitored)</td></tr><tr><td>sandiahomeowners@gmail.com</td><td>Legacy Gmail address — **TODO:** document current purpose and who monitors this</td></tr><tr><td>shhagrit@gmail.com</td><td>GRIT newsletter Gmail — **TODO:** document current purpose, who monitors, and relationship to M365</td></tr></tbody></table>
 
 ## Committee SharePoint Help
 
@@ -673,7 +673,7 @@ If reminders are missing, contact office staff or **ITHelp@sandiahomeowners.org*
 
 <a id="bkmrk--16"></a>## Record-Keeping and Archive
 
-All committee mailing lists include an archival account (`itadmin@sandiahomeowners.org`) for retention.
+All committee mailing lists include an archival account (`admin@sandiahomeowners.org`) for retention.
 
 The archive inbox is not monitored and does not reply.
 
@@ -806,7 +806,7 @@ Only President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair h
 
 - Office staff: **office@sandiahomeowners.org**
 - IT support: **ITHelp@sandiahomeowners.org**
-- Archive account (not monitored): **itadmin@sandiahomeowners.org**
+- Archive account (not monitored): **admin@sandiahomeowners.org**
 
 ## All Committee SharePoint Links
 
@@ -1501,7 +1501,7 @@ If you have an exceptional need for forwarding, contact **ITHelp@sandiahomeowner
 
 - Ask your **committee chair** or a current member to forward key threads.
 - Check the committee's **SharePoint document library** — important decisions should be saved as files, not just buried in email.
-- The SHHA **archive mailbox** (`itadmin@sandiahomeowners.org`) retains a copy of all group emails. Contact **ITHelp@sandiahomeowners.org** to request specific messages.
+- The SHHA **archive mailbox** (`admin@sandiahomeowners.org`) retains a copy of all group emails. Contact **ITHelp@sandiahomeowners.org** to request specific messages.
  
 ### Shared role mailbox emails
 
@@ -2116,7 +2116,7 @@ SHHA uses two different patterns for email collaboration:
 - **Role continuity over individual ownership** — email addresses stay constant when people rotate in/out.
 - **Least cost for volunteers** — external volunteers do not require paid M365 licenses.
 - **Operational traceability** — group membership changes trigger Power Automate notifications.
-- **Institutional archive** — `itadmin@` is included in all groups as a permanent archive recipient.
+- **Institutional archive** — `admin@` is included in all groups as a permanent archive recipient.
  
 ---
 
@@ -2152,11 +2152,11 @@ Each incoming officer receives both **Full Access** and **Send As** permission t
  
 ---
 
-<a id="bkmrk--9"></a>## Archive Mailbox (`itadmin@`)
+<a id="bkmrk--9"></a>## Archive Mailbox (`admin@`)
 
-- `itadmin@` is a member of **all** groups.
+- `admin@` is a member of **all** groups.
 - Purpose: permanent archive and continuity.
-- `itadmin@` is **not actively monitored** for normal operations.
+- `admin@` is **not actively monitored** for normal operations.
  
 ---
 
@@ -2178,7 +2178,7 @@ A Power Automate flow sends email notifications whenever group membership change
 
 <a id="bkmrk--15"></a>## Responsibilities Matrix
 
- <table id="bkmrk-responsibilityprimar"> <thead><tr><th>Responsibility</th><th>Primary</th><th>Backup</th><th>Notes</th></tr></thead> <tbody> <tr><td>Maintain committee group membership</td><td>Anna (staff)</td><td>IT admin</td><td>Add/remove members, verify accuracy</td></tr> <tr><td>Manage shared mailbox permissions</td><td>Anna + IT admin</td><td>IT admin</td><td>Remove predecessor, add successor</td></tr> <tr><td>Ensure `itadmin@` in all groups</td><td>IT admin</td><td>Anna</td><td>Required for archive continuity</td></tr> <tr><td>Monitor membership-change notifications</td><td>Anna</td><td>IT admin</td><td>Power Automate emails = operational signal</td></tr> <tr><td>Troubleshoot delivery/access issues</td><td>IT admin</td><td>Anna</td><td>Includes mailbox permissions and group settings</td></tr> </tbody> </table>
+ <table id="bkmrk-responsibilityprimar"> <thead><tr><th>Responsibility</th><th>Primary</th><th>Backup</th><th>Notes</th></tr></thead> <tbody> <tr><td>Maintain committee group membership</td><td>Anna (staff)</td><td>IT admin</td><td>Add/remove members, verify accuracy</td></tr> <tr><td>Manage shared mailbox permissions</td><td>Anna + IT admin</td><td>IT admin</td><td>Remove predecessor, add successor</td></tr> <tr><td>Ensure `admin@` in all groups</td><td>IT admin</td><td>Anna</td><td>Required for archive continuity</td></tr> <tr><td>Monitor membership-change notifications</td><td>Anna</td><td>IT admin</td><td>Power Automate emails = operational signal</td></tr> <tr><td>Troubleshoot delivery/access issues</td><td>IT admin</td><td>Anna</td><td>Includes mailbox permissions and group settings</td></tr> </tbody> </table>
 
 ---
 
@@ -2187,7 +2187,7 @@ A Power Automate flow sends email notifications whenever group membership change
 1. Confirm committee and target group address.
 2. Verify whether person is internal staff or external volunteer.
 3. Add to the correct Microsoft Group membership.
-4. Confirm `itadmin@` remains a member.
+4. Confirm `admin@` remains a member.
 5. Verify Power Automate sends membership-change notification.
 6. Ask requester to test delivery (or send a test message).
  
@@ -2216,7 +2216,7 @@ A Power Automate flow sends email notifications whenever group membership change
 
 1. Create new Microsoft Group for the committee.
 2. Add initial committee members.
-3. Add `itadmin@` as member for archiving.
+3. Add `admin@` as member for archiving.
 4. Ensure membership-change notifications are active.
 5. Record the group in the committee/group inventory.
  
@@ -2225,7 +2225,7 @@ A Power Automate flow sends email notifications whenever group membership change
 <a id="bkmrk--25"></a>## Governance Rules
 
 - Every committee must have exactly one official mailing-list group.
-- Every committee group must include `itadmin@`.
+- Every committee group must include `admin@`.
 - Shared mailbox addresses represent roles and must not be treated as personal identities.
 - Access to shared role inboxes must be updated promptly on leadership change.
 - Membership changes should be performed by staff owner (Anna) or IT admin only.
@@ -2262,7 +2262,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
  
 ### Missing archive history
 
-- `itadmin@` is still a member of the affected group
+- `admin@` is still a member of the affected group
 - Group delivery settings have not been altered
  
 ---
@@ -2272,7 +2272,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 - Review all committee group memberships for accuracy.
 - Verify all six active officer roles have correct shared mailbox access.
 - Remove stale permissions from former role holders.
-- Confirm `itadmin@` is in every group.
+- Confirm `admin@` is in every group.
 - Confirm membership-change notification flow is working.
 - Update inventory table and date-stamp the review.
  
@@ -2280,7 +2280,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 
 <a id="bkmrk--33"></a>## Key Contacts and Ownership
 
- <table id="bkmrk-rolecontact-group-me"> <thead><tr><th>Role</th><th>Contact</th></tr></thead> <tbody> <tr><td>Group membership owner</td><td>Anna (staff)</td></tr> <tr><td>Technical owner / escalation</td><td>IT admin</td></tr> <tr><td>Archive mailbox</td><td>`itadmin@` (not actively monitored)</td></tr> </tbody> </table>
+ <table id="bkmrk-rolecontact-group-me"> <thead><tr><th>Role</th><th>Contact</th></tr></thead> <tbody> <tr><td>Group membership owner</td><td>Anna (staff)</td></tr> <tr><td>Technical owner / escalation</td><td>IT admin</td></tr> <tr><td>Archive mailbox</td><td>`admin@` (not actively monitored)</td></tr> </tbody> </table>
 
 <div id="bkmrk-if-ownership-changes">**If ownership changes, update this section immediately.**</div>---
 
@@ -2325,7 +2325,7 @@ You generally do **not** need to create personal mailboxes for volunteers. Exter
 
 ## Archive Rule
 
-Every mailing list (Microsoft Group) **must** include `itadmin@sandiahomeowners.org` as a member. This is the archive account that preserves all committee email for continuity and records. It is not monitored for support.
+Every mailing list (Microsoft Group) **must** include `admin@sandiahomeowners.org` as a member. This is the archive account that preserves all committee email for continuity and records. It is not monitored for support.
 
 ## Cost Summary
 
@@ -2357,7 +2357,7 @@ This SOP is written for SHHA staff who are comfortable with basic Microsoft admi
 For a new short-term task force, the normal pattern is:
 
 1. Create a **Microsoft 365 Group** for the task-force mailing list.
-2. Add members (including external guests) and always include `itadmin@sandiahomeowners.org`.
+2. Add members (including external guests) and always include `admin@sandiahomeowners.org`.
 3. If the request is for one of the six officer roles, use **SOP B** for the role mailbox. Ordinary committee chairs and task-force leads do not get shared mailboxes.
 4. Add an optional **Alias** (for example, `wildfire@sandiahomeowners.org`) if a friendlier address is useful.
 5. Confirm the Microsoft 365 group-connected **SharePoint site** exists; do not create a duplicate.
@@ -2398,7 +2398,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 11. **Required:** check **Send copies of team emails and events to team members' inboxes**.
 12. Go to **Members** → **Add members**.
 13. Add all task-force members (internal and external as available).
-14. **Required:** Add `itadmin@sandiahomeowners.org` as a member for archive continuity.
+14. **Required:** Add `admin@sandiahomeowners.org` as a member for archive continuity.
 15. Send a test email to the new group address and confirm delivery.
 16. Send the [New Committee Or Task Force](/books/shha-it-help-guide/page/office-onboarding-email-templates) email after the group, membership, and any SharePoint site are tested.
 
@@ -2411,7 +2411,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 - All members added
 - External email enabled
 - Inbox delivery enabled
-- `itadmin@` added
+- `admin@` added
 - Test email delivered after setup and after any later change
 
 ---
@@ -2510,7 +2510,7 @@ After setup and testing are complete, choose the matching message from [Office O
 - Group email tested
 - Shared mailbox tested (if created)
 - Alias tested (if created)
-- `itadmin@` included in group
+- `admin@` included in group
 - Quick Links directory updated with new addresses
 - Requester notified that setup is complete
 

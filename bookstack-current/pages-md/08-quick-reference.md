@@ -40,7 +40,7 @@ Only President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair h
 
 - Office staff: **office@sandiahomeowners.org**
 - IT support: **ITHelp@sandiahomeowners.org**
-- Archive account (not monitored): **itadmin@sandiahomeowners.org**
+- Archive account (not monitored): **admin@sandiahomeowners.org**
 
 ## All Committee SharePoint Links
 

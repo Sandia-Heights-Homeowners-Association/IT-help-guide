@@ -17,7 +17,7 @@ SHHA uses two different patterns for email collaboration:
 - **Role continuity over individual ownership** — email addresses stay constant when people rotate in/out.
 - **Least cost for volunteers** — external volunteers do not require paid M365 licenses.
 - **Operational traceability** — group membership changes trigger Power Automate notifications.
-- **Institutional archive** — `itadmin@` is included in all groups as a permanent archive recipient.
+- **Institutional archive** — `admin@` is included in all groups as a permanent archive recipient.
  
 ---
 
@@ -53,11 +53,11 @@ Each incoming officer receives both **Full Access** and **Send As** permission t
  
 ---
 
-<a id="bkmrk--9"></a>## Archive Mailbox (`itadmin@`)
+<a id="bkmrk--9"></a>## Archive Mailbox (`admin@`)
 
-- `itadmin@` is a member of **all** groups.
+- `admin@` is a member of **all** groups.
 - Purpose: permanent archive and continuity.
-- `itadmin@` is **not actively monitored** for normal operations.
+- `admin@` is **not actively monitored** for normal operations.
  
 ---
 
@@ -79,7 +79,7 @@ A Power Automate flow sends email notifications whenever group membership change
 
 <a id="bkmrk--15"></a>## Responsibilities Matrix
 
- <table id="bkmrk-responsibilityprimar"> <thead><tr><th>Responsibility</th><th>Primary</th><th>Backup</th><th>Notes</th></tr></thead> <tbody> <tr><td>Maintain committee group membership</td><td>Anna (staff)</td><td>IT admin</td><td>Add/remove members, verify accuracy</td></tr> <tr><td>Manage shared mailbox permissions</td><td>Anna + IT admin</td><td>IT admin</td><td>Remove predecessor, add successor</td></tr> <tr><td>Ensure `itadmin@` in all groups</td><td>IT admin</td><td>Anna</td><td>Required for archive continuity</td></tr> <tr><td>Monitor membership-change notifications</td><td>Anna</td><td>IT admin</td><td>Power Automate emails = operational signal</td></tr> <tr><td>Troubleshoot delivery/access issues</td><td>IT admin</td><td>Anna</td><td>Includes mailbox permissions and group settings</td></tr> </tbody> </table>
+ <table id="bkmrk-responsibilityprimar"> <thead><tr><th>Responsibility</th><th>Primary</th><th>Backup</th><th>Notes</th></tr></thead> <tbody> <tr><td>Maintain committee group membership</td><td>Anna (staff)</td><td>IT admin</td><td>Add/remove members, verify accuracy</td></tr> <tr><td>Manage shared mailbox permissions</td><td>Anna + IT admin</td><td>IT admin</td><td>Remove predecessor, add successor</td></tr> <tr><td>Ensure `admin@` in all groups</td><td>IT admin</td><td>Anna</td><td>Required for archive continuity</td></tr> <tr><td>Monitor membership-change notifications</td><td>Anna</td><td>IT admin</td><td>Power Automate emails = operational signal</td></tr> <tr><td>Troubleshoot delivery/access issues</td><td>IT admin</td><td>Anna</td><td>Includes mailbox permissions and group settings</td></tr> </tbody> </table>
 
 ---
 
@@ -88,7 +88,7 @@ A Power Automate flow sends email notifications whenever group membership change
 1. Confirm committee and target group address.
 2. Verify whether person is internal staff or external volunteer.
 3. Add to the correct Microsoft Group membership.
-4. Confirm `itadmin@` remains a member.
+4. Confirm `admin@` remains a member.
 5. Verify Power Automate sends membership-change notification.
 6. Ask requester to test delivery (or send a test message).
  
@@ -117,7 +117,7 @@ A Power Automate flow sends email notifications whenever group membership change
 
 1. Create new Microsoft Group for the committee.
 2. Add initial committee members.
-3. Add `itadmin@` as member for archiving.
+3. Add `admin@` as member for archiving.
 4. Ensure membership-change notifications are active.
 5. Record the group in the committee/group inventory.
  
@@ -126,7 +126,7 @@ A Power Automate flow sends email notifications whenever group membership change
 <a id="bkmrk--25"></a>## Governance Rules
 
 - Every committee must have exactly one official mailing-list group.
-- Every committee group must include `itadmin@`.
+- Every committee group must include `admin@`.
 - Shared mailbox addresses represent roles and must not be treated as personal identities.
 - Access to shared role inboxes must be updated promptly on leadership change.
 - Membership changes should be performed by staff owner (Anna) or IT admin only.
@@ -163,7 +163,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
  
 ### Missing archive history
 
-- `itadmin@` is still a member of the affected group
+- `admin@` is still a member of the affected group
 - Group delivery settings have not been altered
  
 ---
@@ -173,7 +173,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 - Review all committee group memberships for accuracy.
 - Verify all six active officer roles have correct shared mailbox access.
 - Remove stale permissions from former role holders.
-- Confirm `itadmin@` is in every group.
+- Confirm `admin@` is in every group.
 - Confirm membership-change notification flow is working.
 - Update inventory table and date-stamp the review.
  
@@ -181,7 +181,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 
 <a id="bkmrk--33"></a>## Key Contacts and Ownership
 
- <table id="bkmrk-rolecontact-group-me"> <thead><tr><th>Role</th><th>Contact</th></tr></thead> <tbody> <tr><td>Group membership owner</td><td>Anna (staff)</td></tr> <tr><td>Technical owner / escalation</td><td>IT admin</td></tr> <tr><td>Archive mailbox</td><td>`itadmin@` (not actively monitored)</td></tr> </tbody> </table>
+ <table id="bkmrk-rolecontact-group-me"> <thead><tr><th>Role</th><th>Contact</th></tr></thead> <tbody> <tr><td>Group membership owner</td><td>Anna (staff)</td></tr> <tr><td>Technical owner / escalation</td><td>IT admin</td></tr> <tr><td>Archive mailbox</td><td>`admin@` (not actively monitored)</td></tr> </tbody> </table>
 
 <div id="bkmrk-if-ownership-changes">**If ownership changes, update this section immediately.**</div>---
 

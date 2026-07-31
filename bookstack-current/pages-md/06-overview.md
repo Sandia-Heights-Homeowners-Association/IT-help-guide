@@ -100,7 +100,7 @@ If reminders are missing, contact office staff or **ITHelp@sandiahomeowners.org*
 
 <a id="bkmrk--16"></a>## Record-Keeping and Archive
 
-All committee mailing lists include an archival account (`itadmin@sandiahomeowners.org`) for retention.
+All committee mailing lists include an archival account (`admin@sandiahomeowners.org`) for retention.
 
 The archive inbox is not monitored and does not reply.
 

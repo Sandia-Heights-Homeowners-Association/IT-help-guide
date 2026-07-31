@@ -17,7 +17,7 @@ This SOP is written for SHHA staff who are comfortable with basic Microsoft admi
 For a new short-term task force, the normal pattern is:
 
 1. Create a **Microsoft 365 Group** for the task-force mailing list.
-2. Add members (including external guests) and always include `itadmin@sandiahomeowners.org`.
+2. Add members (including external guests) and always include `admin@sandiahomeowners.org`.
 3. If the request is for one of the six officer roles, use **SOP B** for the role mailbox. Ordinary committee chairs and task-force leads do not get shared mailboxes.
 4. Add an optional **Alias** (for example, `wildfire@sandiahomeowners.org`) if a friendlier address is useful.
 5. Confirm the Microsoft 365 group-connected **SharePoint site** exists; do not create a duplicate.
@@ -58,7 +58,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 11. **Required:** check **Send copies of team emails and events to team members' inboxes**.
 12. Go to **Members** → **Add members**.
 13. Add all task-force members (internal and external as available).
-14. **Required:** Add `itadmin@sandiahomeowners.org` as a member for archive continuity.
+14. **Required:** Add `admin@sandiahomeowners.org` as a member for archive continuity.
 15. Send a test email to the new group address and confirm delivery.
 16. Send the [New Committee Or Task Force](/books/shha-it-help-guide/page/office-onboarding-email-templates) email after the group, membership, and any SharePoint site are tested.
 
@@ -71,7 +71,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 - All members added
 - External email enabled
 - Inbox delivery enabled
-- `itadmin@` added
+- `admin@` added
 - Test email delivered after setup and after any later change
 
 ---
@@ -170,7 +170,7 @@ After setup and testing are complete, choose the matching message from [Office O
 - Group email tested
 - Shared mailbox tested (if created)
 - Alias tested (if created)
-- `itadmin@` included in group
+- `admin@` included in group
 - Quick Links directory updated with new addresses
 - Requester notified that setup is complete
 
