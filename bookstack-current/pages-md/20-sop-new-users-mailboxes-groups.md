@@ -165,7 +165,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 
 After setup and testing are complete, choose the matching message from [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates). Replace every placeholder and test every link before sending.
 
-## Final Validation (Do This Before You Close the Ticket)
+## Final Validation (Do This Before You Tell the Requester Setup Is Complete)
 
 - Group email tested
 - Shared mailbox tested (if created)
