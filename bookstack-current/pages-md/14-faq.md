@@ -82,7 +82,7 @@ Role mailboxes stay with the position, not the person. When leadership changes, 
 4. Click **Reply**. Check the **From** field — it should show the role address. If not, click **From** and select the role mailbox.
 5. Compose and click **Send**.
  
-<div id="bkmrk-microsoft-help%3A-open">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)</div>---
+<div id="bkmrk-microsoft-help%3A-open">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook)</div>---
 
 ## Why does the President need both president@sandiahomeowners.org and robin.otten@sandiahomeowners.org?
 
@@ -118,7 +118,7 @@ If the shared mailbox does not appear automatically, try adding it manually:
  
 **If it still does not appear**, your account may not have been granted permission yet. Contact **ITHelp@sandiahomeowners.org** to verify your mailbox permissions.
 
-<div id="bkmrk-microsoft-help%3A-open-1">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd) — see "What if it didn't work?"</div>---
+<div id="bkmrk-microsoft-help%3A-open-1">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook) — see "What if it didn't work?"</div>---
 
 <a id="bkmrk--16"></a>## Where should Board materials be submitted?
 
@@ -149,7 +149,7 @@ If none of the above resolves it, contact office staff or **ITHelp@sandiahomeown
 
 There is **no single Microsoft website for everything.** Which site you use depends on what you need:
 
- <table id="bkmrk-what-you-need-to-dow"> <thead> <tr><th>What you need to do</th><th>Where to go</th><th>Who uses it</th></tr> </thead> <tbody> <tr> <td>**Open committee files**</td> <td>Your committee's **SharePoint link** (from your chair or ITHelp). You can also browse [sandiahomeowners.sharepoint.com](https://sandiahomeowners.sharepoint.com)</td> <td>All volunteers</td> </tr> <tr> <td>**Read / send role mailbox email**</td> <td>[outlook.office.com](https://outlook.office.com) — sign in with your `@sandiahomeowners.org` account</td> <td>Officers &amp; chairs with role mailboxes</td> </tr> <tr> <td>**Manage your Microsoft account**</td> <td>[account.microsoft.com](https://account.microsoft.com) — reset password, update security info</td> <td>Anyone with a Microsoft account</td> </tr> <tr> <td>**Access personal OneDrive files**</td> <td>[onedrive.live.com](https://onedrive.live.com) (personal) or your SharePoint library (SHHA files)</td> <td>Limited use</td> </tr> </tbody> </table>
+ <table id="bkmrk-what-you-need-to-dow"> <thead> <tr><th>What you need to do</th><th>Where to go</th><th>Who uses it</th></tr> </thead> <tbody> <tr> <td>**Open committee files**</td> <td>Your committee's **SharePoint link** (from your chair or ITHelp). You can also browse [sandiahomeowners.sharepoint.com](https://sandiahomeowners.sharepoint.com)</td> <td>All volunteers</td> </tr> <tr> <td>**Read / send role mailbox email**</td> <td>[outlook.office.com](https://outlook.office.com) — sign in with your `@sandiahomeowners.org` account</td> <td>The six officer roles</td> </tr> <tr> <td>**Manage your Microsoft account**</td> <td>[account.microsoft.com](https://account.microsoft.com) — reset password, update security info</td> <td>Anyone with a Microsoft account</td> </tr> <tr> <td>**Access personal OneDrive files**</td> <td>[onedrive.live.com](https://onedrive.live.com) (personal) or your SharePoint library (SHHA files)</td> <td>Limited use</td> </tr> </tbody> </table>
 
 <div id="bkmrk-tip%3A-most-volunteers">**Tip:** Most volunteers just click a SharePoint link someone emailed them. You do not need to remember a general login page.</div><div id="bkmrk-microsoft-help%3A-sign">**Microsoft help:** [Sign in to Microsoft 365](https://support.microsoft.com/en-us/office/sign-in-to-microsoft-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)</div>---
 
@@ -158,7 +158,7 @@ There is **no single Microsoft website for everything.** Which site you use depe
 **It depends on your role:**
 
 - **Most committee volunteers do NOT have an `@sandiahomeowners.org` email address.** You use your personal email and receive committee emails there. No special login is needed.
-- **Officers and committee chairs** usually have access to a **shared role mailbox** (e.g., `president@sandiahomeowners.org`, `cscchair@sandiahomeowners.org`). These are shared inboxes tied to the position. Access them through [outlook.office.com](https://outlook.office.com) using your `@sandiahomeowners.org` licensed account. See [role mailboxes](#bkmrk--11) and [accessing shared inboxes](#bkmrk--13) above.
+- **Only the six officer roles** (President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair) have shared role mailboxes. Other committee chairs use their own account and committee mailing list. See [role mailboxes](#bkmrk--11) and [accessing shared inboxes](#bkmrk--13) above.
 - **Staff members** have full licensed `@sandiahomeowners.org` accounts and log in at [outlook.office.com](https://outlook.office.com).
  
 Not sure which category you fall into? Ask your committee chair or email **ITHelp@sandiahomeowners.org**.
@@ -196,7 +196,7 @@ If you have an exceptional need for forwarding, contact **ITHelp@sandiahomeowner
  
 **For regular committee email (external volunteers):** Committee emails are delivered directly to your personal inbox. No special setup needed.
 
-<div id="bkmrk-microsoft-help%3A-open-2">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)</div>---
+<div id="bkmrk-microsoft-help%3A-open-2">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook)</div>---
 
 <a id="bkmrk--28"></a>## How do I see emails going between committee or Board members? Can I see older emails from before I joined?
 
@@ -214,7 +214,7 @@ If you have an exceptional need for forwarding, contact **ITHelp@sandiahomeowner
  
 ### Shared role mailbox emails
 
-If you hold a role (e.g., committee chair, President), the shared role mailbox **retains its full email history** regardless of who currently has access. When you are granted access, you can scroll back through all prior sent and received messages — one of the major advantages of using role mailboxes.
+If you hold one of the six officer roles, the shared role mailbox **retains its full email history** regardless of who currently has access. When you are granted access, you can scroll back through all prior sent and received messages — one of the major advantages of using role mailboxes.
 
 ---
 

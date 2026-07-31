@@ -18,7 +18,7 @@ Update this table whenever ownership changes.
 ## Monthly Checklist
 
 - Review committee membership changes from chairs.
-- Confirm active officers and chairs have correct shared mailbox access.
+- Confirm the six active officer roles have correct shared mailbox access.
 - Remove stale permissions from former role holders.
 - Confirm `itadmin@sandiahomeowners.org` remains in every group.
 - Confirm Power Automate membership-change notifications are working.
@@ -79,6 +79,45 @@ Done checklist:
 - `itadmin@` added.
 - Test email delivered after setup and after any later change.
 
+## Setup Decision Flow
+
+Use this quick decision path before creating anything:
+
+| Question | Yes | No |
+| --- | --- | --- |
+| Does a committee or task force need one address that emails its members? | Create a Microsoft 365 Group using **SOP A**. | Continue. |
+| Is the role one of the six officers: President, Vice President, Secretary, Treasurer, ACC Chair, or CSC Chair? | Create the role mailbox using **SOP B**, then send the [Officer Shared Mailbox Access](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/office-onboarding-email-templates) email. | Do **not** create a shared mailbox. Use the person's own account and the committee mailing list. |
+| Does the committee need a document library? | Follow [SOP: Create a Committee SharePoint Site](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site), then use the matching [Office Onboarding Email Template](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/office-onboarding-email-templates). | Finish the email setup and test it. |
+
+## Create A Shared Mailbox
+
+Use this **only** for the six officer roles listed in the decision flow. Shared
+mailboxes are a little fussy to administer, but officer history is important
+enough that SHHA keeps it this way.
+
+1. Confirm the mailbox is for President, Vice President, Secretary, Treasurer,
+   ACC Chair, or CSC Chair. Stop here for any other chair or task-force lead.
+2. Go to **Teams and groups** > **Shared mailboxes** > **Add a shared mailbox**.
+3. Create the role address, such as `president@sandiahomeowners.org`.
+4. Add the incoming officer's licensed `@sandiahomeowners.org` account.
+5. Grant that account both **Full Access** and **Send As**.
+6. Send [Officer Shared Mailbox Access](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/office-onboarding-email-templates) with the direct role address and [wiki link](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/volunteer-with-shha-email).
+7. Have the officer sign in to Outlook with their own account and add the
+   shared mailbox manually. It will not appear automatically in every Outlook
+   setup.
+8. Test all three things: the officer can open the mailbox, can read an
+   incoming test message, and can send with the role address in **From**.
+9. Tell the officer to send official role correspondence from the role mailbox
+   or copy the role mailbox. The shared mailbox is the role's archive; a
+   personal inbox is not.
+
+Do not create a shared mailbox for an ordinary committee chair, task-force lead,
+or external volunteer. They use their own account and the committee mailing
+list.
+
+For Microsoft's current Outlook instructions, see [Open and use a shared
+mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook).
+
 ## Create A Committee SharePoint Site
 
 Use the BookStack page **SOP: Create a Committee SharePoint Site** for the full
@@ -109,24 +148,11 @@ Help to the newly onboarded users:
 2. New external volunteer using a personal email address.
 3. Members of a newly formed committee or task force.
 4. Members of an existing committee receiving a SharePoint site later.
+5. An incoming officer receiving access to a shared role mailbox.
 
 Replace every bracketed placeholder, include the direct SharePoint and wiki
 links, and test the links before sending. Never send external users OneDrive
 instructions.
-
-## Create A Shared Mailbox
-
-Use this for a role inbox that must keep history when people rotate.
-
-1. Go to **Teams and groups** > **Shared mailboxes** > **Add a shared mailbox**.
-2. Enter the role name and address.
-3. Add licensed users who should access the mailbox.
-4. Grant Send As permission to the same users.
-5. Ask one user to verify in Outlook that the mailbox appears, receives mail,
-   and can send from the role address.
-
-Do not create personal accounts for chairs unless they truly need their own
-licensed login.
 
 ## Add An Alias
 
@@ -150,7 +176,7 @@ mailbox.
 ## Final Validation
 
 - Group email tested.
-- Shared mailbox tested, if created or changed.
+- Shared mailbox tested, if an officer mailbox was created or changed.
 - Alias tested, if created.
 - `itadmin@` included in the group.
 - Directory updated with any new address.

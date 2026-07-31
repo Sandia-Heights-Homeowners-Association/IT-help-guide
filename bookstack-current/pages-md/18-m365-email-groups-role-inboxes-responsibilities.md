@@ -33,9 +33,11 @@ Each committee has a Microsoft Group that acts as its mailing list.
 
 <a id="bkmrk--7"></a>## Shared Mailboxes (Role Inboxes)
 
-Chair and executive role addresses are shared mailboxes tied to positions, not people.
+Only six officer role addresses are shared mailboxes tied to positions, not people: President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair. Other committee chairs and task-force leads use their own account and the committee mailing list.
 
  <table id="bkmrk-roleaddress-csc-chai"> <thead><tr><th>Role</th><th>Address</th></tr></thead> <tbody> <tr><td>CSC Chair</td><td>`cscchair@sandiahomeowners.org`</td></tr> <tr><td>ACC Chair</td><td>`accchair@sandiahomeowners.org`</td></tr> <tr><td>President</td><td>`president@sandiahomeowners.org`</td></tr> <tr><td>Vice President</td><td>`vicepresident@sandiahomeowners.org`</td></tr> <tr><td>Secretary</td><td>`secretary@sandiahomeowners.org`</td></tr> <tr><td>Treasurer</td><td>`treasurer@sandiahomeowners.org`</td></tr> </tbody> </table>
+
+Each incoming officer receives both **Full Access** and **Send As** permission through the officer's own licensed SHHA account. Officers cannot log in directly to the shared mailbox and must add it manually in Outlook because it may not appear automatically. For official role correspondence, send from the role mailbox or copy it so the shared mailbox remains the archive.
 
 ### Access model
 
@@ -97,7 +99,7 @@ A Power Automate flow sends email notifications whenever group membership change
 1. Confirm removal request and effective date.
 2. Remove member from the Microsoft Group.
 3. Verify Power Automate notification is received.
-4. If person held a role, check related shared mailbox permissions.
+4. If person held one of the six officer roles, check related shared mailbox permissions.
  
 ---
 
@@ -153,7 +155,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 - Sender used the correct group address
 - Recent change triggered notification (confirms update happened)
  
-### New chair cannot open role mailbox
+### New officer cannot open role mailbox
 
 - Shared mailbox permission was granted to the person's licensed account
 - User is opening mailbox from their own account context
@@ -169,7 +171,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 <a id="bkmrk--31"></a>## Handoff Checklist (Staff / Volunteer Transition)
 
 - Review all committee group memberships for accuracy.
-- Verify all active chairs/executive roles have correct shared mailbox access.
+- Verify all six active officer roles have correct shared mailbox access.
 - Remove stale permissions from former role holders.
 - Confirm `itadmin@` is in every group.
 - Confirm membership-change notification flow is working.
@@ -187,3 +189,4 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 
 - [M365 Email Building Blocks](/books/shha-it-help-guide/page/m365-email-building-blocks) — understand the four email patterns (personal mailbox, shared mailbox, mailing list, alias) and when to use each
 - [SOP: New Users, Mailboxes &amp; Groups](/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups) — step-by-step admin procedures for creating users, shared mailboxes, groups, and aliases
+- [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates) — copy-and-send messages for the people who receive new access

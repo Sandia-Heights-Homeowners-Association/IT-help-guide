@@ -35,26 +35,46 @@ You may see two Microsoft emails:
 If Microsoft lands you on a confusing page after acceptance, use the direct
 links in [Email, Files, and Directory](02-email-files-directory.md).
 
-## Role Inboxes For Officers And Chairs
+## Role Inboxes For Officers
 
-Some roles have shared inboxes:
+Only these six officer roles have shared mailboxes:
 
 - `president@sandiahomeowners.org`
 - `vicepresident@sandiahomeowners.org`
 - `secretary@sandiahomeowners.org`
 - `treasurer@sandiahomeowners.org`
-- `ACCChair@sandiahomeowners.org`
-- `CPCChair@sandiahomeowners.org`
-- `CSMCChair@sandiahomeowners.org`
-- `CSCChair@sandiahomeowners.org`
-- `ESCChair@sandiahomeowners.org`
+- `accchair@sandiahomeowners.org`
+- `cscchair@sandiahomeowners.org`
+
+Other committee chairs and task-force leads do **not** get shared mailboxes.
+They use their own account and the committee mailing list.
+
+An officer may also be included in a committee group using another email
+address, but shared-mailbox access always uses the officer's SHHA account.
 
 These addresses belong to the role, not the person. You do not sign in directly
-as the role address. Access is granted to your own licensed account, and you
-open the shared mailbox from Outlook.
+as the role address. Access is granted to your own licensed
+`@sandiahomeowners.org` account with **Full Access** and **Send As** permission.
+
+The mailbox will not necessarily appear in Outlook automatically. After the
+office tells you access is ready, open Outlook and add it manually:
+
+1. In Outlook on the web, right-click **Folders** and choose **Add shared folder
+   or mailbox**, then enter the role address.
+2. In new Outlook, right-click **Shared with me** and choose **Add shared folder
+   or mailbox**. In classic Outlook, use **Account Settings** → **Change** →
+   **More Settings** → **Advanced** → **Add**.
+
+Microsoft's current instructions are in [Open and use a shared mailbox in
+Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook).
+
+You cannot log in directly to a shared mailbox. Sign in to Outlook with your
+own SHHA account, then open the role mailbox from there. For important official
+correspondence, either send from the role mailbox or copy the role mailbox so
+the message becomes part of the role's history.
 
 Best practice: reply from the role inbox, or copy it, when handling official
-role business so future role holders can see the history.
+officer business so future role holders can see the history.
 
 ## Why The President Has Two Email Addresses
 

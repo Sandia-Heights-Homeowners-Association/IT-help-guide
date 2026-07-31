@@ -101,6 +101,7 @@ The shortcut points to the group-owned SharePoint library. It does not copy file
 1. Send members the [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide).
 2. Add the committee mailing list and SharePoint URL to [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory).
 3. Tell external members to bookmark the SharePoint site. Do not give them OneDrive instructions.
+4. Send the matching [New Committee Or Task Force](/books/shha-it-help-guide/page/office-onboarding-email-templates) or [New SharePoint Site For An Existing Committee](/books/shha-it-help-guide/page/office-onboarding-email-templates) email.
 
 ## Final Checklist
 
@@ -116,6 +117,7 @@ The shortcut points to the group-owned SharePoint library. It does not copy file
 - External member cannot edit the site page
 - Directory updated
 - General member guide sent
+- Matching onboarding email sent
 
 ## Microsoft References
 

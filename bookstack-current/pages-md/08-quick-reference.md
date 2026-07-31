@@ -25,17 +25,16 @@ Use this page as the central directory for links and addresses.
 - Governance Committee (GC): **GC@sandiahomeowners.org**
 - IT Help Desk: **ithelp@sandiahomeowners.org**
 
-### Shared Role Inboxes
+### Shared Role Inboxes (Officers Only)
+
+Only President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair have shared mailboxes. Other committee chairs use their own account and the committee mailing list.
 
 - President: **president@sandiahomeowners.org**
 - Vice President: **vicepresident@sandiahomeowners.org**
 - Secretary: **secretary@sandiahomeowners.org**
-- Treasurer / Finance Chair: **treasurer@sandiahomeowners.org**
-- ACC Chair: **ACCChair@sandiahomeowners.org**
-- CPC Chair: **CPCChair@sandiahomeowners.org**
-- CSMC Chair: **CSMCChair@sandiahomeowners.org**
-- CSC Chair: **CSCChair@sandiahomeowners.org**
-- ESC Chair: **ESCChair@sandiahomeowners.org**
+- Treasurer: **treasurer@sandiahomeowners.org**
+- ACC Chair: **accchair@sandiahomeowners.org**
+- CSC Chair: **cscchair@sandiahomeowners.org**
 
 ### Other Key Addresses
 

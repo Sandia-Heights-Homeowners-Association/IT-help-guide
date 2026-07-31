@@ -53,14 +53,23 @@ as the group address.
 | President | `president@sandiahomeowners.org` |
 | Vice President | `vicepresident@sandiahomeowners.org` |
 | Secretary | `secretary@sandiahomeowners.org` |
-| Finance Chair / Treasurer | `treasurer@sandiahomeowners.org` |
-| ACC Chair | `ACCChair@sandiahomeowners.org` |
-| CPC Chair | `CPCChair@sandiahomeowners.org` |
-| CSMC Chair | `CSMCChair@sandiahomeowners.org` |
-| CSC Chair | `CSCChair@sandiahomeowners.org` |
-| ESC Chair | `ESCChair@sandiahomeowners.org` |
+| Treasurer | `treasurer@sandiahomeowners.org` |
+| ACC Chair | `accchair@sandiahomeowners.org` |
+| CSC Chair | `cscchair@sandiahomeowners.org` |
 
-Role inboxes keep history when people rotate in or out of a position.
+Only these six officer roles have shared mailboxes. Other committee chairs use
+their own account and the committee mailing list; they do not get a shared
+mailbox.
+
+Role inboxes keep history when officers rotate in or out of a position. An
+officer cannot log in directly to a shared mailbox. The office grants Full
+Access and Send As to the officer's own licensed SHHA account, and the officer
+must add the mailbox in Outlook because it may not appear automatically.
+
+For official officer business, send directly from the role mailbox or copy it
+so the shared mailbox remains the archive. See [Open and use a shared mailbox
+in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook)
+for Microsoft's current Outlook instructions.
 
 ## SharePoint Sites
 
@@ -169,8 +178,9 @@ the message.
 
 Use an individual address for a private one-to-one conversation.
 
-Use a shared role inbox for role-specific business that should remain visible to
-future role holders.
+Use a shared role inbox only for official business of one of the six officer
+roles. Other committee chairs use their own account and the committee mailing
+list.
 
 Use SharePoint for files people will keep using, then email the link.
 
@@ -221,7 +231,7 @@ appropriate SharePoint document library.
 For a temporary task force, the usual setup is:
 
 1. A Microsoft 365 Group mailing list for all members.
-2. Optional shared mailbox for the chair or lead.
+2. No shared mailbox for the task-force lead or committee chair.
 3. Optional friendly alias, such as `wildfire@sandiahomeowners.org`.
 4. `itadmin@sandiahomeowners.org` included in the group for archive continuity.
 5. Test email delivery before announcing the address.

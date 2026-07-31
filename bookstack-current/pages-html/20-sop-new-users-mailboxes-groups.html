@@ -16,7 +16,7 @@
 <tbody>
 <tr><td>A new task-force or committee mailing address that sends to all members</td><td><a href="#bkmrk-sop-a%3A-create-a-micr">SOP A: Create a Microsoft 365 Group (Mailing List)</a></td></tr>
 <tr><td>A SharePoint document site for a new committee or task force</td><td><a href="/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site">SOP: Create a Committee SharePoint Site</a></td></tr>
-<tr><td>A role inbox for a chair or lead (keeps history when people rotate)</td><td><a href="#bkmrk-sop-b%3A-create-a-shar">SOP B: Create a Shared Mailbox</a></td></tr>
+<tr><td>A shared mailbox for one of the six officer roles</td><td><a href="#bkmrk-sop-b%3A-create-a-shar">SOP B: Create a Shared Mailbox</a></td></tr>
 <tr><td>A friendly one-off address like wildfire@sandiahomeowners.org</td><td><a href="#bkmrk-sop-c%3A-add-an-alias-">SOP C: Add an Alias</a></td></tr>
 <tr><td>An internal staff account with first.last@sandiahomeowners.org login</td><td><a href="#bkmrk-sop-d%3A-add-a-new-lic">SOP D: Add a Licensed User</a></td></tr>
 <tr><td>An external volunteer using Gmail/Yahoo/etc.</td><td><a href="#bkmrk-sop-e%3A-add-an-extern">SOP E: Add an External Guest</a></td></tr>
@@ -29,11 +29,11 @@
 <ol id="bkmrk-create-a-microsoft-3">
 <li>Create a <strong>Microsoft 365 Group</strong> for the task-force mailing list.</li>
 <li>Add members (including external guests) and always include <code>itadmin@sandiahomeowners.org</code>.</li>
-<li>Create a <strong>Shared Mailbox</strong> for the task-force lead/chair if they need role continuity.</li>
+<li>If the request is for one of the six officer roles, use <strong>SOP B</strong> for the role mailbox. Ordinary committee chairs and task-force leads do not get shared mailboxes.</li>
 <li>Add an optional <strong>Alias</strong> (for example, <code>wildfire@sandiahomeowners.org</code>) if a friendlier address is useful.</li>
 <li>Confirm the Microsoft 365 group-connected <strong>SharePoint site</strong> exists; do not create a duplicate.</li>
 <li>Configure document permissions using <a href="/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site">SOP: Create a Committee SharePoint Site</a> and send members the <a href="/books/shha-it-help-guide/page/committee-sharepoint-guide">Committee SharePoint Guide</a>.</li>
-<li>Test email delivery and update the Quick Links directory.</li>
+<li>Test email delivery, update the Quick Links directory, and send the <a href="/books/shha-it-help-guide/page/office-onboarding-email-templates">New Committee Or Task Force</a> email if this is a new group.</li>
 </ol>
 <p id="bkmrk-if-you-only-need-one">If you only need one address that emails the whole task force, do <strong>SOP A</strong> only.</p>
 
@@ -70,6 +70,7 @@ Click <strong>Next</strong> then <strong>Create group</strong>.</li>
 <li>Add all task-force members (internal and external as available).</li>
 <li><strong>Required:</strong> Add <code>itadmin@sandiahomeowners.org</code> as a member for archive continuity.</li>
 <li>Send a test email to the new group address and confirm delivery.</li>
+<li>Send the <a href="/books/shha-it-help-guide/page/office-onboarding-email-templates">New Committee Or Task Force</a> email after the group, membership, and any SharePoint site are tested.</li>
 </ol>
 <p id="bkmrk-test-after-every-cha"><strong>Test after every change:</strong> whenever membership or a group setting changes, test the group again. You can add yourself temporarily, send a test message, and remove yourself afterward. If external delivery matters, you can also add a personal Gmail account temporarily, test it, and remove it when finished.</p>
 
@@ -85,37 +86,30 @@ Click <strong>Next</strong> then <strong>Create group</strong>.</li>
 </ul>
 
 <hr id="bkmrk--3">
-<h2 id="bkmrk-sop-b%3A-create-a-shar">SOP B: Create a Shared Mailbox (Chair/Lead Inbox)</h2>
-<p id="bkmrk-use-this-for%3A-role-i"><strong>Use this for:</strong> role inboxes that must persist when people rotate (chair, lead, coordinator).</p>
+<h2 id="bkmrk-sop-b%3A-create-a-shar">SOP B: Create a Shared Mailbox (Six Officer Roles Only)</h2>
+<p id="bkmrk-use-this-for%3A-offic"><strong>Use this only for:</strong> President, Vice President, Secretary, Treasurer, ACC Chair, or CSC Chair. Shared mailboxes are a little fussy to administer, but officer history is important enough that SHHA keeps it this way.</p>
+<p id="bkmrk-do-not-use-this-for-"><strong>Do not use this for:</strong> ordinary committee chairs, task-force leads, external volunteers, or general committee communication. Use the person's own account and the committee Microsoft Group instead.</p>
 <p id="bkmrk-menu-path%3A-admin.mic-1"><strong>Menu path:</strong> <a href="https://admin.microsoft.com">admin.microsoft.com</a> → <strong>Teams &amp; groups</strong> → <strong>Shared mailboxes</strong> → <strong>Add a shared mailbox</strong></p>
 
 <h3 id="bkmrk-step-by-step-1">Step-by-step</h3>
-<ol id="bkmrk-in-admin-center%2C-go-">
-<li>In admin center, go to <strong>Teams &amp; groups</strong> → <strong>Shared mailboxes</strong>.</li>
+<ol id="bkmrk-confirm-the-role-is-">
+<li>Confirm the role is one of the six officer roles above. If it is any other chair or lead, stop and use the committee mailing-list procedure.</li>
 <li>Click <strong>Add a shared mailbox</strong>.</li>
-<li>Enter:
-<ul>
-<li><strong>Name</strong> (example: Wildfire Task Force Lead)</li>
-<li><strong>Email</strong> (example: <code>wildfirelead</code> → <code>wildfirelead@sandiahomeowners.org</code>)</li>
-</ul>
-</li>
-<li>Click <strong>Save changes</strong>.</li>
-<li>Open the mailbox details and click <strong>Members</strong> → <strong>Edit</strong> → <strong>Add members</strong>.</li>
-<li>Add licensed users who should access the mailbox (usually current lead/chair and optional backup).</li>
-<li>Set <strong>Send As</strong> (or delegation) permissions for the same users.</li>
-<li>Ask one user to verify in <a href="https://outlook.com">outlook.com</a> that:
-<ul>
-<li>The mailbox appears (or can be manually added)</li>
-<li>They can receive mail</li>
-<li>They can send with the shared mailbox in the From field</li>
-</ul>
-</li>
+<li>Enter the role name and address, such as <code>president@sandiahomeowners.org</code>.</li>
+<li>Save the mailbox, then open its details and choose <strong>Members</strong> → <strong>Edit</strong> → <strong>Add members</strong>.</li>
+<li>Add the incoming officer's licensed <code>@sandiahomeowners.org</code> account.</li>
+<li>Grant that account both <strong>Full Access</strong> and <strong>Send As</strong>. These are separate permissions; grant both.</li>
+<li>Send the <a href="/books/shha-it-help-guide/page/office-onboarding-email-templates">Officer Shared Mailbox Access</a> email with the direct role address and the wiki link.</li>
+<li>Ask the officer to sign in to <a href="https://outlook.office.com">Outlook</a> with their own account and manually add the shared mailbox. It will not appear automatically in every Outlook setup.</li>
+<li>Test that the officer can open the mailbox, read an incoming test message, and send with the role address in the <strong>From</strong> field.</li>
+<li>Tell the officer to send official role correspondence from the role mailbox or copy it. The shared mailbox is the role's archive; a personal inbox is not.</li>
 </ol>
 
 <h3 id="bkmrk-important-notes">Important notes</h3>
 <ul id="bkmrk-shared-mailboxes-are">
-<li>Shared mailboxes are role-based, not person-based.</li>
-<li>Do not create separate personal accounts for each chair unless they truly need their own licensed login.</li>
+<li>The officer does <strong>not</strong> log in directly to the shared mailbox. There is no separate shared-mailbox password to give them.</li>
+<li>For current Outlook instructions, see <a href="https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook">Open and use a shared mailbox in Outlook</a>.</li>
+<li>For a change of officer, remove the outgoing officer's permissions, grant the incoming officer both permissions, and test again.</li>
 </ul>
 
 <hr id="bkmrk--4">
@@ -157,6 +151,7 @@ Click <strong>Next</strong> then <strong>Create group</strong>.</li>
 <li>Assign correct M365 license.</li>
 <li>Finish adding user.</li>
 <li>Add user to appropriate groups/shared mailbox access as needed.</li>
+<li>Send the <a href="/books/shha-it-help-guide/page/office-onboarding-email-templates">New Internal Staff User</a> email after testing the account.</li>
 </ol>
 
 <hr id="bkmrk--6">
@@ -170,6 +165,7 @@ Click <strong>Next</strong> then <strong>Create group</strong>.</li>
 <li>Ask them to accept Microsoft invitation email.</li>
 <li>After acceptance, add them to needed Microsoft Groups.</li>
 <li>Verify they receive test group email.</li>
+<li>Send the <a href="/books/shha-it-help-guide/page/office-onboarding-email-templates">New External Volunteer</a> email after testing access.</li>
 </ol>
 
 <hr id="bkmrk--7">

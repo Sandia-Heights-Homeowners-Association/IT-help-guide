@@ -8,7 +8,7 @@ Microsoft 365, SharePoint, mailing lists, and role mailboxes.
 | Who you are | Start with | Then use |
 | --- | --- | --- |
 | New external volunteer using Gmail, Yahoo, iCloud, or another personal email | [Volunteer Access](01-volunteer-access.md) | [Email, Files, and Directory](02-email-files-directory.md) |
-| Officer or committee chair with a role inbox | [Email, Files, and Directory](02-email-files-directory.md) | [Volunteer Access](01-volunteer-access.md#role-inboxes-for-officers-and-chairs) |
+| Officer with a role inbox | [Email, Files, and Directory](02-email-files-directory.md) | [Volunteer Access](01-volunteer-access.md#role-inboxes-for-officers) |
 | New Board member | [New Board Member Guide](05-new-board-member.md) | [Email, Files, and Directory](02-email-files-directory.md) |
 | Office staff | [Staff and Admin SOPs](03-staff-admin-sops.md) | [Email, Files, and Directory](02-email-files-directory.md) |
 | Future IT helper | [Staff and Admin SOPs](03-staff-admin-sops.md) | [Operations Open Items](04-operations-open-items.md) |
@@ -21,7 +21,8 @@ SHHA primarily uses Microsoft 365 for email, mailing lists, role inboxes, and
 SharePoint files.
 
 - Committee mailing lists reach a whole group, such as `csc@sandiahomeowners.org`.
-- Shared role inboxes belong to a position, such as `president@sandiahomeowners.org`.
+- Shared role inboxes belong only to the six officer positions: President, Vice
+  President, Secretary, Treasurer, ACC Chair, and CSC Chair.
 - SharePoint is the long-term place for committee files.
 - External volunteers usually use their personal email and do not need a paid SHHA license.
 
@@ -31,7 +32,7 @@ SharePoint files.
 2. Use direct SharePoint links instead of browsing through Microsoft menus.
 3. Put committee documents in SharePoint, then email the link.
 4. Use committee mailing lists for group communication.
-5. Use or copy the shared role inbox for official role business.
+5. Use or copy the shared role inbox for official officer business.
 6. Contact `ITHelp@sandiahomeowners.org` for access problems.
 
 ## What Changed In This Cleanup

@@ -16,11 +16,13 @@ Send an email to any address below to reach every current member of that group. 
 
 <table id="bkmrk-group-%2F-committeeema"><thead><tr><th>Group / Committee</th><th>Email Address</th></tr></thead><tbody><tr><td>All staff and volunteers</td><td><SHHA-all@sandiahomeowners.org></td></tr><tr><td>Board of Directors</td><td><board@sandiahomeowners.org></td></tr><tr><td>Architectural Control Committee (ACC)</td><td><ACC@sandiahomeowners.org></td></tr><tr><td>Communications &amp; Publications Committee (CPC)</td><td><CPC@sandiahomeowners.org></td></tr><tr><td>Community Service &amp; Membership Committee (CSMC)</td><td><CSMC@sandiahomeowners.org></td></tr><tr><td>Covenant Support Committee (CSC)</td><td><CSC@sandiahomeowners.org></td></tr><tr><td>Environment &amp; Safety Committee (ESC)</td><td><ESC@sandiahomeowners.org></td></tr><tr><td>Executive Committee (EC)</td><td><EC@sandiahomeowners.org></td></tr><tr><td>Finance Committee (FC)</td><td><FC@sandiahomeowners.org></td></tr><tr><td>Governance Committee (GC)</td><td><GC@sandiahomeowners.org></td></tr><tr><td>Admins (Staff + IT)</td><td><M365admins@sandiahomeowners.org></td></tr><tr><td>IT Help Desk</td><td><ithelp@sandiahomeowners.org></td></tr></tbody></table>
 
-## Chair &amp; Officer Inboxes (Shared Role Mailboxes)
+## Officer Inboxes (Shared Role Mailboxes)
 
-These addresses belong to the *position*, not the person. When leadership changes, the inbox (and its full email history) transfers to the successor.
+Only the six officer roles below have shared mailboxes. These addresses belong to the position, not the person; the mailbox and its history transfer to the next officer.
 
-<table id="bkmrk-roleshared-mailbox-p"><thead><tr><th>Role</th><th>Shared Mailbox</th></tr></thead><tbody><tr><td>President</td><td><president@sandiahomeowners.org></td></tr><tr><td>Vice President</td><td><vicepresident@sandiahomeowners.org></td></tr><tr><td>Secretary</td><td><secretary@sandiahomeowners.org></td></tr><tr><td>Finance Chair / Treasurer</td><td><treasurer@sandiahomeowners.org></td></tr><tr><td>Architectural Control Committee Chair</td><td><ACCChair@sandiahomeowners.org></td></tr><tr><td>Communications &amp; Publications Chair</td><td><CPCChair@sandiahomeowners.org></td></tr><tr><td>Community Service &amp; Membership Chair</td><td><CSMCChair@sandiahomeowners.org></td></tr><tr><td>Covenant Support Committee Chair</td><td><CSCChair@sandiahomeowners.org></td></tr><tr><td>Environment &amp; Safety Chair</td><td><ESCChair@sandiahomeowners.org></td></tr></tbody></table>
+<table id="bkmrk-roleshared-mailbox-p"><thead><tr><th>Role</th><th>Shared Mailbox</th></tr></thead><tbody><tr><td>President</td><td><president@sandiahomeowners.org></td></tr><tr><td>Vice President</td><td><vicepresident@sandiahomeowners.org></td></tr><tr><td>Secretary</td><td><secretary@sandiahomeowners.org></td></tr><tr><td>Treasurer</td><td><treasurer@sandiahomeowners.org></td></tr><tr><td>ACC Chair</td><td><accchair@sandiahomeowners.org></td></tr><tr><td>CSC Chair</td><td><cscchair@sandiahomeowners.org></td></tr></tbody></table>
+
+Other committee chairs and task-force leads do not get shared mailboxes. They use their own account and the committee mailing list.
 
 ## SharePoint Sites (Committee Document Libraries)
 

@@ -14,13 +14,18 @@
 
 <a id="bkmrk--3"></a>## Shared Role Inbox Basics
 
-If you hold an officer or chair role, you may be assigned a shared role inbox.
+Only the six officer roles have shared mailboxes: President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair. Other committee chairs and task-force leads do not get shared mailboxes.
 
-- Open it from your normal account at [outlook.office.com](https://outlook.office.com).
-- Reply from the role inbox for official role business.
-- Keep records in the role mailbox for continuity.
- 
-See [FAQ — Reply from role mailbox](faq.html#reply-from-role) for full instructions, and [FAQ — Can't see shared inbox](faq.html#cannot-see-mailbox) if the mailbox doesn't appear.
+An officer may also be included in a committee group using another email address, but shared-mailbox access always uses the officer's SHHA account.
+
+- Sign in to Outlook with your own licensed `@sandiahomeowners.org` account.
+- The office grants your account **Full Access** and **Send As**.
+- Add the shared mailbox manually in Outlook; it may not appear automatically.
+- Use the role mailbox for official role business, or copy it so the message is archived with the role.
+
+You cannot log in directly to a shared mailbox. It is not a separate person or password; it is a role inbox opened through your own account.
+
+See [Microsoft's current instructions for opening and using a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook), and see the [FAQ for replying from a role mailbox](/books/shha-it-help-guide/page/faq#bkmrk--11) or [adding one that does not appear](/books/shha-it-help-guide/page/faq#bkmrk--13).
 
 ---
 

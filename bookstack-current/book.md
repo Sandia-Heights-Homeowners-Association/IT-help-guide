@@ -1,6 +1,6 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-07-31T17:42:01+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-07-31T18:01:51+00:00.
 
 ## Quick Links & Directory
 
@@ -22,11 +22,13 @@ Send an email to any address below to reach every current member of that group. 
 
 <table id="bkmrk-group-%2F-committeeema"><thead><tr><th>Group / Committee</th><th>Email Address</th></tr></thead><tbody><tr><td>All staff and volunteers</td><td><SHHA-all@sandiahomeowners.org></td></tr><tr><td>Board of Directors</td><td><board@sandiahomeowners.org></td></tr><tr><td>Architectural Control Committee (ACC)</td><td><ACC@sandiahomeowners.org></td></tr><tr><td>Communications &amp; Publications Committee (CPC)</td><td><CPC@sandiahomeowners.org></td></tr><tr><td>Community Service &amp; Membership Committee (CSMC)</td><td><CSMC@sandiahomeowners.org></td></tr><tr><td>Covenant Support Committee (CSC)</td><td><CSC@sandiahomeowners.org></td></tr><tr><td>Environment &amp; Safety Committee (ESC)</td><td><ESC@sandiahomeowners.org></td></tr><tr><td>Executive Committee (EC)</td><td><EC@sandiahomeowners.org></td></tr><tr><td>Finance Committee (FC)</td><td><FC@sandiahomeowners.org></td></tr><tr><td>Governance Committee (GC)</td><td><GC@sandiahomeowners.org></td></tr><tr><td>Admins (Staff + IT)</td><td><M365admins@sandiahomeowners.org></td></tr><tr><td>IT Help Desk</td><td><ithelp@sandiahomeowners.org></td></tr></tbody></table>
 
-## Chair &amp; Officer Inboxes (Shared Role Mailboxes)
+## Officer Inboxes (Shared Role Mailboxes)
 
-These addresses belong to the *position*, not the person. When leadership changes, the inbox (and its full email history) transfers to the successor.
+Only the six officer roles below have shared mailboxes. These addresses belong to the position, not the person; the mailbox and its history transfer to the next officer.
 
-<table id="bkmrk-roleshared-mailbox-p"><thead><tr><th>Role</th><th>Shared Mailbox</th></tr></thead><tbody><tr><td>President</td><td><president@sandiahomeowners.org></td></tr><tr><td>Vice President</td><td><vicepresident@sandiahomeowners.org></td></tr><tr><td>Secretary</td><td><secretary@sandiahomeowners.org></td></tr><tr><td>Finance Chair / Treasurer</td><td><treasurer@sandiahomeowners.org></td></tr><tr><td>Architectural Control Committee Chair</td><td><ACCChair@sandiahomeowners.org></td></tr><tr><td>Communications &amp; Publications Chair</td><td><CPCChair@sandiahomeowners.org></td></tr><tr><td>Community Service &amp; Membership Chair</td><td><CSMCChair@sandiahomeowners.org></td></tr><tr><td>Covenant Support Committee Chair</td><td><CSCChair@sandiahomeowners.org></td></tr><tr><td>Environment &amp; Safety Chair</td><td><ESCChair@sandiahomeowners.org></td></tr></tbody></table>
+<table id="bkmrk-roleshared-mailbox-p"><thead><tr><th>Role</th><th>Shared Mailbox</th></tr></thead><tbody><tr><td>President</td><td><president@sandiahomeowners.org></td></tr><tr><td>Vice President</td><td><vicepresident@sandiahomeowners.org></td></tr><tr><td>Secretary</td><td><secretary@sandiahomeowners.org></td></tr><tr><td>Treasurer</td><td><treasurer@sandiahomeowners.org></td></tr><tr><td>ACC Chair</td><td><accchair@sandiahomeowners.org></td></tr><tr><td>CSC Chair</td><td><cscchair@sandiahomeowners.org></td></tr></tbody></table>
+
+Other committee chairs and task-force leads do not get shared mailboxes. They use their own account and the committee mailing list.
 
 ## SharePoint Sites (Committee Document Libraries)
 
@@ -789,17 +791,16 @@ Use this page as the central directory for links and addresses.
 - Governance Committee (GC): **GC@sandiahomeowners.org**
 - IT Help Desk: **ithelp@sandiahomeowners.org**
 
-### Shared Role Inboxes
+### Shared Role Inboxes (Officers Only)
+
+Only President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair have shared mailboxes. Other committee chairs use their own account and the committee mailing list.
 
 - President: **president@sandiahomeowners.org**
 - Vice President: **vicepresident@sandiahomeowners.org**
 - Secretary: **secretary@sandiahomeowners.org**
-- Treasurer / Finance Chair: **treasurer@sandiahomeowners.org**
-- ACC Chair: **ACCChair@sandiahomeowners.org**
-- CPC Chair: **CPCChair@sandiahomeowners.org**
-- CSMC Chair: **CSMCChair@sandiahomeowners.org**
-- CSC Chair: **CSCChair@sandiahomeowners.org**
-- ESC Chair: **ESCChair@sandiahomeowners.org**
+- Treasurer: **treasurer@sandiahomeowners.org**
+- ACC Chair: **accchair@sandiahomeowners.org**
+- CSC Chair: **cscchair@sandiahomeowners.org**
 
 ### Other Key Addresses
 
@@ -906,13 +907,18 @@ Use this page as the central directory for links and addresses.
 
 <a id="bkmrk--3"></a>## Shared Role Inbox Basics
 
-If you hold an officer or chair role, you may be assigned a shared role inbox.
+Only the six officer roles have shared mailboxes: President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair. Other committee chairs and task-force leads do not get shared mailboxes.
 
-- Open it from your normal account at [outlook.office.com](https://outlook.office.com).
-- Reply from the role inbox for official role business.
-- Keep records in the role mailbox for continuity.
- 
-See [FAQ — Reply from role mailbox](faq.html#reply-from-role) for full instructions, and [FAQ — Can't see shared inbox](faq.html#cannot-see-mailbox) if the mailbox doesn't appear.
+An officer may also be included in a committee group using another email address, but shared-mailbox access always uses the officer's SHHA account.
+
+- Sign in to Outlook with your own licensed `@sandiahomeowners.org` account.
+- The office grants your account **Full Access** and **Send As**.
+- Add the shared mailbox manually in Outlook; it may not appear automatically.
+- Use the role mailbox for official role business, or copy it so the message is archived with the role.
+
+You cannot log in directly to a shared mailbox. It is not a separate person or password; it is a role inbox opened through your own account.
+
+See [Microsoft's current instructions for opening and using a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook), and see the [FAQ for replying from a role mailbox](/books/shha-it-help-guide/page/faq#bkmrk--11) or [adding one that does not appear](/books/shha-it-help-guide/page/faq#bkmrk--13).
 
 ---
 
@@ -967,7 +973,7 @@ Choose the matching scenario, replace every item in square brackets, delete line
 
 ## Placeholder Key
 
-<table id="bkmrk-placeholderreplace-w"><thead><tr><th>Placeholder</th><th>Replace with</th></tr></thead><tbody><tr><td>`[FIRST NAME]`</td><td>Recipient's first name</td></tr><tr><td>`[SHHA EMAIL]`</td><td>New internal `@sandiahomeowners.org` address</td></tr><tr><td>`[COMMITTEE NAME]`</td><td>Full committee or task-force name</td></tr><tr><td>`[MAILING LIST]`</td><td>Committee mailing-list address</td></tr><tr><td>`[SHAREPOINT LINK]`</td><td>Direct committee SharePoint site URL</td></tr><tr><td>`[WIKI LINK]`</td><td>The most relevant wiki page listed below the template</td></tr><tr><td>`[OFFICE CONTACT]`</td><td>Office staff contact name or email</td></tr></tbody></table>
+<table id="bkmrk-placeholderreplace-w"><thead><tr><th>Placeholder</th><th>Replace with</th></tr></thead><tbody><tr><td>`[FIRST NAME]`</td><td>Recipient's first name</td></tr><tr><td>`[SHHA EMAIL]`</td><td>New internal `@sandiahomeowners.org` address</td></tr><tr><td>`[COMMITTEE NAME]`</td><td>Full committee or task-force name</td></tr><tr><td>`[MAILING LIST]`</td><td>Committee mailing-list address</td></tr><tr><td>`[SHAREPOINT LINK]`</td><td>Direct committee SharePoint site URL</td></tr><tr><td>`[ROLE MAILBOX]`</td><td>Officer role mailbox address, such as `president@sandiahomeowners.org`</td></tr><tr><td>`[WIKI LINK]`</td><td>The most relevant wiki page listed below the template</td></tr><tr><td>`[OFFICE CONTACT]`</td><td>Office staff contact name or email</td></tr></tbody></table>
 
 ## Before Sending Any Template
 
@@ -1097,6 +1103,43 @@ Instructions are here:
 [WIKI LINK]
 
 Please contact [OFFICE CONTACT] with membership or organization questions, or ITHelp@sandiahomeowners.org if the site will not open.
+
+Thank you,
+[OFFICE CONTACT]
+```
+
+## Template 5: New Officer Shared Mailbox Access
+
+**Use for:** an incoming President, Vice President, Secretary, Treasurer, ACC Chair, or CSC Chair. Do not use this for an ordinary committee chair or task-force lead.
+
+**Suggested wiki link:** [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email).
+
+```
+Subject: Your SHHA officer mailbox is ready
+
+Hi [FIRST NAME],
+
+Your SHHA officer mailbox is ready:
+[ROLE MAILBOX]
+
+This mailbox belongs to the officer role, not to you personally. It keeps the role's email history available to future officers. You cannot log in directly to this mailbox. Sign in to Outlook with your own SHHA account:
+[SHHA EMAIL]
+
+The office has granted your account Full Access and Send As permission. Please add the shared mailbox in Outlook; it may not appear automatically:
+
+- In Outlook on the web, right-click Folders and choose Add shared folder or mailbox.
+- In new Outlook, right-click Shared with me and choose Add shared folder or mailbox.
+- In classic Outlook, use Account Settings, then More Settings, Advanced, and Add.
+
+For official officer correspondence, send from [ROLE MAILBOX] or copy it. The shared mailbox is the archive; your personal inbox is not.
+
+Microsoft's current instructions are here:
+https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook
+
+Please test that you can open the mailbox, read a test message, and send with [ROLE MAILBOX] in the From field. If anything does not work, contact ITHelp@sandiahomeowners.org.
+
+More SHHA guidance:
+[WIKI LINK]
 
 Thank you,
 [OFFICE CONTACT]
@@ -1330,7 +1373,7 @@ Role mailboxes stay with the position, not the person. When leadership changes, 
 4. Click **Reply**. Check the **From** field — it should show the role address. If not, click **From** and select the role mailbox.
 5. Compose and click **Send**.
  
-<div id="bkmrk-microsoft-help%3A-open">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)</div>---
+<div id="bkmrk-microsoft-help%3A-open">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook)</div>---
 
 ## Why does the President need both president@sandiahomeowners.org and robin.otten@sandiahomeowners.org?
 
@@ -1366,7 +1409,7 @@ If the shared mailbox does not appear automatically, try adding it manually:
  
 **If it still does not appear**, your account may not have been granted permission yet. Contact **ITHelp@sandiahomeowners.org** to verify your mailbox permissions.
 
-<div id="bkmrk-microsoft-help%3A-open-1">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd) — see "What if it didn't work?"</div>---
+<div id="bkmrk-microsoft-help%3A-open-1">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook) — see "What if it didn't work?"</div>---
 
 <a id="bkmrk--16"></a>## Where should Board materials be submitted?
 
@@ -1397,7 +1440,7 @@ If none of the above resolves it, contact office staff or **ITHelp@sandiahomeown
 
 There is **no single Microsoft website for everything.** Which site you use depends on what you need:
 
- <table id="bkmrk-what-you-need-to-dow"> <thead> <tr><th>What you need to do</th><th>Where to go</th><th>Who uses it</th></tr> </thead> <tbody> <tr> <td>**Open committee files**</td> <td>Your committee's **SharePoint link** (from your chair or ITHelp). You can also browse [sandiahomeowners.sharepoint.com](https://sandiahomeowners.sharepoint.com)</td> <td>All volunteers</td> </tr> <tr> <td>**Read / send role mailbox email**</td> <td>[outlook.office.com](https://outlook.office.com) — sign in with your `@sandiahomeowners.org` account</td> <td>Officers &amp; chairs with role mailboxes</td> </tr> <tr> <td>**Manage your Microsoft account**</td> <td>[account.microsoft.com](https://account.microsoft.com) — reset password, update security info</td> <td>Anyone with a Microsoft account</td> </tr> <tr> <td>**Access personal OneDrive files**</td> <td>[onedrive.live.com](https://onedrive.live.com) (personal) or your SharePoint library (SHHA files)</td> <td>Limited use</td> </tr> </tbody> </table>
+ <table id="bkmrk-what-you-need-to-dow"> <thead> <tr><th>What you need to do</th><th>Where to go</th><th>Who uses it</th></tr> </thead> <tbody> <tr> <td>**Open committee files**</td> <td>Your committee's **SharePoint link** (from your chair or ITHelp). You can also browse [sandiahomeowners.sharepoint.com](https://sandiahomeowners.sharepoint.com)</td> <td>All volunteers</td> </tr> <tr> <td>**Read / send role mailbox email**</td> <td>[outlook.office.com](https://outlook.office.com) — sign in with your `@sandiahomeowners.org` account</td> <td>The six officer roles</td> </tr> <tr> <td>**Manage your Microsoft account**</td> <td>[account.microsoft.com](https://account.microsoft.com) — reset password, update security info</td> <td>Anyone with a Microsoft account</td> </tr> <tr> <td>**Access personal OneDrive files**</td> <td>[onedrive.live.com](https://onedrive.live.com) (personal) or your SharePoint library (SHHA files)</td> <td>Limited use</td> </tr> </tbody> </table>
 
 <div id="bkmrk-tip%3A-most-volunteers">**Tip:** Most volunteers just click a SharePoint link someone emailed them. You do not need to remember a general login page.</div><div id="bkmrk-microsoft-help%3A-sign">**Microsoft help:** [Sign in to Microsoft 365](https://support.microsoft.com/en-us/office/sign-in-to-microsoft-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)</div>---
 
@@ -1406,7 +1449,7 @@ There is **no single Microsoft website for everything.** Which site you use depe
 **It depends on your role:**
 
 - **Most committee volunteers do NOT have an `@sandiahomeowners.org` email address.** You use your personal email and receive committee emails there. No special login is needed.
-- **Officers and committee chairs** usually have access to a **shared role mailbox** (e.g., `president@sandiahomeowners.org`, `cscchair@sandiahomeowners.org`). These are shared inboxes tied to the position. Access them through [outlook.office.com](https://outlook.office.com) using your `@sandiahomeowners.org` licensed account. See [role mailboxes](#bkmrk--11) and [accessing shared inboxes](#bkmrk--13) above.
+- **Only the six officer roles** (President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair) have shared role mailboxes. Other committee chairs use their own account and committee mailing list. See [role mailboxes](#bkmrk--11) and [accessing shared inboxes](#bkmrk--13) above.
 - **Staff members** have full licensed `@sandiahomeowners.org` accounts and log in at [outlook.office.com](https://outlook.office.com).
  
 Not sure which category you fall into? Ask your committee chair or email **ITHelp@sandiahomeowners.org**.
@@ -1444,7 +1487,7 @@ If you have an exceptional need for forwarding, contact **ITHelp@sandiahomeowner
  
 **For regular committee email (external volunteers):** Committee emails are delivered directly to your personal inbox. No special setup needed.
 
-<div id="bkmrk-microsoft-help%3A-open-2">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd)</div>---
+<div id="bkmrk-microsoft-help%3A-open-2">**Microsoft help:** [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook)</div>---
 
 <a id="bkmrk--28"></a>## How do I see emails going between committee or Board members? Can I see older emails from before I joined?
 
@@ -1462,7 +1505,7 @@ If you have an exceptional need for forwarding, contact **ITHelp@sandiahomeowner
  
 ### Shared role mailbox emails
 
-If you hold a role (e.g., committee chair, President), the shared role mailbox **retains its full email history** regardless of who currently has access. When you are granted access, you can scroll back through all prior sent and received messages — one of the major advantages of using role mailboxes.
+If you hold one of the six officer roles, the shared role mailbox **retains its full email history** regardless of who currently has access. When you are granted access, you can scroll back through all prior sent and received messages — one of the major advantages of using role mailboxes.
 
 ---
 
@@ -2089,9 +2132,11 @@ Each committee has a Microsoft Group that acts as its mailing list.
 
 <a id="bkmrk--7"></a>## Shared Mailboxes (Role Inboxes)
 
-Chair and executive role addresses are shared mailboxes tied to positions, not people.
+Only six officer role addresses are shared mailboxes tied to positions, not people: President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair. Other committee chairs and task-force leads use their own account and the committee mailing list.
 
  <table id="bkmrk-roleaddress-csc-chai"> <thead><tr><th>Role</th><th>Address</th></tr></thead> <tbody> <tr><td>CSC Chair</td><td>`cscchair@sandiahomeowners.org`</td></tr> <tr><td>ACC Chair</td><td>`accchair@sandiahomeowners.org`</td></tr> <tr><td>President</td><td>`president@sandiahomeowners.org`</td></tr> <tr><td>Vice President</td><td>`vicepresident@sandiahomeowners.org`</td></tr> <tr><td>Secretary</td><td>`secretary@sandiahomeowners.org`</td></tr> <tr><td>Treasurer</td><td>`treasurer@sandiahomeowners.org`</td></tr> </tbody> </table>
+
+Each incoming officer receives both **Full Access** and **Send As** permission through the officer's own licensed SHHA account. Officers cannot log in directly to the shared mailbox and must add it manually in Outlook because it may not appear automatically. For official role correspondence, send from the role mailbox or copy it so the shared mailbox remains the archive.
 
 ### Access model
 
@@ -2153,7 +2198,7 @@ A Power Automate flow sends email notifications whenever group membership change
 1. Confirm removal request and effective date.
 2. Remove member from the Microsoft Group.
 3. Verify Power Automate notification is received.
-4. If person held a role, check related shared mailbox permissions.
+4. If person held one of the six officer roles, check related shared mailbox permissions.
  
 ---
 
@@ -2209,7 +2254,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 - Sender used the correct group address
 - Recent change triggered notification (confirms update happened)
  
-### New chair cannot open role mailbox
+### New officer cannot open role mailbox
 
 - Shared mailbox permission was granted to the person's licensed account
 - User is opening mailbox from their own account context
@@ -2225,7 +2270,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 <a id="bkmrk--31"></a>## Handoff Checklist (Staff / Volunteer Transition)
 
 - Review all committee group memberships for accuracy.
-- Verify all active chairs/executive roles have correct shared mailbox access.
+- Verify all six active officer roles have correct shared mailbox access.
 - Remove stale permissions from former role holders.
 - Confirm `itadmin@` is in every group.
 - Confirm membership-change notification flow is working.
@@ -2243,6 +2288,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 
 - [M365 Email Building Blocks](/books/shha-it-help-guide/page/m365-email-building-blocks) — understand the four email patterns (personal mailbox, shared mailbox, mailing list, alias) and when to use each
 - [SOP: New Users, Mailboxes &amp; Groups](/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups) — step-by-step admin procedures for creating users, shared mailboxes, groups, and aliases
+- [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates) — copy-and-send messages for the people who receive new access
 
 # M365 Email Building Blocks
 
@@ -2250,13 +2296,7 @@ SHHA uses four distinct patterns for email addresses in Microsoft 365. Before re
 
 ## The Four Patterns at a Glance
 
-<table id="bkmrk-patternwhat-it-isexa"><thead><tr><th>Pattern</th><th>What it is</th><th>Example</th><th>When to use it</th></tr></thead><tbody><tr><td>**Personal mailbox**  
-`first.last@sandiahomeowners.org`</td><td>A licensed M365 account owned by one person. Has its own login, calendar, OneDrive, etc.</td><td>`anna.smith@sandiahomeowners.org`</td><td>Office staff and IT admins who need to *log in* to Microsoft 365 and perform admin tasks. **Costs a license.**</td></tr><tr><td>**Shared mailbox**  
-`role@sandiahomeowners.org`</td><td>A mailbox tied to a *position*, not a person. Multiple licensed users can open it from their own account. Retains full email history across holders.</td><td>`president@sandiahomeowners.org`  
-`cscchair@sandiahomeowners.org`</td><td>Any role where you need: (a) a stable address that survives personnel changes, (b) email history inherited by the next holder, (c) the ability for multiple people to send/receive as that address.</td></tr><tr><td>**Mailing list (Microsoft Group)**  
-`committee@sandiahomeowners.org`</td><td>A distribution group. Email sent to the address is delivered to every current member — including external guests who have no M365 license.</td><td>`csc@sandiahomeowners.org`  
-`shha-all@sandiahomeowners.org`</td><td>Any group of people who need to receive the same email. Most committees have one. **No license cost** for external members.</td></tr><tr><td>**Alias**  
-*(additional address on an existing mailbox or group)*</td><td>An extra email address that delivers to an existing mailbox or group. Not a separate mailbox — just an alternative address for the same destination.</td><td>`wildfire@sandiahomeowners.org` → delivers to the ESC group or a specific shared mailbox</td><td>One-off or special-purpose addresses (task forces, events, topical inboxes) where you do **not** need a separate mailbox with its own history. Use when you want a memorable address that maps to something that already exists.</td></tr></tbody></table>
+<table id="bkmrk-patternwhat-it-isexa"><thead><tr><th>Pattern</th><th>What it is</th><th>Example</th><th>When to use it</th></tr></thead><tbody><tr><td>**Personal mailbox**; `first.last@sandiahomeowners.org`</td><td>A licensed M365 account owned by one person. Has its own login, calendar, OneDrive, etc.</td><td>`anna.smith@sandiahomeowners.org`</td><td>Office staff and IT admins who need to *log in* to Microsoft 365 and perform admin tasks. **Costs a license.**</td></tr><tr><td>**Shared mailbox**; `role@sandiahomeowners.org`</td><td>A mailbox tied to a *position*, not a person. Multiple licensed users can open it from their own account. Retains full email history across holders.</td><td>`president@sandiahomeowners.org`; `cscchair@sandiahomeowners.org`</td><td>Only one of SHHA's six officer roles: President, Vice President, Secretary, Treasurer, ACC Chair, or CSC Chair. Each officer receives Full Access and Send As through the officer's own licensed account.</td></tr><tr><td>**Mailing list (Microsoft Group)**; `committee@sandiahomeowners.org`</td><td>A distribution group. Email sent to the address is delivered to every current member — including external guests who have no M365 license.</td><td>`csc@sandiahomeowners.org`; `shha-all@sandiahomeowners.org`</td><td>Any group of people who need to receive the same email. Most committees have one. **No license cost** for external members.</td></tr><tr><td>**Alias**; *(additional address on an existing mailbox or group)*</td><td>An extra email address that delivers to an existing mailbox or group. Not a separate mailbox — just an alternative address for the same destination.</td><td>`wildfire@sandiahomeowners.org` → delivers to the ESC group or a specific shared mailbox</td><td>One-off or special-purpose addresses (task forces, events, topical inboxes) where you do **not** need a separate mailbox with its own history. Use when you want a memorable address that maps to something that already exists.</td></tr></tbody></table>
 
 ## Which Pattern Do I Need?
 
@@ -2277,11 +2317,11 @@ Walk through these questions when planning a new email address:
 
 ## Combining Patterns
 
-For a full committee setup you typically create **all three**:
+For a committee or task force, the normal setup is:
 
-<table id="bkmrk-whatpatternexample-f"><thead><tr><th>What</th><th>Pattern</th><th>Example for a new "Wildfire Preparedness" task force</th></tr></thead><tbody><tr><td>Committee mailing list</td><td>Microsoft Group</td><td>`WPC@sandiahomeowners.org`</td></tr><tr><td>Chair inbox</td><td>Shared mailbox</td><td>`WPCChair@sandiahomeowners.org`</td></tr><tr><td>Friendly alias (optional)</td><td>Alias on the group</td><td>`wildfire@sandiahomeowners.org` → delivers to `WPC@`</td></tr></tbody></table>
+<table id="bkmrk-whatpatternexample-f"><thead><tr><th>What</th><th>Pattern</th><th>Typical result</th></tr></thead><tbody><tr><td>Committee mailing list</td><td>Microsoft Group</td><td>One address that reaches all current members, including external volunteers</td></tr><tr><td>Committee documents</td><td>SharePoint site</td><td>One group-owned Documents library for the committee record</td></tr><tr><td>Friendly alias (optional)</td><td>Alias on the group</td><td>An additional memorable address that routes to the group</td></tr><tr><td>Officer role inbox (only when applicable)</td><td>Shared mailbox</td><td>One of the six officer addresses; never a general chair or task-force mailbox</td></tr></tbody></table>
 
-You generally do **not** need to create personal mailboxes for the members — external volunteers receive group email at their personal addresses (Gmail, Yahoo, etc.) at no license cost.
+You generally do **not** need to create personal mailboxes for volunteers. External volunteers receive group email at their personal addresses (Gmail, Yahoo, etc.) and use SharePoint in a browser.
 
 ## Archive Rule
 
@@ -2293,7 +2333,8 @@ Every mailing list (Microsoft Group) **must** include `itadmin@sandiahomeowners.
 
 ## Where to Go Next
 
-- **Need to create a new user or shared mailbox?** See *SOP: Add a New User &amp; Create a Shared Mailbox* (next page in this chapter).
+- **Need to create a new user or shared mailbox?** See [SOP: New Users, Mailboxes &amp; Groups](/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups).
+- **Need to tell someone what to do next?** Use [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates).
 - **Need to add/remove members from an existing group?** See the SOPs in *M365 Email Groups, Role Inboxes &amp; Responsibilities*.
 - **Not sure what you need?** Email <ithelp@sandiahomeowners.org> with a description of the goal and IT admin will recommend the right pattern.
 
@@ -2307,7 +2348,7 @@ This SOP is written for SHHA staff who are comfortable with basic Microsoft admi
 
 ## Quick Start: What Are You Trying to Set Up?
 
-<table id="bkmrk-if-you-need...go-to-"><thead><tr><th>If you need...</th><th>Go to this section</th></tr></thead><tbody><tr><td>A new task-force or committee mailing address that sends to all members</td><td>[SOP A: Create a Microsoft 365 Group (Mailing List)](#bkmrk-sop-a%3A-create-a-micr)</td></tr><tr><td>A SharePoint document site for a new committee or task force</td><td>[SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site)</td></tr><tr><td>A role inbox for a chair or lead (keeps history when people rotate)</td><td>[SOP B: Create a Shared Mailbox](#bkmrk-sop-b%3A-create-a-shar)</td></tr><tr><td>A friendly one-off address like wildfire@sandiahomeowners.org</td><td>[SOP C: Add an Alias](#bkmrk-sop-c%3A-add-an-alias-)</td></tr><tr><td>An internal staff account with first.last@sandiahomeowners.org login</td><td>[SOP D: Add a Licensed User](#bkmrk-sop-d%3A-add-a-new-lic)</td></tr><tr><td>An external volunteer using Gmail/Yahoo/etc.</td><td>[SOP E: Add an External Guest](#bkmrk-sop-e%3A-add-an-extern)</td></tr></tbody></table>
+<table id="bkmrk-if-you-need...go-to-"><thead><tr><th>If you need...</th><th>Go to this section</th></tr></thead><tbody><tr><td>A new task-force or committee mailing address that sends to all members</td><td>[SOP A: Create a Microsoft 365 Group (Mailing List)](#bkmrk-sop-a%3A-create-a-micr)</td></tr><tr><td>A SharePoint document site for a new committee or task force</td><td>[SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site)</td></tr><tr><td>A shared mailbox for one of the six officer roles</td><td>[SOP B: Create a Shared Mailbox](#bkmrk-sop-b%3A-create-a-shar)</td></tr><tr><td>A friendly one-off address like wildfire@sandiahomeowners.org</td><td>[SOP C: Add an Alias](#bkmrk-sop-c%3A-add-an-alias-)</td></tr><tr><td>An internal staff account with first.last@sandiahomeowners.org login</td><td>[SOP D: Add a Licensed User](#bkmrk-sop-d%3A-add-a-new-lic)</td></tr><tr><td>An external volunteer using Gmail/Yahoo/etc.</td><td>[SOP E: Add an External Guest](#bkmrk-sop-e%3A-add-an-extern)</td></tr></tbody></table>
 
 ---
 
@@ -2317,11 +2358,11 @@ For a new short-term task force, the normal pattern is:
 
 1. Create a **Microsoft 365 Group** for the task-force mailing list.
 2. Add members (including external guests) and always include `itadmin@sandiahomeowners.org`.
-3. Create a **Shared Mailbox** for the task-force lead/chair if they need role continuity.
+3. If the request is for one of the six officer roles, use **SOP B** for the role mailbox. Ordinary committee chairs and task-force leads do not get shared mailboxes.
 4. Add an optional **Alias** (for example, `wildfire@sandiahomeowners.org`) if a friendlier address is useful.
 5. Confirm the Microsoft 365 group-connected **SharePoint site** exists; do not create a duplicate.
 6. Configure document permissions using [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site) and send members the [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide).
-7. Test email delivery and update the Quick Links directory.
+7. Test email delivery, update the Quick Links directory, and send the [New Committee Or Task Force](/books/shha-it-help-guide/page/office-onboarding-email-templates) email if this is a new group.
 
 If you only need one address that emails the whole task force, do **SOP A** only.
 
@@ -2359,6 +2400,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 13. Add all task-force members (internal and external as available).
 14. **Required:** Add `itadmin@sandiahomeowners.org` as a member for archive continuity.
 15. Send a test email to the new group address and confirm delivery.
+16. Send the [New Committee Or Task Force](/books/shha-it-help-guide/page/office-onboarding-email-templates) email after the group, membership, and any SharePoint site are tested.
 
 **Test after every change:** whenever membership or a group setting changes, test the group again. You can add yourself temporarily, send a test message, and remove yourself afterward. If external delivery matters, you can also add a personal Gmail account temporarily, test it, and remove it when finished.
 
@@ -2374,32 +2416,32 @@ If you only need one address that emails the whole task force, do **SOP A** only
 
 ---
 
-## SOP B: Create a Shared Mailbox (Chair/Lead Inbox)
+## SOP B: Create a Shared Mailbox (Six Officer Roles Only)
 
-**Use this for:** role inboxes that must persist when people rotate (chair, lead, coordinator).
+**Use this only for:** President, Vice President, Secretary, Treasurer, ACC Chair, or CSC Chair. Shared mailboxes are a little fussy to administer, but officer history is important enough that SHHA keeps it this way.
+
+**Do not use this for:** ordinary committee chairs, task-force leads, external volunteers, or general committee communication. Use the person's own account and the committee Microsoft Group instead.
 
 **Menu path:** [admin.microsoft.com](https://admin.microsoft.com) → **Teams &amp; groups** → **Shared mailboxes** → **Add a shared mailbox**
 
 ### Step-by-step
 
-1. In admin center, go to **Teams &amp; groups** → **Shared mailboxes**.
+1. Confirm the role is one of the six officer roles above. If it is any other chair or lead, stop and use the committee mailing-list procedure.
 2. Click **Add a shared mailbox**.
-3. Enter: 
-    - **Name** (example: Wildfire Task Force Lead)
-    - **Email** (example: `wildfirelead` → `wildfirelead@sandiahomeowners.org`)
-4. Click **Save changes**.
-5. Open the mailbox details and click **Members** → **Edit** → **Add members**.
-6. Add licensed users who should access the mailbox (usually current lead/chair and optional backup).
-7. Set **Send As** (or delegation) permissions for the same users.
-8. Ask one user to verify in [outlook.com](https://outlook.com) that: 
-    - The mailbox appears (or can be manually added)
-    - They can receive mail
-    - They can send with the shared mailbox in the From field
+3. Enter the role name and address, such as `president@sandiahomeowners.org`.
+4. Save the mailbox, then open its details and choose **Members** → **Edit** → **Add members**.
+5. Add the incoming officer's licensed `@sandiahomeowners.org` account.
+6. Grant that account both **Full Access** and **Send As**. These are separate permissions; grant both.
+7. Send the [Officer Shared Mailbox Access](/books/shha-it-help-guide/page/office-onboarding-email-templates) email with the direct role address and the wiki link.
+8. Ask the officer to sign in to [Outlook](https://outlook.office.com) with their own account and manually add the shared mailbox. It will not appear automatically in every Outlook setup.
+9. Test that the officer can open the mailbox, read an incoming test message, and send with the role address in the **From** field.
+10. Tell the officer to send official role correspondence from the role mailbox or copy it. The shared mailbox is the role's archive; a personal inbox is not.
 
 ### Important notes
 
-- Shared mailboxes are role-based, not person-based.
-- Do not create separate personal accounts for each chair unless they truly need their own licensed login.
+- The officer does **not** log in directly to the shared mailbox. There is no separate shared-mailbox password to give them.
+- For current Outlook instructions, see [Open and use a shared mailbox in Outlook](https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook).
+- For a change of officer, remove the outgoing officer's permissions, grant the incoming officer both permissions, and test again.
 
 ---
 
@@ -2439,6 +2481,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 4. Assign correct M365 license.
 5. Finish adding user.
 6. Add user to appropriate groups/shared mailbox access as needed.
+7. Send the [New Internal Staff User](/books/shha-it-help-guide/page/office-onboarding-email-templates) email after testing the account.
 
 ---
 
@@ -2454,6 +2497,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 2. Ask them to accept Microsoft invitation email.
 3. After acceptance, add them to needed Microsoft Groups.
 4. Verify they receive test group email.
+5. Send the [New External Volunteer](/books/shha-it-help-guide/page/office-onboarding-email-templates) email after testing access.
 
 ---
 
@@ -2582,6 +2626,7 @@ The shortcut points to the group-owned SharePoint library. It does not copy file
 1. Send members the [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide).
 2. Add the committee mailing list and SharePoint URL to [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory).
 3. Tell external members to bookmark the SharePoint site. Do not give them OneDrive instructions.
+4. Send the matching [New Committee Or Task Force](/books/shha-it-help-guide/page/office-onboarding-email-templates) or [New SharePoint Site For An Existing Committee](/books/shha-it-help-guide/page/office-onboarding-email-templates) email.
 
 ## Final Checklist
 
@@ -2597,6 +2642,7 @@ The shortcut points to the group-owned SharePoint library. It does not copy file
 - External member cannot edit the site page
 - Directory updated
 - General member guide sent
+- Matching onboarding email sent
 
 ## Microsoft References
 

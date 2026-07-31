@@ -6,7 +6,7 @@ Choose the matching scenario, replace every item in square brackets, delete line
 
 ## Placeholder Key
 
-<table id="bkmrk-placeholderreplace-w"><thead><tr><th>Placeholder</th><th>Replace with</th></tr></thead><tbody><tr><td>`[FIRST NAME]`</td><td>Recipient's first name</td></tr><tr><td>`[SHHA EMAIL]`</td><td>New internal `@sandiahomeowners.org` address</td></tr><tr><td>`[COMMITTEE NAME]`</td><td>Full committee or task-force name</td></tr><tr><td>`[MAILING LIST]`</td><td>Committee mailing-list address</td></tr><tr><td>`[SHAREPOINT LINK]`</td><td>Direct committee SharePoint site URL</td></tr><tr><td>`[WIKI LINK]`</td><td>The most relevant wiki page listed below the template</td></tr><tr><td>`[OFFICE CONTACT]`</td><td>Office staff contact name or email</td></tr></tbody></table>
+<table id="bkmrk-placeholderreplace-w"><thead><tr><th>Placeholder</th><th>Replace with</th></tr></thead><tbody><tr><td>`[FIRST NAME]`</td><td>Recipient's first name</td></tr><tr><td>`[SHHA EMAIL]`</td><td>New internal `@sandiahomeowners.org` address</td></tr><tr><td>`[COMMITTEE NAME]`</td><td>Full committee or task-force name</td></tr><tr><td>`[MAILING LIST]`</td><td>Committee mailing-list address</td></tr><tr><td>`[SHAREPOINT LINK]`</td><td>Direct committee SharePoint site URL</td></tr><tr><td>`[ROLE MAILBOX]`</td><td>Officer role mailbox address, such as `president@sandiahomeowners.org`</td></tr><tr><td>`[WIKI LINK]`</td><td>The most relevant wiki page listed below the template</td></tr><tr><td>`[OFFICE CONTACT]`</td><td>Office staff contact name or email</td></tr></tbody></table>
 
 ## Before Sending Any Template
 
@@ -136,6 +136,43 @@ Instructions are here:
 [WIKI LINK]
 
 Please contact [OFFICE CONTACT] with membership or organization questions, or ITHelp@sandiahomeowners.org if the site will not open.
+
+Thank you,
+[OFFICE CONTACT]
+```
+
+## Template 5: New Officer Shared Mailbox Access
+
+**Use for:** an incoming President, Vice President, Secretary, Treasurer, ACC Chair, or CSC Chair. Do not use this for an ordinary committee chair or task-force lead.
+
+**Suggested wiki link:** [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email).
+
+```
+Subject: Your SHHA officer mailbox is ready
+
+Hi [FIRST NAME],
+
+Your SHHA officer mailbox is ready:
+[ROLE MAILBOX]
+
+This mailbox belongs to the officer role, not to you personally. It keeps the role's email history available to future officers. You cannot log in directly to this mailbox. Sign in to Outlook with your own SHHA account:
+[SHHA EMAIL]
+
+The office has granted your account Full Access and Send As permission. Please add the shared mailbox in Outlook; it may not appear automatically:
+
+- In Outlook on the web, right-click Folders and choose Add shared folder or mailbox.
+- In new Outlook, right-click Shared with me and choose Add shared folder or mailbox.
+- In classic Outlook, use Account Settings, then More Settings, Advanced, and Add.
+
+For official officer correspondence, send from [ROLE MAILBOX] or copy it. The shared mailbox is the archive; your personal inbox is not.
+
+Microsoft's current instructions are here:
+https://support.microsoft.com/en-us/outlook/sharing/open-and-use-a-shared-mailbox-in-outlook
+
+Please test that you can open the mailbox, read a test message, and send with [ROLE MAILBOX] in the From field. If anything does not work, contact ITHelp@sandiahomeowners.org.
+
+More SHHA guidance:
+[WIKI LINK]
 
 Thank you,
 [OFFICE CONTACT]
