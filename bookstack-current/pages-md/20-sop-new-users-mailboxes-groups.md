@@ -53,13 +53,15 @@ If you only need one address that emails the whole task force, do **SOP A** only
     - Leave "Create a team for this group" **off** unless Teams is explicitly needed
     
     Click **Next** then **Create group**.
-9. Open the new group, then go to **Settings**.
-10. **Enable external email:** turn on **Let people outside the organization email this group**.
-11. **Enable inbox delivery:** turn on **Send copies of team emails and events to team members' inboxes**.
+9. After the group is created, open the new group and go to its **Settings** pane.
+10. **Required:** check **Let people outside the organization email this team**.
+11. **Required:** check **Send copies of team emails and events to team members' inboxes**.
 12. Go to **Members** → **Add members**.
 13. Add all task-force members (internal and external as available).
 14. **Required:** Add `itadmin@sandiahomeowners.org` as a member for archive continuity.
 15. Send a test email to the new group address and confirm delivery.
+
+**Test after every change:** whenever membership or a group setting changes, test the group again. You can add yourself temporarily, send a test message, and remove yourself afterward. If external delivery matters, you can also add a personal Gmail account temporarily, test it, and remove it when finished.
 
 ### Done checklist
 
@@ -69,7 +71,7 @@ If you only need one address that emails the whole task force, do **SOP A** only
 - External email enabled
 - Inbox delivery enabled
 - `itadmin@` added
-- Test email delivered
+- Test email delivered after setup and after any later change
 
 ---
 

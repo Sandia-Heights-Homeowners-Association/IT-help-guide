@@ -56,11 +56,18 @@ Use this for a committee or task-force mailing list.
 3. Enter the group name, description, and email address.
 4. Set privacy to **Private** unless there is a reason to do otherwise.
 5. Leave "Create a team for this group" off unless Teams is truly needed.
-6. Enable external email to the group.
-7. Enable copies of group email to members' inboxes.
+6. Finish creating the group.
+7. Open the new group and go to its **Settings** pane. You **must** check both of these settings:
+   - **Let people outside the organization email this team**.
+   - **Send copies of team emails and events to team members' inboxes**.
 8. Add owners and members.
 9. Add `itadmin@sandiahomeowners.org`.
-10. Send a test email and confirm delivery.
+10. Test the group before announcing it. Send a test email and confirm delivery to the intended members.
+
+After any later change to the group, test again. For a quick check, add yourself
+temporarily as a member, send a test message, and remove yourself when finished.
+If external delivery matters, you can also add a personal Gmail account
+temporarily, test it, and remove it afterward.
 
 Done checklist:
 
@@ -70,7 +77,7 @@ Done checklist:
 - Inbox delivery enabled.
 - Members added.
 - `itadmin@` added.
-- Test email delivered.
+- Test email delivered after setup and after any later change.
 
 ## Create A Committee SharePoint Site
 
