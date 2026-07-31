@@ -90,7 +90,7 @@ A Power Automate flow sends email notifications whenever group membership change
 3. Add to the correct Microsoft Group membership.
 4. Confirm `admin@` remains a member.
 5. Verify Power Automate sends membership-change notification.
-6. Ask requester to test delivery (or send a test message).
+6. Ask the group owner or new member to test delivery, or send a test message yourself.
  
 ---
 
@@ -181,7 +181,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 
 <a id="bkmrk--33"></a>## Key Contacts and Ownership
 
- <table id="bkmrk-rolecontact-group-me"> <thead><tr><th>Role</th><th>Contact</th></tr></thead> <tbody> <tr><td>Group membership owner</td><td>Anna (staff)</td></tr> <tr><td>Technical owner / escalation</td><td>IT admin</td></tr> <tr><td>Archive mailbox</td><td>`admin@` (not actively monitored)</td></tr> </tbody> </table>
+ <table id="bkmrk-rolecontact-group-me"> <thead><tr><th>Role</th><th>Contact</th></tr></thead> <tbody> <tr><td>Group membership owner</td><td>Anna (staff)</td></tr> <tr><td>Technical owner</td><td>IT admin</td></tr> <tr><td>Archive mailbox</td><td>`admin@` (not actively monitored)</td></tr> </tbody> </table>
 
 <div id="bkmrk-if-ownership-changes">**If ownership changes, update this section immediately.**</div>---
 

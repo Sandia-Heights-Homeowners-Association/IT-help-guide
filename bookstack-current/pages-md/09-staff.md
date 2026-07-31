@@ -19,7 +19,7 @@
 - Review committee membership updates from chairs.
 - Confirm Board reminder workflow is sending as expected.
 - Verify role mailbox access for current officers/chairs.
-- Escalate unresolved access issues to IT.
+- Record unresolved access issues with the account, group or site, exact error, and last successful test. Then check the relevant Microsoft 365 setting before handing the issue to the next person listed in the ownership table.
  
 ---
 

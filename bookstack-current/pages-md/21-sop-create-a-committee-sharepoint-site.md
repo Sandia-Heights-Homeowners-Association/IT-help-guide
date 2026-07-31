@@ -24,7 +24,7 @@ A Microsoft 365 group normally provisions a connected SharePoint team site. If t
 
 If the group-connected site appears in Active sites, open it and continue.
 
-**If the Microsoft 365 group exists but no connected site can be found, stop and contact IT.** Do not create a similarly named standalone site. A duplicate separates mailing-list membership from document access.
+**If the Microsoft 365 group exists but no connected site can be found:** do not create a similarly named standalone site. Recheck that the group is a **Microsoft 365** group and search the SharePoint admin center's **Active sites** by both the group name and the full committee name. If the site is still not listed, record the group name and leave site setup pending until Microsoft finishes provisioning it. A duplicate would separate mailing-list membership from document access.
 
 ## Step 2: Confirm Office Staff Are Owners
 

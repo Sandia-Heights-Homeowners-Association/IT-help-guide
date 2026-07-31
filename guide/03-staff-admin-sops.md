@@ -1,11 +1,11 @@
 # Staff and Admin SOPs
 
-This page is for office staff, IT helpers, and trained admins who maintain
-Microsoft 365 access.
+This page is for office staff and IT administrators who maintain Microsoft 365
+access.
 
 ## Ownership
 
-| Responsibility | Primary | Backup / escalation |
+| Responsibility | Primary | Backup / next action |
 | --- | --- | --- |
 | Maintain committee group membership | Anna / office staff | IT admin |
 | Manage shared mailbox permissions | Anna plus IT admin | IT admin |
@@ -23,7 +23,9 @@ Update this table whenever ownership changes.
 - Confirm `admin@sandiahomeowners.org` remains in every group.
 - Confirm Power Automate membership-change notifications are working.
 - Confirm Board reminder workflow is sending as expected.
-- Escalate unresolved access issues to IT.
+- Record unresolved access issues with the account, group or site, exact error,
+  and last successful test. Then check the relevant Microsoft 365 setting before
+  handing the issue to the next person listed in the ownership table.
 
 ## Add An External Volunteer
 
@@ -96,7 +98,8 @@ mailboxes are a little fussy to administer, but officer history is important
 enough that SHHA keeps it this way.
 
 1. Confirm the mailbox is for President, Vice President, Secretary, Treasurer,
-   ACC Chair, or CSC Chair. Stop here for any other chair or task-force lead.
+   ACC Chair, or CSC Chair. For any other chair or task-force lead, use the
+   committee mailing-list procedure instead.
 2. Go to **Teams and groups** > **Shared mailboxes** > **Add a shared mailbox**.
 3. Create the role address, such as `president@sandiahomeowners.org`.
 4. Add the incoming officer's licensed `@sandiahomeowners.org` account.
@@ -180,4 +183,4 @@ mailbox.
 - Alias tested, if created.
 - `admin@` included in the group.
 - Directory updated with any new address.
-- Requester notified that setup is complete.
+- Office contact told setup is complete.

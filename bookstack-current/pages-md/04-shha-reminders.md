@@ -72,6 +72,7 @@ Templates support variables, including:
 {{event.time}}
 {{event.location}}
 {{event.joinUrl}}
+
 ```
 
 Those variables are replaced with details from the selected calendar event when the email is sent.
@@ -88,6 +89,7 @@ This is a reminder that {{event.subject}} is scheduled for {{event.date}} at {{e
 
 Thank you,
 SHHA
+
 ```
 
 ## Teams Meeting Links
@@ -144,7 +146,7 @@ Check:
 
 ### Emails Are Not Sending
 
-Ask IT to check Microsoft Graph mail permissions, the `admin@sandiahomeowners.org` sending mailbox, and whether the Microsoft Entra client secret has expired.
+In the Microsoft Entra admin center, check the app registration's Microsoft Graph mail permissions, the `admin@sandiahomeowners.org` sending mailbox, and whether the Microsoft Entra client secret has expired.
 
 ## Ownership
 

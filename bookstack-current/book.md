@@ -1,6 +1,6 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-07-31T18:05:53+00:00.
+Exported from https://wiki.sandiahomeowners.org on 2026-07-31T18:27:33+00:00.
 
 ## Quick Links & Directory
 
@@ -20,7 +20,7 @@ Exported from https://wiki.sandiahomeowners.org on 2026-07-31T18:05:53+00:00.
 
 Send an email to any address below to reach every current member of that group. You do not need to know individual email addresses.
 
-<table id="bkmrk-group-%2F-committeeema"><thead><tr><th>Group / Committee</th><th>Email Address</th></tr></thead><tbody><tr><td>All staff and volunteers</td><td><SHHA-all@sandiahomeowners.org></td></tr><tr><td>Board of Directors</td><td><board@sandiahomeowners.org></td></tr><tr><td>Architectural Control Committee (ACC)</td><td><ACC@sandiahomeowners.org></td></tr><tr><td>Communications &amp; Publications Committee (CPC)</td><td><CPC@sandiahomeowners.org></td></tr><tr><td>Community Service &amp; Membership Committee (CSMC)</td><td><CSMC@sandiahomeowners.org></td></tr><tr><td>Covenant Support Committee (CSC)</td><td><CSC@sandiahomeowners.org></td></tr><tr><td>Environment &amp; Safety Committee (ESC)</td><td><ESC@sandiahomeowners.org></td></tr><tr><td>Executive Committee (EC)</td><td><EC@sandiahomeowners.org></td></tr><tr><td>Finance Committee (FC)</td><td><FC@sandiahomeowners.org></td></tr><tr><td>Governance Committee (GC)</td><td><GC@sandiahomeowners.org></td></tr><tr><td>Admins (Staff + IT)</td><td><M365admins@sandiahomeowners.org></td></tr><tr><td>IT Help Desk</td><td><ithelp@sandiahomeowners.org></td></tr></tbody></table>
+<table id="bkmrk-group-%2F-committeeema"><thead><tr><th>Group / Committee</th><th>Email Address</th></tr></thead><tbody><tr><td>All staff and volunteers</td><td><SHHA-all@sandiahomeowners.org></td></tr><tr><td>Board of Directors</td><td><board@sandiahomeowners.org></td></tr><tr><td>Architectural Control Committee (ACC)</td><td><ACC@sandiahomeowners.org></td></tr><tr><td>Communications &amp; Publications Committee (CPC)</td><td><CPC@sandiahomeowners.org></td></tr><tr><td>Community Service &amp; Membership Committee (CSMC)</td><td><CSMC@sandiahomeowners.org></td></tr><tr><td>Covenant Support Committee (CSC)</td><td><CSC@sandiahomeowners.org></td></tr><tr><td>Environment &amp; Safety Committee (ESC)</td><td><ESC@sandiahomeowners.org></td></tr><tr><td>Executive Committee (EC)</td><td><EC@sandiahomeowners.org></td></tr><tr><td>Finance Committee (FC)</td><td><FC@sandiahomeowners.org></td></tr><tr><td>Governance Committee (GC)</td><td><GC@sandiahomeowners.org></td></tr><tr><td>Admins (Staff + IT)</td><td><M365admins@sandiahomeowners.org></td></tr><tr><td>IT Help</td><td><ithelp@sandiahomeowners.org></td></tr></tbody></table>
 
 ## Officer Inboxes (Shared Role Mailboxes)
 
@@ -385,6 +385,7 @@ Templates support variables, including:
 {{event.time}}
 {{event.location}}
 {{event.joinUrl}}
+
 ```
 
 Those variables are replaced with details from the selected calendar event when the email is sent.
@@ -401,6 +402,7 @@ This is a reminder that {{event.subject}} is scheduled for {{event.date}} at {{e
 
 Thank you,
 SHHA
+
 ```
 
 ## Teams Meeting Links
@@ -457,7 +459,7 @@ Check:
 
 ### Emails Are Not Sending
 
-Ask IT to check Microsoft Graph mail permissions, the `admin@sandiahomeowners.org` sending mailbox, and whether the Microsoft Entra client secret has expired.
+In the Microsoft Entra admin center, check the app registration's Microsoft Graph mail permissions, the `admin@sandiahomeowners.org` sending mailbox, and whether the Microsoft Entra client secret has expired.
 
 ## Ownership
 
@@ -751,7 +753,7 @@ If you cannot open the role mailbox, ask staff or IT admin to verify permissions
 <a id="bkmrk--6"></a>## Who Maintains This
 
 - Group membership updates: Anna (staff)
-- Technical escalation and access troubleshooting: IT admin
+- Access troubleshooting: IT admin
  
 There is an automated Power Automate notification whenever group membership changes.
 
@@ -789,7 +791,7 @@ Use this page as the central directory for links and addresses.
 - Executive Committee (EC): **EC@sandiahomeowners.org**
 - Finance Committee (FC): **FC@sandiahomeowners.org**
 - Governance Committee (GC): **GC@sandiahomeowners.org**
-- IT Help Desk: **ithelp@sandiahomeowners.org**
+- IT Help: **ithelp@sandiahomeowners.org**
 
 ### Shared Role Inboxes (Officers Only)
 
@@ -856,7 +858,7 @@ Only President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair h
 - Review committee membership updates from chairs.
 - Confirm Board reminder workflow is sending as expected.
 - Verify role mailbox access for current officers/chairs.
-- Escalate unresolved access issues to IT.
+- Record unresolved access issues with the account, group or site, exact error, and last successful test. Then check the relevant Microsoft 365 setting before handing the issue to the next person listed in the ownership table.
  
 ---
 
@@ -2189,7 +2191,7 @@ A Power Automate flow sends email notifications whenever group membership change
 3. Add to the correct Microsoft Group membership.
 4. Confirm `admin@` remains a member.
 5. Verify Power Automate sends membership-change notification.
-6. Ask requester to test delivery (or send a test message).
+6. Ask the group owner or new member to test delivery, or send a test message yourself.
  
 ---
 
@@ -2280,7 +2282,7 @@ Maintain a simple inventory table (in the wiki or internal operations file) with
 
 <a id="bkmrk--33"></a>## Key Contacts and Ownership
 
- <table id="bkmrk-rolecontact-group-me"> <thead><tr><th>Role</th><th>Contact</th></tr></thead> <tbody> <tr><td>Group membership owner</td><td>Anna (staff)</td></tr> <tr><td>Technical owner / escalation</td><td>IT admin</td></tr> <tr><td>Archive mailbox</td><td>`admin@` (not actively monitored)</td></tr> </tbody> </table>
+ <table id="bkmrk-rolecontact-group-me"> <thead><tr><th>Role</th><th>Contact</th></tr></thead> <tbody> <tr><td>Group membership owner</td><td>Anna (staff)</td></tr> <tr><td>Technical owner</td><td>IT admin</td></tr> <tr><td>Archive mailbox</td><td>`admin@` (not actively monitored)</td></tr> </tbody> </table>
 
 <div id="bkmrk-if-ownership-changes">**If ownership changes, update this section immediately.**</div>---
 
@@ -2505,14 +2507,14 @@ If you only need one address that emails the whole task force, do **SOP A** only
 
 After setup and testing are complete, choose the matching message from [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates). Replace every placeholder and test every link before sending.
 
-## Final Validation (Do This Before You Tell the Requester Setup Is Complete)
+## Final Validation (Do This Before You Tell the Office Contact Setup Is Complete)
 
 - Group email tested
 - Shared mailbox tested (if created)
 - Alias tested (if created)
 - `admin@` included in group
 - Quick Links directory updated with new addresses
-- Requester notified that setup is complete
+- Office contact told setup is complete
 
 ---
 
@@ -2549,7 +2551,7 @@ A Microsoft 365 group normally provisions a connected SharePoint team site. If t
 
 If the group-connected site appears in Active sites, open it and continue.
 
-**If the Microsoft 365 group exists but no connected site can be found, stop and contact IT.** Do not create a similarly named standalone site. A duplicate separates mailing-list membership from document access.
+**If the Microsoft 365 group exists but no connected site can be found:** do not create a similarly named standalone site. Recheck that the group is a **Microsoft 365** group and search the SharePoint admin center's **Active sites** by both the group name and the full committee name. If the site is still not listed, record the group name and leave site setup pending until Microsoft finishes provisioning it. A duplicate would separate mailing-list membership from document access.
 
 ## Step 2: Confirm Office Staff Are Owners
 

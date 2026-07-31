@@ -3,7 +3,7 @@
   "book_id": 1,
   "book_name": "SHHA IT Help Guide",
   "book_updated_at": "2026-04-01T04:20:24.000000Z",
-  "exported_at": "2026-07-31T18:05:53+00:00",
+  "exported_at": "2026-07-31T18:27:33+00:00",
   "pages": [
     {
       "id": 17,
@@ -11,11 +11,11 @@
       "slug": "quick-links-directory",
       "chapter": "Quick Links & Directory",
       "priority": 1,
-      "updated_at": "2026-07-31T18:03:20.000000Z",
+      "updated_at": "2026-07-31T18:24:44.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-links-directory",
       "markdown": "bookstack-current/pages-md/01-quick-links-directory.md",
       "html": "bookstack-current/pages-html/01-quick-links-directory.html",
-      "revision_count": 10
+      "revision_count": 11
     },
     {
       "id": 24,
@@ -47,11 +47,11 @@
       "slug": "shha-reminders",
       "chapter": "Quick Links & Directory",
       "priority": 4,
-      "updated_at": "2026-06-21T21:25:44.000000Z",
+      "updated_at": "2026-07-31T18:24:48.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/shha-reminders",
       "markdown": "bookstack-current/pages-md/04-shha-reminders.md",
       "html": "bookstack-current/pages-html/04-shha-reminders.html",
-      "revision_count": 2
+      "revision_count": 3
     },
     {
       "id": 31,
@@ -83,11 +83,11 @@
       "slug": "quick-start-for-new-volunteers",
       "chapter": "Getting Started",
       "priority": 3,
-      "updated_at": "2026-04-01T04:20:29.000000Z",
+      "updated_at": "2026-07-31T18:27:04.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-start-for-new-volunteers",
       "markdown": "bookstack-current/pages-md/07-quick-start-for-new-volunteers.md",
       "html": "bookstack-current/pages-html/07-quick-start-for-new-volunteers.html",
-      "revision_count": 1
+      "revision_count": 2
     },
     {
       "id": 5,
@@ -95,11 +95,11 @@
       "slug": "quick-reference",
       "chapter": "Getting Started",
       "priority": 4,
-      "updated_at": "2026-07-31T18:03:25.000000Z",
+      "updated_at": "2026-07-31T18:24:45.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-reference",
       "markdown": "bookstack-current/pages-md/08-quick-reference.md",
       "html": "bookstack-current/pages-html/08-quick-reference.html",
-      "revision_count": 5
+      "revision_count": 6
     },
     {
       "id": 7,
@@ -107,11 +107,11 @@
       "slug": "staff",
       "chapter": "Role Guides",
       "priority": 6,
-      "updated_at": "2026-06-25T00:55:39.000000Z",
+      "updated_at": "2026-07-31T18:24:42.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/staff",
       "markdown": "bookstack-current/pages-md/09-staff.md",
       "html": "bookstack-current/pages-html/09-staff.html",
-      "revision_count": 2
+      "revision_count": 3
     },
     {
       "id": 8,
@@ -215,11 +215,11 @@
       "slug": "m365-email-groups-role-inboxes-responsibilities",
       "chapter": "Technical Reference",
       "priority": 14,
-      "updated_at": "2026-07-31T18:03:31.000000Z",
+      "updated_at": "2026-07-31T18:24:43.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities",
       "markdown": "bookstack-current/pages-md/18-m365-email-groups-role-inboxes-responsibilities.md",
       "html": "bookstack-current/pages-html/18-m365-email-groups-role-inboxes-responsibilities.html",
-      "revision_count": 4
+      "revision_count": 5
     },
     {
       "id": 22,
@@ -239,11 +239,11 @@
       "slug": "sop-new-users-mailboxes-groups",
       "chapter": "Technical Reference",
       "priority": 16,
-      "updated_at": "2026-07-31T18:05:24.000000Z",
+      "updated_at": "2026-07-31T18:24:46.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups",
       "markdown": "bookstack-current/pages-md/20-sop-new-users-mailboxes-groups.md",
       "html": "bookstack-current/pages-html/20-sop-new-users-mailboxes-groups.html",
-      "revision_count": 11
+      "revision_count": 12
     },
     {
       "id": 30,
@@ -251,11 +251,11 @@
       "slug": "sop-create-a-committee-sharepoint-site",
       "chapter": "Technical Reference",
       "priority": 17,
-      "updated_at": "2026-07-31T17:56:47.000000Z",
+      "updated_at": "2026-07-31T18:24:40.000000Z",
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site",
       "markdown": "bookstack-current/pages-md/21-sop-create-a-committee-sharepoint-site.md",
       "html": "bookstack-current/pages-html/21-sop-create-a-committee-sharepoint-site.html",
-      "revision_count": 3
+      "revision_count": 4
     },
     {
       "id": 19,

@@ -61,7 +61,7 @@ If you cannot open the role mailbox, ask staff or IT admin to verify permissions
 <a id="bkmrk--6"></a>## Who Maintains This
 
 - Group membership updates: Anna (staff)
-- Technical escalation and access troubleshooting: IT admin
+- Access troubleshooting: IT admin
  
 There is an automated Power Automate notification whenever group membership changes.
 

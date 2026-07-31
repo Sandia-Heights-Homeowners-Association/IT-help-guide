@@ -23,7 +23,7 @@ Use this page as the central directory for links and addresses.
 - Executive Committee (EC): **EC@sandiahomeowners.org**
 - Finance Committee (FC): **FC@sandiahomeowners.org**
 - Governance Committee (GC): **GC@sandiahomeowners.org**
-- IT Help Desk: **ithelp@sandiahomeowners.org**
+- IT Help: **ithelp@sandiahomeowners.org**
 
 ### Shared Role Inboxes (Officers Only)
 

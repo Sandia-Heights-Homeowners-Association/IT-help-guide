@@ -10,7 +10,7 @@ file-sharing rules.
 | Email | [outlook.com](https://outlook.com) | Staff, officers, chairs |
 | OneDrive or personal files | [onedrive.com](https://onedrive.com) | Licensed users |
 | Microsoft Forms | [forms.microsoft.com](https://forms.microsoft.com) | Staff and licensed SHHA users creating RSVPs or surveys |
-| Microsoft admin center | [admin.microsoft.com](https://admin.microsoft.com) | IT admins and trained staff |
+| Microsoft admin center | [admin.microsoft.com](https://admin.microsoft.com) | Office staff and IT administrators |
 | Microsoft account settings | [account.microsoft.com](https://account.microsoft.com) | Anyone managing a Microsoft login |
 
 ## SHHA Apps
@@ -41,7 +41,7 @@ Use these addresses to reach everyone currently in the group.
 | Finance Committee | `FC@sandiahomeowners.org` |
 | Governance Committee | `GC@sandiahomeowners.org` |
 | Admins | `M365admins@sandiahomeowners.org` |
-| IT Help Desk | `ithelp@sandiahomeowners.org` |
+| IT Help | `ithelp@sandiahomeowners.org` |
 
 Participants send from their own email address to the group. They do not log in
 as the group address.
