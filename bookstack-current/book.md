@@ -1,8 +1,10 @@
 # SHHA IT Help Guide
 
-Exported from https://wiki.sandiahomeowners.org on 2026-07-31T18:27:33+00:00.
+Help guide for SHHA volunteers, officers, committee members, and staff — covering Microsoft 365, email, SharePoint, file sharing, role transitions, GRIT submissions, and more.
 
-## Quick Links & Directory
+# Quick Links & Directory
+
+Essential links, mailing lists, SharePoint sites, and chair inboxes — start here.
 
 # Quick Links & Directory
 
@@ -14,13 +16,13 @@ Exported from https://wiki.sandiahomeowners.org on 2026-07-31T18:27:33+00:00.
 
 ## SHHA Apps
 
-- [SHHA Reminders](https://reminders.sandiahomeowners.org) - automated meeting and event reminder emails. See [SHHA Reminders](/books/shha-it-help-guide/page/shha-reminders) for setup and troubleshooting.
+- [SHHA Reminders](https://reminders.sandiahomeowners.org) - automated meeting and event reminder emails. See [SHHA Reminders](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/shha-reminders) for setup and troubleshooting.
 
 ## Mailing Lists (Committee &amp; Group Email Addresses)
 
 Send an email to any address below to reach every current member of that group. You do not need to know individual email addresses.
 
-<table id="bkmrk-group-%2F-committeeema"><thead><tr><th>Group / Committee</th><th>Email Address</th></tr></thead><tbody><tr><td>All staff and volunteers</td><td><SHHA-all@sandiahomeowners.org></td></tr><tr><td>Board of Directors</td><td><board@sandiahomeowners.org></td></tr><tr><td>Architectural Control Committee (ACC)</td><td><ACC@sandiahomeowners.org></td></tr><tr><td>Communications &amp; Publications Committee (CPC)</td><td><CPC@sandiahomeowners.org></td></tr><tr><td>Community Service &amp; Membership Committee (CSMC)</td><td><CSMC@sandiahomeowners.org></td></tr><tr><td>Covenant Support Committee (CSC)</td><td><CSC@sandiahomeowners.org></td></tr><tr><td>Environment &amp; Safety Committee (ESC)</td><td><ESC@sandiahomeowners.org></td></tr><tr><td>Executive Committee (EC)</td><td><EC@sandiahomeowners.org></td></tr><tr><td>Finance Committee (FC)</td><td><FC@sandiahomeowners.org></td></tr><tr><td>Governance Committee (GC)</td><td><GC@sandiahomeowners.org></td></tr><tr><td>Admins (Staff + IT)</td><td><M365admins@sandiahomeowners.org></td></tr><tr><td>IT Help</td><td><ithelp@sandiahomeowners.org></td></tr></tbody></table>
+<table id="bkmrk-group-%2F-committeeema"><thead><tr><th>Group / Committee</th><th>Email Address</th></tr></thead><tbody><tr><td>All staff and volunteers</td><td><SHHA-all@sandiahomeowners.org></td></tr><tr><td>Board of Directors</td><td><board@sandiahomeowners.org></td></tr><tr><td>Architectural Control Committee (ACC)</td><td><ACC@sandiahomeowners.org></td></tr><tr><td>Communications &amp; Publications Committee (CPC)</td><td><CPC@sandiahomeowners.org></td></tr><tr><td>Community Service &amp; Membership Committee (CSMC)</td><td><CSMC@sandiahomeowners.org></td></tr><tr><td>Covenant Support Committee (CSC)</td><td><CSC@sandiahomeowners.org></td></tr><tr><td>Environment &amp; Safety Committee (ESC)</td><td><ESC@sandiahomeowners.org></td></tr><tr><td>Executive Committee (EC)</td><td><EC@sandiahomeowners.org></td></tr><tr><td>Finance Committee (FC)</td><td><FC@sandiahomeowners.org></td></tr><tr><td>Governance Committee (GC)</td><td><GC@sandiahomeowners.org></td></tr><tr><td>Admins (Staff + IT)</td><td><M365admins@sandiahomeowners.org></td></tr><tr><td>IT Help</td><td><ithelp@sandiahomeowners.org></td></tr><tr><td>PNM Special Task Group</td><td><PNMSTG@sandiahomeowners.org> </td></tr></tbody></table>
 
 ## Officer Inboxes (Shared Role Mailboxes)
 
@@ -34,7 +36,7 @@ Other committee chairs and task-force leads do not get shared mailboxes. They us
 
 Each committee has its own SharePoint site for storing documents, meeting minutes, and work products. Click the link for your committee below.
 
-<table id="bkmrk-committee-%2F-groupsha"><thead><tr><th>Committee / Group</th><th>SharePoint URL</th></tr></thead><tbody><tr><td>Board of Directors</td><td>[https://shha.sharepoint.com/sites/BOARD/](https://shha.sharepoint.com/sites/BOARD/)</td></tr><tr><td>Architectural Control Committee (ACC)</td><td>[https://shha.sharepoint.com/sites/ACC/](https://shha.sharepoint.com/sites/ACC/)</td></tr><tr><td>Communications &amp; Publications Committee (CPC)</td><td>[https://shha.sharepoint.com/sites/CPC/](https://shha.sharepoint.com/sites/CPC/)</td></tr><tr><td>Community Service &amp; Membership Committee (CSMC)</td><td>[https://shha.sharepoint.com/sites/CSMC/](https://shha.sharepoint.com/sites/CSMC/)</td></tr><tr><td>Covenant Support Committee (CSC)</td><td>[https://shha.sharepoint.com/sites/CSC/](https://shha.sharepoint.com/sites/CSC/)</td></tr><tr><td>Environment &amp; Safety Committee (ESC)</td><td>[https://shha.sharepoint.com/sites/ESC/](https://shha.sharepoint.com/sites/ESC/)</td></tr><tr><td>Executive Committee (EC)</td><td>[https://shha.sharepoint.com/sites/EC/](https://shha.sharepoint.com/sites/EC/)</td></tr><tr><td>Finance Committee (FC)</td><td>[https://shha.sharepoint.com/sites/FC/](https://shha.sharepoint.com/sites/FC/)</td></tr><tr><td>Governance Committee (GC)</td><td>[https://shha.sharepoint.com/sites/GC/](https://shha.sharepoint.com/sites/GC/)</td></tr></tbody></table>
+<table id="bkmrk-committee-%2F-groupsha" style="width:79.0476%;"><thead><tr><th style="width:54.7853%;">Committee / Group</th><th style="width:45.2171%;">SharePoint URL</th></tr></thead><tbody><tr><td style="width:54.7853%;">Board of Directors</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/BOARD/](https://shha.sharepoint.com/sites/BOARD/)</td></tr><tr><td style="width:54.7853%;">Architectural Control Committee (ACC)</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/ACC/](https://shha.sharepoint.com/sites/ACC/)</td></tr><tr><td style="width:54.7853%;">Communications &amp; Publications Committee (CPC)</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/CPC/](https://shha.sharepoint.com/sites/CPC/)</td></tr><tr><td style="width:54.7853%;">Community Service &amp; Membership Committee (CSMC)</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/CSMC/](https://shha.sharepoint.com/sites/CSMC/)</td></tr><tr><td style="width:54.7853%;">Covenant Support Committee (CSC)</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/CSC/](https://shha.sharepoint.com/sites/CSC/)</td></tr><tr><td style="width:54.7853%;">Environment &amp; Safety Committee (ESC)</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/ESComm](https://shha.sharepoint.com/sites/ESComm)</td></tr><tr><td style="width:54.7853%;">Executive Committee (EC)</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/EC/](https://shha.sharepoint.com/sites/EC/)</td></tr><tr><td style="width:54.7853%;">Finance Committee (FC)</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/FC/](https://shha.sharepoint.com/sites/FC/)</td></tr><tr><td style="width:54.7853%;">Governance Committee (GC)</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/GovComm](https://shha.sharepoint.com/sites/GovComm)</td></tr><tr><td style="width:54.7853%;">PNM Special Task Group</td><td style="width:45.2171%;">[https://shha.sharepoint.com/sites/PNMSTG](https://shha.sharepoint.com/sites/PNMSTG) </td></tr></tbody></table>
 
 **Tip:** If you get "Access Denied" when clicking a SharePoint link, you likely need to [accept your Microsoft invitation first](#bkmrk-login-links). See the FAQ for troubleshooting.
 
@@ -44,19 +46,19 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 
 ## Committee SharePoint Help
 
-Committee and task-force members can use the [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide) for document access, uploads, and troubleshooting.
+Committee and task-force members can use the [Committee SharePoint Guide](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/committee-sharepoint-guide) for document access, uploads, and troubleshooting.
 
-Office staff setting up a new committee site should use [SOP: Create a Committee SharePoint Site](/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site).
+Office staff setting up a new committee site should use [SOP: Create a Committee SharePoint Site](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site).
 
 ## Office Onboarding
 
-Office staff can use [Office Onboarding Email Templates](/books/shha-it-help-guide/page/office-onboarding-email-templates) for new internal users, external volunteers, new committees, and newly launched SharePoint sites.
+Office staff can use [Office Onboarding Email Templates](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/office-onboarding-email-templates) for new internal users, external volunteers, new committees, and newly launched SharePoint sites.
 
 ## Task Group Email Help
 
-Need to explain how to use a temporary task-group address? Share this page: [Committee and Group Email Guide](/books/shha-it-help-guide/page/committee-and-group-email-guide).
+Need to explain how to use a temporary task-group address? Share this page: [Committee and Group Email Guide](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/committee-and-group-email-guide).
 
-**Need to understand where committee files belong?** See [SharePoint Folder Organization](/books/shha-it-help-guide/page/sharepoint-folder-organization).
+**Need to understand where committee files belong?** See [SharePoint Folder Organization](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sharepoint-folder-organization).
 
 # Committee and Group Email Guide
 
@@ -571,7 +573,7 @@ Contact office staff or <ITHelp@sandiahomeowners.org>. Include:
 - The exact error message
 - A screenshot, if possible
 
-## Getting Started
+# Getting Started
 
 # Overview
 
@@ -835,7 +837,7 @@ Only President, Vice President, Secretary, Treasurer, ACC Chair, and CSC Chair h
 - [Volunteer without SHHA Email](/books/shha-it-help-guide/page/volunteer-without-shha-email)
 - [FAQ](/books/shha-it-help-guide/page/faq)
 
-## Role Guides
+# Role Guides
 
 # Staff
 
@@ -1289,7 +1291,7 @@ A helpful agenda request includes:
 - [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email)
 - [FAQ](/books/shha-it-help-guide/page/faq)
 
-## Frequently Asked Questions
+# Frequently Asked Questions
 
 # FAQ
 
@@ -1749,7 +1751,7 @@ Most SHHA data lives in cloud services (Microsoft 365, QuickBooks Online, Gusto)
 
 **TODO:** Document who has administrator access to each system, ensure there is a primary and backup for each. See the *Controls &amp; Security* page for the full access matrix.
 
-## Specialty Topics
+# Specialty Topics
 
 # GRIT Contributor Guide
 
@@ -2097,7 +2099,7 @@ Insert pages until the total is divisible by 4. Print layout and booklet flow de
 - [GRIT Internal Production Reference](/books/shha-it-help-guide/page/grit-internal-production-reference)
 - [Quick Reference](/books/shha-it-help-guide/page/quick-reference)
 
-## Technical Reference
+# Technical Reference
 
 # M365 Email Groups, Role Inboxes & Responsibilities
 
@@ -2653,7 +2655,9 @@ The shortcut points to the group-owned SharePoint library. It does not copy file
 - [Permission levels in SharePoint](https://learn.microsoft.com/en-us/sharepoint/understanding-permission-levels)
 - [Add shortcuts to shared folders in OneDrive](https://support.microsoft.com/en-US/onedrive/add-shortcuts-to-shared-folders-in-onedrive)
 
-## Operations & Administration
+# Operations & Administration
+
+Systems inventory, security controls, HR and personnel management.
 
 # Systems Inventory
 

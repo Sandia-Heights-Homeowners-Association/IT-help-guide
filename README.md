@@ -1,197 +1,100 @@
-# SHHA IT Help Guide
+# SHHA IT wiki
 
-This repo is now a local working copy of the current BookStack wiki at
-`https://wiki.sandiahomeowners.org`.
+[Open the wiki](https://wiki.sandiahomeowners.org). BookStack on Azure is the
+source of truth. Reading is public; Microsoft login allows SHHA organization
+members and invited guests to edit under their own identities. Ordinary users
+receive Editor access; administration remains separate.
 
-The old standalone wiki files are stale. Treat BookStack as the source of truth,
-then use this repo to export, review, simplify, and back up the content.
+This checkout moved from `IT-help-guide` to `SHHA-wiki` on October 13, 2026,
+preserving Git history and existing local drafts. The GitHub repository remains
+[Sandia-Heights-Homeowners-Association/IT-help-guide](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide).
+It is public. The old standalone HTML/Markdown site still exists through GitHub
+Pages; the BookStack wiki is the current documentation. That legacy hosting was
+not disabled or revised during this move.
 
-## What To Keep
+## Start here
 
-Bare code and working artifacts worth keeping:
+- [Handoff for content and visibility review](docs/content-review-handoff.md)
+- [Sync operation and recovery](docs/bookstack-sync.md)
+- [Azure deployment and migration history](docs/azure-deployment.md)
+- `AGENTS.md`: instructions for future work
 
-- `export-bookstack.py` - read-only BookStack exporter.
-- `bookstack-current/` - current raw export from BookStack.
-- `guide/` - reviewed, simplified Markdown guide built from the current export.
-- `pending-bookstack-updates/` - when present, publish-ready Markdown prepared
-  when a remote BookStack update cannot be completed in the current session.
-- `TODO.txt` - running list of screenshot/image ideas and editorial follow-ups.
-- `README.md` - repo notes and refresh instructions.
+## What is maintained here
 
-What should not be kept as canonical content:
+| Location | Purpose |
+| --- | --- |
+| `bookstack-current/` | Generated public content mirror: 24 pages initially, paired Markdown/HTML, combined Markdown, hierarchy and manifest metadata. Never hand-edit. |
+| `guide/` | Older curated drafts/reference guides. Existing uncommitted edits remain local and unpublished. |
+| `pending-bookstack-updates/` | Editorial drafts, including existing unpublished updates. Sync never reads, deletes or stages them. |
+| `scripts/sync_public_bookstack.py` | Anonymous GET-only public mirror exporter. |
+| `export-bookstack.py` | Legacy authenticated API exporter for private snapshots; default output is ignored `.local-preserved/api-export`. |
+| `scripts/bookstack_migrate.py` | Initial content import/verification tool. Do not replay it against the edited production book. |
+| `.github/workflows/` | Offline tool checks and scheduled/on-demand public content sync. These do not deploy Azure or publish draft edits to BookStack. |
 
-- Old top-level `.md` and `.html` standalone wiki pages.
-- `shared.css`, because the standalone HTML site is no longer current.
-- One-off `upload-to-bookstack.py` / `update-bookstack*.py` scripts with
-  embedded HTML and hard-coded BookStack IDs.
+## Automatic sync
 
-## Normal Agent Workflow
+The **Sync public BookStack content** workflow runs daily at **09:17 UTC**
+(2:17 a.m. MDT / 3:17 a.m. MST). It also has a **Run workflow** action on GitHub.
+It exports anonymously, verifies a complete stable snapshot, and commits changes
+only under `bookstack-current/` to `main`. Unchanged content makes no commit.
+GitHub schedules can be delayed; they are not an immediate notification of edits.
 
-Heidi will usually ask a question that needs to be answered in the wiki. The
-agent should do the research, draft the answer, update BookStack, then refresh
-the local backup.
+No BookStack credentials are needed. Native portable ZIP exports supply rendered
+rich HTML and hierarchy; native Markdown exports capture readable conversions of
+browser WYSIWYG edits and newly published pages. Only the current SHHA IT Help Guide book
+is configured; additional books need explicit configuration/extension. Images
+can be embedded in the contained HTML export; binary ZIP/assets are not committed.
+This is a readable content mirror, not a database/files/configuration recovery
+backup.
 
-Use this flow:
-
-1. Export BookStack before editing, if the local export may be stale.
-2. Commit the current export before a major change.
-3. Create a branch named `codex/<short-description>`.
-4. Draft changes locally first when the edit affects flow, tone, or structure.
-5. Update BookStack deliberately through the API or WYSIWYG editor.
-6. Re-export BookStack after the remote update.
-7. Update `guide/` when the scannable agent/human guide should change.
-8. Update `TODO.txt` with image ideas, screenshot locations, or unresolved
-   questions.
-9. Commit the branch.
-
-Do not treat `bookstack-current/` as hand-edited source. It is an export target.
-If a local correction needs to become real, apply it to BookStack, then export
-again.
-
-## BookStack API Editing Safety
-
-`bookstack-current/pages-md/` is a backup/export format, not a safe round-trip
-editing format for every BookStack page.
-
-Avoid taking Markdown from `pages-md/` and sending it back to an existing
-BookStack page when the page contains tables, email addresses, code spans, or
-rich links. BookStack may save Markdown inside existing HTML table cells, and
-email addresses in angle brackets can turn into broken HTML tags.
-
-Safer rule:
-
-- Use the BookStack WYSIWYG editor for manual edits.
-- For API edits to existing formatted pages, send an `html` payload with real
-  `<a>`, `<strong>`, `<code>`, `<table>`, and `mailto:` markup.
-- Markdown is fine for drafting plain-text pages, but verify the exported HTML
-  after publishing.
-- Always run `python3 export-bookstack.py` after remote edits, then search the
-  HTML export for raw Markdown that should have rendered.
-
-If network access is unavailable, draft the intended wiki text under
-`pending-bookstack-updates/`. On the next network-enabled session, publish those
-updates to BookStack first, then run `python3 export-bookstack.py` so
-`bookstack-current/` reflects the live wiki again.
-
-## Images And Attachments
-
-BookStack pages may include images added manually through the WYSIWYG editor.
-The current exporter preserves the page HTML and image references, but it does
-not download image binaries.
-
-Decision:
-
-- Keep images in BookStack.
-- Do not commit large image files to git.
-- Use `TODO.txt` to mark where a screenshot or image would help.
-- Do not maintain a separate image-binary backup unless that decision changes.
-
-This keeps the git repo useful as a text/content backup without turning it into
-a heavy media archive. In a BookStack disaster, this repo restores the text,
-structure, links, and image references, but not large uploaded image binaries.
-
-## GitHub Backup Workflow
-
-Use this when the goal is to pull the latest BookStack content into local
-Markdown/HTML and push the backup to GitHub.
-
-1. Start from the branch you want to update.
-
-   ```sh
-   git switch main
-   git pull --ff-only origin main
-   ```
-
-2. Pull the live BookStack wiki into local files.
-
-   ```sh
-   python3 export-bookstack.py
-   ```
-
-3. If the scannable local guide should change, update files under `guide/`.
-   Do not hand-edit `bookstack-current/`; it is rewritten by the exporter.
-
-4. Review what changed.
-
-   ```sh
-   git status
-   git diff --stat
-   ```
-
-5. Commit the local backup.
-
-   ```sh
-   git add .
-   git commit -m "Export BookStack updates"
-   ```
-
-6. Push to GitHub.
-
-   ```sh
-   git push origin HEAD
-   ```
-
-For larger revisions, create a branch first:
+To refresh locally:
 
 ```sh
-git switch -c codex/<short-description>
+git pull --ff-only
+python3 scripts/sync_public_bookstack.py
+git diff --stat -- bookstack-current
 ```
 
-Then export, edit BookStack, export again, commit, and push that branch.
-
-## Refresh From BookStack
-
-The exporter requires these environment variables:
+If this computer still caches the DigitalOcean address, add:
 
 ```sh
-BOOKSTACK_TOKEN_ID=...
-BOOKSTACK_TOKEN_SECRET=...
+python3 scripts/sync_public_bookstack.py --connect-host shha-wiki-fsgyhpgtg6gzc5aw.westus3-01.azurewebsites.net
 ```
 
-Optional:
+That override retains the production Host header, TLS SNI and normal certificate
+verification. Existing local drafts can make a pull conflict; preserve them and
+resolve deliberately rather than resetting the checkout. Automatic exports do
+not update local files until you pull.
+
+## Editing procedure
+
+1. Refresh the public mirror before substantive changes.
+2. Edit BookStack through its WYSIWYG editor or a deliberate HTML API payload.
+   Fetch the current page before API editing and check for newer human changes.
+3. Verify the actual live page, then run the GitHub sync or refresh locally.
+4. Commit only the intended files. Never upload Markdown exports over rich
+   WYSIWYG content or use a broad `git add .` while old drafts remain unfinished.
+
+Authenticated exports can include private content; keep them outside this public
+mirror. Restricting a page removes it from subsequent successful anonymous
+exports, but old Git commits still retain material that was previously public.
+Before adding sensitive information, restrict the wiki page and decide how its
+private backup will be handled. Git visibility cannot be enforced by BookStack.
+
+## Checks
+
+Python standard library only; no Node build is required for this repository.
 
 ```sh
-BOOKSTACK_URL=https://wiki.sandiahomeowners.org
-BOOKSTACK_BOOK_ID=1
+python3 -m py_compile export-bookstack.py scripts/*.py
+python3 -m unittest discover -s tests -v
 ```
 
-Run:
+Offline tests cover draft preservation, additions/removals, blocked login/foreign
+redirects, stable repeated exports and preservation of the last mirror on
+download failure or concurrent content changes.
 
-```sh
-python3 export-bookstack.py
-```
-
-The command rewrites `bookstack-current/` with:
-
-- `manifest.json` - page IDs, names, URLs, update dates, and local paths.
-- `book.md` - combined Markdown export.
-- `pages-md/` - one Markdown file per BookStack page.
-- `pages-html/` - one HTML file per BookStack page.
-
-## Reviewed Guide Structure
-
-The simplified guide intentionally reduces repeated material:
-
-- [Start Here](guide/00-start-here.md)
-- [Volunteer Access](guide/01-volunteer-access.md)
-- [Email, Files, and Directory](guide/02-email-files-directory.md)
-- [Staff and Admin SOPs](guide/03-staff-admin-sops.md)
-- [Operations Open Items](guide/04-operations-open-items.md)
-- [New Board Member Guide](guide/05-new-board-member.md)
-
-Recommended BookStack flow:
-
-1. Start Here
-2. Email, Files, and Directory
-3. Committee SharePoint Guide
-4. Microsoft Forms For RSVPs And Surveys
-5. Volunteer Access
-6. Office Onboarding Email Templates
-7. New Board Member Guide
-8. Staff and Admin SOPs
-9. SOP: Create a Committee SharePoint Site
-10. Operations Open Items
-11. GRIT Contributor Guide
-12. GRIT Internal Production Reference
-13. GRIT Layout Monthly Guide
-14. FAQ as an appendix, not the primary navigation path
+Azure resources, SSO, imported content and production HTTPS are working. Azure
+platform deployment CI/CD, complete recovery testing and DigitalOcean retirement
+remain separate unfinished work; see the handoff. Do not operate DigitalOcean
+or the unrelated live reminders sender as part of content sync.

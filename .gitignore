@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.zip
+migration-private/
+*-api.json
+*-credentials.json
+
+.local-preserved/
+.sync-staging-*/
+.sync-previous-*/

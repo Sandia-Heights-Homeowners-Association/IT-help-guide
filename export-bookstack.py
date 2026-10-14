@@ -8,12 +8,11 @@ Environment:
 Optional:
   BOOKSTACK_URL      default: https://wiki.sandiahomeowners.org
   BOOKSTACK_BOOK_ID  default: 1
+  BOOKSTACK_OUTPUT_DIR default: .local-preserved/api-export (private, ignored)
 
-The export is read-only. It writes:
-  bookstack-current/manifest.json
-  bookstack-current/book.md
-  bookstack-current/pages-md/*.md
-  bookstack-current/pages-html/*.html
+This legacy authenticated exporter is read-only and writes a private local
+snapshot. It may see restricted pages, so it must not populate the public Git
+mirror. For routine public syncing, use scripts/sync_public_bookstack.py.
 """
 
 from __future__ import annotations
@@ -35,7 +34,7 @@ BASE_URL = os.environ.get("BOOKSTACK_URL", "https://wiki.sandiahomeowners.org").
 TOKEN_ID = os.environ.get("BOOKSTACK_TOKEN_ID", "")
 TOKEN_SECRET = os.environ.get("BOOKSTACK_TOKEN_SECRET", "")
 BOOK_ID = int(os.environ.get("BOOKSTACK_BOOK_ID", "1"))
-OUTPUT_DIR = Path("bookstack-current")
+OUTPUT_DIR = Path(os.environ.get("BOOKSTACK_OUTPUT_DIR", ".local-preserved/api-export"))
 
 
 @dataclass(frozen=True)
@@ -65,8 +64,7 @@ def api_request(endpoint: str, *, accept: str = "application/json") -> bytes:
         with urllib.request.urlopen(request, timeout=30) as response:
             return response.read()
     except urllib.error.HTTPError as error:
-        body = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"BookStack API error {error.code} for {endpoint}: {body}") from error
+        raise RuntimeError(f"BookStack API error {error.code} for {endpoint}; response suppressed") from None
 
 
 def api_json(endpoint: str) -> dict[str, Any]:
@@ -194,6 +192,9 @@ def write_combined_markdown(book: dict[str, Any], pages: list[dict[str, Any]], o
 def main() -> None:
     root = Path(__file__).resolve().parent
     os.chdir(root)
+    destination = OUTPUT_DIR.resolve()
+    if destination.is_relative_to(root) and not destination.is_relative_to(root / ".local-preserved"):
+        raise SystemExit("Authenticated exports must stay outside the repo or under ignored .local-preserved/.")
 
     book = api_json(f"books/{BOOK_ID}")
     refs = page_refs(book)
