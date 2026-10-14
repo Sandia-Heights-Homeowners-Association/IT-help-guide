@@ -1,16 +1,12 @@
 # Overview
 
+**Who this is for:** anyone using SHHA IT services, from first-time volunteers to the next IT administrator. Choose your route below. You can read this wiki without signing in; editing uses your approved Microsoft identity.
+
 ## Start Here — Find Your Path
 
 Different people need different things from this guide. Find your role below and follow the links.
 
-<table id="bkmrk-who-you-arestart-wit"><thead><tr><th>Who You Are</th><th>Start With</th><th>Then See</th></tr></thead><tbody><tr><td>**New external volunteer**  
-*(just got a committee invitation)*</td><td>[Quick Start for New Volunteers](/books/shha-it-help-guide/page/quick-start-for-new-volunteers)</td><td>[Volunteer without SHHA Email](/books/shha-it-help-guide/page/volunteer-without-shha-email) guide, [FAQ](/books/shha-it-help-guide/page/faq)</td></tr><tr><td>**New officer or committee chair**  
-*(President, Treasurer, Chair, etc.)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) (mailing lists, SharePoint URLs)</td><td>[Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email) guide, FAQ sections on [role mailboxes](/books/shha-it-help-guide/page/faq#i-have-a-role-mailbox-eg-president-treasurer-should-i-reply-from-my-personal-inbox) and [email transitions](/books/shha-it-help-guide/page/faq#how-does-the-email-transition-work-when-someone-enters-or-leaves-a-role-who-handles-it)</td></tr><tr><td>**New Board member**  
-*(need meeting materials and agenda rhythm)*</td><td>[New Board Member Guide](/books/shha-it-help-guide/page/new-board-member-guide)</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory), [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td></tr><tr><td>**New Board president**  
-*(need the big picture)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td><td>[Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [HR &amp; Personnel Management](/books/shha-it-help-guide/page/hr-personnel-management), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr><tr><td>**GRIT newsletter editor**</td><td>[GRIT Layout Monthly Guide](/books/shha-it-help-guide/page/grit-layout-monthly-guide)</td><td>FAQ section on [GRIT submissions](/books/shha-it-help-guide/page/faq#how-do-i-submit-an-article-for-the-grit-newsletter)</td></tr><tr><td>**Office staff**  
-*(manage day-to-day IT operations)*</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff)</td><td>[M365 Email Groups &amp; Roles Reference](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities), [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td></tr><tr><td>**Future IT help person**  
-*(inheriting the IT admin role)*</td><td>[IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover)</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff), [Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr></tbody></table>
+<table id="bkmrk-who-you-arestart-wit"><thead><tr><th>Who you are</th><th>Start here</th><th>First action and next step</th></tr></thead><tbody><tr><td>Resident or visitor</td><td>[Public utilities](/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox)</td><td>Open the dashboard, map or GRIT submission form; no account is needed.</td></tr><tr><td>Volunteer using personal email</td><td>[Accept your invitation](/books/shha-it-help-guide/page/volunteer-without-shha-email)</td><td>Use the email address that received the invitation, then open your committee SharePoint site.</td></tr><tr><td>Volunteer with an SHHA account</td><td>[Use your SHHA account](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td><td>Sign in with your own account for email and committee documents.</td></tr><tr><td>Officer with a shared role mailbox</td><td>[Open your role mailbox](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td><td>Use your own licensed SHHA account. The six shared role addresses are not separate sign-ins.</td></tr><tr><td>Committee chair or task-force lead</td><td>[Use the committee mailing list](/books/shha-it-help-guide/page/committee-and-group-email-guide)</td><td>Your own email address and approved committee membership are enough for ordinary committee work; see [committee documents](/books/shha-it-help-guide/page/committee-sharepoint-guide).</td></tr><tr><td>Board member</td><td>[Open Board materials](/books/shha-it-help-guide/page/new-board-member-guide)</td><td>Start with Board SharePoint. If you use personal email, first follow the [invitation instructions](/books/shha-it-help-guide/page/volunteer-without-shha-email).</td></tr><tr><td>Office staff</td><td>[Staff guide](/books/shha-it-help-guide/page/staff)</td><td>For setup, use [account and group procedures](/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups), then [welcome email templates](/books/shha-it-help-guide/page/office-onboarding-email-templates).</td></tr><tr><td>GRIT contributor</td><td>[Submit to the GRIT](/books/shha-it-help-guide/page/grit-content-rules-and-submission-guide)</td><td>Choose the right contribution type, prepare your files and use the submission portal.</td></tr><tr><td>GRIT editor or layout volunteer</td><td>[Production handoffs](/books/shha-it-help-guide/page/grit-internal-production-reference)</td><td>Then use the [monthly layout guide](/books/shha-it-help-guide/page/grit-layout-monthly-guide) for InDesign work.</td></tr><tr><td>Incoming IT administrator</td><td>[IT infrastructure and handover](/books/shha-it-help-guide/page/it-infrastructure-and-handover)</td><td>Arrange individual access through the office, then use [Microsoft 365 email building blocks](/books/shha-it-help-guide/page/m365-email-building-blocks) and the setup procedures.</td></tr></tbody></table>
 
 ---
 
@@ -106,14 +102,13 @@ The archive inbox is not monitored and does not reply.
 
 ---
 
-<a id="bkmrk--18"></a>## Next Steps
+<a id="bkmrk--18"></a>## Where to go next
 
-- Need quick commands and links? See [Quick Reference](quick-reference.html)
-- Need answers to common problems? See [FAQ](faq.html)
-- Need help with email, SharePoint, file sharing, or role transitions? See [FAQ](faq.html)
-- Want to submit a GRIT article or request an email blast? See [FAQ — Communicating with Residents](faq.html#grit-article)
-- Need role-specific instructions? Use [Staff](staff.html), [Volunteer (with SHHA email)](volunteer-internal.html), or [Volunteer (without SHHA email)](volunteer-external.html)
-- Need GRIT layout/design process details? See [GRIT Layout Monthly Guide](grit-layout.html)
+- [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) for everyday destinations.
+- [FAQ](/books/shha-it-help-guide/page/faq) for access and email problems.
+- [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide) for opening and uploading documents.
+
+Need help? Email [IT Help](mailto:ithelp@sandiahomeowners.org) with the address you signed in with, the link you opened and the error message. For membership changes, contact [office staff](mailto:office@sandiahomeowners.org).
 
 ## Public utilities and staff tools
 

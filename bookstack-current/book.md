@@ -8,6 +8,8 @@ Essential links, mailing lists, SharePoint sites, and chair inboxes — start he
 
 # Quick Links & Directory
 
+**Who this is for:** staff and volunteers looking for everyday links. New here? [Choose your starting point](/books/shha-it-help-guide/page/overview). For an access problem, contact [IT Help](mailto:ithelp@sandiahomeowners.org).
+
 **Bookmark this page.** It has every link you need for day-to-day SHHA work.
 
 ## Login Links
@@ -46,7 +48,7 @@ Each committee has its own SharePoint site for storing documents, meeting minute
 
 ## Other SHHA Email Addresses
 
-<table id="bkmrk-addresspurpose-offic"><thead><tr><th>Address</th><th>Purpose</th></tr></thead><tbody><tr><td><office@sandiahomeowners.org></td><td>General office inquiries, mailing list changes, GRIT submissions</td></tr><tr><td><ithelp@sandiahomeowners.org></td><td>IT support — access issues, SharePoint help, mailbox permissions</td></tr><tr><td><admin@sandiahomeowners.org></td><td>Archive-only — member of every group for recordkeeping (not monitored)</td></tr><tr><td>sandiahomeowners@gmail.com</td><td>Legacy Gmail address — **TODO:** document current purpose and who monitors this</td></tr><tr><td>shhagrit@gmail.com</td><td>GRIT newsletter Gmail — **TODO:** document current purpose, who monitors, and relationship to M365</td></tr></tbody></table>
+<table id="bkmrk-addresspurpose-offic"><thead><tr><th>Address</th><th>Purpose</th></tr></thead><tbody><tr><td><office@sandiahomeowners.org></td><td>General office inquiries, mailing list changes, GRIT submissions</td></tr><tr><td><ithelp@sandiahomeowners.org></td><td>IT support — access issues, SharePoint help, mailbox permissions</td></tr><tr><td><admin@sandiahomeowners.org></td><td>Archive-only — member of every group for recordkeeping (not monitored)</td></tr></tbody></table>
 
 ## Committee SharePoint Help
 
@@ -614,17 +616,13 @@ The former standalone reminders address is retired. Open the toolbox and choose 
 
 # Overview
 
+**Who this is for:** anyone using SHHA IT services, from first-time volunteers to the next IT administrator. Choose your route below. You can read this wiki without signing in; editing uses your approved Microsoft identity.
+
 ## Start Here — Find Your Path
 
 Different people need different things from this guide. Find your role below and follow the links.
 
-<table id="bkmrk-who-you-arestart-wit"><thead><tr><th>Who You Are</th><th>Start With</th><th>Then See</th></tr></thead><tbody><tr><td>**New external volunteer**  
-*(just got a committee invitation)*</td><td>[Quick Start for New Volunteers](/books/shha-it-help-guide/page/quick-start-for-new-volunteers)</td><td>[Volunteer without SHHA Email](/books/shha-it-help-guide/page/volunteer-without-shha-email) guide, [FAQ](/books/shha-it-help-guide/page/faq)</td></tr><tr><td>**New officer or committee chair**  
-*(President, Treasurer, Chair, etc.)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) (mailing lists, SharePoint URLs)</td><td>[Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email) guide, FAQ sections on [role mailboxes](/books/shha-it-help-guide/page/faq#i-have-a-role-mailbox-eg-president-treasurer-should-i-reply-from-my-personal-inbox) and [email transitions](/books/shha-it-help-guide/page/faq#how-does-the-email-transition-work-when-someone-enters-or-leaves-a-role-who-handles-it)</td></tr><tr><td>**New Board member**  
-*(need meeting materials and agenda rhythm)*</td><td>[New Board Member Guide](/books/shha-it-help-guide/page/new-board-member-guide)</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory), [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td></tr><tr><td>**New Board president**  
-*(need the big picture)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td><td>[Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [HR &amp; Personnel Management](/books/shha-it-help-guide/page/hr-personnel-management), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr><tr><td>**GRIT newsletter editor**</td><td>[GRIT Layout Monthly Guide](/books/shha-it-help-guide/page/grit-layout-monthly-guide)</td><td>FAQ section on [GRIT submissions](/books/shha-it-help-guide/page/faq#how-do-i-submit-an-article-for-the-grit-newsletter)</td></tr><tr><td>**Office staff**  
-*(manage day-to-day IT operations)*</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff)</td><td>[M365 Email Groups &amp; Roles Reference](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities), [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td></tr><tr><td>**Future IT help person**  
-*(inheriting the IT admin role)*</td><td>[IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover)</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff), [Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr></tbody></table>
+<table id="bkmrk-who-you-arestart-wit"><thead><tr><th>Who you are</th><th>Start here</th><th>First action and next step</th></tr></thead><tbody><tr><td>Resident or visitor</td><td>[Public utilities](/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox)</td><td>Open the dashboard, map or GRIT submission form; no account is needed.</td></tr><tr><td>Volunteer using personal email</td><td>[Accept your invitation](/books/shha-it-help-guide/page/volunteer-without-shha-email)</td><td>Use the email address that received the invitation, then open your committee SharePoint site.</td></tr><tr><td>Volunteer with an SHHA account</td><td>[Use your SHHA account](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td><td>Sign in with your own account for email and committee documents.</td></tr><tr><td>Officer with a shared role mailbox</td><td>[Open your role mailbox](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td><td>Use your own licensed SHHA account. The six shared role addresses are not separate sign-ins.</td></tr><tr><td>Committee chair or task-force lead</td><td>[Use the committee mailing list](/books/shha-it-help-guide/page/committee-and-group-email-guide)</td><td>Your own email address and approved committee membership are enough for ordinary committee work; see [committee documents](/books/shha-it-help-guide/page/committee-sharepoint-guide).</td></tr><tr><td>Board member</td><td>[Open Board materials](/books/shha-it-help-guide/page/new-board-member-guide)</td><td>Start with Board SharePoint. If you use personal email, first follow the [invitation instructions](/books/shha-it-help-guide/page/volunteer-without-shha-email).</td></tr><tr><td>Office staff</td><td>[Staff guide](/books/shha-it-help-guide/page/staff)</td><td>For setup, use [account and group procedures](/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups), then [welcome email templates](/books/shha-it-help-guide/page/office-onboarding-email-templates).</td></tr><tr><td>GRIT contributor</td><td>[Submit to the GRIT](/books/shha-it-help-guide/page/grit-content-rules-and-submission-guide)</td><td>Choose the right contribution type, prepare your files and use the submission portal.</td></tr><tr><td>GRIT editor or layout volunteer</td><td>[Production handoffs](/books/shha-it-help-guide/page/grit-internal-production-reference)</td><td>Then use the [monthly layout guide](/books/shha-it-help-guide/page/grit-layout-monthly-guide) for InDesign work.</td></tr><tr><td>Incoming IT administrator</td><td>[IT infrastructure and handover](/books/shha-it-help-guide/page/it-infrastructure-and-handover)</td><td>Arrange individual access through the office, then use [Microsoft 365 email building blocks](/books/shha-it-help-guide/page/m365-email-building-blocks) and the setup procedures.</td></tr></tbody></table>
 
 ---
 
@@ -720,14 +718,13 @@ The archive inbox is not monitored and does not reply.
 
 ---
 
-<a id="bkmrk--18"></a>## Next Steps
+<a id="bkmrk--18"></a>## Where to go next
 
-- Need quick commands and links? See [Quick Reference](quick-reference.html)
-- Need answers to common problems? See [FAQ](faq.html)
-- Need help with email, SharePoint, file sharing, or role transitions? See [FAQ](faq.html)
-- Want to submit a GRIT article or request an email blast? See [FAQ — Communicating with Residents](faq.html#grit-article)
-- Need role-specific instructions? Use [Staff](staff.html), [Volunteer (with SHHA email)](volunteer-internal.html), or [Volunteer (without SHHA email)](volunteer-external.html)
-- Need GRIT layout/design process details? See [GRIT Layout Monthly Guide](grit-layout.html)
+- [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory) for everyday destinations.
+- [FAQ](/books/shha-it-help-guide/page/faq) for access and email problems.
+- [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide) for opening and uploading documents.
+
+Need help? Email [IT Help](mailto:ithelp@sandiahomeowners.org) with the address you signed in with, the link you opened and the error message. For membership changes, contact [office staff](mailto:office@sandiahomeowners.org).
 
 ## Public utilities and staff tools
 
@@ -1715,82 +1712,9 @@ Not sure who the current GRIT editor is? Email **office@sandiahomeowners.org**.
  
 ---
 
-# Gmail &amp; Legacy Accounts
+## Where can I find IT systems and access information?
 
----
-
-## What are the SHHA Gmail addresses, and should I use them?
-
-SHHA has two Gmail addresses that predate the Microsoft 365 system:
-
-- **sandiahomeowners@gmail.com** — **TODO:** Document the current purpose of this address. Who monitors it? Is it used for Google Calendar automation (Board meeting reminders)? Should new Board members be aware of it?
-- **shhagrit@gmail.com** — **TODO:** Document this address's purpose. Is it used for GRIT newsletter submissions? Google Drive access for GRIT files? Who monitors it?
-
-**For most SHHA business, use your @sandiahomeowners.org addresses** (committee mailing lists and role mailboxes). The Gmail addresses are legacy and may serve specific limited purposes.
-
----
-
-# Human Resources &amp; Administration
-
----
-
-## How are volunteers added to or removed from committees?
-
-**TODO:** Document the full appointment process. For now, the IT side works as follows:
-
-- **Adding:** The committee chair (or Board, for chair appointments) notifies office staff. Staff sends a Microsoft invitation and adds the volunteer to the committee mailing list. See the *Quick Start for New Volunteers* page for the volunteer's perspective.
-- **Removing:** The chair (or the volunteer) notifies office staff. Staff removes the person from the mailing list and revokes SharePoint and mailbox access.
-- **Formal governance process:** Refer to the SHHA Bylaws for rules on committee appointments and chair replacements. **TODO:** Add a link to the Bylaws document.
-
-For detailed information, see the *HR &amp; Personnel Management* page in the Operations &amp; Administration chapter.
-
-## Who manages SHHA staff? (evaluations, salary, hiring)
-
-**TODO:** This is primarily a governance/operations question, not IT. Key sub-questions to answer:
-
-- Who gives yearly evaluations?
-- Who sets salary and benefits?
-- Who hires new staff?
-- Who assigns day-to-day work priorities?
-- What is the President's specific role in staff management?
-
-See the *HR &amp; Personnel Management* page in the Operations &amp; Administration chapter for the full skeleton of questions to be answered.
-
-## What outside consultants does SHHA use?
-
-**TODO:** Document current consultants (legal counsel, web consultant, others), how they are compensated, and who oversees their work. See the *HR &amp; Personnel Management* page for details.
-
-## What insurance does SHHA have for volunteers and officers?
-
-**TODO:** Document insurance coverage including E&amp;O, general liability, D&amp;O, and cyber liability. See the *HR &amp; Personnel Management* page for the full list of questions.
-
----
-
-# Systems &amp; Controls
-
----
-
-## What technology systems does SHHA use?
-
-SHHA uses several technology systems:
-
-- **Microsoft 365** — Email, mailing lists, shared mailboxes, SharePoint (file storage)
-- **QuickBooks** — Financial accounting (cloud-based)
-- **Gusto** — Payroll and benefits
-- **Square** — Tram ticket sales and advertising payments
-- **SHHA Website** — Public-facing website at sandiahomeowners.org
-- **Membership Database** — **TODO:** identify the system
-- **GRIT Newsletter tools** — **TODO:** identify the production software
-
-For detailed information about each system (admin, login, backup status), see the *Systems Inventory* page in the Operations &amp; Administration chapter.
-
-## How is SHHA data backed up?
-
-Most SHHA data lives in cloud services (Microsoft 365, QuickBooks Online, Gusto) which provide their own redundancy and backups. **TODO:** Document whether SHHA has additional backup procedures, retention policies, or third-party backup solutions. See the *Controls &amp; Security* page for the full assessment.
-
-## Who has admin access to SHHA systems?
-
-**TODO:** Document who has administrator access to each system, ensure there is a primary and backup for each. See the *Controls &amp; Security* page for the full access matrix.
+[Systems Inventory](/books/shha-it-help-guide/page/systems-inventory) describes the services SHHA uses. [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security) explains safe access and where to get help. IT maintainers should start with [IT Infrastructure and Handover](/books/shha-it-help-guide/page/it-infrastructure-and-handover) and obtain the relevant private operating guides through office staff.
 
 # Specialty Topics
 
@@ -2871,182 +2795,49 @@ Systems inventory, security controls, HR and personnel management.
 
 # Systems Inventory
 
-This page lists the technology systems SHHA uses. For each system, we document what it does, who administers it, and how it is accessed.
+**Who this is for:** staff and IT administrators identifying the right service. Find the system below and follow its guide or named help contact.
 
-*Items marked **TODO** need information filled in by someone with direct knowledge of that system.*
+<table id="bkmrk-systemwhat-it-doeswh"><thead><tr><th>System</th><th>What it does</th><th>Where to go next</th></tr></thead><tbody><tr><td>Microsoft 365</td><td>Email, calendars, committee groups, shared role mailboxes and SharePoint documents.</td><td>[Choose the right email pattern](/books/shha-it-help-guide/page/m365-email-building-blocks); [open committee sites and email links](/books/shha-it-help-guide/page/quick-links-directory).</td></tr><tr><td>Association website and membership database</td><td>The website MariaDB database owns homeowner, property and resident-link records. Authorized website staff make corrections there.</td><td>[Public website](https://sandiahomeowners.org). Ask office staff for the authorized website maintainer; private records and connection details stay in protected systems.</td></tr><tr><td>SHHA Toolbox</td><td>Microsoft-authenticated office tools, including Email Reminders. Access is approved separately for each tool.</td><td>[Toolbox guide](/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox); [meeting reminder instructions](/books/shha-it-help-guide/page/shha-reminders).</td></tr><tr><td>Public statistics dashboard</td><td>Aggregate membership and communication statistics. It reads approved data and does not change the website database.</td><td>[Open the dashboard](https://dashboard.sandiahomeowners.org/); no sign-in needed.</td></tr><tr><td>Neighborhood map</td><td>Published neighborhood boundaries and map layers. It does not query the homeowner database.</td><td>[Open the map](https://sandia-heights-homeowners-association.github.io/SHHA-map/); no sign-in needed.</td></tr><tr><td>GRIT submissions and production</td><td>The portal receives contributions. Layout uses Adobe InDesign; the production guide describes final PDF access and handoffs.</td><td>[Submission instructions](/books/shha-it-help-guide/page/grit-content-rules-and-submission-guide); [layout guide](/books/shha-it-help-guide/page/grit-layout-monthly-guide); [production reference](/books/shha-it-help-guide/page/grit-internal-production-reference).</td></tr><tr><td>IT wiki</td><td>BookStack is the live documentation source. The public GitHub mirror exports readable content; it is not a full recovery backup.</td><td>[Choose a reader route](/books/shha-it-help-guide/page/overview). [IT handover](/books/shha-it-help-guide/page/it-infrastructure-and-handover) covers hosting and maintenance.</td></tr><tr><td>QuickBooks</td><td>Financial accounting software. Account access and financial records are managed separately from this public guide.</td><td>Contact [office staff](mailto:office@sandiahomeowners.org) for the approved account owner and support route.</td></tr><tr><td>Square</td><td>Used for Sandia Tram ticket sales and advertising payments.</td><td>Contact [office staff](mailto:office@sandiahomeowners.org) for the approved account owner and support route.</td></tr></tbody></table>
 
-## 1. Microsoft 365
+## Administration and hosting
 
-Microsoft 365 is SHHA's primary platform for email, mailing lists (Microsoft Groups), shared role mailboxes, and file storage (SharePoint).
+Microsoft 365 owns mail, calendars, groups and SharePoint. The toolbox uses those services rather than creating a second calendar or membership directory. The toolbox and dashboard run on Azure App Service; the wiki uses an Azure container with MySQL and persistent file storage; the map uses GitHub Pages. See [IT Infrastructure and Handover](/books/shha-it-help-guide/page/it-infrastructure-and-handover) for repository ownership, deployment boundaries and the GRIT hosting transition.
 
-<table id="bkmrk-typecloud-based-%28mic"><tbody><tr><td>**Type**</td><td>Cloud-based (Microsoft-hosted)</td></tr><tr><td>**Primary admin**</td><td>Anna (office staff) handles day-to-day membership changes; IT admin handles mailbox permissions and configuration</td></tr><tr><td>**Backup admin**</td><td>**TODO:** Identify and document a backup administrator</td></tr><tr><td>**Login**</td><td>[admin.microsoft.com](https://admin.microsoft.com) (admin), [outlook.com](https://outlook.com) (email), SharePoint links (files)</td></tr><tr><td>**Licensing**</td><td>Only office staff and IT admin need paid licenses; volunteers are free external guests</td></tr></tbody></table>
-
-## 2. QuickBooks
-
-Used for SHHA financial accounting.
-
-<table id="bkmrk-typecloud-based-prim"><tbody><tr><td>**Type**</td><td>Cloud-based</td></tr><tr><td>**Primary admin / user**</td><td>**TODO:** Who is the primary user? (Treasurer? Office staff?)</td></tr><tr><td>**Backup**</td><td>**TODO:** Is there a backup user with access?</td></tr><tr><td>**Login**</td><td>**TODO:** URL and login method</td></tr><tr><td>**Notes**</td><td>**TODO:** Version (Online vs Desktop), billing, who pays for the subscription</td></tr></tbody></table>
-
-## 3. Membership Database
-
-The association website's **MariaDB database** owns homeowner, property and resident-link records. Corrections belong in the website, through its authorized staff or maintainer. The public dashboard and staff toolbox read approved data through dedicated SELECT-only access; neither writes changes back to this database.
-
-Confirm website administration, backups and responsible contacts with the office. Detailed connection, permissions and recovery information belong in private operating documentation.
-
-## 4. Gusto
-
-Used for payroll and employee benefits administration.
-
-<table id="bkmrk-typecloud-based-prim-1"><tbody><tr><td>**Type**</td><td>Cloud-based</td></tr><tr><td>**Primary admin**</td><td>**TODO:** Who manages Gusto? (Office manager? Treasurer?)</td></tr><tr><td>**Backup**</td><td>**TODO:** Is there a backup admin?</td></tr><tr><td>**Login**</td><td>[app.gusto.com](https://app.gusto.com)</td></tr><tr><td>**Notes**</td><td>**TODO:** How many employees are on payroll? Billing responsibility?</td></tr></tbody></table>
-
-## 5. SHHA Website
-
-The public-facing website at [sandiahomeowners.org](https://sandiahomeowners.org).
-
-<table id="bkmrk-typetodo%3A-what-platf"><tbody><tr><td>**Type**</td><td>**TODO:** What platform/CMS runs the website? (WordPress, Squarespace, custom?)</td></tr><tr><td>**Hosting**</td><td>**TODO:** Where is it hosted? Cloud-based?</td></tr><tr><td>**Primary owner**</td><td>**TODO:** Who manages content updates?</td></tr><tr><td>**Backup owner**</td><td>**TODO:** Is there a backup person?</td></tr><tr><td>**Outside consultant**</td><td>**TODO:** Is there a web consultant? If so, who? How are they paid?</td></tr><tr><td>**Login**</td><td>**TODO:** Admin URL and login method</td></tr></tbody></table>
-
-## 6. GRIT Newsletter
-
-The GRIT is SHHA's community newsletter, currently produced monthly.
-
-<table id="bkmrk-production-tooltodo%3A"><tbody><tr><td>**Production tool**</td><td>**TODO:** What software is used for layout? (InDesign, Canva, Google Docs, etc.)</td></tr><tr><td>**Distribution method**</td><td>**TODO:** Print, email, or both?</td></tr><tr><td>**Editor / layout person**</td><td>**TODO:** Who currently does layout and editing?</td></tr><tr><td>**Gmail account**</td><td>shhagrit@gmail.com — **TODO:** document what this Gmail is used for (submissions? Google Drive access? legacy?)</td></tr><tr><td>**Related page**</td><td>See the *GRIT Layout Monthly Guide* in the Specialty Topics chapter for the step-by-step production process</td></tr></tbody></table>
-
-## 7. Square
-
-Used for Sandia Tram ticket sales and advertising payments.
-
-<table id="bkmrk-typecloud-based-prim-2"><tbody><tr><td>**Type**</td><td>Cloud-based</td></tr><tr><td>**Primary user**</td><td>**TODO:** Who manages Square transactions?</td></tr><tr><td>**Backup**</td><td>**TODO:** Is there a backup?</td></tr><tr><td>**Login**</td><td>[squareup.com](https://squareup.com)</td></tr><tr><td>**Notes**</td><td>**TODO:** What specific transactions go through Square? Revenue amounts?</td></tr></tbody></table>
-
-## 8. Public Utilities, Staff Toolbox and Wiki Hosting
-
-SHHA now maintains public statistics, a public neighborhood map, GRIT submissions and a Microsoft-authenticated staff toolbox. See [Public Utilities and SHHA Toolbox](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox) for working links and audiences.
-
-The toolbox and separate statistics dashboard run on Azure App Service. BookStack runs in its own Azure container with MySQL and persistent file storage. The map runs on GitHub Pages. The public GRIT domain still uses its existing Vercel host while its Azure version is maintained separately; its domain cutover must be verified before describing the public site as Azure-hosted.
-
-Email Reminders is part of the **SHHA Toolbox**; its standalone web address is retired. Do not use the former DigitalOcean app-directory or reverse-proxy instructions as the current deployment guide. Retirement of any remaining legacy hosting/state is a separate operational check.
-
-[IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover) explains ownership, repositories, hosting/data boundaries, deployments and recovery responsibilities for the next IT professional.
-
-## SHHA GitHub
-
-SHHA's GitHub organization is [https://github.com/Sandia-Heights-Homeowners-Association](https://github.com/Sandia-Heights-Homeowners-Association).
-
-This is where SHHA stores source code and local documentation backups for technical projects. For approved individual access, contact office staff or IT Help; confirm organizational ownership and recovery arrangements.
-
-## 9. Other Systems
-
-**TODO:** Are there additional systems not listed above? Examples might include:
-
-- Bulk email / email blast service (Mailchimp, Constant Contact, etc.)
-- Google Workspace (shared Google Calendar for Board reminders uses Gmail — is there a full Google account?)
-- Domain registrar for sandiahomeowners.org — **TODO:** who manages DNS and domain renewal?
-- Any other SaaS tools or vendor portals
+For approved individual access to the [SHHA GitHub organization](https://github.com/Sandia-Heights-Homeowners-Association) or service administration, contact [IT Help](mailto:ithelp@sandiahomeowners.org) or office staff. Detailed access inventories, credentials and recovery procedures belong in approved private documentation.
 
 # Controls & Security
 
-This page documents access controls, cybersecurity practices, and data backup procedures for SHHA systems.
+**Who this is for:** staff, volunteers and IT administrators using SHHA accounts and documents. For an access problem or a suspicious sign-in prompt, contact [IT Help](mailto:ithelp@sandiahomeowners.org).
 
-*Items marked **TODO** need information filled in. These questions originated from Andrea's controls review.*
+## Use the right account
 
-## Access Controls — Who Has Access to What?
+1. Use the same email address that received your SHHA invitation for guest access. Staff and officer mailbox holders use their own SHHA account for licensed services.
+2. Open committee documents from the committee SharePoint site. Access comes from approved group membership; a public wiki link does not grant access.
+3. Open a shared role mailbox through your own licensed account. Do not sign in as the shared role address.
 
-### Microsoft 365 Admin Access
+## Keep private information in protected systems
 
-<table id="bkmrk-global-administrator"><tbody><tr><td>**Global Administrator**</td><td>**TODO:** Who currently has Global Admin access? (There should be a primary and a backup.)</td></tr><tr><td>**User / Group management**</td><td>Anna (office staff) manages day-to-day membership. IT admin handles mailbox permissions.</td></tr><tr><td>**Who manages access?**</td><td>**TODO:** Is there a documented process for granting/revoking admin access? Who approves changes?</td></tr></tbody></table>
+This wiki and its GitHub content mirror are public. Do not add passwords, API tokens, recovery codes, resident records, private reports or detailed permissions inventories. A later page restriction does not remove material already saved in public Git history.
 
-### Other System Access
+Use the correct committee or staff document library for working files. If you are unsure who should see a file, ask office staff before uploading or sharing it.
 
-<table id="bkmrk-systemprimary-access"><thead><tr><th>System</th><th>Primary Access</th><th>Backup Access</th></tr></thead><tbody><tr><td>QuickBooks</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Membership Database</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Gusto (Payroll)</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>SHHA Website (admin)</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Square</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Domain registrar</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Google accounts</td><td>**TODO**</td><td>**TODO**</td></tr></tbody></table>
+## Request or remove access
 
-## Cybersecurity
+1. Ask office staff for committee membership changes and provide the person's email address, committee and effective date.
+2. Ask IT Help for shared-mailbox permissions or technical access problems.
+3. After a change, test the affected email or document access. Keep the role mailbox and group-owned documents for the next person; change access rather than deleting the records.
 
-### Current Practices
+## If something looks suspicious
 
-- **TODO:** Do we enforce multi-factor authentication (MFA) for Microsoft 365 admin accounts?
-- **TODO:** Do we enforce MFA for all licensed users?
-- **TODO:** How do we handle password policies? (complexity requirements, rotation schedule)
-- **TODO:** Is there an incident response plan if an account is compromised?
-- **TODO:** Do we have phishing awareness guidelines for staff and volunteers?
+Do not enter a password or approve a sign-in request you did not initiate. Contact IT Help using the address on this page. Describe what happened and include the affected account and time; do not email passwords or one-time codes.
 
-### Data Access
+## Backups and recovery
 
-- **TODO:** How do we manage overall data access security? (e.g., conditional access policies, device restrictions)
-- **TODO:** Are there any data classification policies (confidential vs. public)?
-- **TODO:** How is sensitive financial data protected? (QuickBooks access, payroll data in Gusto)
+The public wiki export is a readable content copy. Restoring BookStack also requires its database, configuration and uploaded files. Other services have their own recovery procedures. IT maintainers should obtain the approved private operating guides and confirm restoration coverage; cloud hosting alone does not demonstrate a tested recovery process.
 
-## Data Backup
+## Where to go next
 
-### Cloud-Based Systems
-
-Most SHHA data resides in cloud services. Each provider has its own backup/redundancy:
-
-<table id="bkmrk-systembackup-approac"><thead><tr><th>System</th><th>Backup Approach</th></tr></thead><tbody><tr><td>Microsoft 365 (email, SharePoint)</td><td>Microsoft provides built-in redundancy and retention policies. **TODO:** Do we have a separate backup solution (e.g., third-party M365 backup)? What are our retention policy settings?</td></tr><tr><td>QuickBooks Online</td><td>Intuit maintains backups. **TODO:** Do we also export periodic backups locally?</td></tr><tr><td>Gusto</td><td>Gusto maintains payroll records. **TODO:** Do we keep local copies of payroll reports?</td></tr><tr><td>SHHA Website</td><td>**TODO:** Who backs up the website? How often? Where are backups stored?</td></tr><tr><td>Membership Database</td><td>**TODO:** How is the membership database backed up?</td></tr></tbody></table>
-
-### Local Data
-
-- **TODO:** Is any critical data stored only on local computers (office PCs) and not in the cloud?
-- **TODO:** If so, how is that data backed up?
-
-## Other Security Considerations
-
-- **TODO:** Do we have cyber liability insurance?
-- **TODO:** When was the last security review or audit of our systems?
-- **TODO:** Are there any compliance requirements (e.g., state HOA data retention laws)?
-
-# HR & Personnel Management
-
-This page covers staff management, outside consultants, and volunteer administration. Much of this is non-IT operational information.
-
-*Items marked **TODO** need information from someone with direct knowledge (e.g., Jim Stewart, current President, or office manager).*
-
-## Staff Management
-
-### Current Staff
-
-**TODO:** List current office staff positions and names (e.g., Office Manager, Administrative Assistant).
-
-### Evaluation &amp; Compensation
-
-<table id="bkmrk-who-gives-yearly-eva"><tbody><tr><td>**Who gives yearly evaluations?**</td><td>**TODO:** (President? Executive Committee? Office manager for junior staff?)</td></tr><tr><td>**Who sets salaries?**</td><td>**TODO:** (Board approval required? Budget process?)</td></tr><tr><td>**Where are salary and benefits records?**</td><td>**TODO:** (Gusto? QuickBooks? Paper files?)</td></tr></tbody></table>
-
-### Hiring
-
-<table id="bkmrk-who-hires-new-staff%3F"><tbody><tr><td>**Who hires new staff?**</td><td>**TODO:** (President? Executive Committee? Board vote?)</td></tr><tr><td>**What is the hiring process?**</td><td>**TODO:** (Job posting, interviews, background check, Board approval?)</td></tr></tbody></table>
-
-### Work Priorities &amp; Training
-
-<table id="bkmrk-who-assigns-work-pri"><tbody><tr><td>**Who assigns work priorities?**</td><td>**TODO:** (President? Office manager self-directs?)</td></tr><tr><td>**Who trains new staff?**</td><td>**TODO:** (Outgoing staff? Office manager? Written procedures?)</td></tr><tr><td>**President's specific role**</td><td>**TODO:** Does the President have a defined role in day-to-day staff management, or is it delegated?</td></tr></tbody></table>
-
-## Outside Consultants
-
-**TODO:** Document each outside consultant or contracted service provider.
-
-### Legal Counsel
-
-<table id="bkmrk-firm-%2F-attorney-name"><tbody><tr><td>**Firm / attorney name**</td><td>**TODO**</td></tr><tr><td>**Compensation**</td><td>**TODO:** Hourly, per project, or retainer?</td></tr><tr><td>**Who oversees / approves work?**</td><td>**TODO:** (President? Board?)</td></tr><tr><td>**Who manages expenditure rate?**</td><td>**TODO**</td></tr></tbody></table>
-
-### Web Consultant
-
-<table id="bkmrk-consultant-name-%2F-fi"><tbody><tr><td>**Consultant name / firm**</td><td>**TODO**</td></tr><tr><td>**Compensation**</td><td>**TODO:** Hourly, per project, or retainer?</td></tr><tr><td>**Who oversees / approves work?**</td><td>**TODO**</td></tr><tr><td>**Scope of work**</td><td>**TODO:** Website maintenance? Design? Both?</td></tr></tbody></table>
-
-### Other Consultants
-
-**TODO:** Are there other outside consultants (accounting/audit, landscaping, etc.)? List them here.
-
-## Volunteer Management
-
-### Adding Volunteers to Committees
-
-<table id="bkmrk-who-appoints-committ"><tbody><tr><td>**Who appoints committee members?**</td><td>**TODO:** President? Committee chair? Both? (Refer to [SHHA Bylaws](#bkmrk-e%26o-%28errors-%26-omissi) for the formal process.)</td></tr><tr><td>**Process**</td><td>**TODO:** Document the step-by-step process for adding a new volunteer (nomination → approval → IT setup)</td></tr><tr><td>**IT setup when adding**</td><td>Committee chair notifies office staff → staff sends Microsoft invitation → volunteer accepts → staff adds to mailing list. See the *Quick Start for New Volunteers* page.</td></tr></tbody></table>
-
-### Removing Volunteers from Committees
-
-<table id="bkmrk-processtodo%3A-who-ini"><tbody><tr><td>**Process**</td><td>**TODO:** Who initiates removal? (Chair? Volunteer self-removal? Board?)</td></tr><tr><td>**IT cleanup**</td><td>Office staff removes from mailing list; IT removes SharePoint and mailbox access if applicable.</td></tr></tbody></table>
-
-### Replacing a Committee Chair
-
-<table id="bkmrk-processtodo%3A-%28refer-"><tbody><tr><td>**Process**</td><td>**TODO:** (Refer to Bylaws — link needed.) Who nominates the new chair? Board approval required?</td></tr><tr><td>**IT transition**</td><td>Shared role mailbox access is transferred (revoke outgoing, grant incoming). See the FAQ section on email transitions.</td></tr></tbody></table>
-
-## Insurance
-
-<table id="bkmrk-e%26o-%28errors-%26-omissi"><tbody><tr><td>**E&amp;O (Errors &amp; Omissions) insurance**</td><td>**TODO:** Do we have E&amp;O coverage? What does it cover? Policy details?</td></tr><tr><td>**General liability insurance**</td><td>**TODO:** Coverage details? Does it extend to volunteers?</td></tr><tr><td>**D&amp;O (Directors &amp; Officers)**</td><td>**TODO:** Do we have D&amp;O insurance?</td></tr><tr><td>**Cyber liability**</td><td>**TODO:** Do we have cyber liability coverage?</td></tr><tr><td>**Insurance broker / carrier**</td><td>**TODO:** Company name and contact</td></tr></tbody></table>
+- [Personal-email invitation and access instructions](/books/shha-it-help-guide/page/volunteer-without-shha-email)
+- [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide)
+- [Staff and IT access responsibilities](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities)
+- [IT Infrastructure and Handover](/books/shha-it-help-guide/page/it-infrastructure-and-handover)

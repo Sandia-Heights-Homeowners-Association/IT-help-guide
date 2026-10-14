@@ -1,50 +1,36 @@
 # Controls & Security
 
-This page documents access controls, cybersecurity practices, and data backup procedures for SHHA systems.
+**Who this is for:** staff, volunteers and IT administrators using SHHA accounts and documents. For an access problem or a suspicious sign-in prompt, contact [IT Help](mailto:ithelp@sandiahomeowners.org).
 
-*Items marked **TODO** need information filled in. These questions originated from Andrea's controls review.*
+## Use the right account
 
-## Access Controls — Who Has Access to What?
+1. Use the same email address that received your SHHA invitation for guest access. Staff and officer mailbox holders use their own SHHA account for licensed services.
+2. Open committee documents from the committee SharePoint site. Access comes from approved group membership; a public wiki link does not grant access.
+3. Open a shared role mailbox through your own licensed account. Do not sign in as the shared role address.
 
-### Microsoft 365 Admin Access
+## Keep private information in protected systems
 
-<table id="bkmrk-global-administrator"><tbody><tr><td>**Global Administrator**</td><td>**TODO:** Who currently has Global Admin access? (There should be a primary and a backup.)</td></tr><tr><td>**User / Group management**</td><td>Anna (office staff) manages day-to-day membership. IT admin handles mailbox permissions.</td></tr><tr><td>**Who manages access?**</td><td>**TODO:** Is there a documented process for granting/revoking admin access? Who approves changes?</td></tr></tbody></table>
+This wiki and its GitHub content mirror are public. Do not add passwords, API tokens, recovery codes, resident records, private reports or detailed permissions inventories. A later page restriction does not remove material already saved in public Git history.
 
-### Other System Access
+Use the correct committee or staff document library for working files. If you are unsure who should see a file, ask office staff before uploading or sharing it.
 
-<table id="bkmrk-systemprimary-access"><thead><tr><th>System</th><th>Primary Access</th><th>Backup Access</th></tr></thead><tbody><tr><td>QuickBooks</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Membership Database</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Gusto (Payroll)</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>SHHA Website (admin)</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Square</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Domain registrar</td><td>**TODO**</td><td>**TODO**</td></tr><tr><td>Google accounts</td><td>**TODO**</td><td>**TODO**</td></tr></tbody></table>
+## Request or remove access
 
-## Cybersecurity
+1. Ask office staff for committee membership changes and provide the person's email address, committee and effective date.
+2. Ask IT Help for shared-mailbox permissions or technical access problems.
+3. After a change, test the affected email or document access. Keep the role mailbox and group-owned documents for the next person; change access rather than deleting the records.
 
-### Current Practices
+## If something looks suspicious
 
-- **TODO:** Do we enforce multi-factor authentication (MFA) for Microsoft 365 admin accounts?
-- **TODO:** Do we enforce MFA for all licensed users?
-- **TODO:** How do we handle password policies? (complexity requirements, rotation schedule)
-- **TODO:** Is there an incident response plan if an account is compromised?
-- **TODO:** Do we have phishing awareness guidelines for staff and volunteers?
+Do not enter a password or approve a sign-in request you did not initiate. Contact IT Help using the address on this page. Describe what happened and include the affected account and time; do not email passwords or one-time codes.
 
-### Data Access
+## Backups and recovery
 
-- **TODO:** How do we manage overall data access security? (e.g., conditional access policies, device restrictions)
-- **TODO:** Are there any data classification policies (confidential vs. public)?
-- **TODO:** How is sensitive financial data protected? (QuickBooks access, payroll data in Gusto)
+The public wiki export is a readable content copy. Restoring BookStack also requires its database, configuration and uploaded files. Other services have their own recovery procedures. IT maintainers should obtain the approved private operating guides and confirm restoration coverage; cloud hosting alone does not demonstrate a tested recovery process.
 
-## Data Backup
+## Where to go next
 
-### Cloud-Based Systems
-
-Most SHHA data resides in cloud services. Each provider has its own backup/redundancy:
-
-<table id="bkmrk-systembackup-approac"><thead><tr><th>System</th><th>Backup Approach</th></tr></thead><tbody><tr><td>Microsoft 365 (email, SharePoint)</td><td>Microsoft provides built-in redundancy and retention policies. **TODO:** Do we have a separate backup solution (e.g., third-party M365 backup)? What are our retention policy settings?</td></tr><tr><td>QuickBooks Online</td><td>Intuit maintains backups. **TODO:** Do we also export periodic backups locally?</td></tr><tr><td>Gusto</td><td>Gusto maintains payroll records. **TODO:** Do we keep local copies of payroll reports?</td></tr><tr><td>SHHA Website</td><td>**TODO:** Who backs up the website? How often? Where are backups stored?</td></tr><tr><td>Membership Database</td><td>**TODO:** How is the membership database backed up?</td></tr></tbody></table>
-
-### Local Data
-
-- **TODO:** Is any critical data stored only on local computers (office PCs) and not in the cloud?
-- **TODO:** If so, how is that data backed up?
-
-## Other Security Considerations
-
-- **TODO:** Do we have cyber liability insurance?
-- **TODO:** When was the last security review or audit of our systems?
-- **TODO:** Are there any compliance requirements (e.g., state HOA data retention laws)?
+- [Personal-email invitation and access instructions](/books/shha-it-help-guide/page/volunteer-without-shha-email)
+- [Committee SharePoint Guide](/books/shha-it-help-guide/page/committee-sharepoint-guide)
+- [Staff and IT access responsibilities](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities)
+- [IT Infrastructure and Handover](/books/shha-it-help-guide/page/it-infrastructure-and-handover)

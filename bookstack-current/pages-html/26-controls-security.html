@@ -1,76 +1,10 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Controls &amp; Security</title><style>body{max-width:60rem;margin:2rem auto;padding:0 1rem;font-family:system-ui,sans-serif;line-height:1.5}table{border-collapse:collapse}td,th{border:1px solid #aaa;padding:.4rem}img{max-width:100%}</style></head><body><h1>Controls &amp; Security</h1>
-<p id="bkmrk-this-page-documents-">This page documents access controls, cybersecurity practices, and data backup procedures for SHHA systems.</p>
-<p id="bkmrk-items-marked-todo-ne"><em>Items marked <strong>TODO</strong> need information filled in. These questions originated from Andrea's controls review.</em></p>
-
-<h2 id="bkmrk-access-controls-%E2%80%94-wh">Access Controls — Who Has Access to What?</h2>
-
-<h3 id="bkmrk-microsoft-365-admin-">Microsoft 365 Admin Access</h3>
-<table id="bkmrk-global-administrator">
-<tbody>
-<tr><td><strong>Global Administrator</strong></td><td><strong>TODO:</strong> Who currently has Global Admin access? (There should be a primary and a backup.)</td></tr>
-<tr><td><strong>User / Group management</strong></td><td>Anna (office staff) manages day-to-day membership. IT admin handles mailbox permissions.</td></tr>
-<tr><td><strong>Who manages access?</strong></td><td><strong>TODO:</strong> Is there a documented process for granting/revoking admin access? Who approves changes?</td></tr>
-</tbody>
-</table>
-
-<h3 id="bkmrk-other-system-access">Other System Access</h3>
-<table id="bkmrk-systemprimary-access">
-<thead><tr><th>System</th><th>Primary Access</th><th>Backup Access</th></tr></thead>
-<tbody>
-<tr><td>QuickBooks</td><td><strong>TODO</strong></td><td><strong>TODO</strong></td></tr>
-<tr><td>Membership Database</td><td><strong>TODO</strong></td><td><strong>TODO</strong></td></tr>
-<tr><td>Gusto (Payroll)</td><td><strong>TODO</strong></td><td><strong>TODO</strong></td></tr>
-<tr><td>SHHA Website (admin)</td><td><strong>TODO</strong></td><td><strong>TODO</strong></td></tr>
-<tr><td>Square</td><td><strong>TODO</strong></td><td><strong>TODO</strong></td></tr>
-<tr><td>Domain registrar</td><td><strong>TODO</strong></td><td><strong>TODO</strong></td></tr>
-<tr><td>Google accounts</td><td><strong>TODO</strong></td><td><strong>TODO</strong></td></tr>
-</tbody>
-</table>
-
-<h2 id="bkmrk-cybersecurity">Cybersecurity</h2>
-
-<h3 id="bkmrk-current-practices">Current Practices</h3>
-<ul id="bkmrk-todo%3A-do-we-enforce-">
-<li><strong>TODO:</strong> Do we enforce multi-factor authentication (MFA) for Microsoft 365 admin accounts?</li>
-<li><strong>TODO:</strong> Do we enforce MFA for all licensed users?</li>
-<li><strong>TODO:</strong> How do we handle password policies? (complexity requirements, rotation schedule)</li>
-<li><strong>TODO:</strong> Is there an incident response plan if an account is compromised?</li>
-<li><strong>TODO:</strong> Do we have phishing awareness guidelines for staff and volunteers?</li>
-</ul>
-
-<h3 id="bkmrk-data-access">Data Access</h3>
-<ul id="bkmrk-todo%3A-how-do-we-mana">
-<li><strong>TODO:</strong> How do we manage overall data access security? (e.g., conditional access policies, device restrictions)</li>
-<li><strong>TODO:</strong> Are there any data classification policies (confidential vs. public)?</li>
-<li><strong>TODO:</strong> How is sensitive financial data protected? (QuickBooks access, payroll data in Gusto)</li>
-</ul>
-
-<h2 id="bkmrk-data-backup">Data Backup</h2>
-
-<h3 id="bkmrk-cloud-based-systems">Cloud-Based Systems</h3>
-<p id="bkmrk-most-shha-data-resid">Most SHHA data resides in cloud services. Each provider has its own backup/redundancy:</p>
-<table id="bkmrk-systembackup-approac">
-<thead><tr><th>System</th><th>Backup Approach</th></tr></thead>
-<tbody>
-<tr><td>Microsoft 365 (email, SharePoint)</td><td>Microsoft provides built-in redundancy and retention policies. <strong>TODO:</strong> Do we have a separate backup solution (e.g., third-party M365 backup)? What are our retention policy settings?</td></tr>
-<tr><td>QuickBooks Online</td><td>Intuit maintains backups. <strong>TODO:</strong> Do we also export periodic backups locally?</td></tr>
-<tr><td>Gusto</td><td>Gusto maintains payroll records. <strong>TODO:</strong> Do we keep local copies of payroll reports?</td></tr>
-<tr><td>SHHA Website</td><td><strong>TODO:</strong> Who backs up the website? How often? Where are backups stored?</td></tr>
-<tr><td>Membership Database</td><td><strong>TODO:</strong> How is the membership database backed up?</td></tr>
-</tbody>
-</table>
-
-<h3 id="bkmrk-local-data">Local Data</h3>
-<ul id="bkmrk-todo%3A-is-any-critica">
-<li><strong>TODO:</strong> Is any critical data stored only on local computers (office PCs) and not in the cloud?</li>
-<li><strong>TODO:</strong> If so, how is that data backed up?</li>
-</ul>
-
-<h2 id="bkmrk-other-security-consi">Other Security Considerations</h2>
-<ul id="bkmrk-todo%3A-do-we-have-cyb">
-<li><strong>TODO:</strong> Do we have cyber liability insurance?</li>
-<li><strong>TODO:</strong> When was the last security review or audit of our systems?</li>
-<li><strong>TODO:</strong> Are there any compliance requirements (e.g., state HOA data retention laws)?</li>
-</ul>
+<p id="bkmrk-who-this-is-for%3A-sta"><strong>Who this is for:</strong> staff, volunteers and IT administrators using SHHA accounts and documents. For an access problem or a suspicious sign-in prompt, contact <a href="mailto:ithelp@sandiahomeowners.org">IT Help</a>.</p>
+<h2 id="bkmrk-use-the-right-accoun">Use the right account</h2><ol id="bkmrk-use-the-same-email-a"><li>Use the same email address that received your SHHA invitation for guest access. Staff and officer mailbox holders use their own SHHA account for licensed services.</li><li>Open committee documents from the committee SharePoint site. Access comes from approved group membership; a public wiki link does not grant access.</li><li>Open a shared role mailbox through your own licensed account. Do not sign in as the shared role address.</li></ol>
+<h2 id="bkmrk-keep-private-informa">Keep private information in protected systems</h2><p id="bkmrk-this-wiki-and-its-gi">This wiki and its GitHub content mirror are public. Do not add passwords, API tokens, recovery codes, resident records, private reports or detailed permissions inventories. A later page restriction does not remove material already saved in public Git history.</p><p id="bkmrk-use-the-correct-comm">Use the correct committee or staff document library for working files. If you are unsure who should see a file, ask office staff before uploading or sharing it.</p>
+<h2 id="bkmrk-request-or-remove-ac">Request or remove access</h2><ol id="bkmrk-ask-office-staff-for"><li>Ask office staff for committee membership changes and provide the person's email address, committee and effective date.</li><li>Ask IT Help for shared-mailbox permissions or technical access problems.</li><li>After a change, test the affected email or document access. Keep the role mailbox and group-owned documents for the next person; change access rather than deleting the records.</li></ol>
+<h2 id="bkmrk-if-something-looks-s">If something looks suspicious</h2><p id="bkmrk-do-not-enter-a-passw">Do not enter a password or approve a sign-in request you did not initiate. Contact IT Help using the address on this page. Describe what happened and include the affected account and time; do not email passwords or one-time codes.</p>
+<h2 id="bkmrk-backups-and-recovery">Backups and recovery</h2><p id="bkmrk-the-public-wiki-expo">The public wiki export is a readable content copy. Restoring BookStack also requires its database, configuration and uploaded files. Other services have their own recovery procedures. IT maintainers should obtain the approved private operating guides and confirm restoration coverage; cloud hosting alone does not demonstrate a tested recovery process.</p>
+<h2 id="bkmrk-where-to-go-next">Where to go next</h2><ul id="bkmrk-personal-email-invit"><li><a href="https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/volunteer-without-shha-email">Personal-email invitation and access instructions</a></li><li><a href="https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/committee-sharepoint-guide">Committee SharePoint Guide</a></li><li><a href="https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities">Staff and IT access responsibilities</a></li><li><a href="https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover">IT Infrastructure and Handover</a></li></ul>
 </body></html>

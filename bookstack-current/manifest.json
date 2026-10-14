@@ -4,7 +4,7 @@
   "book_name": "SHHA IT Help Guide",
   "book_path": "/books/shha-it-help-guide",
   "visibility": "anonymous-public",
-  "content_sha256": "bffba5135fd4a0db2fb21ed71ab05ee51641734efc5dd7101b36da679256f22a",
+  "content_sha256": "0c99b7c8c8e038873a933535334d6369e5270fcb919a9178441b95cd77fbe654",
   "chapters": 7,
   "pages": [
     {
@@ -266,17 +266,7 @@
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/controls-security",
       "markdown": "bookstack-current/pages-md/26-controls-security.md",
       "html": "bookstack-current/pages-html/26-controls-security.html"
-    },
-    {
-      "id": 32,
-      "name": "HR & Personnel Management",
-      "slug": "hr-personnel-management",
-      "chapter": "Operations & Administration",
-      "priority": 3,
-      "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/hr-personnel-management",
-      "markdown": "bookstack-current/pages-md/27-hr-personnel-management.md",
-      "html": "bookstack-current/pages-html/27-hr-personnel-management.html"
     }
   ],
-  "exported_at": "2026-10-14T04:13:30+00:00"
+  "exported_at": "2026-10-14T04:34:34+00:00"
 }
