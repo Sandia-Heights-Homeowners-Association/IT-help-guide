@@ -14,9 +14,13 @@ Essential links, mailing lists, SharePoint sites, and chair inboxes — start he
 
 <table id="bkmrk-what-you-needwhere-t"><thead><tr><th>What you need</th><th>Where to go</th><th>Who uses it</th></tr></thead><tbody><tr><td>Email (staff &amp; role mailbox holders)</td><td>[outlook.com](https://outlook.com)</td><td>Staff, officers, chairs</td></tr><tr><td>OneDrive / personal files</td><td>[onedrive.com](https://onedrive.com)</td><td>Licensed users</td></tr><tr><td>Admin console (manage users &amp; groups)</td><td>[admin.microsoft.com](https://admin.microsoft.com)</td><td>IT admins only</td></tr><tr><td>Committee files (SharePoint)</td><td>See [SharePoint Sites](#bkmrk-sharepoint-sites-%28co) below</td><td>All volunteers</td></tr></tbody></table>
 
-## SHHA Apps
+## Public utilities
 
-- [SHHA Reminders](https://reminders.sandiahomeowners.org) - automated meeting and event reminder emails. See [SHHA Reminders](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/shha-reminders) for setup and troubleshooting.
+<table id="bkmrk-what-you-needwhere-t-1"><thead><tr><th>What you need</th><th>Where to go</th></tr></thead><tbody><tr><td>Membership and communication statistics</td><td>[Public dashboard](https://dashboard.sandiahomeowners.org/) — totals, communication reach and a one-page report; no login.</td></tr><tr><td>Neighborhood map</td><td>[Open the map](https://sandia-heights-homeowners-association.github.io/SHHA-map/) — neighborhood layers, legends and public layer data; no login.</td></tr><tr><td>Submit to the GRIT</td><td>[GRIT submission forms](https://sandiaheightsgrit.app/) — contributions, photographs and current guidelines; no login for public forms.</td></tr></tbody></table>
+
+See [Public Utilities and SHHA Toolbox](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox) for what each tool does.
+
+<small>**Staff and authorized volunteers:** [sign in to SHHA Toolbox](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F) for office tools, including Email Reminders. Access is approved per tool; the former standalone reminders address is retired.</small>
 
 ## Mailing Lists (Committee &amp; Group Email Addresses)
 
@@ -315,15 +319,15 @@ Include the folder name, the account you are signed in with, and a screenshot if
 
 # SHHA Reminders
 
-SHHA Reminders is the Sandia Heights Homeowners Association tool for sending automated reminder emails for meetings and events.
+Email Reminders in the SHHA Toolbox is the Sandia Heights Homeowners Association tool for sending automated reminder emails for meetings and events.
 
 The app does **not** replace Outlook, Teams, or Google Calendar. Office staff should keep creating and editing meetings in the existing calendar system. SHHA Reminders reads events from the Microsoft 365 calendar for `admin@sandiahomeowners.org`, then uses its own reminder rules, recipient groups, and email templates to send the right nudge at the right time.
 
-Production URL: [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)
+**Current location:** [SHHA Toolbox](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F) → **Email Reminders**. The former standalone reminders address is retired. This is a staff tool with its own approved access.
 
 ## Who Can Log In
 
-Any valid Microsoft account ending in `@sandiahomeowners.org` can log in.
+SHHA organization members and invited guests can use Microsoft login, but only users with the Reminders tool grant can open this staff workspace. An invited guest may use a personal email address; an SHHA email suffix is not required. Ask office staff or [IT Help](mailto:ithelp@sandiahomeowners.org) for access.
 
 The app uses Microsoft sign-in. There is no shared app password, which is good because shared app passwords tend to become office folklore with a login prompt attached.
 
@@ -357,7 +361,7 @@ SHHA Reminders lets staff:
 
 1. Confirm the meeting exists in Outlook or Teams.
 2. Confirm `admin@sandiahomeowners.org` is invited.
-3. Open [SHHA Reminders](https://reminders.sandiahomeowners.org).
+3. Sign in to [SHHA Toolbox](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F) and choose **Email Reminders**.
 4. Click **Sync Calendar**.
 5. Open **Set Up Reminders**.
 6. Select the event.
@@ -457,7 +461,7 @@ Check:
 Check:
 
 - The user has a Microsoft account ending in `@sandiahomeowners.org`.
-- The site is being accessed through HTTPS: [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org).
+- The site is being accessed through HTTPS: [https://toolbox.sandiahomeowners.org/.auth/login/aad?post\_login\_redirect\_uri=%2F](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F).
 
 ### Emails Are Not Sending
 
@@ -482,6 +486,10 @@ IT owns:
 - Backups.
 - Secrets and environment configuration.
 - Caddy/reverse proxy configuration.
+
+## Access and maintenance
+
+Receiving a reminder does not require access to the staff tool. Microsoft 365 remains the calendar of record. Administrators should check the toolbox's Operational status and delivery history when troubleshooting; changing a rule or template is separate from configuring the sending service. See [IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover) for maintenance responsibilities.
 
 # Committee SharePoint Guide
 
@@ -573,6 +581,35 @@ Contact office staff or <ITHelp@sandiahomeowners.org>. Include:
 - The exact error message
 - A screenshot, if possible
 
+# Public Utilities and SHHA Toolbox
+
+**Who this is for:** neighbors, volunteers and staff looking for SHHA's online tools. Start with the public links below; no account is needed to view them.
+
+## Public utilities
+
+<table id="bkmrk-toolwhat-you-can-doo"><thead><tr><th>Tool</th><th>What you can do</th><th>Open it</th></tr></thead><tbody><tr><td>Membership and Communication Statistics</td><td>See membership totals, mailing-list reach and recorded membership-flag changes. Download a one-page summary. These are aggregate statistics, not individual homeowner records or proof of dues payments.</td><td>[Open the public dashboard](https://dashboard.sandiahomeowners.org/)</td></tr><tr><td>Neighborhood map</td><td>Explore neighborhood boundaries and published map layers. Switch layers or backgrounds, inspect legends and public layer data, and use Fit neighborhood to return to the full area. It does not read SHHA's homeowner database.</td><td>[Open the neighborhood map](https://sandia-heights-homeowners-association.github.io/SHHA-map/)</td></tr><tr><td>GRIT submissions</td><td>Submit newsletter contributions and photographs. Read the form's current guidelines and deadline. Editorial review and final newsletter layout happen separately; submitting does not guarantee publication.</td><td>[Open GRIT submissions](https://sandiaheightsgrit.app/)</td></tr><tr><td>IT help wiki</td><td>Read SHHA's IT instructions, email and SharePoint guides. Microsoft login is needed to edit; changes are attributed to the signed-in person.</td><td>[Open the wiki](https://wiki.sandiahomeowners.org/)</td></tr></tbody></table>
+
+The map currently uses its GitHub Pages address. Use that working link rather than assuming a map subdomain has been activated. The GRIT's [content rules and submission guide](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-content-rules-and-submission-guide) explains contribution choices in more detail.
+
+## Staff and authorized volunteers: SHHA Toolbox
+
+The **SHHA Toolbox** brings office and committee work into one Microsoft-authenticated site. [Sign in to the toolbox](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F) with the Microsoft identity invited to SHHA. An invited guest can use a personal email address; an SHHA email suffix is not required. Each private tool needs its own approved access. If a tool is missing or access is denied, contact [IT Help](mailto:ithelp@sandiahomeowners.org) or office staff.
+
+The public dashboard, map, submissions site and wiki are separate destinations. You do not need toolbox access to use their public pages. The GRIT editorial workspace has its own protected access; toolbox Microsoft login does not unlock it.
+
+<table id="bkmrk-toolbox-functionwhat"><thead><tr><th>Toolbox function</th><th>What it helps authorized staff do</th></tr></thead><tbody><tr><td>Email Reminders</td><td>Set reminder rules, recipient groups and templates for events already on the Microsoft 365 calendar. Change events in Outlook or Teams, then sync the calendar in the tool.</td></tr><tr><td>Group update emailer</td><td>Watch selected Microsoft 365 groups and notify a group when its membership changes. Microsoft 365 remains the membership source.</td></tr><tr><td>SHHA addresses that need attention</td><td>Review contact gaps, membership and mailing-address issues in a private staff workspace.</td></tr><tr><td>Printed Directory</td><td>Prepare owner listings and printable sections while honoring current directory-listing preferences.</td></tr><tr><td>Membership reconciliation</td><td>Compare SHS billing information with website records, retain review notes and produce private issue reports. Suggestions need review; the toolbox does not write corrections to the website database.</td></tr><tr><td>Bulk emailer</td><td>Prepare personalized office messages, review recipients and arrange paced campaigns. Sender configuration and approval are separate from preparing a message.</td></tr><tr><td>Access and Operational status</td><td>Administrators manage tool grants and inspect configuration, sending/worker status and backups.</td></tr></tbody></table>
+
+Member Information remains a future workspace; it is not a general homeowner lookup. Private resident information, reports and submissions must stay in their protected systems.
+
+## Meeting reminders: use the toolbox
+
+The former standalone reminders address is retired. Open the toolbox and choose **Email Reminders**. See [SHHA Reminders](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/shha-reminders) for the staff workflow. Microsoft 365 owns the calendar; the tool reads it and sends configured notifications.
+
+## Where to go next
+
+- [Quick Links &amp; Directory](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-links-directory) has the everyday links and committee SharePoint sites.
+- [IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover) explains hosting, ownership, deployments and recovery for the next IT maintainer.
+
 # Getting Started
 
 # Overview
@@ -587,7 +624,7 @@ Different people need different things from this guide. Find your role below and
 *(need meeting materials and agenda rhythm)*</td><td>[New Board Member Guide](/books/shha-it-help-guide/page/new-board-member-guide)</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory), [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td></tr><tr><td>**New Board president**  
 *(need the big picture)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td><td>[Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [HR &amp; Personnel Management](/books/shha-it-help-guide/page/hr-personnel-management), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr><tr><td>**GRIT newsletter editor**</td><td>[GRIT Layout Monthly Guide](/books/shha-it-help-guide/page/grit-layout-monthly-guide)</td><td>FAQ section on [GRIT submissions](/books/shha-it-help-guide/page/faq#how-do-i-submit-an-article-for-the-grit-newsletter)</td></tr><tr><td>**Office staff**  
 *(manage day-to-day IT operations)*</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff)</td><td>[M365 Email Groups &amp; Roles Reference](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities), [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td></tr><tr><td>**Future IT help person**  
-*(inheriting the IT admin role)*</td><td>[M365 Email Groups &amp; Roles Reference](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities)</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff), [Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr></tbody></table>
+*(inheriting the IT admin role)*</td><td>[IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover)</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff), [Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr></tbody></table>
 
 ---
 
@@ -604,7 +641,7 @@ SHHA primarily uses **Microsoft 365** for:
 - File storage (SharePoint)
 - Internal collaboration
  
-You may also see Google Calendar references for Board scheduling.
+Microsoft 365 is the calendar source for toolbox meeting reminders. Staff configure reminder rules in SHHA Toolbox rather than editing events there.
 
 ---
 
@@ -669,7 +706,7 @@ Officer mailboxes stay with the role, not the person. Examples:
 <a id="bkmrk--14"></a>## Board Materials and Calendar
 
 - Board materials should be uploaded directly to Board SharePoint.
-- Board meeting reminders are sent from a shared Google Calendar automation.
+- Meeting reminders are configured in SHHA Toolbox → Email Reminders, using the Microsoft 365 master calendar. Change events in Outlook or Teams; contact office staff or IT Help about reminder issues.
  
 If reminders are missing, contact office staff or **ITHelp@sandiahomeowners.org**.
 
@@ -691,6 +728,10 @@ The archive inbox is not monitored and does not reply.
 - Want to submit a GRIT article or request an email blast? See [FAQ — Communicating with Residents](faq.html#grit-article)
 - Need role-specific instructions? Use [Staff](staff.html), [Volunteer (with SHHA email)](volunteer-internal.html), or [Volunteer (without SHHA email)](volunteer-external.html)
 - Need GRIT layout/design process details? See [GRIT Layout Monthly Guide](grit-layout.html)
+
+## Public utilities and staff tools
+
+Use the [public utilities guide](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox) for statistics, the neighborhood map and GRIT submissions. [Quick Links &amp; Directory](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-links-directory) has the everyday destinations. Staff toolbox functions require Microsoft sign-in and separate access; public tools do not require a toolbox account.
 
 # Quick Start for New Volunteers
 
@@ -2123,7 +2164,7 @@ Articles work best when they explain an issue, provide context, share an experie
 
 ## Choose your section
 
-<table id="bkmrk-sectionuse-it-forkey" style="width: 100%; border-collapse: collapse;"><thead><tr><th scope="col">Section</th><th scope="col">Use it for</th><th scope="col">Key point</th></tr></thead><tbody><tr><td>[**Community Contributions**](#bkmrk-community-contributions)</td><td>Stories, opinions, experiences, and useful community information.</td><td>Write in a personal capacity, rather than on behalf of SHHA or a committee.</td></tr><tr><td>[**Classifieds**](#bkmrk-classifieds)</td><td>Brief personal or small-business announcements.</td><td>Maximum 300 characters; plain text only.</td></tr><tr><td>[**Local Events**](#bkmrk-local-events)</td><td>Community activities and public-interest events.</td><td>Include date, time, and location when applicable. No commercial promotion.</td></tr><tr><td>[**Advertising**](#bkmrk-advertising)</td><td>Promotional or marketing content.</td><td>Contact the SHHA office about paid advertising.</td></tr></tbody></table>
+<table id="bkmrk-sectionuse-it-forkey" style="width: 100%; border-collapse: collapse;"><thead><tr><th scope="col" style="width: 25%;">Section</th><th scope="col" style="width: 40%;">Use it for</th><th scope="col" style="width: 35%;">Key point</th></tr></thead><tbody><tr><td>[**Community Contributions**](#bkmrk-community-contributions)</td><td>Stories, opinions, experiences, and useful community information.</td><td>Write in a personal capacity, rather than on behalf of SHHA or a committee.</td></tr><tr><td>[**Classifieds**](#bkmrk-classifieds)</td><td>Brief personal or small-business announcements.</td><td>Maximum 300 characters; plain text only.</td></tr><tr><td>[**Local Events**](#bkmrk-local-events)</td><td>Community activities and public-interest events.</td><td>Include date, time, and location when applicable. No commercial promotion.</td></tr><tr><td>[**Advertising**](#bkmrk-advertising)</td><td>Promotional or marketing content.</td><td>Contact the SHHA office about paid advertising.</td></tr></tbody></table>
 
 ## Community Contributions
 
@@ -2145,7 +2186,7 @@ Examples include:
 
 Classifieds give residents and local businesses a simple, equitable way to share brief announcements. Examples include services offered, items for sale, lost and found, requests for assistance, lessons or tutoring, pet sitting, babysitting, handyman services, and similar personal or small-business notices.
 
-<table id="bkmrk-requirementwhat-to-d" style="width: 100%; border-collapse: collapse;"><thead><tr><th scope="col">Requirement</th><th scope="col">What to do</th></tr></thead><tbody><tr><td>**Length**</td><td>Keep your listing to a maximum of **300 characters**.</td></tr><tr><td>**Format**</td><td>Use plain text only: no images, logos, flyers, or special formatting.</td></tr><tr><td>**Contact details**</td><td>You may include contact information and website links. Editors may shorten long web addresses or turn them into QR codes (scannable squares that open a link).</td></tr><tr><td>**Eligibility**</td><td>Open to residents and businesses with a physical presence in the Sandia Heights area.</td></tr><tr><td>**Repeat listings**</td><td>Resubmit each month if you want continued publication. Business-related listings are limited to **one publication per calendar quarter** to encourage variety and reduce repetitive content.</td></tr><tr><td>**Publication**</td><td>Subject to available space and editorial discretion.</td></tr></tbody></table>
+<table id="bkmrk-requirementwhat-to-d" style="width: 100%; border-collapse: collapse;"><thead><tr><th scope="col" style="width: 24%;">Requirement</th><th scope="col" style="width: 76%;">What to do</th></tr></thead><tbody><tr><td>**Length**</td><td>Keep your listing to a maximum of **300 characters**.</td></tr><tr><td>**Format**</td><td>Use plain text only: no images, logos, flyers, or special formatting.</td></tr><tr><td>**Contact details**</td><td>You may include contact information and website links. Editors may shorten long web addresses or turn them into QR codes (scannable squares that open a link).</td></tr><tr><td>**Eligibility**</td><td>Open to residents and businesses with a physical presence in the Sandia Heights area.</td></tr><tr><td>**Repeat listings**</td><td>Resubmit each month if you want continued publication. Business-related listings are limited to **one publication per calendar quarter** to encourage variety and reduce repetitive content.</td></tr><tr><td>**Publication**</td><td>Subject to available space and editorial discretion.</td></tr></tbody></table>
 
 <p class="callout warning">**A submission is not a standing order.** Classifieds must be resubmitted for each month in which publication is desired. For business-related listings, the once-per-calendar-quarter limit still applies.</p>
 
@@ -2755,6 +2796,75 @@ The shortcut points to the group-owned SharePoint library. It does not copy file
 - [Permission levels in SharePoint](https://learn.microsoft.com/en-us/sharepoint/understanding-permission-levels)
 - [Add shortcuts to shared folders in OneDrive](https://support.microsoft.com/en-US/onedrive/add-shortcuts-to-shared-folders-in-onedrive)
 
+# IT Infrastructure and Handover
+
+**Who this is for:** the incoming IT professional and staff arranging continuity. Start by obtaining approved individual access through the office, then read the maintained repository guides. This public page explains the systems and responsibilities; credentials, recovery codes, private records and detailed security configuration belong in approved private documentation.
+
+*Deployment and address checks: October 13, 2026. Read the current repository status and actual cloud settings before acting; names and migration status can change.*
+
+## Start with ownership and access
+
+1. Ask office staff to arrange approved access to the SHHA GitHub organization, Azure subscription, Microsoft 365/Entra administration and the relevant DNS/service-provider accounts. Use your own named accounts.
+2. The repositories are in the [Sandia Heights Homeowners Association GitHub organization](https://github.com/Sandia-Heights-Homeowners-Association). The office-accessible `sandiahomeowners@gmail.com` account is an organization owner; coordinate access and account recovery through the office.
+3. Confirm a primary and backup administrator, billing/renewal owners and recovery contacts for each service. GitHub access does not grant Azure, Microsoft or DNS access.
+4. Keep passwords, API tokens, database connection strings, MFA recovery codes and resident/editorial records out of this wiki and public Git history.
+
+## Systems and sources of truth
+
+<table id="bkmrk-systemresponsibility"><thead><tr><th>System</th><th>Responsibility and infrastructure</th><th>Maintained source</th></tr></thead><tbody><tr><td>Association website and resident database</td><td>The website's MariaDB database owns homeowner, property and resident-link records. Authorized website administrators make corrections there. The toolbox and public dashboard use dedicated SELECT-only access; neither is a replacement membership database.</td><td>Obtain the website maintainer's operating and recovery documentation through the office.</td></tr><tr><td>Microsoft 365</td><td>Owns mailboxes, calendars, committee groups and SharePoint files. Entra supplies Microsoft identity. The toolbox uses Microsoft Graph for calendar/group reads and approved mail delivery; it does not create a second calendar or change group membership.</td><td>Microsoft administration and the private toolbox connection/operations guide.</td></tr><tr><td>SHHA Toolbox</td><td>Node.js 24 LTS application on Azure App Service. Platform Microsoft authentication verifies identity; the app enforces separate tool grants. Operational configuration, successful-send history, queued work and authorized private review state persist outside deployed application files.</td><td>[SHHA-toolbox](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-toolbox), private, deployment branch `main`.</td></tr><tr><td>Public statistics dashboard</td><td>Separate Node.js 24 LTS Azure App Service application at [dashboard.sandiahomeowners.org](https://dashboard.sandiahomeowners.org/). It reads aggregates through SELECT-only queries and generates reports in memory. It has no private staff tools, Graph mail or reminder worker.</td><td>[SHHA-dashboard](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-dashboard), private, deployment branch `main`.</td></tr><tr><td>IT wiki</td><td>Upstream BookStack in an Azure App Service container, with Azure Database for MySQL and persistent Azure Files for configuration/uploads. Public reading and native BookStack Microsoft OIDC editing are separate. Preserve APP\_KEY, the database and uploaded files during upgrades or recovery.</td><td>[IT-help-guide](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide), public. Local project folder: `SHHA-wiki`. Branch `main` checks tools and mirrors public content; it does not deploy the BookStack container.</td></tr><tr><td>GRIT submissions</td><td>The public site is [sandiaheightsgrit.app](https://sandiaheightsgrit.app/). Its domain still served the Vercel-hosted version at this check. The Azure migration version uses Next.js/React on Node.js 22 LTS, Neon PostgreSQL, private Azure Blob photo storage, Cloudflare Turnstile and Resend. Public-domain cutover to Azure remains separate from deploying that version.</td><td>[grit-newsletter](https://github.com/Sandia-Heights-Homeowners-Association/grit-newsletter), private. Use `azure` for the Azure deployment; `main` retains earlier source. Read its deployment guide before choosing a branch.</td></tr><tr><td>Neighborhood map</td><td>Master mapping work is done in QGIS and exported with qgis2web/OpenLayers. GitHub Pages serves the public web export. Its layers and attribute tables are public; the site does not query the homeowner database. Street tiles use OpenStreetMap; aerial imagery uses USGS. Browser filters do not make any published data private.</td><td>[SHHA-map](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-map), public, publication branch `main`. Back up the master QGIS project and source GIS data separately.</td></tr></tbody></table>
+
+The toolbox, dashboard and Azure newsletter version currently share existing Azure compute, with separate applications, settings and deployments. The wiki uses its own plan, database and file storage. Confirm subscriptions, resources, network configuration and current costs in the protected repository/cloud inventory; a public URL or repository name is not a complete deployment specification.
+
+## Current addresses and DNS
+
+- [wiki.sandiahomeowners.org](https://wiki.sandiahomeowners.org/): Azure BookStack; anyone can read, approved Microsoft users can edit.
+- [dashboard.sandiahomeowners.org](https://dashboard.sandiahomeowners.org/): public aggregate dashboard on Azure.
+- [toolbox.sandiahomeowners.org](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F): protected staff toolbox with Microsoft login and per-tool grants.
+- [sandiaheightsgrit.app](https://sandiaheightsgrit.app/): public contribution site; confirm the migration status before changing its host.
+- [Neighborhood map on GitHub Pages](https://sandia-heights-homeowners-association.github.io/SHHA-map/): current map address; a map subdomain is deferred.
+
+The standalone reminders web address is retired; its function is in **Toolbox → Email Reminders**. Older toolbox statistics/Board Report links redirect to the separate public dashboard.
+
+InMotion provides the authoritative DNS zone for `sandiahomeowners.org` at this check; the GRIT domain uses Vercel nameservers. Registrar, DNS provider and application host are different responsibilities. Moving hosting does not require moving nameservers. Preserve mail and unrelated verification records when changing a web destination. Verify the final HTTPS binding/certificate and Microsoft callback, not just the DNS record.
+
+## Microsoft login and permission boundaries
+
+The toolbox uses Azure App Service Authentication and its independent group/user grants. A Microsoft sign-in or committee membership does not automatically grant resident-data access. Invited guests can use their own personal email identity in the SHHA tenant without an SHHA email suffix.
+
+BookStack uses its own native OIDC registration and page/role permissions. Do not apply toolbox authentication rules to the wiki: public reading must remain available while edits stay attributed to signed-in people. The GRIT editor uses its own protected editorial access rather than toolbox Microsoft grants.
+
+Retain the existing shared Entra application used by the toolbox and Microsoft Graph when retiring legacy reminder code; an older application name is not evidence it can be deleted. Keep the master calendar/sender `admin@sandiahomeowners.org`. SHHA display and reminder timezone is `America/Denver`.
+
+## Development, deployment and documentation
+
+1. Read the project's README, AGENTS.md, deployment and operations guides. Verify the actual deployment branch. Inspect Git status and recent commits; other IT work may share a checkout. Preserve unfinished drafts and do not publish them accidentally.
+2. For Node applications, use the project's declared Node LTS version and committed lockfile. Test with synthetic data. Toolbox/dashboard changes go through their checks and exact Azure deployment; newsletter changes use the Azure branch workflow. A healthy endpoint alone does not verify database, photo, CAPTCHA or email integrations.
+3. For the map, edit the master QGIS source, export outside the repository, use the approved importer, review public fields, then verify GitHub Pages deployment. The website export is not the master GIS backup.
+4. For wiki content, edit the live WYSIWYG page or deliberately send current HTML through BookStack's API. Pull before changing a page, preserve newer human edits and verify live readback. Do not round-trip converted Markdown over rich tables.
+5. The wiki's nightly/on-demand GitHub job exports anonymous public pages as Markdown, rendered HTML and metadata. It makes no BookStack writes and needs no administrator token. Restricted content is omitted from new exports, but previously public content remains in Git history. Maintain private content backups separately.
+6. BookStack software upgrades are separate from content sync. Review the pinned upstream container release, take compatible database/file/configuration backups and plan rollback before applying schema-changing upgrades. Azure deployment CI/CD for the wiki remains work to finish.
+
+## Operations and recovery
+
+Azure's current toolbox settings enable email sending, reminder scheduling, group monitoring and group notifications. An authorized administrator should verify Operational status and recent delivery history before relying on a rule or changing automation. This settings check is not a test email or proof that every delivery path works.
+
+The retired reminders address does not establish whether every old hosting workload or scheduler has been shut down. Confirm final state import, successful-send history, the prior scheduler's shutdown and rollback arrangements in the private migration runbook before calling that operational cutover complete. Do not restore an old sending service alongside the current worker.
+
+- Toolbox deployments must preserve persistent state, send deduplication history, reminder rules, group baselines, queued notices and access policy. Read its private backup rules: some authorized review/campaign files need separate handling rather than entering routine operational backups.
+- Wiki recovery needs MySQL data, configuration/APP\_KEY and uploaded-file storage. Markdown/HTML or a portable content ZIP is not a complete installation backup. Full recovery testing remains to be completed.
+- GRIT recovery must cover both Neon records and photo bytes. The current public site and Azure preview share live data; use a separate development database for routine testing. Read the repository's approved migration/integration procedures.
+- Keep an independent recovery copy, document responsible people and test restoration. Confirm master GIS backups, DNS/domain renewals and cloud certificate renewal.
+
+## First tasks for the incoming IT professional
+
+1. Confirm office-assisted access, ownership, backup administrators and service billing/renewal contacts.
+2. Recheck live URLs, private repository guides, deployment branches and cloud settings. Resolve discrepancies between older migration notes and current operation.
+3. Review page visibility and repository visibility together before adding sensitive material. The wiki and its public mirror are not a place for private infrastructure inventories or security-remediation details.
+4. Verify recovery coverage and remaining cutovers, including the GRIT public domain, wiki platform deployment workflow and legacy hosting retirement.
+5. Update this overview with verified completion dates; keep passwords, tenant/resource identifiers, permissions inventories and recovery instructions in the approved private runbooks.
+
+See [Public Utilities and SHHA Toolbox](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox) for the reader-facing guide and [Systems Inventory](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/systems-inventory) for the wider software/service list.
+
 # Operations & Administration
 
 Systems inventory, security controls, HR and personnel management.
@@ -2779,9 +2889,9 @@ Used for SHHA financial accounting.
 
 ## 3. Membership Database
 
-**TODO:** Document the membership database system.
+The association website's **MariaDB database** owns homeowner, property and resident-link records. Corrections belong in the website, through its authorized staff or maintainer. The public dashboard and staff toolbox read approved data through dedicated SELECT-only access; neither writes changes back to this database.
 
-<table id="bkmrk-system-nametodo%3A-wha"><tbody><tr><td>**System name**</td><td>**TODO:** What system/software is used?</td></tr><tr><td>**Type**</td><td>**TODO:** Cloud-based or local?</td></tr><tr><td>**Primary admin**</td><td>**TODO:** Is Ryan the primary outside admin?</td></tr><tr><td>**Backup admin**</td><td>**TODO:** Is there a backup?</td></tr><tr><td>**Data stored**</td><td>**TODO:** What member data is in this system? (names, addresses, dues status, etc.)</td></tr></tbody></table>
+Confirm website administration, backups and responsible contacts with the office. Detailed connection, permissions and recovery information belong in private operating documentation.
 
 ## 4. Gusto
 
@@ -2807,19 +2917,21 @@ Used for Sandia Tram ticket sales and advertising payments.
 
 <table id="bkmrk-typecloud-based-prim-2"><tbody><tr><td>**Type**</td><td>Cloud-based</td></tr><tr><td>**Primary user**</td><td>**TODO:** Who manages Square transactions?</td></tr><tr><td>**Backup**</td><td>**TODO:** Is there a backup?</td></tr><tr><td>**Login**</td><td>[squareup.com](https://squareup.com)</td></tr><tr><td>**Notes**</td><td>**TODO:** What specific transactions go through Square? Revenue amounts?</td></tr></tbody></table>
 
-## 8. DigitalOcean Productivity App Hosting
+## 8. Public Utilities, Staff Toolbox and Wiki Hosting
 
-SHHA has a DigitalOcean droplet for hosting ad-hoc productivity apps: small internal tools that help office staff or volunteers with specific workflows but are not the public website and are not Microsoft 365 itself.
+SHHA now maintains public statistics, a public neighborhood map, GRIT submissions and a Microsoft-authenticated staff toolbox. See [Public Utilities and SHHA Toolbox](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox) for working links and audiences.
 
-SHHA Reminders is one of these apps. It runs in Docker on the droplet, uses Caddy for HTTPS reverse proxying, and is available at [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org). The app listens internally on port `3030`, with Caddy proxying public HTTPS traffic to `127.0.0.1:3030`.
+The toolbox and separate statistics dashboard run on Azure App Service. BookStack runs in its own Azure container with MySQL and persistent file storage. The map runs on GitHub Pages. The public GRIT domain still uses its existing Vercel host while its Azure version is maintained separately; its domain cutover must be verified before describing the public site as Azure-hosted.
 
-<table id="bkmrk-hostingdigitalocean-"><tbody><tr><td>**Hosting**</td><td>DigitalOcean droplet</td></tr><tr><td>**Current app**</td><td>SHHA Reminders</td></tr><tr><td>**Production URL**</td><td>[https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)</td></tr><tr><td>**App directory**</td><td>`/opt/shha/SHHA-emailer`</td></tr><tr><td>**Internal port**</td><td>`3030`</td></tr><tr><td>**Reverse proxy**</td><td>Caddy</td></tr><tr><td>**Operational files to back up**</td><td>`.env`, `data/state.json`, and `/etc/caddy/Caddyfile`</td></tr><tr><td>**Secrets note**</td><td>Do not commit the production `.env` file to git.</td></tr></tbody></table>
+Email Reminders is part of the **SHHA Toolbox**; its standalone web address is retired. Do not use the former DigitalOcean app-directory or reverse-proxy instructions as the current deployment guide. Retirement of any remaining legacy hosting/state is a separate operational check.
+
+[IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover) explains ownership, repositories, hosting/data boundaries, deployments and recovery responsibilities for the next IT professional.
 
 ## SHHA GitHub
 
 SHHA's GitHub organization is [https://github.com/Sandia-Heights-Homeowners-Association](https://github.com/Sandia-Heights-Homeowners-Association).
 
-This is where SHHA stores source code and local documentation backups for technical projects. For access, contact Heidi.
+This is where SHHA stores source code and local documentation backups for technical projects. For approved individual access, contact office staff or IT Help; confirm organizational ownership and recovery arrangements.
 
 ## 9. Other Systems
 

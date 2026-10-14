@@ -23,16 +23,7 @@
 <tr><td><strong>Notes</strong></td><td><strong>TODO:</strong> Version (Online vs Desktop), billing, who pays for the subscription</td></tr>
 </tbody></table>
 
-<h2 id="bkmrk-3.-membership-databa">3. Membership Database</h2>
-<p id="bkmrk-todo%3A-document-the-m"><strong>TODO:</strong> Document the membership database system.</p>
-<table id="bkmrk-system-nametodo%3A-wha"><tbody>
-<tr><td><strong>System name</strong></td><td><strong>TODO:</strong> What system/software is used?</td></tr>
-<tr><td><strong>Type</strong></td><td><strong>TODO:</strong> Cloud-based or local?</td></tr>
-<tr><td><strong>Primary admin</strong></td><td><strong>TODO:</strong> Is Ryan the primary outside admin?</td></tr>
-<tr><td><strong>Backup admin</strong></td><td><strong>TODO:</strong> Is there a backup?</td></tr>
-<tr><td><strong>Data stored</strong></td><td><strong>TODO:</strong> What member data is in this system? (names, addresses, dues status, etc.)</td></tr>
-</tbody></table>
-
+<h2 id="bkmrk-3.-membership-databa">3. Membership Database</h2><p id="bkmrk-the-association-webs">The association website's <strong>MariaDB database</strong> owns homeowner, property and resident-link records. Corrections belong in the website, through its authorized staff or maintainer. The public dashboard and staff toolbox read approved data through dedicated SELECT-only access; neither writes changes back to this database.</p><p id="bkmrk-confirm-website-admi">Confirm website administration, backups and responsible contacts with the office. Detailed connection, permissions and recovery information belong in private operating documentation.</p>
 <h2 id="bkmrk-4.-gusto">4. Gusto</h2>
 <p id="bkmrk-used-for-payroll-and">Used for payroll and employee benefits administration.</p>
 <table id="bkmrk-typecloud-based-prim-1"><tbody>
@@ -74,23 +65,10 @@
 <tr><td><strong>Notes</strong></td><td><strong>TODO:</strong> What specific transactions go through Square? Revenue amounts?</td></tr>
 </tbody></table>
 
-<h2 id="bkmrk-8.-digitalocean-prod">8. DigitalOcean Productivity App Hosting</h2>
-<p id="bkmrk-shha-has-a-digitaloc">SHHA has a DigitalOcean droplet for hosting ad-hoc productivity apps: small internal tools that help office staff or volunteers with specific workflows but are not the public website and are not Microsoft 365 itself.</p>
-<p id="bkmrk-shha-reminders-is-on">SHHA Reminders is one of these apps. It runs in Docker on the droplet, uses Caddy for HTTPS reverse proxying, and is available at <a href="https://reminders.sandiahomeowners.org">https://reminders.sandiahomeowners.org</a>. The app listens internally on port <code>3030</code>, with Caddy proxying public HTTPS traffic to <code>127.0.0.1:3030</code>.</p>
-<table id="bkmrk-hostingdigitalocean-"><tbody>
-<tr><td><strong>Hosting</strong></td><td>DigitalOcean droplet</td></tr>
-<tr><td><strong>Current app</strong></td><td>SHHA Reminders</td></tr>
-<tr><td><strong>Production URL</strong></td><td><a href="https://reminders.sandiahomeowners.org">https://reminders.sandiahomeowners.org</a></td></tr>
-<tr><td><strong>App directory</strong></td><td><code>/opt/shha/SHHA-emailer</code></td></tr>
-<tr><td><strong>Internal port</strong></td><td><code>3030</code></td></tr>
-<tr><td><strong>Reverse proxy</strong></td><td>Caddy</td></tr>
-<tr><td><strong>Operational files to back up</strong></td><td><code>.env</code>, <code>data/state.json</code>, and <code>/etc/caddy/Caddyfile</code></td></tr>
-<tr><td><strong>Secrets note</strong></td><td>Do not commit the production <code>.env</code> file to git.</td></tr>
-</tbody></table>
-
+<h2 id="bkmrk-8.-digitalocean-prod">8. Public Utilities, Staff Toolbox and Wiki Hosting</h2><p id="bkmrk-shha-now-maintains-p">SHHA now maintains public statistics, a public neighborhood map, GRIT submissions and a Microsoft-authenticated staff toolbox. See <a href="https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox">Public Utilities and SHHA Toolbox</a> for working links and audiences.</p><p id="bkmrk-the-toolbox-and-sepa">The toolbox and separate statistics dashboard run on Azure App Service. BookStack runs in its own Azure container with MySQL and persistent file storage. The map runs on GitHub Pages. The public GRIT domain still uses its existing Vercel host while its Azure version is maintained separately; its domain cutover must be verified before describing the public site as Azure-hosted.</p><p id="bkmrk-email-reminders-is-p">Email Reminders is part of the <strong>SHHA Toolbox</strong>; its standalone web address is retired. Do not use the former DigitalOcean app-directory or reverse-proxy instructions as the current deployment guide. Retirement of any remaining legacy hosting/state is a separate operational check.</p><p id="bkmrk-it-infrastructure-an"><a href="https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover">IT Infrastructure and Handover</a> explains ownership, repositories, hosting/data boundaries, deployments and recovery responsibilities for the next IT professional.</p>
 <h2 id="bkmrk-shha-github">SHHA GitHub</h2>
 <p id="bkmrk-shha%27s-github-organi">SHHA's GitHub organization is <a href="https://github.com/Sandia-Heights-Homeowners-Association">https://github.com/Sandia-Heights-Homeowners-Association</a>.</p>
-<p id="bkmrk-this-is-where-shha-s">This is where SHHA stores source code and local documentation backups for technical projects. For access, contact Heidi.</p>
+<p id="bkmrk-this-is-where-shha-s">This is where SHHA stores source code and local documentation backups for technical projects. For approved individual access, contact office staff or IT Help; confirm organizational ownership and recovery arrangements.</p>
 
 <h2 id="bkmrk-9.-other-systems">9. Other Systems</h2>
 <p id="bkmrk-todo%3A-are-there-addi"><strong>TODO:</strong> Are there additional systems not listed above? Examples might include:</p>

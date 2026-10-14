@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SHHA Reminders</title><style>body{max-width:60rem;margin:2rem auto;padding:0 1rem;font-family:system-ui,sans-serif;line-height:1.5}table{border-collapse:collapse}td,th{border:1px solid #aaa;padding:.4rem}img{max-width:100%}</style></head><body><h1>SHHA Reminders</h1>
-<p id="bkmrk-shha-reminders-is-th">SHHA Reminders is the Sandia Heights Homeowners Association tool for sending automated reminder emails for meetings and events.</p>
+<p id="bkmrk-shha-reminders-is-th">Email Reminders in the SHHA Toolbox is the Sandia Heights Homeowners Association tool for sending automated reminder emails for meetings and events.</p>
 <p id="bkmrk-the-app-does-not-rep">The app does <strong>not</strong> replace Outlook, Teams, or Google Calendar. Office staff should keep creating and editing meetings in the existing calendar system. SHHA Reminders reads events from the Microsoft 365 calendar for <code>admin@sandiahomeowners.org</code>, then uses its own reminder rules, recipient groups, and email templates to send the right nudge at the right time.</p>
-<p id="bkmrk-production-url%3A-http">Production URL: <a href="https://reminders.sandiahomeowners.org">https://reminders.sandiahomeowners.org</a></p>
+<p id="bkmrk-production-url%3A-http"><strong>Current location:</strong> <a href="https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F">SHHA Toolbox</a> → <strong>Email Reminders</strong>. The former standalone reminders address is retired. This is a staff tool with its own approved access.</p>
 <h2 id="bkmrk-who-can-log-in">Who Can Log In</h2>
-<p id="bkmrk-any-valid-microsoft-">Any valid Microsoft account ending in <code>@sandiahomeowners.org</code> can log in.</p>
+<p id="bkmrk-any-valid-microsoft-">SHHA organization members and invited guests can use Microsoft login, but only users with the Reminders tool grant can open this staff workspace. An invited guest may use a personal email address; an SHHA email suffix is not required. Ask office staff or <a href="mailto:ithelp@sandiahomeowners.org">IT Help</a> for access.</p>
 <p id="bkmrk-the-app-uses-microso">The app uses Microsoft sign-in. There is no shared app password, which is good because shared app passwords tend to become office folklore with a login prompt attached.</p>
 <h2 id="bkmrk-what-calendar-events">What Calendar Events Appear</h2>
 <p id="bkmrk-shha-reminders-reads">SHHA Reminders reads events from the calendar for <code>admin@sandiahomeowners.org</code>.</p>
@@ -32,7 +32,7 @@
 <ol id="bkmrk-confirm-the-meeting-">
 <li>Confirm the meeting exists in Outlook or Teams.</li>
 <li>Confirm <code>admin@sandiahomeowners.org</code> is invited.</li>
-<li>Open <a href="https://reminders.sandiahomeowners.org">SHHA Reminders</a>.</li>
+<li>Sign in to <a href="https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F">SHHA Toolbox</a> and choose <strong>Email Reminders</strong>.</li>
 <li>Click <strong>Sync Calendar</strong>.</li>
 <li>Open <strong>Set Up Reminders</strong>.</li>
 <li>Select the event.</li>
@@ -108,7 +108,7 @@ SHHA
 <p id="bkmrk-check%3A-2">Check:</p>
 <ul id="bkmrk-the-user-has-a-micro">
 <li>The user has a Microsoft account ending in <code>@sandiahomeowners.org</code>.</li>
-<li>The site is being accessed through HTTPS: <a href="https://reminders.sandiahomeowners.org">https://reminders.sandiahomeowners.org</a>.</li>
+<li>The site is being accessed through HTTPS: <a href="https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F">https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F</a>.</li>
 </ul>
 <h3 id="bkmrk-emails-are-not-sendi">Emails Are Not Sending</h3>
 <p id="bkmrk-ask-it-to-check-micr">In the Microsoft Entra admin center, check the app registration's Microsoft Graph mail permissions, the <code>admin@sandiahomeowners.org</code> sending mailbox, and whether the Microsoft Entra client secret has expired.</p>
@@ -130,5 +130,5 @@ SHHA
 <li>Backups.</li>
 <li>Secrets and environment configuration.</li>
 <li>Caddy/reverse proxy configuration.</li>
-</ul>
+</ul><h2 id="bkmrk-access-and-maintenan">Access and maintenance</h2><p id="bkmrk-receiving-a-reminder">Receiving a reminder does not require access to the staff tool. Microsoft 365 remains the calendar of record. Administrators should check the toolbox's Operational status and delivery history when troubleshooting; changing a rule or template is separate from configuring the sending service. See <a href="https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover">IT Infrastructure and Handover</a> for maintenance responsibilities.</p>
 </body></html>

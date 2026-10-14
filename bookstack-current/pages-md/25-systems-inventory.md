@@ -18,9 +18,9 @@ Used for SHHA financial accounting.
 
 ## 3. Membership Database
 
-**TODO:** Document the membership database system.
+The association website's **MariaDB database** owns homeowner, property and resident-link records. Corrections belong in the website, through its authorized staff or maintainer. The public dashboard and staff toolbox read approved data through dedicated SELECT-only access; neither writes changes back to this database.
 
-<table id="bkmrk-system-nametodo%3A-wha"><tbody><tr><td>**System name**</td><td>**TODO:** What system/software is used?</td></tr><tr><td>**Type**</td><td>**TODO:** Cloud-based or local?</td></tr><tr><td>**Primary admin**</td><td>**TODO:** Is Ryan the primary outside admin?</td></tr><tr><td>**Backup admin**</td><td>**TODO:** Is there a backup?</td></tr><tr><td>**Data stored**</td><td>**TODO:** What member data is in this system? (names, addresses, dues status, etc.)</td></tr></tbody></table>
+Confirm website administration, backups and responsible contacts with the office. Detailed connection, permissions and recovery information belong in private operating documentation.
 
 ## 4. Gusto
 
@@ -46,19 +46,21 @@ Used for Sandia Tram ticket sales and advertising payments.
 
 <table id="bkmrk-typecloud-based-prim-2"><tbody><tr><td>**Type**</td><td>Cloud-based</td></tr><tr><td>**Primary user**</td><td>**TODO:** Who manages Square transactions?</td></tr><tr><td>**Backup**</td><td>**TODO:** Is there a backup?</td></tr><tr><td>**Login**</td><td>[squareup.com](https://squareup.com)</td></tr><tr><td>**Notes**</td><td>**TODO:** What specific transactions go through Square? Revenue amounts?</td></tr></tbody></table>
 
-## 8. DigitalOcean Productivity App Hosting
+## 8. Public Utilities, Staff Toolbox and Wiki Hosting
 
-SHHA has a DigitalOcean droplet for hosting ad-hoc productivity apps: small internal tools that help office staff or volunteers with specific workflows but are not the public website and are not Microsoft 365 itself.
+SHHA now maintains public statistics, a public neighborhood map, GRIT submissions and a Microsoft-authenticated staff toolbox. See [Public Utilities and SHHA Toolbox](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox) for working links and audiences.
 
-SHHA Reminders is one of these apps. It runs in Docker on the droplet, uses Caddy for HTTPS reverse proxying, and is available at [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org). The app listens internally on port `3030`, with Caddy proxying public HTTPS traffic to `127.0.0.1:3030`.
+The toolbox and separate statistics dashboard run on Azure App Service. BookStack runs in its own Azure container with MySQL and persistent file storage. The map runs on GitHub Pages. The public GRIT domain still uses its existing Vercel host while its Azure version is maintained separately; its domain cutover must be verified before describing the public site as Azure-hosted.
 
-<table id="bkmrk-hostingdigitalocean-"><tbody><tr><td>**Hosting**</td><td>DigitalOcean droplet</td></tr><tr><td>**Current app**</td><td>SHHA Reminders</td></tr><tr><td>**Production URL**</td><td>[https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)</td></tr><tr><td>**App directory**</td><td>`/opt/shha/SHHA-emailer`</td></tr><tr><td>**Internal port**</td><td>`3030`</td></tr><tr><td>**Reverse proxy**</td><td>Caddy</td></tr><tr><td>**Operational files to back up**</td><td>`.env`, `data/state.json`, and `/etc/caddy/Caddyfile`</td></tr><tr><td>**Secrets note**</td><td>Do not commit the production `.env` file to git.</td></tr></tbody></table>
+Email Reminders is part of the **SHHA Toolbox**; its standalone web address is retired. Do not use the former DigitalOcean app-directory or reverse-proxy instructions as the current deployment guide. Retirement of any remaining legacy hosting/state is a separate operational check.
+
+[IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover) explains ownership, repositories, hosting/data boundaries, deployments and recovery responsibilities for the next IT professional.
 
 ## SHHA GitHub
 
 SHHA's GitHub organization is [https://github.com/Sandia-Heights-Homeowners-Association](https://github.com/Sandia-Heights-Homeowners-Association).
 
-This is where SHHA stores source code and local documentation backups for technical projects. For access, contact Heidi.
+This is where SHHA stores source code and local documentation backups for technical projects. For approved individual access, contact office staff or IT Help; confirm organizational ownership and recovery arrangements.
 
 ## 9. Other Systems
 

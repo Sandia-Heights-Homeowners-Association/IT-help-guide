@@ -1,14 +1,14 @@
 # SHHA Reminders
 
-SHHA Reminders is the Sandia Heights Homeowners Association tool for sending automated reminder emails for meetings and events.
+Email Reminders in the SHHA Toolbox is the Sandia Heights Homeowners Association tool for sending automated reminder emails for meetings and events.
 
 The app does **not** replace Outlook, Teams, or Google Calendar. Office staff should keep creating and editing meetings in the existing calendar system. SHHA Reminders reads events from the Microsoft 365 calendar for `admin@sandiahomeowners.org`, then uses its own reminder rules, recipient groups, and email templates to send the right nudge at the right time.
 
-Production URL: [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org)
+**Current location:** [SHHA Toolbox](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F) → **Email Reminders**. The former standalone reminders address is retired. This is a staff tool with its own approved access.
 
 ## Who Can Log In
 
-Any valid Microsoft account ending in `@sandiahomeowners.org` can log in.
+SHHA organization members and invited guests can use Microsoft login, but only users with the Reminders tool grant can open this staff workspace. An invited guest may use a personal email address; an SHHA email suffix is not required. Ask office staff or [IT Help](mailto:ithelp@sandiahomeowners.org) for access.
 
 The app uses Microsoft sign-in. There is no shared app password, which is good because shared app passwords tend to become office folklore with a login prompt attached.
 
@@ -42,7 +42,7 @@ SHHA Reminders lets staff:
 
 1. Confirm the meeting exists in Outlook or Teams.
 2. Confirm `admin@sandiahomeowners.org` is invited.
-3. Open [SHHA Reminders](https://reminders.sandiahomeowners.org).
+3. Sign in to [SHHA Toolbox](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F) and choose **Email Reminders**.
 4. Click **Sync Calendar**.
 5. Open **Set Up Reminders**.
 6. Select the event.
@@ -142,7 +142,7 @@ Check:
 Check:
 
 - The user has a Microsoft account ending in `@sandiahomeowners.org`.
-- The site is being accessed through HTTPS: [https://reminders.sandiahomeowners.org](https://reminders.sandiahomeowners.org).
+- The site is being accessed through HTTPS: [https://toolbox.sandiahomeowners.org/.auth/login/aad?post\_login\_redirect\_uri=%2F](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F).
 
 ### Emails Are Not Sending
 
@@ -167,3 +167,7 @@ IT owns:
 - Backups.
 - Secrets and environment configuration.
 - Caddy/reverse proxy configuration.
+
+## Access and maintenance
+
+Receiving a reminder does not require access to the staff tool. Microsoft 365 remains the calendar of record. Administrators should check the toolbox's Operational status and delivery history when troubleshooting; changing a rule or template is separate from configuring the sending service. See [IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover) for maintenance responsibilities.

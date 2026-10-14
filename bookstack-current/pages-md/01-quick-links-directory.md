@@ -6,9 +6,13 @@
 
 <table id="bkmrk-what-you-needwhere-t"><thead><tr><th>What you need</th><th>Where to go</th><th>Who uses it</th></tr></thead><tbody><tr><td>Email (staff &amp; role mailbox holders)</td><td>[outlook.com](https://outlook.com)</td><td>Staff, officers, chairs</td></tr><tr><td>OneDrive / personal files</td><td>[onedrive.com](https://onedrive.com)</td><td>Licensed users</td></tr><tr><td>Admin console (manage users &amp; groups)</td><td>[admin.microsoft.com](https://admin.microsoft.com)</td><td>IT admins only</td></tr><tr><td>Committee files (SharePoint)</td><td>See [SharePoint Sites](#bkmrk-sharepoint-sites-%28co) below</td><td>All volunteers</td></tr></tbody></table>
 
-## SHHA Apps
+## Public utilities
 
-- [SHHA Reminders](https://reminders.sandiahomeowners.org) - automated meeting and event reminder emails. See [SHHA Reminders](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/shha-reminders) for setup and troubleshooting.
+<table id="bkmrk-what-you-needwhere-t-1"><thead><tr><th>What you need</th><th>Where to go</th></tr></thead><tbody><tr><td>Membership and communication statistics</td><td>[Public dashboard](https://dashboard.sandiahomeowners.org/) — totals, communication reach and a one-page report; no login.</td></tr><tr><td>Neighborhood map</td><td>[Open the map](https://sandia-heights-homeowners-association.github.io/SHHA-map/) — neighborhood layers, legends and public layer data; no login.</td></tr><tr><td>Submit to the GRIT</td><td>[GRIT submission forms](https://sandiaheightsgrit.app/) — contributions, photographs and current guidelines; no login for public forms.</td></tr></tbody></table>
+
+See [Public Utilities and SHHA Toolbox](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox) for what each tool does.
+
+<small>**Staff and authorized volunteers:** [sign in to SHHA Toolbox](https://toolbox.sandiahomeowners.org/.auth/login/aad?post_login_redirect_uri=%2F) for office tools, including Email Reminders. Access is approved per tool; the former standalone reminders address is retired.</small>
 
 ## Mailing Lists (Committee &amp; Group Email Addresses)
 

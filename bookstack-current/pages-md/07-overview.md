@@ -10,7 +10,7 @@ Different people need different things from this guide. Find your role below and
 *(need meeting materials and agenda rhythm)*</td><td>[New Board Member Guide](/books/shha-it-help-guide/page/new-board-member-guide)</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory), [Volunteer with SHHA Email](/books/shha-it-help-guide/page/volunteer-with-shha-email)</td></tr><tr><td>**New Board president**  
 *(need the big picture)*</td><td>[Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td><td>[Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [HR &amp; Personnel Management](/books/shha-it-help-guide/page/hr-personnel-management), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr><tr><td>**GRIT newsletter editor**</td><td>[GRIT Layout Monthly Guide](/books/shha-it-help-guide/page/grit-layout-monthly-guide)</td><td>FAQ section on [GRIT submissions](/books/shha-it-help-guide/page/faq#how-do-i-submit-an-article-for-the-grit-newsletter)</td></tr><tr><td>**Office staff**  
 *(manage day-to-day IT operations)*</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff)</td><td>[M365 Email Groups &amp; Roles Reference](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities), [Quick Links &amp; Directory](/books/shha-it-help-guide/page/quick-links-directory)</td></tr><tr><td>**Future IT help person**  
-*(inheriting the IT admin role)*</td><td>[M365 Email Groups &amp; Roles Reference](/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities)</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff), [Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr></tbody></table>
+*(inheriting the IT admin role)*</td><td>[IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover)</td><td>[Staff Guide](/books/shha-it-help-guide/page/staff), [Systems Inventory](/books/shha-it-help-guide/page/systems-inventory), [Controls &amp; Security](/books/shha-it-help-guide/page/controls-security)</td></tr></tbody></table>
 
 ---
 
@@ -27,7 +27,7 @@ SHHA primarily uses **Microsoft 365** for:
 - File storage (SharePoint)
 - Internal collaboration
  
-You may also see Google Calendar references for Board scheduling.
+Microsoft 365 is the calendar source for toolbox meeting reminders. Staff configure reminder rules in SHHA Toolbox rather than editing events there.
 
 ---
 
@@ -92,7 +92,7 @@ Officer mailboxes stay with the role, not the person. Examples:
 <a id="bkmrk--14"></a>## Board Materials and Calendar
 
 - Board materials should be uploaded directly to Board SharePoint.
-- Board meeting reminders are sent from a shared Google Calendar automation.
+- Meeting reminders are configured in SHHA Toolbox → Email Reminders, using the Microsoft 365 master calendar. Change events in Outlook or Teams; contact office staff or IT Help about reminder issues.
  
 If reminders are missing, contact office staff or **ITHelp@sandiahomeowners.org**.
 
@@ -114,3 +114,7 @@ The archive inbox is not monitored and does not reply.
 - Want to submit a GRIT article or request an email blast? See [FAQ — Communicating with Residents](faq.html#grit-article)
 - Need role-specific instructions? Use [Staff](staff.html), [Volunteer (with SHHA email)](volunteer-internal.html), or [Volunteer (without SHHA email)](volunteer-external.html)
 - Need GRIT layout/design process details? See [GRIT Layout Monthly Guide](grit-layout.html)
+
+## Public utilities and staff tools
+
+Use the [public utilities guide](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox) for statistics, the neighborhood map and GRIT submissions. [Quick Links &amp; Directory](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/quick-links-directory) has the everyday destinations. Staff toolbox functions require Microsoft sign-in and separate access; public tools do not require a toolbox account.
