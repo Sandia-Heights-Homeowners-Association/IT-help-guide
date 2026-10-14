@@ -4,7 +4,7 @@
   "book_name": "SHHA IT Help Guide",
   "book_path": "/books/shha-it-help-guide",
   "visibility": "anonymous-public",
-  "content_sha256": "df28f3fe04af1990309920fee61aee59f2b5c37174660940e6cc8966ee05416a",
+  "content_sha256": "1901ed4d2e7944d545679e08485199acdf34140634bb2bb02e6d19d858fb65e7",
   "chapters": 7,
   "pages": [
     {
@@ -178,14 +178,24 @@
       "html": "bookstack-current/pages-html/17-grit-layout-monthly-guide.html"
     },
     {
+      "id": 33,
+      "name": "GRIT content rules and submission guide",
+      "slug": "grit-content-rules-and-submission-guide",
+      "chapter": "Specialty Topics",
+      "priority": 4,
+      "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-content-rules-and-submission-guide",
+      "markdown": "bookstack-current/pages-md/18-grit-content-rules-and-submission-guide.md",
+      "html": "bookstack-current/pages-html/18-grit-content-rules-and-submission-guide.html"
+    },
+    {
       "id": 25,
       "name": "M365 Email Groups, Role Inboxes & Responsibilities",
       "slug": "m365-email-groups-role-inboxes-responsibilities",
       "chapter": "Technical Reference",
       "priority": 1,
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/m365-email-groups-role-inboxes-responsibilities",
-      "markdown": "bookstack-current/pages-md/18-m365-email-groups-role-inboxes-responsibilities.md",
-      "html": "bookstack-current/pages-html/18-m365-email-groups-role-inboxes-responsibilities.html"
+      "markdown": "bookstack-current/pages-md/19-m365-email-groups-role-inboxes-responsibilities.md",
+      "html": "bookstack-current/pages-html/19-m365-email-groups-role-inboxes-responsibilities.html"
     },
     {
       "id": 26,
@@ -194,8 +204,8 @@
       "chapter": "Technical Reference",
       "priority": 2,
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/m365-email-building-blocks",
-      "markdown": "bookstack-current/pages-md/19-m365-email-building-blocks.md",
-      "html": "bookstack-current/pages-html/19-m365-email-building-blocks.html"
+      "markdown": "bookstack-current/pages-md/20-m365-email-building-blocks.md",
+      "html": "bookstack-current/pages-html/20-m365-email-building-blocks.html"
     },
     {
       "id": 27,
@@ -204,8 +214,8 @@
       "chapter": "Technical Reference",
       "priority": 3,
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sop-new-users-mailboxes-groups",
-      "markdown": "bookstack-current/pages-md/20-sop-new-users-mailboxes-groups.md",
-      "html": "bookstack-current/pages-html/20-sop-new-users-mailboxes-groups.html"
+      "markdown": "bookstack-current/pages-md/21-sop-new-users-mailboxes-groups.md",
+      "html": "bookstack-current/pages-html/21-sop-new-users-mailboxes-groups.html"
     },
     {
       "id": 28,
@@ -214,8 +224,8 @@
       "chapter": "Technical Reference",
       "priority": 4,
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/sop-create-a-committee-sharepoint-site",
-      "markdown": "bookstack-current/pages-md/21-sop-create-a-committee-sharepoint-site.md",
-      "html": "bookstack-current/pages-html/21-sop-create-a-committee-sharepoint-site.html"
+      "markdown": "bookstack-current/pages-md/22-sop-create-a-committee-sharepoint-site.md",
+      "html": "bookstack-current/pages-html/22-sop-create-a-committee-sharepoint-site.html"
     },
     {
       "id": 30,
@@ -224,8 +234,8 @@
       "chapter": "Operations & Administration",
       "priority": 1,
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/systems-inventory",
-      "markdown": "bookstack-current/pages-md/22-systems-inventory.md",
-      "html": "bookstack-current/pages-html/22-systems-inventory.html"
+      "markdown": "bookstack-current/pages-md/23-systems-inventory.md",
+      "html": "bookstack-current/pages-html/23-systems-inventory.html"
     },
     {
       "id": 31,
@@ -234,8 +244,8 @@
       "chapter": "Operations & Administration",
       "priority": 2,
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/controls-security",
-      "markdown": "bookstack-current/pages-md/23-controls-security.md",
-      "html": "bookstack-current/pages-html/23-controls-security.html"
+      "markdown": "bookstack-current/pages-md/24-controls-security.md",
+      "html": "bookstack-current/pages-html/24-controls-security.html"
     },
     {
       "id": 32,
@@ -244,9 +254,9 @@
       "chapter": "Operations & Administration",
       "priority": 3,
       "url": "https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/hr-personnel-management",
-      "markdown": "bookstack-current/pages-md/24-hr-personnel-management.md",
-      "html": "bookstack-current/pages-html/24-hr-personnel-management.html"
+      "markdown": "bookstack-current/pages-md/25-hr-personnel-management.md",
+      "html": "bookstack-current/pages-html/25-hr-personnel-management.html"
     }
   ],
-  "exported_at": "2026-10-14T03:44:35+00:00"
+  "exported_at": "2026-10-14T03:54:10+00:00"
 }

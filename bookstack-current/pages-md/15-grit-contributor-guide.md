@@ -2,7 +2,7 @@
 
 *Send this page to neighbors, committee chairs, Board members, and volunteers who want to contribute to the GRIT.*
 
-**Note:** This is practical writing and photo guidance, not the official publication policy. Official rules, approvals, and final editorial decisions live with the Communications &amp; Publications Committee and the current GRIT editor.
+**Note:** This is practical writing and photo guidance, not the official publication policy. Read the [GRIT content rules and submission guide](/books/shha-it-help-guide/page/grit-content-rules-and-submission-guide) for the approved section rules and submission process. Approvals and final editorial decisions remain with the Communications &amp; Publications Committee and the current GRIT editor.
 
 ## Welcome
 
