@@ -110,8 +110,11 @@ Do not change access or publish old drafts until we decide those changes.”
    current actual organization configuration. Microsoft owns mail/calendars/
    groups; the toolbox reads/uses them. Guest access is based on the SHHA tenant
    guest object, not a required SHHA email suffix or paid license.
-4. Review reminders/toolbox references carefully. The DigitalOcean reminders
-   sender is still live; do not describe its migration as complete or operate it.
+4. Review reminders/toolbox references carefully. The standalone reminders
+   web address is retired; the current tool is SHHA Toolbox → Email Reminders.
+   Azure sending/scheduling/group switches were observed enabled October 13.
+   Confirm actual delivery, final state and legacy scheduler/hosting retirement
+   in the private migration runbook; do not infer those from a retired URL.
 5. Reconcile old guide/ edits and pending drafts individually against current
    wiki content. Some may be obsolete or already represented. No bulk replay.
 6. Test public reading, member/guest editing and named edit attribution on the
@@ -137,3 +140,34 @@ Do not change access or publish old drafts until we decide those changes.”
 Never put credential values, private operational inventories, resident data or
 private reports in this public repository. Preserve the separate SHHA-toolbox
 project's work; it is not part of this wiki checkout.
+
+## Public utilities and IT handover update — October 13, 2026
+
+Published two additional wiki pages:
+
+- [Public Utilities and SHHA Toolbox](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/public-utilities-and-shha-toolbox)
+- [IT Infrastructure and Handover](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/it-infrastructure-and-handover)
+
+Updated Quick Links, SHHA Reminders, Systems Inventory and Overview. Quick Links
+puts the public dashboard, GitHub Pages neighborhood map and GRIT submissions
+first, with a small staff-toolbox Microsoft sign-in link; it does not directly
+link to private tool routes. The reader guide describes those tools and their
+access boundaries. IT handover covers ownership, repositories, sources of truth,
+hosting/data stores, deployment branches, identities, backups and remaining
+operational verification without publishing credentials or private inventories.
+
+Current checked destinations: toolbox and dashboard custom domains are Azure;
+the map uses its working GitHub Pages address, with its custom domain deferred.
+The public GRIT domain still serves Vercel; its Azure version is on the azure
+branch and has no public custom-domain binding. The toolbox's email/reminder/
+group switches are currently enabled; actual delivery and legacy shutdown/final
+state verification are separate checks, not assumed from those settings.
+
+Verified anonymous access to all six new/updated wiki pages, unchanged content
+on the other 21 pages, preservation of all ten known SharePoint links, and removal
+of the retired reminders hostname from current page bodies. Book now has 27
+pages. The [post-publication GitHub sync](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide/actions/runs/38510263426)
+succeeded and committed the changed public mirror. No application code, grants,
+Microsoft registrations, sending switches, DNS or hosting resources were changed
+by this documentation update. Preserve ongoing local drafts and concurrent
+export work; the live wiki and remote main have the completed documentation.
