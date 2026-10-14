@@ -15,6 +15,17 @@ manual triggers. The mirror contains all 45 tables and the confirmed SharePoint
 paths, with no unresolved portable references. Original draft hashes and the
 TODO.txt deletion were rechecked after switching/pushing main.
 
+The [second GitHub sync run](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide/actions/runs/38508582687)
+captured a newly published GRIT Content Rules and Submission Guide, exported
+25 pages/seven chapters and successfully committed the changed mirror as
+`7e9e40f`. This verifies both unchanged-run behavior and actual bot publishing.
+Concurrent local exports also appeared during the task. They remain untouched
+in the working tree; their snapshot differs from the bot's captured snapshot.
+Inspect git status and live content before reconciling them. The local main
+branch may lag these subsequent bot/verification commits; preserve all existing
+working files when updating it. Do not treat a dirty generated mirror as a
+reason to discard unfinished guide/draft work.
+
 The merge incorporated historical cleanup from the old working branch, including
 three removed static HTML files and nine legacy Markdown sources. Those legacy
 GitHub Pages files were restored byte-for-byte from the prior remote main before
