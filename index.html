@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHHA IT Help Guide</title>
+  <meta name="description" content="SHHA IT help guide for staff, volunteers, and committee members." />
+  <style>
+    :root {
+      --bg: #f8f2ea;
+      --card: #ffffff;
+      --text: #3d2c1e;
+      --muted: #6b4c35;
+      --primary: #b45309;
+      --primary-soft: #ffedd5;
+      --border: #e8d8c7;
+      --shadow: 0 10px 24px rgba(120, 53, 15, 0.12);
+      --radius: 14px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 500px at 20% -20%, #fde8d2 0%, var(--bg) 52%), var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 46px 20px 72px;
+    }
+
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 28px;
+      margin-bottom: 18px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #92400e;
+      background: var(--primary-soft);
+      border-radius: 999px;
+      padding: 6px 10px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.6rem, 4vw, 2.25rem);
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      max-width: 72ch;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      margin: 0 0 10px;
+    }
+
+    .section-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      padding: 22px;
+      margin-top: 16px;
+    }
+
+    .section-card.bottom {
+      margin-top: 24px;
+      background: #fffaf5;
+    }
+
+    .grid {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .choice,
+    .topic-link {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      background: #fff;
+      transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+    }
+
+    .choice,
+    .topic-link {
+      text-align: center;
+    }
+
+    .choice:hover,
+    .choice:focus-visible,
+    .topic-link:hover,
+    .topic-link:focus-visible {
+      transform: translateY(-2px);
+      border-color: #f4b183;
+      box-shadow: 0 14px 30px rgba(180, 83, 9, 0.2);
+      outline: none;
+    }
+
+    .choice strong,
+    .topic-link strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 1rem;
+      color: #4a2e1b;
+    }
+
+    .subtext {
+      color: var(--muted);
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    .muted {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <section class="hero">
+      <span class="badge">SHHA Docs</span>
+      <h1>SHHA Microsoft 365 Help Guide</h1>
+      <p class="subtitle">Choose your role to get the right setup and instructions quickly.</p>
+    </section>
+
+    <section class="section-card" aria-label="Role selector">
+      <h2>I am:</h2>
+      <div class="grid">
+        <a class="choice" href="staff.html">
+          <strong>🏢 Staff</strong>
+        </a>
+
+        <a class="choice" href="volunteer-internal.html">
+          <strong>🙋 Volunteer (with @sandiahomeowners.org email address)</strong>
+        </a>
+
+        <a class="choice" href="volunteer-external.html">
+          <strong>🌐 Volunteer (without @sandiahomeowners.org email address)</strong>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-card" aria-label="Reference links">
+      <h2>Reference and Help</h2>
+      <p class="subtext">Quick links used most often.</p>
+      <div class="grid">
+        <a class="topic-link" href="quick-reference.html">
+          <strong>Quick Reference</strong>
+        </a>
+
+        <a class="topic-link" href="faq.html">
+          <strong>FAQ</strong>
+        </a>
+
+        <a class="topic-link" href="overview.html">
+          <strong>Overview</strong>
+        </a>
+      </div>
+    </section>
+
+    <section class="section-card bottom" aria-label="Special topics">
+      <h2>Specialty Topics</h2>
+      <p class="subtext">Infrequent procedures like GRIT editing and exception workflows.</p>
+      <div class="grid">
+        <a class="topic-link" href="grit-layout.html">
+          <strong>GRIT Layout Monthly Guide</strong>
+        </a>
+
+        <a class="topic-link" href="specialty-topics.html">
+          <strong>Go to Specialty Topics</strong>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

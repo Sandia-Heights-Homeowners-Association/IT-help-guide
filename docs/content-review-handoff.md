@@ -4,6 +4,22 @@ Use this checkout as a separate SHHA-wiki Codex project and begin a fresh
 conversation here. Read README.md and AGENTS.md before editing. This handoff
 records October 13, 2026 state; check the live wiki and Actions for newer changes.
 
+## Sync verification
+
+The implementation commit `fc6753f` was published to main. All ten offline tests
+passed locally, from a clean committed archive and on GitHub. The
+[first GitHub sync run](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide/actions/runs/38508250353)
+completed successfully, read 24 pages/seven chapters and correctly reported no
+changes against the fresh local export. The workflow is active with nightly and
+manual triggers. The mirror contains all 45 tables and the confirmed SharePoint
+paths, with no unresolved portable references. Original draft hashes and the
+TODO.txt deletion were rechecked after switching/pushing main.
+
+The merge incorporated historical cleanup from the old working branch, including
+three removed static HTML files and nine legacy Markdown sources. Those legacy
+GitHub Pages files were restored byte-for-byte from the prior remote main before
+finishing this task. Their retirement/redirect remains a future explicit decision.
+
 ## Completed migration
 
 - Live wiki: https://wiki.sandiahomeowners.org, Azure BookStack v26.09.1.
