@@ -197,3 +197,40 @@ No access grants, authentication, cloud resources, submission records, working
 assets, or contractor messages were changed. Existing local drafts remain
 unpublished. This task documents the process; it does not produce an issue or
 send the sample layout handoff message.
+
+## Repository retirement and recurring sync — October 16, 2026
+
+The local checkout had already moved, but GitHub still used IT-help-guide. The
+same GitHub repository was renamed to SHHA-wiki, preserving repository identity,
+Git history, issues and Actions. The organization now lists only SHHA-wiki for
+this wiki; the old repository URL redirects there. There is no duplicate old
+repository to delete. Do not recreate its former name or delete the renamed
+repository. No old local IT-help-guide project directory or matching Codex
+scheduled automation was found; Codex lists the project as SHHA-wiki.
+
+Legacy GitHub Pages hosting was deleted/disabled (`has_pages=false`), and the
+old static site URL returned HTTP 404. Its historical build runs and static
+source files are retained as history. Azure BookStack still returned HTTP 200.
+The live IT Infrastructure and Handover page now links to SHHA-wiki. BookStack's
+existing book slug is unchanged to preserve content links.
+
+Updated the sync's repository-name guard, local origin, README, agent guidance,
+sync guide and current handoff references. No deployment hooks, deploy keys or
+Actions secrets were present. No old repository references were found in the
+toolbox's current README/docs/workflows. Unfinished local guide/draft/reference
+files were checked against their starting hashes and preserved, including the
+existing TODO.txt deletion. They were not published.
+
+The [post-rename sync](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-wiki/actions/runs/38964215308)
+ran successfully on configuration commit `a2f4a20`, exported 27 public pages in
+seven chapters, and published bot commit `e051417` with the updated content.
+All ten offline tests passed locally and in Actions; the exact commit's Check
+wiki tools workflow also succeeded. The sync workflow remains active with the
+existing daily 09:17 UTC schedule and manual trigger. The README now explains
+that GitHub Actions writes Markdown to bookstack-current/pages-md on main,
+without requiring a computer to remain on, and explains failure/no-change runs,
+manual refresh and GitHub's public-repository schedule inactivity limit.
+
+This retirement concerns the repository name and old static website. It does
+not retire DigitalOcean workloads or complete Azure platform CI/CD/full recovery
+backups. Those retain their separate scope and verification requirements.

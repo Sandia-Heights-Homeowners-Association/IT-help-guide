@@ -70,6 +70,10 @@ activity; check that the workflow remains active and re-enable it in Actions if
 needed. A computer does not need to stay on. Pull deliberately to bring GitHub's
 mirror into a local checkout; the schedule does not update local files.
 
+Verified after the repository rename on October 16, 2026: the [manual sync run](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-wiki/actions/runs/38964215308)
+succeeded, exported 27 public pages, and committed the changed mirror. The daily
+schedule remains active.
+
 No BookStack credentials are needed. Native portable ZIP exports supply rendered
 rich HTML and hierarchy; native Markdown exports capture readable conversions of
 browser WYSIWYG edits and newly published pages. Only the current SHHA IT Help Guide book
