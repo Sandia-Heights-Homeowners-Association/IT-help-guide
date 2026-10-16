@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   sync:
-    if: github.repository == 'Sandia-Heights-Homeowners-Association/IT-help-guide'
+    if: github.repository == 'Sandia-Heights-Homeowners-Association/SHHA-wiki'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

@@ -27,8 +27,11 @@ password reset, but the instructions can still be kind.
 
 ## Refresh, Validation, and Development
 
-This repository lives at `/Users/heidi/Projects/SHHA-wiki`; the remote remains
-GitHub `Sandia-Heights-Homeowners-Association/IT-help-guide`, default branch main.
+This repository lives at `/Users/heidi/Projects/SHHA-wiki`; its remote is
+GitHub `Sandia-Heights-Homeowners-Association/SHHA-wiki`, default branch main.
+The GitHub repository was renamed from IT-help-guide on October 16, 2026;
+GitHub Pages hosting is disabled. Do not recreate the retired repository or
+re-enable the static site. BookStack's existing book slug remains unchanged.
 Read README.md and docs/content-review-handoff.md first. Preserve uncommitted
 guide/ edits, the TODO.txt deletion and unpublished pending-bookstack-updates/
 drafts. They were carried intact through the move and are not approved live

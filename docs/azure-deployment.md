@@ -2,6 +2,8 @@
 
 > Historical plan and implementation notes through October 13, 2026. The repo
 > has now moved into SHHA-wiki and public automatic syncing is implemented.
+> On October 16, 2026 the GitHub repository was also renamed to SHHA-wiki and
+> legacy GitHub Pages hosting was disabled. Existing BookStack URLs are unchanged.
 > README.md, docs/bookstack-sync.md and docs/content-review-handoff.md supersede
 > older pending-status statements below. Azure platform deployment CI/CD and
 > full recovery/hosting retirement are still pending.
@@ -38,12 +40,11 @@ access policies.
 | Content export | Fresh snapshots of authorized live pages | Local/repository mirrors and private migration archives |
 | Human editing | Staff or volunteer saves in BookStack | Live database immediately; later captured by export |
 
-Azure CI/CD runs from pushes to GitHub, not changes to a local folder by
-themselves. `SHHA-wiki` is the local checkout. Preserve the existing
-`IT-help-guide` Git history and uncommitted work when moving the checkout here.
-The GitHub repository can retain its existing name initially; renaming it to
-`SHHA-wiki` is a separate optional administrative change, not a prerequisite.
-Merge this plan into the moved README rather than overwriting either copy.
+The local checkout and GitHub repository are now both `SHHA-wiki`. Git history
+and local drafts were preserved when moving the folder and renaming the remote.
+The daily public-content sync runs in this repository's GitHub Actions; it does
+not deploy Azure. The platform deployment workflow described below remains a
+plan, not implemented CI/CD. Use README.md for current operation.
 
 Proposed layout, to implement when moving the checkout:
 

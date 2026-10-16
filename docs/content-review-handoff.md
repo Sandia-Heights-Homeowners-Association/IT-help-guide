@@ -2,20 +2,22 @@
 
 Use this checkout as a separate SHHA-wiki Codex project and begin a fresh
 conversation here. Read README.md and AGENTS.md before editing. This handoff
-records October 13, 2026 state; check the live wiki and Actions for newer changes.
+includes the October 16, 2026 repository retirement update below; earlier
+sections retain dated migration history. Check the live wiki and Actions for
+newer changes.
 
 ## Sync verification
 
 The implementation commit `fc6753f` was published to main. All ten offline tests
 passed locally, from a clean committed archive and on GitHub. The
-[first GitHub sync run](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide/actions/runs/38508250353)
+[first GitHub sync run](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-wiki/actions/runs/38508250353)
 completed successfully, read 24 pages/seven chapters and correctly reported no
 changes against the fresh local export. The workflow is active with nightly and
 manual triggers. The mirror contains all 45 tables and the confirmed SharePoint
 paths, with no unresolved portable references. Original draft hashes and the
 TODO.txt deletion were rechecked after switching/pushing main.
 
-The [second GitHub sync run](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide/actions/runs/38508582687)
+The [second GitHub sync run](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-wiki/actions/runs/38508582687)
 captured a newly published GRIT Content Rules and Submission Guide, exported
 25 pages/seven chapters and successfully committed the changed mirror as
 `7e9e40f`. This verifies both unchanged-run behavior and actual bot publishing.
@@ -29,7 +31,8 @@ reason to discard unfinished guide/draft work.
 The merge incorporated historical cleanup from the old working branch, including
 three removed static HTML files and nine legacy Markdown sources. Those legacy
 GitHub Pages files were restored byte-for-byte from the prior remote main before
-finishing this task. Their retirement/redirect remains a future explicit decision.
+finishing that task. Hosting was subsequently disabled on October 16, 2026;
+static sources remain historical reference only.
 
 ## Completed migration
 
@@ -60,8 +63,9 @@ system/network DNS caches. Recheck fresh routing before diagnosing any new issue
 ## Repository and draft preservation
 
 The actual Git checkout moved from IT-help-guide into SHHA-wiki with its history
-and all original files preserved. GitHub retains the existing repository name;
-it is public. A newer remote main README was incorporated rather than lost.
+and all original files preserved. On October 16, 2026 the same GitHub repository
+was renamed to SHHA-wiki; it is public. There is no separate IT-help-guide
+repository to delete. A newer remote main README was incorporated rather than lost.
 The previous local README is under ignored
 `.local-preserved/README-before-move.md`; the remote README was also retained
 there. A protected pre-move recovery archive and file-hash inventory are under
@@ -129,7 +133,6 @@ Do not change access or publish old drafts until we decide those changes.”
   ZIP/Markdown/HTML snapshots are useful content exports, not full recovery.
 - Retire DigitalOcean hosting only after all relevant workloads/state are
   accounted for. No SSH or droplet actions have been performed or authorized.
-- Consider retiring or redirecting the legacy GitHub Pages guide separately.
 - The private migration API token expires October 20, 2026. Its configuration
   is `/Users/heidi/.config/shha-wiki/target-api.json`; never print or commit its
   values. The current API transport uses the Azure default host. Arrange a
@@ -166,7 +169,7 @@ state verification are separate checks, not assumed from those settings.
 Verified anonymous access to all six new/updated wiki pages, unchanged content
 on the other 21 pages, preservation of all ten known SharePoint links, and removal
 of the retired reminders hostname from current page bodies. Book now has 27
-pages. The [post-publication GitHub sync](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide/actions/runs/38510263426)
+pages. The [post-publication GitHub sync](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-wiki/actions/runs/38510263426)
 succeeded and committed the changed public mirror. No application code, grants,
 Microsoft registrations, sending switches, DNS or hosting resources were changed
 by this documentation update. Preserve ongoing local drafts and concurrent

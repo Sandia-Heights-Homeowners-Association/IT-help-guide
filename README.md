@@ -5,12 +5,18 @@ source of truth. Reading is public; Microsoft login allows SHHA organization
 members and invited guests to edit under their own identities. Ordinary users
 receive Editor access; administration remains separate.
 
-This checkout moved from `IT-help-guide` to `SHHA-wiki` on October 13, 2026,
-preserving Git history and existing local drafts. The GitHub repository remains
-[Sandia-Heights-Homeowners-Association/IT-help-guide](https://github.com/Sandia-Heights-Homeowners-Association/IT-help-guide).
-It is public. The old standalone HTML/Markdown site still exists through GitHub
-Pages; the BookStack wiki is the current documentation. That legacy hosting was
-not disabled or revised during this move.
+The public repository is
+[Sandia-Heights-Homeowners-Association/SHHA-wiki](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-wiki),
+and its local checkout is `/Users/heidi/Projects/SHHA-wiki`. The local folder moved
+on October 13, 2026; the GitHub repository was renamed from `IT-help-guide` on
+October 16, preserving history, issues and Actions. There is one maintained wiki
+repository. The old GitHub repository URL redirects to this one; no separate old
+repository remains to delete. Do not recreate that name.
+
+Legacy GitHub Pages hosting is disabled. Read and edit the live BookStack wiki;
+old static source files remain historical reference only. The BookStack book URL
+still contains `shha-it-help-guide`; that is a content address, not a dependency
+on the retired repository name.
 
 ## Start here
 
@@ -23,7 +29,7 @@ not disabled or revised during this move.
 
 | Location | Purpose |
 | --- | --- |
-| `bookstack-current/` | Generated public content mirror: 24 pages initially, paired Markdown/HTML, combined Markdown, hierarchy and manifest metadata. Never hand-edit. |
+| `bookstack-current/` | Generated public content mirror: paired Markdown/HTML for every public page in the configured book, combined Markdown, hierarchy and manifest metadata. Never hand-edit. |
 | `guide/` | Older curated drafts/reference guides. Existing uncommitted edits remain local and unpublished. |
 | `pending-bookstack-updates/` | Editorial drafts, including existing unpublished updates. Sync never reads, deletes or stages them. |
 | `scripts/sync_public_bookstack.py` | Anonymous GET-only public mirror exporter. |
@@ -33,11 +39,36 @@ not disabled or revised during this move.
 
 ## Automatic sync
 
-The **Sync public BookStack content** workflow runs daily at **09:17 UTC**
-(2:17 a.m. MDT / 3:17 a.m. MST). It also has a **Run workflow** action on GitHub.
-It exports anonymously, verifies a complete stable snapshot, and commits changes
-only under `bookstack-current/` to `main`. Unchanged content makes no commit.
-GitHub schedules can be delayed; they are not an immediate notification of edits.
+The [Sync public BookStack content workflow](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-wiki/actions/workflows/bookstack-sync.yml)
+runs in **GitHub Actions in this repository**, daily at **09:17 UTC**
+(**3:17 a.m. MDT / 2:17 a.m. MST**, America/Denver). Its definition is
+[.github/workflows/bookstack-sync.yml](.github/workflows/bookstack-sync.yml).
+It does not run on a person's computer or inside the Azure BookStack container.
+
+1. Editors save pages in BookStack, using either the browser WYSIWYG editor or
+   an authorized API edit. BookStack remains the source of truth.
+2. The scheduled workflow reads the live public book anonymously, including
+   newly published pages and edits made with the WYSIWYG editor.
+3. It validates a complete stable export and updates only `bookstack-current/`
+   on GitHub's `main` branch. Individual Markdown files are in
+   `bookstack-current/pages-md/`; matching rich HTML is in `pages-html/`.
+4. Changed content gets a bot commit. Unchanged content makes no commit. Failed
+   exports preserve the previous completed mirror. Nothing is uploaded back to
+   BookStack, and local drafts are never published by this job.
+
+For an immediate refresh, open the linked workflow, choose **Run workflow**, and
+select **main**, or run:
+
+```sh
+gh workflow run bookstack-sync.yml --repo Sandia-Heights-Homeowners-Association/SHHA-wiki --ref main
+```
+
+Check the run's result in Actions; a missing bot commit can simply mean the
+content was unchanged. GitHub schedules can be delayed. GitHub may disable a
+public repository's scheduled workflows after 60 days without repository
+activity; check that the workflow remains active and re-enable it in Actions if
+needed. A computer does not need to stay on. Pull deliberately to bring GitHub's
+mirror into a local checkout; the schedule does not update local files.
 
 No BookStack credentials are needed. Native portable ZIP exports supply rendered
 rich HTML and hierarchy; native Markdown exports capture readable conversions of

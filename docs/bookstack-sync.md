@@ -3,12 +3,16 @@
 ## Source and destination
 
 BookStack is canonical: https://wiki.sandiahomeowners.org.
-The configured book is `/books/shha-it-help-guide`. This repository remains
-GitHub `Sandia-Heights-Homeowners-Association/IT-help-guide`, public, default
+The configured book is `/books/shha-it-help-guide`. This repository is
+GitHub `Sandia-Heights-Homeowners-Association/SHHA-wiki`, public, default
 branch `main`. Its local checkout is `/Users/heidi/Projects/SHHA-wiki`.
+The GitHub repository was renamed on October 16, 2026; the old repository URL
+redirects here. The book slug is a live content address and stays unchanged.
+The job runs on GitHub Actions, not on a local computer or in Azure.
 
-The nightly **Sync public BookStack content** workflow runs at 09:17 UTC and can
-also be started using GitHub Actions → Run workflow. GitHub schedules can be
+The nightly [Sync public BookStack content workflow](https://github.com/Sandia-Heights-Homeowners-Association/SHHA-wiki/actions/workflows/bookstack-sync.yml)
+runs at 09:17 UTC (3:17 a.m. MDT / 2:17 a.m. MST) and can also be started using
+GitHub Actions → Run workflow. GitHub schedules can be
 delayed; public-repository schedules may be disabled after 60 days without
 repository activity. Check Actions if a quiet wiki stops refreshing. Successful
 unchanged runs do not make placeholder commits.
@@ -87,8 +91,9 @@ snapshot; it rejects output paths inside the repository outside
 
 This workflow does not edit BookStack, publish pending drafts, deploy the Azure
 container, change permissions, back up its database or retire DigitalOcean.
-The existing GitHub Pages site is legacy static material; pushing the mirror
-does not make that site the wiki. Decide its retirement/redirect separately.
+Legacy GitHub Pages hosting was disabled on October 16, 2026. Historical static
+sources remain in Git; they are not a second live wiki. Repository renaming does
+not change BookStack hosting or its API.
 
 ## Verification and maintenance
 
