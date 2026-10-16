@@ -2,6 +2,8 @@
 
 Internal reference for the Communications &amp; Publications Committee, GRIT editor, layout volunteers, and office staff. This page tracks the working rhythm and handoffs behind each issue.
 
+**Preparing an issue?** Follow the [GRIT Monthly Editor Procedure](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-monthly-editor-procedure) for issue planning, the editing template, files, and handoff to the layout assistant. This page covers the production schedule, responsibilities, and approval sequence.
+
 ## Purpose
 
 The Communications &amp; Publications Committee produces the GRIT, the monthly community newsletter of the Sandia Heights Homeowners Association.

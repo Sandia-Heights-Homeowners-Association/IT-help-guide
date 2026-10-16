@@ -2,6 +2,8 @@
 
 *Use this page each month when preparing the GRIT issue layout.*
 
+**Start with the editorial package.** The [GRIT Monthly Editor Procedure](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-monthly-editor-procedure) explains how to prepare the text, ads, and images for layout. Use the steps below when you are doing the InDesign layout yourself.
+
 ---
 
 <a id="bkmrk--1"></a>## Monthly Steps
