@@ -171,3 +171,26 @@ succeeded and committed the changed public mirror. No application code, grants,
 Microsoft registrations, sending switches, DNS or hosting resources were changed
 by this documentation update. Preserve ongoing local drafts and concurrent
 export work; the live wiki and remote main have the completed documentation.
+
+## GRIT editor walkthrough — October 16, 2026
+
+Published [GRIT Monthly Editor Procedure](https://wiki.sandiahomeowners.org/books/shha-it-help-guide/page/grit-monthly-editor-procedure)
+from the full 55-minute October 16 walkthrough. Added contextual links from the
+GRIT Internal Production Reference and GRIT Layout Monthly Guide. The procedure
+covers issue selection/planning, OneDrive ads copied into the Google Drive issue
+package, the copied Google Docs editing template, Markdown checks, image filename
+references, layout handoff, and the existing content/proof approval sequence.
+Anonymous reading and the affected page links were verified. The raw transcript
+and source Word document are not part of the public wiki or repository.
+
+Two checkpoints remain for the editor/template maintainer: confirm whether the
+sidebar's Download Markdown exports subsequent Google document edits, and
+reconcile the walkthrough's 18-page planning estimate with the layout guide's
+final booklet page count divisible by four. The procedure calls for checking the
+actual exported text and agreeing the space budget before handoff; the estimates
+are not new publication rules. No source-script behavior was assumed or changed.
+
+No access grants, authentication, cloud resources, submission records, working
+assets, or contractor messages were changed. Existing local drafts remain
+unpublished. This task documents the process; it does not produce an issue or
+send the sample layout handoff message.
